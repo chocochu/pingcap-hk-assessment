@@ -1,0 +1,2926 @@
+[
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 19,
+    "referenced_cluster_values": 4,
+    "referenced_cluster_values_found_in_gateway": 0,
+    "referenced_cluster_log_records": 0,
+    "referenced_cluster_success_records": 0,
+    "referenced_cluster_timestamp_range_utc": [
+      null,
+      null
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 481,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[2].text",
+        "record_dates": {
+          "created": "2023-03-13T09:32:37.000+0800",
+          "updated": "2023-08-08T18:35:03.929+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 485,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[11].content[0].text",
+        "record_dates": {
+          "created": "2023-03-14T14:56:35.000+0800",
+          "updated": "2023-08-08T18:35:05.535+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 486,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[10].content[1].text",
+        "record_dates": {
+          "created": "2023-03-14T15:26:22.000+0800",
+          "updated": "2023-08-08T18:35:05.142+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 602,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[15].content[0].text",
+        "record_dates": {
+          "created": "2023-05-16T18:18:59.000+0800",
+          "updated": "2023-08-08T18:35:00.213+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 618,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_10055.content[1].content[1].text",
+        "record_dates": {
+          "created": "2023-05-26T12:14:13.000+0800",
+          "updated": "2023-07-28T20:32:51.557+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 619,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[16].content[0].text",
+        "record_dates": {
+          "created": "2023-05-26T12:42:14.000+0800",
+          "updated": "2023-07-28T20:32:36.243+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 1159,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[0].text",
+        "record_dates": {
+          "created": "2024-03-08T22:21:07.331+0800",
+          "updated": "2024-03-17T19:02:54.405+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 390,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[1].text",
+        "record_dates": {
+          "created": "2022-04-08T17:20:00.000+0800",
+          "updated": "2023-07-11T11:00:51.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 402,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2022-04-15T18:39:00.000+0800",
+          "updated": "2023-07-11T11:01:38.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 844,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[2].text",
+        "record_dates": {
+          "created": "2023-03-13T14:27:00.000+0800",
+          "updated": "2023-07-11T11:03:21.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 849,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[11].content[0].text",
+        "record_dates": {
+          "created": "2023-03-15T14:36:00.000+0800",
+          "updated": "2023-07-11T11:06:15.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 850,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[10].content[1].text",
+        "record_dates": {
+          "created": "2023-03-15T15:07:00.000+0800",
+          "updated": "2023-07-11T11:04:04.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 950,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[15].content[0].text",
+        "record_dates": {
+          "created": "2023-05-16T23:09:00.000+0800",
+          "updated": "2023-07-11T11:03:29.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1125,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[8].body.content[1].content[2].text",
+        "record_dates": {
+          "created": "2023-06-30T12:48:28.000+0800",
+          "updated": "2023-07-04T10:51:13.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1188,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[14].content[0].text",
+        "record_dates": {
+          "created": "2023-07-24T15:22:14.000+0800",
+          "updated": "2023-07-28T13:35:40.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1229,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[5].content[0].text",
+        "record_dates": {
+          "created": "2023-08-03T09:41:14.000+0800",
+          "updated": "2023-08-08T20:43:05.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2388,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[1].content[1].text",
+        "record_dates": {
+          "created": "2024-08-05T17:13:55.000+0800",
+          "updated": "2025-05-21T22:08:57.317+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1565,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[1].content[1].text",
+        "record_dates": {
+          "created": "2024-08-05T17:04:30.865+0800",
+          "updated": "2026-07-20T23:22:46.940+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1711,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[10].body.content[6].content[0].text",
+        "record_dates": {
+          "created": "2024-10-08T13:57:35.777+0800",
+          "updated": "2026-07-21T10:11:26.521+0800"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 232,
+    "referenced_cluster_values": 40,
+    "referenced_cluster_values_found_in_gateway": 0,
+    "referenced_cluster_log_records": 0,
+    "referenced_cluster_success_records": 0,
+    "referenced_cluster_timestamp_range_utc": [
+      null,
+      null
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 915,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[7].body.content[6].content[1].text",
+        "record_dates": {
+          "created": "2023-10-31T19:50:52.643+0800",
+          "updated": "2026-08-05T14:51:48.710+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 1721,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[11].body.content[3].content[1].text",
+        "record_dates": {
+          "created": "2025-04-29T14:40:26.254+0800",
+          "updated": "2025-05-06T12:11:45.471+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 2574,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[3].content[1].text",
+        "record_dates": {
+          "created": "2025-12-07T19:48:23.406+0800",
+          "updated": "2025-12-22T11:13:32.862+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 3618,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[7].body.content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-08-08T20:13:20.811+0800",
+          "updated": "2026-08-17T16:36:40.959+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 3802,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[15].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2026-09-16T09:52:48.128+0800",
+          "updated": "2026-09-22T15:42:35.133+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 1229,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[7].body.content[1].content[1].text",
+        "record_dates": {
+          "created": "2023-12-12T11:53:09.000+0800",
+          "updated": "2023-12-12T16:40:11.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 2571,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[1].text",
+        "record_dates": {
+          "created": "2025-10-07T10:24:27.027+0800",
+          "updated": "2026-01-13T20:53:39.334+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 2709,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2025-12-08T10:09:40.569+0800",
+          "updated": "2025-12-09T10:57:26.597+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 3000,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[8].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2026-04-21T16:37:36.578+0800",
+          "updated": "2026-05-06T08:17:48.365+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 3337,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2026-09-21T16:33:46.849+0800",
+          "updated": "2026-09-21T18:24:48.141+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-1dd97bc68adbae57",
+        "record": 973,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[4].body.content[0].content[2].text",
+        "record_dates": {
+          "created": "2023-10-17T18:37:18.000+0800",
+          "updated": "2025-03-24T16:41:48.996+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-1dd97bc68adbae57",
+        "record": 2365,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2025-07-15T18:11:16.692+0800",
+          "updated": "2025-07-21T12:08:52.117+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-1dd97bc68adbae57",
+        "record": 2416,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[0].text",
+        "record_dates": {
+          "created": "2025-08-04T11:38:13.958+0800",
+          "updated": "2025-12-21T16:56:37.242+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1352,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[0].text",
+        "record_dates": {
+          "created": "2023-09-19T09:29:20.000+0800",
+          "updated": "2026-07-27T22:28:04.293+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1377,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[0].text",
+        "record_dates": {
+          "created": "2023-09-25T10:36:51.000+0800",
+          "updated": "2026-07-27T22:28:11.816+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1379,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[0].text",
+        "record_dates": {
+          "created": "2023-09-25T12:49:18.000+0800",
+          "updated": "2023-11-07T16:59:01.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1393,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[1].text",
+        "record_dates": {
+          "created": "2023-09-28T09:16:27.000+0800",
+          "updated": "2023-10-12T10:37:13.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1427,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[11].content[1].text",
+        "record_dates": {
+          "created": "2023-10-16T13:49:23.000+0800",
+          "updated": "2026-07-27T22:28:13.287+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1434,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[7].content[1].text",
+        "record_dates": {
+          "created": "2023-10-17T17:58:39.000+0800",
+          "updated": "2023-10-20T15:31:30.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1448,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2023-10-23T10:08:17.000+0800",
+          "updated": "2026-07-27T22:27:59.836+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1452,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[2].text",
+        "record_dates": {
+          "created": "2023-10-23T18:20:10.000+0800",
+          "updated": "2026-07-27T22:28:18.765+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1456,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2023-10-24T22:07:39.000+0800",
+          "updated": "2023-11-07T10:01:17.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1537,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[5].body.content[3].content[1].text",
+        "record_dates": {
+          "created": "2023-11-16T09:52:43.000+0800",
+          "updated": "2023-12-20T09:29:32.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1546,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[5].content[0].text",
+        "record_dates": {
+          "created": "2023-11-18T10:51:29.000+0800",
+          "updated": "2025-09-22T17:26:06.500+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1560,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[10].body.content[1].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2023-11-23T19:16:49.000+0800",
+          "updated": "2023-12-01T23:08:14.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1563,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[3].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2023-11-24T15:23:39.000+0800",
+          "updated": "2023-11-24T16:57:03.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1626,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[0].text",
+        "record_dates": {
+          "created": "2023-12-19T17:07:26.000+0800",
+          "updated": "2023-12-22T05:47:20.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1630,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[2].text",
+        "record_dates": {
+          "created": "2023-12-20T13:41:13.000+0800",
+          "updated": "2023-12-25T10:06:50.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1633,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[5].content[1].text",
+        "record_dates": {
+          "created": "2023-12-20T16:06:12.000+0800",
+          "updated": "2023-12-22T17:19:09.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1634,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[2].content[0].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2023-12-20T18:33:02.000+0800",
+          "updated": "2023-12-22T17:17:20.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1646,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[2].text",
+        "record_dates": {
+          "created": "2023-12-25T12:24:31.000+0800",
+          "updated": "2023-12-28T18:46:00.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1659,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[1].text",
+        "record_dates": {
+          "created": "2023-12-27T14:41:27.000+0800",
+          "updated": "2025-05-27T18:01:56.672+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1675,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[0].text",
+        "record_dates": {
+          "created": "2024-01-06T18:27:48.000+0800",
+          "updated": "2025-08-13T02:42:08.968+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1748,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[2].text",
+        "record_dates": {
+          "created": "2024-01-24T13:29:43.000+0800",
+          "updated": "2025-08-13T02:42:04.216+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1774,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[0].body.content[6].content[2].text",
+        "record_dates": {
+          "created": "2024-01-31T19:53:31.000+0800",
+          "updated": "2025-05-27T17:52:16.153+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1813,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[0].text",
+        "record_dates": {
+          "created": "2024-02-16T04:11:17.000+0800",
+          "updated": "2024-02-16T09:51:20.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1860,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-02-29T15:46:29.000+0800",
+          "updated": "2024-03-01T16:00:52.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1872,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-03-04T12:56:09.000+0800",
+          "updated": "2024-03-04T13:25:58.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1885,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[15].content[0].text",
+        "record_dates": {
+          "created": "2024-03-07T11:36:40.000+0800",
+          "updated": "2024-03-11T10:39:55.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1888,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-03-08T10:42:39.000+0800",
+          "updated": "2024-03-15T12:14:02.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1992,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[2].text",
+        "record_dates": {
+          "created": "2024-04-03T16:49:37.000+0800",
+          "updated": "2025-03-06T15:25:44.132+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2015,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[4].text",
+        "record_dates": {
+          "created": "2024-04-11T11:18:14.000+0800",
+          "updated": "2025-03-06T15:25:03.554+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2091,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[2].text",
+        "record_dates": {
+          "created": "2024-04-29T10:22:51.000+0800",
+          "updated": "2025-05-26T11:37:27.786+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2118,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[10].content[2].text",
+        "record_dates": {
+          "created": "2024-05-08T07:41:47.000+0800",
+          "updated": "2025-06-05T15:27:22.237+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2143,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[2].text",
+        "record_dates": {
+          "created": "2024-05-17T22:19:24.000+0800",
+          "updated": "2025-03-06T15:09:24.803+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2161,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[2].text",
+        "record_dates": {
+          "created": "2024-05-23T15:17:47.000+0800",
+          "updated": "2025-03-06T15:08:48.767+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2179,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[6].content[0].text",
+        "record_dates": {
+          "created": "2024-05-28T22:09:20.000+0800",
+          "updated": "2025-08-13T02:42:11.708+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2210,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[0].content[0].content[4].text",
+        "record_dates": {
+          "created": "2024-06-06T21:30:06.000+0800",
+          "updated": "2025-03-06T15:01:40.665+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2221,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[5].content[0].text",
+        "record_dates": {
+          "created": "2024-06-11T21:54:22.000+0800",
+          "updated": "2025-08-13T02:42:01.160+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2241,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[0].body.content[15].content[2].text",
+        "record_dates": {
+          "created": "2024-06-18T21:01:06.000+0800",
+          "updated": "2025-03-06T15:00:37.126+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2258,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[4].content[1].text",
+        "record_dates": {
+          "created": "2024-06-25T16:55:32.000+0800",
+          "updated": "2025-03-06T14:58:22.110+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2315,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[0].text",
+        "record_dates": {
+          "created": "2024-07-15T10:16:10.000+0800",
+          "updated": "2025-05-28T14:11:55.637+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2334,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[2].text",
+        "record_dates": {
+          "created": "2024-07-19T17:43:51.000+0800",
+          "updated": "2025-03-06T11:16:38.924+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2335,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[5].content[0].text",
+        "record_dates": {
+          "created": "2024-07-19T17:50:53.000+0800",
+          "updated": "2026-07-27T22:27:58.612+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2342,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[1].content[2].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2024-07-22T20:10:22.000+0800",
+          "updated": "2025-03-06T10:44:40.642+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2369,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[0].text",
+        "record_dates": {
+          "created": "2024-07-30T15:23:47.000+0800",
+          "updated": "2025-03-19T11:21:02.749+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2411,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[4].body.content[0].content[2].text",
+        "record_dates": {
+          "created": "2024-08-14T09:42:46.000+0800",
+          "updated": "2025-03-06T10:36:44.919+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2419,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[0].text",
+        "record_dates": {
+          "created": "2024-08-19T09:27:43.000+0800",
+          "updated": "2026-07-27T22:27:55.615+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2423,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[8].content[1].text",
+        "record_dates": {
+          "created": "2024-08-20T13:18:40.000+0800",
+          "updated": "2025-05-27T15:41:30.576+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2425,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[6].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2024-08-20T17:49:01.000+0800",
+          "updated": "2025-03-05T23:26:23.101+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2458,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-08-30T15:52:03.000+0800",
+          "updated": "2025-03-05T23:25:13.311+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2477,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-09-04T15:52:11.000+0800",
+          "updated": "2026-07-28T08:01:20.927+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2504,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[8].content[0].text",
+        "record_dates": {
+          "created": "2024-09-12T19:23:57.000+0800",
+          "updated": "2025-03-05T23:19:10.774+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2527,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[1].content[1].text",
+        "record_dates": {
+          "created": "2024-09-21T10:30:22.000+0800",
+          "updated": "2025-09-22T17:21:18.713+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2560,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[1].text",
+        "record_dates": {
+          "created": "2024-10-03T10:21:01.000+0800",
+          "updated": "2025-03-05T17:02:23.313+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2566,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[10].content[0].text",
+        "record_dates": {
+          "created": "2024-10-04T09:45:40.000+0800",
+          "updated": "2025-03-05T17:02:09.304+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2866,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2024-12-13T15:36:14.000+0800",
+          "updated": "2025-09-22T17:22:29.186+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2900,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[15].content[0].text",
+        "record_dates": {
+          "created": "2024-12-21T13:17:38.000+0800",
+          "updated": "2025-03-05T11:42:58.357+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2918,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[3].content[0].text",
+        "record_dates": {
+          "created": "2024-12-28T11:34:18.000+0800",
+          "updated": "2025-03-05T11:42:17.746+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2922,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[9].content[0].text",
+        "record_dates": {
+          "created": "2025-01-01T14:27:51.000+0800",
+          "updated": "2025-05-26T12:05:32.415+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3047,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2025-02-17T17:25:26.871+0800",
+          "updated": "2025-06-17T10:18:11.021+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3301,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[2].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-04-04T11:21:50.459+0800",
+          "updated": "2025-06-04T16:23:49.664+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3396,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[5].content[1].text",
+        "record_dates": {
+          "created": "2025-04-29T16:51:44.944+0800",
+          "updated": "2025-06-04T17:08:53.437+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3414,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[5].content[0].text",
+        "record_dates": {
+          "created": "2025-05-05T14:08:33.741+0800",
+          "updated": "2025-12-18T10:15:14.811+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3442,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[0].text",
+        "record_dates": {
+          "created": "2025-05-09T19:31:52.336+0800",
+          "updated": "2025-12-18T10:14:44.517+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3495,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[15].content[1].text",
+        "record_dates": {
+          "created": "2025-05-20T12:16:28.183+0800",
+          "updated": "2025-06-04T16:23:11.158+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3510,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[4].content[0].text",
+        "record_dates": {
+          "created": "2025-05-21T16:21:15.098+0800",
+          "updated": "2025-06-04T17:08:09.878+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3587,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[11].content[2].text",
+        "record_dates": {
+          "created": "2025-06-08T13:14:19.348+0800",
+          "updated": "2025-12-18T10:22:19.263+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3619,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2025-06-14T09:43:21.053+0800",
+          "updated": "2025-12-18T10:20:28.074+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3621,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[8].content[0].text",
+        "record_dates": {
+          "created": "2025-06-14T11:49:19.206+0800",
+          "updated": "2025-12-18T10:20:07.397+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3855,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[4].body.content[9].content[0].text",
+        "record_dates": {
+          "created": "2025-08-11T14:41:29.666+0800",
+          "updated": "2025-09-09T15:22:29.176+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3893,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[4].content[0].text",
+        "record_dates": {
+          "created": "2025-08-20T16:45:06.525+0800",
+          "updated": "2025-09-09T12:36:19.560+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3937,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[10].content[0].text",
+        "record_dates": {
+          "created": "2025-08-30T09:56:10.981+0800",
+          "updated": "2025-09-10T14:02:50.329+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3949,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[5].body.content[17].content[0].text",
+        "record_dates": {
+          "created": "2025-09-03T12:29:21.248+0800",
+          "updated": "2025-09-30T22:14:22.796+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3952,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[3].text",
+        "record_dates": {
+          "created": "2025-09-03T16:55:49.888+0800",
+          "updated": "2025-09-29T17:26:13.126+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3963,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_10169.content[0].content[0].text",
+        "record_dates": {
+          "created": "2025-09-05T13:13:46.142+0800",
+          "updated": "2025-09-11T18:36:31.508+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3964,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[0].content[0].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-09-05T13:21:58.791+0800",
+          "updated": "2025-09-30T15:10:54.918+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4006,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[0].text",
+        "record_dates": {
+          "created": "2025-09-12T17:12:11.359+0800",
+          "updated": "2025-09-30T23:24:17.396+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4084,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[1].text",
+        "record_dates": {
+          "created": "2025-10-06T11:45:11.196+0800",
+          "updated": "2026-01-13T21:29:36.561+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4089,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[1].text",
+        "record_dates": {
+          "created": "2025-10-07T10:28:09.037+0800",
+          "updated": "2026-01-13T21:29:12.413+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4203,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2025-11-04T12:13:17.837+0800",
+          "updated": "2025-11-29T22:16:31.343+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4259,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[1].content[1].text",
+        "record_dates": {
+          "created": "2025-11-15T04:02:29.677+0800",
+          "updated": "2026-01-13T20:42:54.400+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4260,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[1].content[2].content[2].marks[1].attrs.href",
+        "record_dates": {
+          "created": "2025-11-17T09:06:09.708+0800",
+          "updated": "2026-03-25T18:37:37.012+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4300,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[4].content[0].content[0].content[1].marks[1].attrs.href",
+        "record_dates": {
+          "created": "2025-11-21T17:51:34.661+0800",
+          "updated": "2025-11-28T20:56:31.568+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4317,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[1].content[1].text",
+        "record_dates": {
+          "created": "2025-11-27T10:15:41.034+0800",
+          "updated": "2025-11-28T15:08:23.275+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4328,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2025-11-29T12:39:10.577+0800",
+          "updated": "2026-01-13T20:40:21.201+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4421,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[7].body.content[6].content[0].text",
+        "record_dates": {
+          "created": "2025-12-20T11:26:04.986+0800",
+          "updated": "2026-03-31T19:07:26.998+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4466,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[0].text",
+        "record_dates": {
+          "created": "2026-01-06T16:43:00.641+0800",
+          "updated": "2026-03-31T16:15:51.863+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4486,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[7].content[0].text",
+        "record_dates": {
+          "created": "2026-01-13T12:47:28.653+0800",
+          "updated": "2026-01-20T09:32:04.167+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4713,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[0].content[0].content[0].text",
+        "record_dates": {
+          "created": "2026-03-02T14:25:22.190+0800",
+          "updated": "2026-03-31T19:36:09.225+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4750,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-03-09T20:29:36.125+0800",
+          "updated": "2026-03-31T19:17:56.746+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4960,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[4].content[0].text",
+        "record_dates": {
+          "created": "2026-04-17T13:21:45.901+0800",
+          "updated": "2026-04-23T08:02:20.872+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4979,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[6].body.content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-04-22T17:28:02.585+0800",
+          "updated": "2026-06-08T22:47:12.060+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 4997,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[7].content[0].text",
+        "record_dates": {
+          "created": "2026-04-25T12:24:33.747+0800",
+          "updated": "2026-05-26T17:00:46.473+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5055,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[4].body.content[11].content[0].content[0].content[2].text",
+        "record_dates": {
+          "created": "2026-05-11T23:09:04.918+0800",
+          "updated": "2026-06-15T11:25:36.514+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5066,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[7].body.content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-05-13T12:48:46.773+0800",
+          "updated": "2026-06-17T10:10:26.381+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5104,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-05-22T16:24:39.425+0800",
+          "updated": "2026-05-27T16:56:26.346+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5106,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[7].content[0].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-05-23T08:52:40.821+0800",
+          "updated": "2026-06-02T10:10:31.740+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5247,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[0].text",
+        "record_dates": {
+          "created": "2026-06-18T14:27:15.474+0800",
+          "updated": "2026-06-30T15:17:36.213+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5530,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[7].content[1].text",
+        "record_dates": {
+          "created": "2026-08-03T16:15:19.908+0800",
+          "updated": "2026-08-05T08:03:18.408+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5710,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[2].text",
+        "record_dates": {
+          "created": "2026-09-03T11:48:27.233+0800",
+          "updated": "2026-09-08T10:47:39.123+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 258,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[14].body.content[0].content[2].text",
+        "record_dates": {
+          "created": "2024-02-16T19:21:56.057+0800",
+          "updated": "2024-02-16T20:11:52.005+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 291,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[6].body.content[0].content[3].text",
+        "record_dates": {
+          "created": "2024-02-26T18:09:16.039+0800",
+          "updated": "2025-05-13T23:17:39.390+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 293,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2024-02-27T09:17:39.761+0800",
+          "updated": "2025-05-14T01:31:07.262+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 336,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[0].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-03-08T04:17:44.421+0800",
+          "updated": "2025-05-13T23:16:48.928+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 339,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2024-03-09T16:39:44.388+0800",
+          "updated": "2024-03-09T16:51:17.466+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 764,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2024-07-16T19:12:33.278+0800",
+          "updated": "2025-05-14T02:22:33.945+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 871,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[6].body.content[12].content[0].text",
+        "record_dates": {
+          "created": "2024-08-20T18:18:06.646+0800",
+          "updated": "2025-05-14T02:17:50.527+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 970,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-09-21T09:17:59.170+0800",
+          "updated": "2025-05-14T02:12:48.709+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1148,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[14].body.content[5].content[0].text",
+        "record_dates": {
+          "created": "2024-11-16T09:55:18.064+0800",
+          "updated": "2026-07-20T23:11:29.599+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1170,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[8].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2024-11-27T09:24:45.510+0800",
+          "updated": "2025-05-14T02:07:06.952+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1243,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[19].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2024-12-25T15:14:37.813+0800",
+          "updated": "2026-07-21T10:02:15.900+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1320,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[12].body.content[2].content[0].text",
+        "record_dates": {
+          "created": "2025-01-23T00:22:20.413+0800",
+          "updated": "2026-07-21T10:02:33.277+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1415,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[5].body.content[0].content[0].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-02-19T18:55:37.904+0800",
+          "updated": "2026-07-21T10:02:53.525+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1423,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[3].content[0].text",
+        "record_dates": {
+          "created": "2025-02-21T09:14:28.594+0800",
+          "updated": "2025-05-14T02:12:17.933+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 1604,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[8].body.content[1].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-03-26T11:56:19.916+0800",
+          "updated": "2026-07-21T10:03:27.231+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2036,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[3].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-08-06T12:30:15.953+0800",
+          "updated": "2026-07-21T10:03:56.919+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2047,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[4].content[0].text",
+        "record_dates": {
+          "created": "2025-08-09T20:34:30.127+0800",
+          "updated": "2026-07-21T10:04:09.242+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2076,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[5].body.content[13].content[0].text",
+        "record_dates": {
+          "created": "2025-08-23T09:45:02.258+0800",
+          "updated": "2026-07-21T10:04:31.573+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2132,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[0].body.content[4].content[0].text",
+        "record_dates": {
+          "created": "2025-09-12T09:14:49.328+0800",
+          "updated": "2026-07-21T10:05:19.975+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2143,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[10].body.content[5].content[0].text",
+        "record_dates": {
+          "created": "2025-09-19T09:54:09.425+0800",
+          "updated": "2026-07-27T16:16:12.605+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2187,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[6].body.content[0].content[1].text",
+        "record_dates": {
+          "created": "2025-10-09T00:48:55.689+0800",
+          "updated": "2026-07-20T23:15:00.825+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2286,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[9].body.content[2].content[7].text",
+        "record_dates": {
+          "created": "2025-11-14T23:46:53.009+0800",
+          "updated": "2026-07-21T10:47:15.154+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2289,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[2].content[0].content[4].content[1].text",
+        "record_dates": {
+          "created": "2025-11-15T16:26:20.974+0800",
+          "updated": "2026-07-21T10:47:19.690+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2304,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[4].content[0].content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-11-21T16:59:15.816+0800",
+          "updated": "2026-07-21T10:47:35.532+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2388,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[3].content[0].text",
+        "record_dates": {
+          "created": "2026-01-02T10:09:29.409+0800",
+          "updated": "2026-07-20T23:16:11.439+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2427,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[9].content[0].text",
+        "record_dates": {
+          "created": "2026-01-13T11:39:28.672+0800",
+          "updated": "2026-07-20T23:16:44.246+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2495,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[8].content[2].content[0].content[2].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-02-17T18:10:16.983+0800",
+          "updated": "2026-07-21T10:06:34.986+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2625,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[12].body.content[3].content[1].content[1].content[1].content[3].content[0].content[0].content[1].text",
+        "record_dates": {
+          "created": "2026-05-07T23:18:14.259+0800",
+          "updated": "2026-07-20T23:17:57.469+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2720,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[4].content[1].text",
+        "record_dates": {
+          "created": "2026-06-18T09:12:42.695+0800",
+          "updated": "2026-07-21T10:36:25.904+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2825,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[7].content[1].text",
+        "record_dates": {
+          "created": "2026-08-03T11:05:04.736+0800",
+          "updated": "2026-08-24T11:15:34.210+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2868,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[11].body.content[0].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2026-08-21T10:47:29.031+0800",
+          "updated": "2026-08-26T15:16:32.479+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2887,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[0].content[2].text",
+        "record_dates": {
+          "created": "2026-08-29T15:24:16.500+0800",
+          "updated": "2026-08-31T12:55:10.090+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2888,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[0].content[2].text",
+        "record_dates": {
+          "created": "2026-08-29T15:24:30.160+0800",
+          "updated": "2026-09-17T17:01:09.832+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-261fd437dcabccb0",
+        "record": 2903,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[3].body.content[7].content[0].text",
+        "record_dates": {
+          "created": "2026-09-06T11:55:23.426+0800",
+          "updated": "2026-09-21T16:20:49.577+0800"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 178,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1749894015413"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 259,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1750143824604"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 1014,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1751981253189"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 1021,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1751981561985"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 1401,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1752660136883"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 1919,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1753349242547"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 2310,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1754458144638"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 2846,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1755661487652"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 2887,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1755682556394"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 2964,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1755764390380"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 3364,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1756413553770"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 3366,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1756414233390"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 3444,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1756570757976"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 3619,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1757045326600"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 3721,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1757136801194"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 3796,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1757395006426"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 4038,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1758247282767"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 4044,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1758252834652"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 4046,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1758252899663"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 4060,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1758348050723"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 4116,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1758597398309"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 4417,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1759304712356"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 5074,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1761026739879"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 5141,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1761198603251"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 5450,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1762359294806"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 5631,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763085623454"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 5690,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763304133005"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 5992,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763370094648"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6184,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763689214643"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6186,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763689505421"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6200,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763693578239"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6260,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763719110311"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6277,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763776858034"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6281,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763778751376"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6312,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763808282523"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6324,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763863544990"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6357,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763865619939"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6367,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763869326718"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6374,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763879120461"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6396,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763963925889"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6419,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1763981617654"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6540,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1764381017415"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6922,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1764907716934"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6940,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1764952890024"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 6967,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1765119084558"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7236,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1765766598651"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7348,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1765855211064"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7530,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766117027719"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7603,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766196630065"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7735,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766384585189"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7816,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766575410114"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7866,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766746739783"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7885,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766747476375"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7894,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766749838688"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 7946,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1766990869061"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 8241,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1767275723915"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 8246,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1767275885472"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 9269,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1769698651740"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 9369,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1769773373646"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 9507,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1770177887022"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 10095,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1772377718916"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 10156,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1772619821850"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 10481,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1773138190064"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 10859,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774015170379"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 10864,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774017855974"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11195,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774608336691"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11214,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774612212595"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11216,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774612223354"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11217,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774612360191"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11337,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1774690697543"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11488,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775013467486"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11552,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775360470262"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11629,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775477209568"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11632,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775477522777"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11636,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775477577056"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11644,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775479558563"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 11749,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1775721127178"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 12168,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1776744230774"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 12780,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778203251262"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 12854,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778219530684"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 12906,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778247754377"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 13072,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778469989574"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 13079,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778482679118"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 13087,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778485937471"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 13121,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1778572122669"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 13878,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1779922365416"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-6c93aa62fb3bd285",
+        "record": 13885,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1779923398460"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  },
+  {
+    "organization_label": "STARLING LABS LIMITED",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 12,
+    "referenced_cluster_values": 1,
+    "referenced_cluster_values_found_in_gateway": 0,
+    "referenced_cluster_log_records": 0,
+    "referenced_cluster_success_records": 0,
+    "referenced_cluster_timestamp_range_utc": [
+      null,
+      null
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 965,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[5].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2023-11-30T19:09:13.755+0800",
+          "updated": "2026-08-05T14:31:59.495+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 1212,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[5].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2023-12-04T19:03:09.000+0800",
+          "updated": "2023-12-08T19:16:14.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2466,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[4].body.content[10].content[0].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2024-09-02T16:11:37.000+0800",
+          "updated": "2025-05-29T17:27:27.061+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3140,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[0].text",
+        "record_dates": {
+          "created": "2025-03-06T05:50:17.765+0800",
+          "updated": "2025-08-11T15:37:10.645+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 3262,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2025-03-26T17:31:06.414+0800",
+          "updated": "2025-05-21T22:00:11.026+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2291,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[4].body.content[4].content[1].text",
+        "record_dates": {
+          "created": "2025-03-17T12:35:59.225+0800",
+          "updated": "2026-07-20T23:28:21.512+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2328,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[0].content[3].text",
+        "record_dates": {
+          "created": "2025-03-26T12:44:43.659+0800",
+          "updated": "2026-07-21T10:14:37.598+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2448,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[7].body.content[0].content[0].text",
+        "record_dates": {
+          "created": "2025-04-28T10:57:10.736+0800",
+          "updated": "2026-07-20T23:09:37.896+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2481,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[2].content[1].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2025-05-12T09:51:09.987+0800",
+          "updated": "2026-07-21T10:39:39.387+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2489,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.customfield_12347.content[1].content[1].text",
+        "record_dates": {
+          "created": "2025-05-15T11:14:43.826+0800",
+          "updated": "2026-07-20T23:28:41.827+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2648,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[2].body.content[0].content[2].text",
+        "record_dates": {
+          "created": "2025-07-01T12:29:48.199+0800",
+          "updated": "2026-07-21T10:42:24.223+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 2876,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[2].content[0].text",
+        "record_dates": {
+          "created": "2025-09-24T11:36:02.010+0800",
+          "updated": "2026-07-21T10:43:05.321+0800"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 9,
+    "referenced_cluster_values": 2,
+    "referenced_cluster_values_found_in_gateway": 0,
+    "referenced_cluster_log_records": 0,
+    "referenced_cluster_success_records": 0,
+    "referenced_cluster_timestamp_range_utc": [
+      null,
+      null
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 972,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[5].content[0].text",
+        "record_dates": {
+          "created": "2023-12-05T16:29:26.387+0800",
+          "updated": "2023-12-06T11:52:11.984+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 974,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2023-12-06T10:58:36.643+0800",
+          "updated": "2024-04-10T11:43:39.877+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-64f55eafbdcbff37",
+        "record": 975,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[1].text",
+        "record_dates": {
+          "created": "2023-12-06T12:52:40.321+0800",
+          "updated": "2023-12-08T14:43:12.032+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-955b6aa30d7892fd",
+        "record": 1217,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[1].text",
+        "record_dates": {
+          "created": "2023-12-06T19:42:11.000+0800",
+          "updated": "2023-12-31T12:22:39.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 2060,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[10].body.content[0].content[2].text",
+        "record_dates": {
+          "created": "2024-04-22T18:21:52.000+0800",
+          "updated": "2025-05-21T22:09:09.793+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1133,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[1].text",
+        "record_dates": {
+          "created": "2023-12-14T16:48:21.917+0800",
+          "updated": "2026-07-20T22:49:30.209+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1363,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[10].body.content[0].content[4].text",
+        "record_dates": {
+          "created": "2024-04-22T10:53:08.926+0800",
+          "updated": "2026-07-20T22:54:22.410+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1681,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[3].content[0].text",
+        "record_dates": {
+          "created": "2024-09-25T11:01:40.724+0800",
+          "updated": "2026-07-20T23:00:12.845+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1843,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[0].body.content[6].content[0].text",
+        "record_dates": {
+          "created": "2024-11-20T12:20:44.475+0800",
+          "updated": "2026-07-20T23:02:33.193+0800"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  },
+  {
+    "organization_label": "Amber AI Limited",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 9,
+    "referenced_cluster_values": 1,
+    "referenced_cluster_values_found_in_gateway": 0,
+    "referenced_cluster_log_records": 0,
+    "referenced_cluster_success_records": 0,
+    "referenced_cluster_timestamp_range_utc": [
+      null,
+      null
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 906,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[0].text",
+        "record_dates": {
+          "created": "2023-03-09T15:42:57.000+0800",
+          "updated": "2023-03-09T16:58:13.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 948,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[2].content[2].text",
+        "record_dates": {
+          "created": "2023-03-22T20:24:55.000+0800",
+          "updated": "2023-03-28T20:39:54.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1013,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[2].text",
+        "record_dates": {
+          "created": "2023-05-08T17:36:16.000+0800",
+          "updated": "2023-07-22T11:03:59.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1139,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[4].text",
+        "record_dates": {
+          "created": "2023-07-06T18:00:59.000+0800",
+          "updated": "2023-09-06T11:43:41.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1153,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[3].content[2].text",
+        "record_dates": {
+          "created": "2023-07-13T13:37:26.000+0800",
+          "updated": "2023-07-14T17:10:48.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1542,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[1].body.content[0].content[6].marks[0].attrs.href",
+        "record_dates": {
+          "created": "2023-11-17T16:12:37.000+0800",
+          "updated": "2023-11-24T13:42:20.000+0800"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-bfc58b5720115284",
+        "record": 73,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1686552470121"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-bfc58b5720115284",
+        "record": 74,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1686552487310"
+        }
+      },
+      {
+        "member_alias": "08_firewatch_chats/member-bfc58b5720115284",
+        "record": 87,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".body.content",
+        "record_dates": {
+          "chat_create_time": "1686553387021"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  },
+  {
+    "organization_label": "Matrixport Technologies Ltd.",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 2,
+    "referenced_cluster_values": 1,
+    "referenced_cluster_values_found_in_gateway": 0,
+    "referenced_cluster_log_records": 0,
+    "referenced_cluster_success_records": 0,
+    "referenced_cluster_timestamp_range_utc": [
+      null,
+      null
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 1605,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[12].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2023-12-09T10:20:53.000+0800",
+          "updated": "2024-04-17T14:25:39.000+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-ae0a608a0b109996",
+        "record": 1110,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.comment.comments[12].body.content[1].content[0].text",
+        "record_dates": {
+          "created": "2023-12-07T18:49:26.551+0800",
+          "updated": "2026-07-20T22:48:35.685+0800"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "linkage_confidence": "medium: contextual support-URL association",
+    "source_records": 3,
+    "referenced_cluster_values": 2,
+    "referenced_cluster_values_found_in_gateway": 1,
+    "referenced_cluster_log_records": 11594,
+    "referenced_cluster_success_records": 11591,
+    "referenced_cluster_timestamp_range_utc": [
+      "2026-06-08T08:40:09.173000+00:00",
+      "2026-10-03T17:32:17.567000+00:00"
+    ],
+    "source_references": [
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5393,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[0].text",
+        "record_dates": {
+          "created": "2026-07-15T01:24:21.181+0800",
+          "updated": "2026-07-22T13:20:46.426+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5522,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[0].content[0].text",
+        "record_dates": {
+          "created": "2026-07-31T17:28:17.243+0800",
+          "updated": "2026-07-31T23:04:19.927+0800"
+        }
+      },
+      {
+        "member_alias": "05_jira_issues/member-eb7a24b04944e340",
+        "record": 5597,
+        "unit": "1-based physical JSONL line",
+        "field_path": ".fields.description.content[1].content[0].text",
+        "record_dates": {
+          "created": "2026-08-12T15:40:24.161+0800",
+          "updated": "2026-08-13T17:12:02.978+0800"
+        }
+      }
+    ],
+    "interpretation": "These are aggregate historical records for cluster identifiers referenced in contextually linked support URLs. They are NOT proven company-owned traffic or a continuous ownership interval.",
+    "limitations": [
+      "Support URL selector parameters may be manually edited and are not authoritative metadb ownership records.",
+      "Exact tenant-to-business label matches may refer to a group entity, payer, or intermediary.",
+      "Issue dates are evidence-record dates, not ownership intervals.",
+      "No customer infrastructure identifiers or addresses are exported."
+    ]
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "assessment_date": "2026-10-21",
+  "result": "PASS",
+  "csv_checks": {
+    "business_labels.csv": {
+      "rows": 421,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "business_label_sources.csv": {
+      "rows": 1731,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "all_source_label_index.csv": {
+      "rows": 516,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "account_evidence.csv": {
+      "rows": 231,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "billing_evidence.csv": {
+      "rows": 30,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "marketplace_evidence.csv": {
+      "rows": 76,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "support_material_evidence.csv": {
+      "rows": 286,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "gateway_context.csv": {
+      "rows": 7,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
+    "priority_findings.csv": {
+      "rows": 9,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    }
+  },
+  "html_checks": {
+    "local_links_resolve": true,
+    "unique_element_ids": true,
+    "remote_assets": 0,
+    "external_links_https_only": true,
+    "static_host_index_matches_report": true,
+    "rendering_note": "25 headless browser checks passed for both languages; screenshots retained in the private browser-review directory."
+  },
+  "browser_checks": {
+    "result": "PASS",
+    "report_sha256": "68089587376781b2d72db3e67080746391a12b92358cd969d11d73be12f4cb48",
+    "checks": [
+      "English is visible by default",
+      "Both editions retain all 421 business labels",
+      "Release quantities and staged three-input scope are present",
+      "English BigQuery progress section is visible",
+      "BigQuery candidates are explicitly unconfirmed",
+      "BigQuery scanned rows match aggregate evidence",
+      "English BigQuery aggregate download is available",
+      "Source attribution and unverified status are explicit",
+      "Traditional Chinese switch updates visibility and document language",
+      "Traditional Chinese release quantities are rendered",
+      "Traditional Chinese BigQuery progress and qualifications are rendered",
+      "Traditional Chinese BigQuery aggregate download is available",
+      "Name search filters Chinese edition",
+      "Query and results survive language switch",
+      "Empty search state is accurate",
+      "Language selection survives reload",
+      "Catalog categories are translated",
+      "Chinese category search returns results",
+      "Chinese query also searches translated categories in English view",
+      "Mobile page has no document-level horizontal overflow",
+      "Chinese in-page navigation resolves to visible section",
+      "English deep link opens English despite saved Chinese preference",
+      "No browser JavaScript errors",
+      "No automatic external requests",
+      "Both language editions remain readable without JavaScript"
+    ],
+    "javascript_errors": [],
+    "external_requests": 0
+  },
+  "translation_checks": {
+    "language": "zh-Hant",
+    "translated_segments": 206,
+    "complete_key_coverage": true,
+    "empty_values": 0,
+    "review": "Independent Traditional Chinese review covered numerals, legal names, uncertainty wording and inline fragments."
+  },
+  "release_scope_checks": {
+    "five_claimed_release_archives": true,
+    "two_previously_reviewed_archives": true,
+    "three_local_inputs": true,
+    "bq_scoped_review_status": "in_progress",
+    "claimed_sizes_attributed_and_unverified": true
+  },
+  "bq_coverage_checks": {
+    "source_snapshot_matches": true,
+    "nonnegative_integer_counters": true,
+    "completed_inventory_hash_valid": false,
+    "existing_label_and_finding_counts_preserved": true
+  },
+  "redaction_audit": {
+    "files": [
+      "account_evidence.csv",
+      "all_source_label_index.csv",
+      "archive_integrity.json",
+      "billing_evidence.csv",
+      "bq_coverage.json",
+      "business_label_sources.csv",
+      "business_labels.csv",
+      "gateway_company_context.json",
+      "gateway_context.csv",
+      "gateway_final_coverage.json",
+      "geo_coverage.json",
+      "hong_kong_exposure_assessment.html",
+      "index.html",
+      "input_sha256.txt",
+      "marketplace_evidence.csv",
+      "methodology.json",
+      "priority_findings.csv",
+      "priority_findings.json",
+      "public_context.json",
+      "release_metadata.json",
+      "report_counts.json",
+      "rest_assessment_summary.json",
+      "rest_company_billing_evidence.json",
+      "rest_domain_validation.json",
+      "rest_identifier_join_validation.json",
+      "rest_marketplace_candidates.json",
+      "rest_material_categories.json",
+      "rest_organization_evidence.json",
+      "support_material_evidence.csv"
+    ],
+    "patterns_checked": [
+      "email_address",
+      "ipv4_address",
+      "long_numeric_identifier",
+      "opaque_cluster_identifier",
+      "credential_assignment"
+    ],
+    "matches": [],
+    "limitation": "Pattern checks plus constrained export schemas; not a mathematical guarantee of perfect redaction."
+  },
+  "reconciliation": {
+    "gateway_all_partitions": true,
+    "gateway_record_checksum": true,
+    "all_matched_business_rows_accounted_for": true,
+    "unique_contextual_support_records": 286,
+    "unique_sql_like_support_records": 96
+  },
+  "independent_review": {
+    "scope": "Gateway synthetic fixtures, rest evidence joins, identity exclusions, report facts and export structure",
+    "status": "Reviewed; domain-rank values removed from domain display; Starling identity corroboration added; contextual ownership limits retained."
+  },
+  "synthetic_gateway_tests": {
+    "gateway_review_v2": {
+      "production_sha256": "3929fe0094531f6a8c1f977143497b5c3847ba13aa6b2789146162ffa85f095c",
+      "tests": [
+        {
+          "case": "clean_historical_multiline",
+          "result": "PASS"
+        },
+        {
+          "case": "strict_truncation_and_continued_archive_scan",
+          "result": "PASS"
+        },
+        {
+          "case": "quality_tracking_and_category_redaction",
+          "result": "PASS"
+        }
+      ],
+      "result": "PASS",
+      "input_data": "Synthetic fixtures only; no raw dataset inspected."
+    },
+    "gateway_opaque_review": {
+      "result": "PASS_WITH_DOCUMENTED_SCHEMA_CAVEAT",
+      "tests": [
+        {
+          "case": "mixed_ids_duplicate_aggregation_missing_region_multiline_timestamps_privacy",
+          "result": "PASS"
+        },
+        {
+          "case": "strict_final_record_failure_following_member_invalid_times_and_utf8",
+          "result": "PASS"
+        },
+        {
+          "case": "missing_phase_schema_contract_diagnostic",
+          "result": "EXPECTED_DIVERGENCE",
+          "note": "Primary requires phase; supplement does not. Actual full-run parity must be checked before combining."
+        }
+      ],
+      "reviewed_script_sha256": {
+        "primary": "3929fe0094531f6a8c1f977143497b5c3847ba13aa6b2789146162ffa85f095c",
+        "opaque": "e2358495065dd7e8684cc0eaada118056a6b96034effb756f7614c486d415911"
+      },
+      "input_data": "Synthetic only; no raw incident data read."
+    },
+    "gateway_finalize_review": {
+      "result": "PASS",
+      "tests": [
+        {
+          "case": "valid_quoted_multiline_preserves_prefix",
+          "result": "PASS"
+        },
+        {
+          "case": "bare_cr_fragments_suffix_ordinals_and_prefix_equality",
+          "result": "PASS"
+        },
+        {
+          "case": "full_merge_counts_statuses_ranges_privacy_and_original_db_preservation",
+          "result": "PASS"
+        },
+        {
+          "case": "unclosed_quotes_remain_explicit_failure",
+          "result": "PASS"
+        }
+      ],
+      "reviewed_script_sha256": {
+        "primary": "3929fe0094531f6a8c1f977143497b5c3847ba13aa6b2789146162ffa85f095c",
+        "opaque": "e2358495065dd7e8684cc0eaada118056a6b96034effb756f7614c486d415911",
+        "finalize": "f55acd1291c33aa153098148c140bf77c359212c756b6ebf7b654474adac3df4"
+      },
+      "input_data": "Synthetic fixtures only; no incident records read."
+    }
+  },
+  "schema_caveat_resolution": "Opaque scanner has a broader synthetic schema contract; actual input parity and all reconciliation assertions passed before aggregation.",
+  "generator_sha256": "a10cf32f279b828f50e53ed4a0c162ee1f84150e05c059e068d52bdff84af04e",
+  "validator_sha256": "90141d18e602b79d376a97a331421f6c432923381b3e67cfb45b904c11ded3c7",
+  "localization_renderer_sha256": "a90fae0c84c1698e39cb5cc706acf31e04e0058fa9b641f2d201774881e6c512",
+  "translation_sha256": "66d292aba1db53edef59be06ff5086e8ed3a37db34c0b8122b27f62a4cd74ae9"
+}

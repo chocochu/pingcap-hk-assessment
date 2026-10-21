@@ -1,0 +1,647 @@
+{
+  "review_date": "2026-10-21",
+  "review_timezone": "Asia/Hong_Kong",
+  "scope": "Public-source organization discovery context only. No organization is asserted to be exposed or compromised.",
+  "incident_baseline": {
+    "english_source": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
+    "english_status_date": "2026-10-19",
+    "summary": "PingCAP says stolen service credentials enabled internal access September 9–October 7. Exported records included account/organization/project information, SQL-editor text/errors, business/billing data, and encrypted API-key values. Customer scope remained under investigation; no evidence of impact to data stored in TiDB was found. Identified compromised credentials and access paths were remediated by October 14.",
+    "japanese_source": "https://pingcap.co.jp/trust-hub/security/security-update-october-2026/",
+    "japanese_access_note": "Direct web open returned inaccessible; source text obtained through indexed web search on review date.",
+    "japanese_summary": "Japanese notice reports up to approximately 50,000 personal-information records in Japan and no confirmed unauthorized TiDB Cloud access or credit-card exposure. These are Japan-specific statements, not Hong Kong impact counts.",
+    "api_material_discrepancy": {
+      "english": "Encrypted TiDB Cloud API-key values were exported; one investigator-owned value could not be used directly. Whether other usable credentials were exposed remains unresolved, and support-material claims were unverified.",
+      "japanese": "Says encrypted API public-key portions were exposed, private-key portions were not, and the exposed public portions alone cannot operate TiDB Cloud; recommends API-key rotation.",
+      "interpretation": "Statements differ in scope and certainty. Preserve both attributions; neither demonstrates that every credential-like value in supplied files is usable or harmless. No authentication attempts are warranted."
+    }
+  },
+  "organizations": [
+    {
+      "name": "SHOPLINE",
+      "aliases": [
+        "SHOPLINE"
+      ],
+      "domains": [
+        "shopline.com",
+        "shopline.hk"
+      ],
+      "hk_connection": "Company says founded in Hong Kong in 2013.",
+      "relationship_type": "TiDB customer; case study describes self-managed style deployment",
+      "caveat": "Binary deployment and TiUP upgrade story support TiDB use, not TiDB Cloud use or incident exposure.",
+      "sources": [
+        "https://shopline.hk/en/faq/about",
+        "https://www.pingcap.com/case-study/shopline-slash-cluster-cost-with-tidb/"
+      ]
+    },
+    {
+      "name": "CloudSteps Technology (Hong Kong) Co., Ltd.",
+      "aliases": [
+        "CloudSteps",
+        "CloudSteps Technology"
+      ],
+      "domains": [
+        "cloudsteps.net"
+      ],
+      "hk_connection": "Official website uses the Hong Kong entity name.",
+      "relationship_type": "PingCAP reseller partner",
+      "caveat": "Partner status does not establish an affected account or downstream customer exposure.",
+      "sources": [
+        "https://www.cloudsteps.net/build.html",
+        "https://www.pingcap.com/partners/reseller/"
+      ]
+    },
+    {
+      "name": "Vision Board Limited",
+      "aliases": [
+        "Vision Board",
+        "Visionboard",
+        "願景寶有限公司"
+      ],
+      "domains": [
+        "visionboard.com.hk"
+      ],
+      "hk_connection": "PingCAP calls it Hong Kong based; historical official incorporation list contains matching English and Chinese names.",
+      "relationship_type": "PingCAP reseller; database consulting and migration provider",
+      "caveat": "No Cloud customer account is established. Historical registration is not a current live-company-status check.",
+      "sources": [
+        "https://www.pingcap.com/partners/reseller/",
+        "https://www.visionboard.com.hk/",
+        "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20241118.pdf"
+      ]
+    },
+    {
+      "name": "Admazes Limited",
+      "aliases": [
+        "Admazes",
+        "致博科技有限公司"
+      ],
+      "domains": [
+        "admazes.com"
+      ],
+      "hk_connection": "Company website says founded in Hong Kong in 2019; official historical incorporation list corroborates legal names.",
+      "relationship_type": "PingCAP reseller and service partner",
+      "caveat": "Partnership does not identify affected accounts or customers.",
+      "sources": [
+        "https://admazes.com/",
+        "https://www.pingcap.com/partners/reseller/",
+        "https://www.pingcap.com/partners/service/",
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2019.07.01-2019.07.07.pdf"
+      ]
+    },
+    {
+      "name": "Hong Kong Qineasy Technology Limited",
+      "aliases": [
+        "Qineasy",
+        "香港勤易科技有限公司"
+      ],
+      "domains": [
+        "qineasy.com",
+        "qineasy.cn"
+      ],
+      "hk_connection": "Official company site identifies HK entity; Companies Registry historical list corroborates legal names.",
+      "relationship_type": "PingCAP reseller and service partner",
+      "caveat": "qineasy.cn appears in the company-supplied AWS listing. Partner status is not evidence of incident exposure.",
+      "sources": [
+        "https://qineasy.com/gsjj.html",
+        "https://www.pingcap.com/partners/reseller/",
+        "https://www.pingcap.com/partners/service/",
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2020.08.24-2020.08.30.pdf",
+        "https://aws.amazon.com/marketplace/pp/prodview-lgvhqalyvh2ta"
+      ]
+    },
+    {
+      "name": "Zens Distribution Limited",
+      "aliases": [
+        "Zens Distribution"
+      ],
+      "domains": [
+        "zens.com.hk"
+      ],
+      "hk_connection": "Official product page identifies a Hong Kong distributor serving Hong Kong and Macau.",
+      "relationship_type": "TiDB and TiDB Enterprise distributor",
+      "caveat": "Distribution does not establish Cloud consumption. Avoid bare zens substring matching.",
+      "sources": [
+        "https://www.zens.com.hk/products/tidb"
+      ]
+    },
+    {
+      "name": "KBQuest Hong Kong Limited",
+      "aliases": [
+        "KBQuest",
+        "KBQuest Hong Kong"
+      ],
+      "domains": [
+        "kbquest.com"
+      ],
+      "hk_connection": "Official privacy policy names HK legal entity and affiliates; contact page lists HK office.",
+      "relationship_type": "KBQuest brand listed as PingCAP reseller",
+      "caveat": "Directory names wider brand; local evidence must establish relevant legal entity.",
+      "sources": [
+        "https://www.kbquest.com/privacy-policy",
+        "https://www.kbquest.com/contact",
+        "https://www.pingcap.com/partners/reseller/"
+      ]
+    }
+  ],
+  "interpretation_rules": [
+    "Public business relationships are candidate discovery evidence, never breach evidence.",
+    "Separate CRM mentions, accounts, service usage, and sensitive-data exposure; none alone proves compromise of customer systems.",
+    "Distinguish self-managed TiDB, TiDB Cloud, and partner-console usage.",
+    "Do not infer downstream customers are exposed from reseller records.",
+    "Match organizational domains with exact/domain-boundary logic; incidental text and individual email domains require corroboration."
+  ],
+  "unverified_candidates": [
+    {
+      "name": "Klook",
+      "note": "Bounded public search did not substantiate TiDB relationship. Do not label a customer without further evidence."
+    }
+  ],
+  "locally_discovered_organization_verification": [
+    {
+      "name": "OceanBase Hong Kong Limited",
+      "aliases": [
+        "OceanBase Hong Kong",
+        "OceanBase"
+      ],
+      "domains": [
+        "oceanbase.com"
+      ],
+      "hk_connection": "OceanBase official affiliate list explicitly locates this entity in Hong Kong; HK Companies Registry historical change-of-name record corroborates the legal name.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Confirmed by official OceanBase legal documents.",
+      "caveat": "OceanBase is itself a database vendor; appearance in supplied records must not be described as production TiDB deployment or compromise.",
+      "sources": [
+        "https://en.oceanbase.com/legal/subcontractors-affiliates",
+        "https://en.oceanbase.com/legal/service-agreement",
+        "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20220516.pdf"
+      ]
+    },
+    {
+      "name": "Shoplazza Hongkong Limited",
+      "aliases": [
+        "Shoplazza",
+        "尚普萊斯香港有限公司",
+        "尚普莱斯香港有限公司"
+      ],
+      "domains": [
+        "shoplazza.com",
+        "shoplazza.cn"
+      ],
+      "hk_connection": "Official privacy policy identifies Shoplazza Hongkong Limited as its Hong Kong entity; official payments terms state Hong Kong incorporation.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Confirmed by official privacy policy and terms.",
+      "caveat": "Privacy-policy service scope does not establish which customer data, if any, occurs in supplied files.",
+      "sources": [
+        "https://www.shoplazza.com/privacy",
+        "https://www.shoplazza.cn/pages/hk-shoplazza-payments-terms-and-service",
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2018.08.13-2018.08.19.pdf"
+      ]
+    },
+    {
+      "name": "Long Bridge Technology HK Limited / Longport Technology HK Limited",
+      "aliases": [
+        "Long Bridge Technology HK Limited",
+        "Longport Technology HK Limited",
+        "Longbridge",
+        "Longport",
+        "LONGPORT Whale",
+        "長橋科技",
+        "长桥科技香港有限公司",
+        "长湾科技香港有限公司"
+      ],
+      "domains": [
+        "longportwhale.com",
+        "longbridge.com",
+        "longbridge.cloud",
+        "longportapp.com",
+        "longbridge.hk"
+      ],
+      "local_domain_candidates": [
+        "longbridge.sg"
+      ],
+      "hk_connection": "January 2026 LONGPORT Whale terms name Long Bridge Technology HK Limited and HK business location. Current Longbridge HK site names Longport Technology HK Limited; HKEX lists Longport as a BSS vendor.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Both HK names publicly linked to Longport/Longbridge services. Exact legal rename history and local longbridge.sg linkage not established from these primary sources.",
+      "caveat": "Keep original legal-name evidence; do not assert an exact rename date or merge brokerage account holders merely from brand overlap.",
+      "sources": [
+        "https://assets.lbkrs.com/uploads/whale-site/LONGPORT%20Whale%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1%E9%80%9A%E7%94%A8%E6%9D%A1%E6%AC%BE.pdf",
+        "https://longbridge.com/hk/en/",
+        "https://www.hkex.com.hk/Services/Trading/Securities/Infrastructure/Overview/List-of-Broker-Supplied-Systems-%28BSS%29-Vendors?sc_lang=en",
+        "https://www.cyberport.hk/wp-content/uploads/Online_directory_CIP_alumni.pdf"
+      ]
+    },
+    {
+      "name": "PingAn OneConnect Credit Reference Services Agency (HK) Limited",
+      "aliases": [
+        "PingAn OneConnect Credit Reference Services Agency",
+        "PingAn OneConnect Credit Reference Services Agency (Hong Kong) Limited",
+        "平安金融壹賬通征信服務（香港）有限公司"
+      ],
+      "domains": [
+        "paoccra.com.hk",
+        "paoc.com.hk"
+      ],
+      "group_domain_candidates": [
+        "ocft.com"
+      ],
+      "hk_connection": "Official CRA site names HK company and HK operations; HKMA CDI lists the agency. OneConnect annual report includes CRA in group structure.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Agency domain confirmed; ocft.com is wider OneConnect group context, not exclusive identifier of this agency.",
+      "caveat": "DISTINCT FROM Ping An OneConnect Bank / PAObank. Never attribute agency records to the bank or all OneConnect entities using group domain alone.",
+      "sources": [
+        "https://www.paoccra.com.hk/",
+        "https://cdi.hkma.gov.hk/",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0423/2024042301376.pdf",
+        "https://www.dahsing.com/html/en/support/credit_reference_agencies.html"
+      ]
+    },
+    {
+      "name": "Winway Energy Limited",
+      "aliases": [
+        "Winway Energy"
+      ],
+      "domains": [],
+      "group_domain_candidates": [
+        "matrixport.com",
+        "bit.com"
+      ],
+      "hk_connection": "HK Companies Registry records incorporation in November 2015. BIT user agreement Schedule 7 lists Winway as a Hong Kong group entity.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Group affiliation supported by BIT affiliate disclosure plus BIT official Matrixport rebrand announcement; not proof of exclusive domain ownership or identity of a particular local account.",
+      "caveat": "This is an inferred group-level Matrixport/BIT association from two official documents. Retain Winway legal name; avoid equating all Matrixport/BIT data with this entity.",
+      "sources": [
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2015.11.16-2015.11.22.pdf",
+        "https://images.bitexch.co/legal/240819/01.pdf",
+        "https://www.bit.com/bit-formerly-matrixport"
+      ],
+      "access_note": "BIT PDF direct web fetch returned 502; Schedule 7 indexed text was available in web search and explicitly names Winway and HK. BIT brand announcement says Matrixport renamed BIT effective 2026-03-20."
+    },
+    {
+      "name": "DT Hongkong Holdings Limited",
+      "aliases": [
+        "DT Hongkong Holdings",
+        "多糖控股香港有限公司"
+      ],
+      "domains": [],
+      "unverified_domain_candidates": [
+        "chainbase.com"
+      ],
+      "hk_connection": "Official Companies Registry list records DT Hongkong Holdings Limited / 多糖控股香港有限公司 incorporated April 16, 2020.",
+      "relationship_type": "Local-analysis candidate; Chainbase affiliation unverified",
+      "domain_entity_status": "UNVERIFIED mapping to chainbase.com. Public Chainbase platform terms/privacy identify chainbase.com without this legal name.",
+      "caveat": "Report as DT Hongkong Holdings if supported by local records. A Chainbase email/domain association may be reported as a record-level association, not a publicly confirmed subsidiary relationship.",
+      "sources": [
+        "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20200413.pdf",
+        "https://platform.chainbase.com/terms",
+        "https://platform.chainbase.com/privacy"
+      ]
+    },
+    {
+      "name": "Amber AI Services Limited",
+      "aliases": [
+        "AMBER AI SERVICES LIMITED",
+        "Amber AI Services"
+      ],
+      "domains": [
+        "ambergroup.io"
+      ],
+      "hk_connection": "HK Companies Registry records the legal name in a December 2022 change-of-name entry; HKSTP company directory lists Amber AI Services Limited and directly links ambergroup.io.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Brand/domain association confirmed by HKSTP company directory; exact group ownership structure not established.",
+      "caveat": "Do not conflate all Amber Group entities, customers, or services with this legal entity.",
+      "sources": [
+        "https://www.hkstp.org/en/directory/information-communications-technology/amber-ai-services-limited",
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2022.12.12-2022.12.18.pdf"
+      ]
+    },
+    {
+      "name": "Klook Travel Technology Limited",
+      "aliases": [
+        "Klook",
+        "客路旅遊科技有限公司"
+      ],
+      "domains": [
+        "klook.com"
+      ],
+      "hk_connection": "Official general terms identify operator as a Hong Kong incorporated company; official privacy policy corroborates Hong Kong entity.",
+      "relationship_type": "Local-analysis candidate; public TiDB relationship not established",
+      "domain_entity_status": "Confirmed by official site terms.",
+      "caveat": "HK connection confirmed, but public TiDB customer relationship was not substantiated in bounded search. Local evidence must establish any record exposure.",
+      "sources": [
+        "https://www.klook.com/en-AU/conditions/",
+        "https://www.klook.com/en-US/policy/"
+      ]
+    },
+    {
+      "name": "Starling Labs Limited (SHOPLINE)",
+      "aliases": [
+        "Starling Labs Limited",
+        "SHOPLINE"
+      ],
+      "domains": [
+        "shopline.com",
+        "shopline.hk",
+        "shopline.sg",
+        "shopline.tw",
+        "shoplineapp.com"
+      ],
+      "hk_connection": "Official SHOPLINE terms name Starling Labs Limited, Hong Kong registered company number 1925394, as contracting party for HK billing region.",
+      "relationship_type": "SHOPLINE legal-entity association; public TiDB case study remains self-managed-style",
+      "domain_entity_status": "SHOPLINE / Starling Labs association confirmed by official terms and official SHOPLINE blog terms. This is a contracting-entity link, not a claim about a specific parent/subsidiary ownership structure.",
+      "caveat": "Tie local records to legal entity with direct fields. Public TiDB case study does not prove which group entity operated the clusters.",
+      "sources": [
+        "https://shopline.sg/terms",
+        "https://blog.shopline.tw/shopline-guidelines-for-sharing-and-republishing-content/",
+        "https://www.pingcap.com/case-study/shopline-slash-cluster-cost-with-tidb/"
+      ]
+    },
+    {
+      "name": "WETECH TRADING LIMITED",
+      "aliases": [
+        "Wetech Trading Limited"
+      ],
+      "domains": [
+        "wetechtl.cloud"
+      ],
+      "hk_connection_type": "Company-declared Hong Kong operating presence",
+      "hk_connection": "Official contact page explicitly states Hong Kong location and supplies a San Po Kong business address.",
+      "relationship_type": "Technology consulting and hosting provider; no public PingCAP partnership verified in this bounded check",
+      "domain_entity_status": "Official website names WETECH TRADING LIMITED; incorporation/current registry status not independently established.",
+      "caveat": "Provider role leaves open whether locally associated resources serve the provider or its customers. No downstream ownership or exposure inference. Avoid similarly named Wetech entities.",
+      "sources": [
+        "https://wetechtl.cloud/contact/"
+      ]
+    },
+    {
+      "name": "MEGAHARD LIMITED",
+      "aliases": [
+        "Megahard Limited",
+        "聚映有限公司"
+      ],
+      "domains": [
+        "megahardlimited.com"
+      ],
+      "hk_connection_type": "Historical HK incorporation record plus company-declared HK headquarters",
+      "hk_connection": "Companies Registry weekly record lists Megahard Limited / 聚映有限公司, BRN 77718155, incorporated 18 February 2025. MegaHard official contact page gives Kowloon Bay headquarters.",
+      "relationship_type": "Cloud infrastructure, CDN, cybersecurity and SASE provider/integrator; public PingCAP partnership not verified",
+      "domain_entity_status": "Brand/domain correspondence is strong; official website does not display the BRN, so exact legal-entity-to-domain attribution remains qualified.",
+      "caveat": "Historical incorporation is not a current status check. Exclude unrelated MEGAHARD LTD (UK), megahard.pro, and MegaHard Global Trade Co., Limited. Do not infer downstream client exposure from provider records.",
+      "sources": [
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2025.02.17-2025.02.23.pdf",
+        "https://megahardlimited.com/contact/",
+        "https://megahardlimited.com/"
+      ]
+    },
+    {
+      "name": "AsiaPac Net Media Limited",
+      "aliases": [
+        "AsiaPac",
+        "AsiaPac Group"
+      ],
+      "domains": [
+        "asiapacdigital.com"
+      ],
+      "hk_connection_type": "Officially stated HK founding and headquarters",
+      "hk_connection": "Official company history names AsiaPac Net Media Limited as established in 1996 and headquartered in Hong Kong.",
+      "relationship_type": "Digital marketing technology group and advertising-platform reseller; no public TiDB relationship verified here",
+      "domain_entity_status": "Official site directly names legal entity, with multiple regional subsidiaries separately listed.",
+      "caveat": "Advertising reseller status does not imply TiDB reseller status. Do not merge all AsiaPac or AdTech regional entities or infer their clients are affected.",
+      "sources": [
+        "https://www.asiapacdigital.com/about"
+      ]
+    },
+    {
+      "name": "RIVER GAME HK LIMITED",
+      "aliases": [
+        "River Game",
+        "RIVER GAME"
+      ],
+      "domains": [
+        "rivergame.net",
+        "topheroes.com"
+      ],
+      "hk_connection_type": "Official contractual entity with Hong Kong address",
+      "hk_connection": "Top Heroes official terms identify RIVER GAME HK LIMITED. An official-hosted representative certificate identifies River Game HK Limited with a San Po Kong, Hong Kong address.",
+      "relationship_type": "Game publisher/operator; no public TiDB relationship verified here",
+      "domain_entity_status": "Official Top Heroes terms link legal entity with rivergame.net contact domain.",
+      "caveat": "HK address and legal-name link are verified; incorporation/current live status not independently checked. Game-user data exposure cannot be inferred from corporate records.",
+      "sources": [
+        "https://www.topheroes.com/en/term_of_service.html",
+        "https://www.rivergame.net/en/res/pdf/-_River_Game_HK_Limited_Compliance_EDPO_-_UK_Representative.pdf"
+      ]
+    },
+    {
+      "name": "COIHUB TECHNOLOGY LIMITED",
+      "aliases": [
+        "COIHUB TECHNOLOGY",
+        "集道科技有限公司"
+      ],
+      "domains": [
+        "financeaegis.com"
+      ],
+      "hk_connection_type": "Historical HK incorporation record",
+      "hk_connection": "Companies Registry record lists COIHUB TECHNOLOGY LIMITED / 集道科技有限公司, CR 2969076, incorporated 18 August 2020.",
+      "relationship_type": "Aegis platform operator per its privacy policy; CloudSteps names COIHUB TECHNOLOGY LIMITED (Transsion) as a business/technical collaborator",
+      "domain_entity_status": "Aegis privacy policy names exact legal entity; broader Transsion group relationship is stated by CloudSteps but was not independently resolved to a current ownership structure.",
+      "caveat": "Historical registration is not a current status check. Do not substitute COIHUB for every Transsion entity or infer downstream product/user exposure. financeaegis.com privacy content was available in indexed search; direct page extraction returned empty.",
+      "sources": [
+        "https://www.cr.gov.hk/docs/wrpt/RNC063_2020.08.17-2020.08.23.pdf",
+        "https://www.financeaegis.com/policy",
+        "https://www.cloudsteps.net/build.html"
+      ]
+    }
+  ],
+  "additional_brand_verification": [
+    {
+      "name": "Livi Bank",
+      "aliases": [
+        "Livi Bank Limited",
+        "理慧銀行有限公司"
+      ],
+      "domains": [
+        "livibank.com"
+      ],
+      "hk_connection_type": "Hong Kong licensed bank and operating presence",
+      "hk_connection": "HKMA register lists LIVI BANK LIMITED as licensed bank with HK principal place of business; official livi site identifies bank entity.",
+      "legal_entity_resolution": "Strong brand/entity correspondence; local exact record ownership still requires direct evidence.",
+      "caveat": "No inference that bank systems or customer deposits/records were compromised.",
+      "sources": [
+        "https://vpr.hkma.gov.hk/eng/regulatory-resources/registers/register-of-ais-and-lros/info/100327",
+        "https://www.livibank.com/our-story"
+      ]
+    },
+    {
+      "name": "HashKey",
+      "aliases": [
+        "HashKey",
+        "HashKey Digital Asset Group Limited",
+        "Hash Blockchain Limited"
+      ],
+      "domains": [
+        "hashkey.com"
+      ],
+      "hk_connection_type": "Group with Hong Kong registered entities and HK licensed platform",
+      "hk_connection": "Official privacy policy lists HashKey Digital Asset Group and Hash Blockchain as registered in HK; SFC lists Hash Blockchain as operator of HashKey Exchange.",
+      "legal_entity_resolution": "Brand alone does not resolve HashKey Digital Asset Group, Hash Blockchain, HashKey Bermuda, or other affiliates.",
+      "caveat": "Do not label every HashKey brand record as the HK exchange or infer customer asset exposure.",
+      "sources": [
+        "https://help.hashkey.com/hc/en-us/articles/13000346564508-Privacy-Policy",
+        "https://cn01.dpipe.sfc.hk/TC/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms"
+      ]
+    },
+    {
+      "name": "Animoca Brands",
+      "aliases": [
+        "Animoca Brands",
+        "Animoca Brands Limited"
+      ],
+      "domains": [
+        "animocabrands.com"
+      ],
+      "hk_connection_type": "Hong Kong headquarters and founding; incorporation of exact local entity unresolved",
+      "hk_connection": "Official press kit explicitly states HK headquarters and founding; job-board privacy policy names Animoca Brands Limited with HK registered address.",
+      "legal_entity_resolution": "Brand/group-level association only unless a local record supplies an exact legal name.",
+      "caveat": "Do not extend one brand match to portfolio companies or subsidiaries; registered address alone is not incorporation proof.",
+      "sources": [
+        "https://www.animocabrands.com/press-kit",
+        "https://careers.animocabrands.com/privacy-policy"
+      ]
+    },
+    {
+      "name": "Geely Automobile",
+      "aliases": [
+        "Geely Automobile",
+        "Geely Automobile Holdings Limited",
+        "吉利汽車控股有限公司"
+      ],
+      "domains": [
+        "geelyauto.com.hk"
+      ],
+      "hk_connection_type": "Hong Kong listing; group headquarters in Mainland China; holding company Cayman incorporation",
+      "hk_connection": "Official company brief states HKEX-listed shares and Hangzhou headquarters; official offering circular identifies Cayman incorporation.",
+      "legal_entity_resolution": "Exact Geely group subsidiary unresolved from a brand-only label.",
+      "caveat": "Include in wider HK-related category, not HK-incorporated/HK-headquartered count. Geely Automobile differs from Zhejiang Geely Holding and multiple operating subsidiaries.",
+      "sources": [
+        "https://www.geelyauto.com.hk/company-brief/",
+        "https://www.geelyauto.com.hk/core/files/announcement/en/2019121300300.pdf"
+      ]
+    },
+    {
+      "name": "PAX",
+      "aliases": [
+        "PAX",
+        "PAX Global Technology Limited",
+        "百富環球科技有限公司"
+      ],
+      "domains": [
+        "paxglobal.com.hk"
+      ],
+      "hk_connection_type": "Candidate group is Hong Kong listed; holding company Bermuda incorporated",
+      "hk_connection": "Official HKEX filing identifies PAX Global Technology Limited as Bermuda incorporated and HKEX listed.",
+      "legal_entity_resolution": "PAX is ambiguous. Public candidate must not be applied to supplied brand label without matching domain/legal name or other evidence.",
+      "caveat": "Exact operating subsidiary and identity remain unresolved from bare PAX. Do not count as HK-incorporated merely because of stock listing or .hk domain.",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0818/2025081801301.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041600019.pdf"
+      ]
+    },
+    {
+      "name": "OSL",
+      "aliases": [
+        "OSL",
+        "OSL Digital Securities Limited",
+        "OSL數字證券有限公司"
+      ],
+      "domains": [
+        "osl.com"
+      ],
+      "hk_connection_type": "Hong Kong regulated platform within multinational group",
+      "hk_connection": "OSL official site and SFC list identify OSL Digital Securities as HK licensed platform operator.",
+      "legal_entity_resolution": "Bare OSL brand or group domain does not identify the HK operating entity over other OSL group entities.",
+      "caveat": "Do not equate OSL group record appearance with HK trading-platform or client-asset compromise.",
+      "sources": [
+        "https://www.osl.com/en/company/about-us",
+        "https://cn01.dpipe.sfc.hk/TC/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms"
+      ]
+    },
+    {
+      "name": "Eats365",
+      "aliases": [
+        "Eats365",
+        "Eats365 Solutions Limited",
+        "Eats365 Hong Kong Limited"
+      ],
+      "domains": [
+        "eats365pos.com",
+        "eats365.com"
+      ],
+      "unverified_domain_candidates": [
+        "pos-nz.com"
+      ],
+      "hk_connection_type": "HK-founded/headquartered group; exact legal entity unresolved",
+      "hk_connection": "HKSTP directory names Eats365 Solutions Limited and links eats365pos.com; HKSTP smart-city directory describes HK headquarters.",
+      "legal_entity_resolution": "Eats365 Solutions, Eats365 Hong Kong, and app publisher 365 Technologies Holding are distinct names in public sources. Do not collapse without further evidence.",
+      "caveat": "pos-nz.com could not be corroborated in bounded search and direct open failed. Treat CRM label/domain mismatch as unresolved; do not attribute that record to HK Eats365 solely by label.",
+      "sources": [
+        "https://www.hkstp.org/en/directory/information-communications-technology/eats365-solutions-limited",
+        "https://www.hkstp.org/media/x1ta5fjs/smart-city-iot-directory-2020-web.pdf",
+        "https://www.eats365pos.com/hk/blog/post/2023-hofex-eats365-limited-offer",
+        "https://apps.apple.com/nz/app/eats365-pos/id1089255883"
+      ]
+    },
+    {
+      "name": "Wati",
+      "aliases": [
+        "WATI",
+        "Wati",
+        "Clare.AI Limited"
+      ],
+      "domains": [
+        "wati.io"
+      ],
+      "hk_connection_type": "Hong Kong headquarters/operating address",
+      "hk_connection": "Official privacy policy identifies Clare.AI Limited as Wati and gives HK address. Google Cloud customer story identifies Clare.AI/WATI as HK headquartered.",
+      "legal_entity_resolution": "Strong brand-to-company link in official privacy policy; exact local account ownership still needs evidence.",
+      "caveat": "Customer story is infrastructure/public business context, not an assertion of TiDB deployment or exposed Wati customer conversations.",
+      "sources": [
+        "https://www.wati.io/privacy-policy/",
+        "https://cloud.google.com/customers/wati-io"
+      ]
+    },
+    {
+      "name": "BIT / Bit.com",
+      "aliases": [
+        "BIT",
+        "Bit.com",
+        "Matrixport"
+      ],
+      "domains": [
+        "bit.com",
+        "matrixport.com"
+      ],
+      "hk_connection_type": "Singapore-headquartered multinational with Hong Kong affiliates",
+      "hk_connection": "Official BIT brand announcement states Matrixport renamed BIT in March 2026, Singapore headquarters, and HK entities. BIT agreement lists HK affiliate Winway Energy.",
+      "legal_entity_resolution": "Bit.com is a brand/domain, not a unique HK company. Winway affiliation is separately supported; do not assign all Bit.com records to Winway.",
+      "caveat": "Include only wider group-HK connection absent exact local legal entity. No evidence of systems or customer-asset compromise.",
+      "sources": [
+        "https://www.bit.com/bit-formerly-matrixport",
+        "https://images.bitexch.co/legal/240819/01.pdf"
+      ]
+    }
+  ],
+  "identity_collision_exclusions": [
+    {
+      "label": "Longbridge Financial LLC",
+      "domain": "longbridge-financial.com",
+      "finding": "Official site identifies New Jersey US home-equity/reverse-mortgage lender/servicer founded in 2012.",
+      "must_not_merge_with": [
+        "Long Bridge Technology HK Limited",
+        "Longport Technology HK Limited"
+      ],
+      "hk_association": "Not substantiated. Conflicting HK geography in supplied records does not override distinct legal name and official domain.",
+      "sources": [
+        "https://wholesale.longbridge-financial.com/longbridge-financial-llc/"
+      ]
+    }
+  ]
+}

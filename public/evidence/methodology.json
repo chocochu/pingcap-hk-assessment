@@ -1,0 +1,32 @@
+{
+  "assessment_date": "2026-10-21",
+  "timezone": "Asia/Hong_Kong",
+  "purpose": "Organization-level exposure assessment of supplied PingCAP incident archives; not proof of compromise of customer systems.",
+  "inputs": [
+    "09_gateway_logs.tar.gz",
+    "pingcap_leak_pack_rest.tar.gz",
+    "04_bigquery.tar.gz"
+  ],
+  "source_assurance": "Hashes establish the identity of analyzed local files, not independent authenticity or completeness of the leaked material.",
+  "hk_connection_classes": {
+    "legal_or_headquarters": "Explicit Hong Kong legal entity or headquarters, corroborated where possible by official public sources.",
+    "business_address": "Hong Kong business or billing address in supplied records; may identify a branch, payer, reseller, or contact.",
+    "profile_location": "Hong Kong country or city in user/profile metadata; does not establish employer headquarters.",
+    "domain_hint": "A .hk business domain or name containing Hong Kong is a discovery signal; not independently sufficient.",
+    "ip_geolocation": "Offline approximate country classification of a logged client address; no inference of company nationality or physical user location."
+  },
+  "exposure_classes": {
+    "crm_or_commercial": "Company/contact/business or billing record observed. Could concern a lead, partner, or payer.",
+    "product_account": "Evidence explicitly linking organization to a TiDB Cloud account or tenant.",
+    "operational_or_support": "Organization-attributed operational/support material, with exact evidence reference.",
+    "gateway_activity": "Rows linked through a supported cluster crosswalk, reported as log records, not distinct connections.",
+    "credential_material": "Only a masked category indicator if attributable material is observed; usability never tested or assumed."
+  },
+  "confidence_rule": "Report Hong Kong identity confidence and exposure attribution confidence separately. Public customer/partner pages corroborate a relationship, not breach impact. Do not merge organizations through reseller/payer links without direct evidence.",
+  "privacy": "Local raw processing only. No personal names/email addresses, credential values, customer IP/endpoint inventories, or tenant/cluster IDs in distributable reports. Necessary linkage remains under analysis/private.",
+  "coverage_rule": "Disclose files and records parsed, skips and errors, unresolved identities, missing archive families, and historical/current source differences. Absence from analyzed material is not evidence of no impact.",
+  "source_references": "Gateway: logical CSV record ordinal including header and malformed yielded records. Rest CSV: 1-based logical data row, header excluded. Core JSONL: 1-based nonblank JSONL record. Support/ops/text JSONL or logs: 1-based physical line. Parquet: 1-based row. Multiline CSV records are not physical lines.",
+  "gateway_limit": "Input filenames include .sample.csv. Completeness relative to original production traffic and sampling policy are unknown.",
+  "ip_geolocation_status": "Not performed: optional official DB-IP Lite download rejected with HTTP 403 / Cloudflare error 1010. No workaround or substitute database was used.",
+  "bq_scope": "Progressive, explicitly selected table scans; completed inventory is not comprehensive row analysis. See bq_coverage.json for exact scope and limits."
+}

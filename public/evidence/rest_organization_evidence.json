@@ -1,0 +1,4681 @@
+[
+  {
+    "organization_label": "ZENS Distribution Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "ZENS Distribution Limited"
+    },
+    "hk_indicators": [
+      "Name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 44,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "香港鐵路有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "香港鐵路有限公司",
+      "Type": "国央企、政府及公共事业"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 447,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Vastcom Technology （Hong Kong） Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Vastcom Technology （Hong Kong） Limited",
+      "Type": "ISV"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 696,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "平安金融壹賬通征信服務（香港）有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "平安金融壹賬通征信服務（香港）有限公司",
+      "Type": "金融"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 1556,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "天盈香港科技有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "天盈香港科技有限公司",
+      "Type": "新经济"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 1738,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "中國移動通訊集團香港有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "中國移動通訊集團香港有限公司",
+      "Type": "运营商"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 1763,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "寶盛證券（香港）有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "寶盛證券（香港）有限公司",
+      "Type": "金融"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 1774,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "屈臣氏集團（香港）有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "屈臣氏集團（香港）有限公司",
+      "Type": "新经济"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 1780,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Fubon Bank Hong Kong Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Fubon Bank Hong Kong Limited",
+      "Type": "金融"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 2126,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Interbank Clearing Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Hong Kong Interbank Clearing Limited",
+      "Type": "金融"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 2227,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "中国（香港）中国移动国际有限公司北京代表处",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "中国（香港）中国移动国际有限公司北京代表处",
+      "Type": "其他"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 2965,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "屈臣氏零售（香港）有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "屈臣氏零售（香港）有限公司",
+      "Type": "新经济"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 3475,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "腾讯音乐娱乐香港有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "腾讯音乐娱乐香港有限公司"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/china_extracts/fxiaoke/account.jsonl",
+      "record": 3990,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Baidu (HONG KONG) Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "baidu.com",
+      "properties.name": "Baidu (HONG KONG) Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 868,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Funplus Interactive (Hong Kong) Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "funplus.com",
+      "properties.name": "Funplus Interactive (Hong Kong) Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 1613,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "shoplazza.com",
+      "properties.name": "Shoplazza Hongkong Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 1640,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "KLOOK",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "klook.com",
+      "properties.name": "KLOOK"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 1930,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "shopline",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "shoplineapp.cn",
+      "properties.name": "shopline"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 1941,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "asiapac.com.hk",
+      "properties.name": "AsiaPac Net Media Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 2060,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Cloud Steps Technology (HK) Co., Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "cloudsteps.net",
+      "properties.name": "Cloud Steps Technology (HK) Co., Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 2905,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONGKONG PITA NETWORK TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "pita.live",
+      "properties.name": "HONGKONG PITA NETWORK TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 5021,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "KBQuest Hong Kong Limtied",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "KBQuest Hong Kong Limtied"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 8628,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "The Hong Kong & China Gas Co Ltd.",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "towngas.com",
+      "properties.name": "The Hong Kong & China Gas Co Ltd."
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 9807,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "CLP Power Hong Kong Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "clp.com.hk",
+      "properties.name": "CLP Power Hong Kong Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 9812,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ICO Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "ico.com.hk",
+      "properties.name": "ICO Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 9845,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Exchanges and Clearing Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hkex.com.hk",
+      "properties.name": "Hong Kong Exchanges and Clearing Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 9857,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "SHOPLINE",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "shoplineapp.com",
+      "properties.name": "SHOPLINE"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 9958,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Dah Chong Hong Holdings Limited  大昌行集團有限公司",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "dch.com.hk",
+      "properties.name": "Dah Chong Hong Holdings Limited  大昌行集團有限公司"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 10777,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "yunqiao20.com",
+      "properties.name": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11039,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Science & Technology Parks Corporation",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hkstp.org",
+      "properties.name": "Hong Kong Science & Technology Parks Corporation"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11070,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Ricoh Hong Kong Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "ricoh.com.hk",
+      "properties.name": "Ricoh Hong Kong Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11074,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Bytebase (HongKong) Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "bytebase.com",
+      "properties.name": "Bytebase (HongKong) Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11092,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "yunqiao20.com",
+      "properties.name": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11247,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Geely Automobile Holdings Ltd",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "geelyauto.com.hk",
+      "properties.name": "Geely Automobile Holdings Ltd"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11386,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "paxglobal",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "paxglobal.com.hk",
+      "properties.name": "paxglobal"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 11850,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "IGEARS TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "igears.com.hk",
+      "properties.name": "IGEARS TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 12215,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "JOINT ELECTRONIC TELLER SERVICES LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "jetco.com.hk",
+      "properties.name": "JOINT ELECTRONIC TELLER SERVICES LIMITED"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 12236,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Kinetix Systems Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "kinetix.com.hk",
+      "properties.name": "Kinetix Systems Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13037,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Convoy Financial Services Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "convoy.com.hk",
+      "properties.name": "Convoy Financial Services Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13038,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ORIX Asia Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "orix.com.hk",
+      "properties.name": "ORIX Asia Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13044,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Interbank Clearing Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hkicl.com.hk",
+      "properties.name": "Hong Kong Interbank Clearing Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13051,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "The Hongkong and Shanghai Banking Corporation Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hsbc.com.hk",
+      "properties.name": "The Hongkong and Shanghai Banking Corporation Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13056,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Octopus Cards Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "octopus.com.hk",
+      "properties.name": "Octopus Cards Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13057,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "BOCI-Prudential Asset Management Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "boci-pru.com.hk",
+      "properties.name": "BOCI-Prudential Asset Management Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 13058,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Bytebase (HongKong) Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "bytebase.com",
+      "properties.name": "Bytebase (HongKong) Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 14347,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Admazes Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "admazes.com",
+      "properties.name": "Admazes Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 15374,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "OceanBase Hong Kong Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 17812,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "iRainbow Hong Kong Limited.,",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "iRainbow Hong Kong Limited.,"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 18960,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Airport Services Limited 香港機場地勤服務有限公司",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "has.com.hk",
+      "properties.name": "Hong Kong Airport Services Limited 香港機場地勤服務有限公司"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 19675,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG WONDERCLOUD LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "HONG KONG WONDERCLOUD LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 21931,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "香港商贏核數位有限公司 Core Winner",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "corewinner.com",
+      "properties.name": "香港商贏核數位有限公司 Core Winner"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 23654,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Systex Information (H.K.) Ltd",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "systex.com.hk",
+      "properties.name": "Systex Information (H.K.) Ltd"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 24861,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "shopline.com",
+      "properties.name": "SHOPLINE COMMERCE PTE. LTD."
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 29629,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "SiS International Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "sisdistribution.com.hk",
+      "properties.name": "SiS International Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 30994,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 31543,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Shopline",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "shopline.com",
+      "properties.name": "Shopline"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 31790,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Shopline",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "shopline.sg",
+      "properties.name": "Shopline"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 40800,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "shing fai it consult limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "itconsult.hk",
+      "properties.name": "shing fai it consult limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 42787,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Global Technology Integrator Ltd",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "gti.com.hk",
+      "properties.name": "Global Technology Integrator Ltd"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 42850,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 48375,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 48377,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "yz-intelligence.com",
+      "properties.name": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 54195,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "HONG KONG QINEASY TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 71104,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong ZhongAn Technology Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hkzhongan.com",
+      "properties.name": "Hong Kong ZhongAn Technology Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 74029,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Cloud Pilot Technology Co., Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hk.cloudchinamsp.com",
+      "properties.name": "Hong Kong Cloud Pilot Technology Co., Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 78172,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Autotoll Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "autotoll.com.hk",
+      "properties.name": "Autotoll Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 82535,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "China Resources Enterprise Co., Ltd.",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "cre.com.hk",
+      "properties.name": "China Resources Enterprise Co., Ltd."
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 82796,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "China Resources (Holdings) Co",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "crc.com.hk",
+      "properties.name": "China Resources (Holdings) Co"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 83003,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BONCHIP ELECTRONICS LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "bonchip.com",
+      "properties.name": "HONG KONG BONCHIP ELECTRONICS LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 94018,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Andrew Liu & Co.",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "andrewliu.com.hk",
+      "properties.name": "Andrew Liu & Co."
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 95236,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ELM Computer Technologies Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "elm.com.hk",
+      "properties.name": "ELM Computer Technologies Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 103917,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Kowloon Development Co",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "kdc.com.hk",
+      "properties.name": "Kowloon Development Co"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 104795,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "E-Business Solutions Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "ebsl.hk",
+      "properties.name": "E-Business Solutions Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 110302,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Xenus Technology Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "xenus.com.hk",
+      "properties.name": "Xenus Technology Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 114713,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Sontec Technology Company Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "sontechk.com.hk",
+      "properties.name": "Sontec Technology Company Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 122627,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Fiduciary Association Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "trusthongkong.com",
+      "properties.name": "Hong Kong Fiduciary Association Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:Hong Kong text",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 124601,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "React Digi - Hong Kong Digital Agency",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "react.hk",
+      "properties.name": "React Digi - Hong Kong Digital Agency"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 128369,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hactl - Hong Kong Air Cargo Terminals Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "hactl.com",
+      "properties.name": "Hactl - Hong Kong Air Cargo Terminals Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 132992,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Qineasy",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "qineasy.com",
+      "properties.name": "Qineasy"
+    },
+    "hk_indicators": [
+      "properties.domain:public research candidate",
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 141075,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "GOCLOUDS DATA (HONGKONG) CO., LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "GOCLOUDS DATA (HONGKONG) CO., LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 150107,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "iGears Technology Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "igt.com.hk",
+      "properties.name": "iGears Technology Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 151325,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Klook",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "Klook"
+    },
+    "hk_indicators": [
+      "properties.name:public research candidate"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 157387,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Jing Mei Automotive Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "jma.com.hk",
+      "properties.name": "Jing Mei Automotive Limited"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 158677,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "联洲国际技术有限公司",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "tp-link.com.hk",
+      "properties.name": "联洲国际技术有限公司"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 158734,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "好易聯支付網絡（香港）有限公司",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "gnete.com.hk",
+      "properties.name": "好易聯支付網絡（香港）有限公司"
+    },
+    "hk_indicators": [
+      "properties.domain:.hk domain",
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 163100,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 163239,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.name": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 163614,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Dimennet (Hong Kong) Limited",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "dimennet.com",
+      "properties.name": "Dimennet (Hong Kong) Limited"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 174416,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+    "category": "marketing company record",
+    "record_fields": {
+      "properties.domain": "ltddir.com",
+      "properties.name": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD"
+    },
+    "hk_indicators": [
+      "properties.name:Hong Kong text"
+    ],
+    "source": {
+      "member": "03_customer_book/hubspot/companies.jsonl",
+      "record": 184662,
+      "unit": "1-based nonblank JSONL record"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Funplus Interactive (Hong Kong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Funplus Interactive (Hong Kong) Limited",
+      "Website": "www.funplus.com",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "POC",
+      "BN_Website_Domain__c": "funplus.com",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "Country11__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 30,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "COIHUB TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "COIHUB TECHNOLOGY LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "POC",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 57,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "RIVER GAME HK LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "RIVER GAME HK LIMITED",
+      "Website": "www.downrivergamecalls.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Onboarded",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "downrivergamecalls.com",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 103,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Zhuo Fanl Industrial Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Zhuo Fanl Industrial Co., Limited",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "on_demand",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 171,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Shoplazza Hongkong Limited",
+      "Website": "www.shoplazza.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "shoplazza.com",
+      "Cloud_Production_Customer__c": "Yes",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 183,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "EcloudValley Techonology (HK) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "EcloudValley Techonology (HK) Limited",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Account_Name_Original__c:Hong Kong text",
+      "Country__c:Hong Kong text",
+      "account_allias__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 198,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "KLOOK",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "KLOOK",
+      "Website": "www.klook.com",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "POC",
+      "BN_Website_Domain__c": "klook.com",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Name:public research candidate",
+      "Website:public research candidate",
+      "BN_Website_Domain__c:public research candidate",
+      "BN_Website_Domain_and_Path__c:public research candidate",
+      "LinkedIn_Company_Profile_URL__c:public research candidate"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 251,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Elasticsearch HK Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Elasticsearch HK Ltd",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 252,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "AsiaPac Net Media Limited",
+      "Website": "www.asiapac.com.hk",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Onboarded",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "asiapac.com.hk",
+      "Country__c": "Hong Kong",
+      "HQ_Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Website:.hk domain",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "BN_Website_Domain__c:.hk domain",
+      "BN_Website_Domain_and_Path__c:.hk domain",
+      "Country11__c:Hong Kong text",
+      "Country__c:Hong Kong text",
+      "HQ_Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 334,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ECR (HK) Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "ECR (HK) Technology Limited",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 345,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Cloud Steps Technology (HK) Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Cloud Steps Technology (HK) Co., Limited",
+      "Website": "www.cloudsteps.net",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "cloudsteps.net",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Website:public research candidate",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Account_Name_Original__c:Hong Kong text",
+      "BN_Website_Domain__c:public research candidate",
+      "BN_Website_Domain_and_Path__c:public research candidate",
+      "Country__c:Hong Kong text",
+      "account_allias__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 361,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AGILEWING TECHNOLOGY CO. LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "AGILEWING TECHNOLOGY CO. LIMITED",
+      "Website": "www.agilewing.net",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "agilewing.net",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 363,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited*",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "AsiaPac Net Media Limited*",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "free_trial",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 430,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "KBQuest Hong Kong Limtied",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "KBQuest Hong Kong Limtied",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 441,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Baidu (HONG KONG) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Baidu (HONG KONG) Limited",
+      "Website": "www.baidu.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "POC",
+      "BN_Website_Domain__c": "baidu.com",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Account_Name_Original__c:Hong Kong text",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 460,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "FUNTECH TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "FUNTECH TECHNOLOGY LIMITED",
+      "Website": "www.ushareit.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "ushareit.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 594,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Metaversedb Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Metaversedb Limited",
+      "Website": "www.metaversedb.io",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "metaversedb.io",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 618,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AmberGroup",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "AmberGroup",
+      "Website": "www.ambergroup.io",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "free_trial",
+      "BN_Website_Domain__c": "ambergroup.io",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 623,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Solusfutura Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Solusfutura Limited",
+      "Website": "www.solusfutura.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "solusfutura.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 683,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+      "Website": "yunqiao20.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "yunqiao20.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Account_Name_Original__c:Hong Kong text",
+      "Country__c:Hong Kong text",
+      "account_allias__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 717,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Geely Automobile Holdings Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Geely Automobile Holdings Ltd",
+      "Website": "www.geelyauto.com.hk",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "geelyauto.com.hk",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Website:.hk domain",
+      "BillingCity:Hong Kong text",
+      "BN_Website_Domain__c:.hk domain",
+      "BN_Website_Domain_and_Path__c:.hk domain"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 731,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Animoca Brands Corporation Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Animoca Brands Corporation Ltd",
+      "Website": "www.animocabrands.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "animocabrands.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 785,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "paxglobal",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "paxglobal",
+      "Website": "www.paxglobal.com.hk",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "paxglobal.com.hk",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Website:.hk domain",
+      "BillingCity:Hong Kong text",
+      "BN_Website_Domain__c:.hk domain",
+      "BN_Website_Domain_and_Path__c:.hk domain"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 888,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "OceanBase Hong Kong Limited",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "on_demand",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 956,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Livi Bank",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Livi Bank",
+      "Website": "www.livibank.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "new_user",
+      "BN_Website_Domain__c": "livibank.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 981,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Lazy Panda Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Lazy Panda Technology Limited",
+      "Website": "www.lazypanda.work",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "lazypanda.work",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1061,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Bytebase (HongKong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Bytebase (HongKong) Limited",
+      "Website": "www.bytebase.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "bytebase.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1152,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Admazes Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Admazes Limited",
+      "Website": "www.admazes.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "admazes.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:public research candidate",
+      "Website:public research candidate",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "BN_Website_Domain__c:public research candidate",
+      "BN_Website_Domain_and_Path__c:public research candidate",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1179,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "iRainbow Hong Kong Limited.,",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "iRainbow Hong Kong Limited.,",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1181,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "EDNS Domains PTE Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "EDNS Domains PTE Ltd",
+      "Website": "one2.cloud",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "one2.cloud",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1240,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG WONDERCLOUD LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG WONDERCLOUD LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1245,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Systex Information (H.K.) Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Systex Information (H.K.) Ltd",
+      "Website": "www.systex.com.hk",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "systex.com.hk",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Website:.hk domain",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "BN_Website_Domain__c:.hk domain",
+      "BN_Website_Domain_and_Path__c:.hk domain",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1288,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "STARLING LABS LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "STARLING LABS LIMITED",
+      "Website": "www.starlinglabs.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Onboarded",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "starlinglabs.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong",
+      "Current_Order_Type__c": "Commitment Plan"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text",
+      "account_allias__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1312,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Wetech Trading Limited",
+      "Website": "null",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Onboarded",
+      "Account_Status__c": "on_demand",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong",
+      "Current_Order_Type__c": "Commitment Plan"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1357,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "SHOPLINE COMMERCE PTE. LTD.",
+      "Website": "www.shopline.com",
+      "BillingCountry": "Singapore",
+      "BillingCountryCode": "SG",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "shopline.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Singapore"
+    },
+    "hk_indicators": [
+      "Name:public research candidate",
+      "Website:public research candidate",
+      "BN_Website_Domain__c:public research candidate",
+      "BN_Website_Domain_and_Path__c:public research candidate",
+      "LinkedIn_Company_Profile_URL__c:public research candidate"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1364,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Eats365",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Eats365",
+      "Website": "www.pos-nz.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "pos-nz.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1420,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "Account_Name_Original__c:Hong Kong text",
+      "account_allias__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1427,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Orient Overseas Container Line Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Orient Overseas Container Line Limited",
+      "Website": "www.oocl.com",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "oocl.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1512,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HANG SENG BANK LTD",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HANG SENG BANK LTD",
+      "Website": "hangseng.com",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "hangseng.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1671,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "XJCP limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "XJCP limited",
+      "Website": "www.xj-cp.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "xj-cp.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1770,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1795,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Silvermine Ocean Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Silvermine Ocean Limited",
+      "Website": "www.deeptrading.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Onboarded",
+      "BN_Website_Domain__c": "deeptrading.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1798,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Metaverse Cloud Solution Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Metaverse Cloud Solution Limited",
+      "Website": "metaverse-sg.cloud",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "POC",
+      "BN_Website_Domain__c": "metaverse-sg.cloud",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1818,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Wati",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Wati",
+      "Website": "www.wati.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Account_Status__c": "new_user",
+      "BN_Website_Domain__c": "wati.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1907,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+      "Website": "www.yz-intelligence.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "yz-intelligence.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1931,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "TEAR GAMES LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "TEAR GAMES LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1997,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Bytebase (HongKong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Bytebase (HongKong) Limited",
+      "Website": "www.bytebase.com",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "bytebase.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2146,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Mai Xun Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Mai Xun Limited",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2197,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "CLOUDMOTION TECH LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "CLOUDMOTION TECH LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2198,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2243,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong ZhongAn Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Hong Kong ZhongAn Technology Limited",
+      "Website": "www.hkzhongan.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "hkzhongan.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2338,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Instance Cloud Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Instance Cloud Technology Limited",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2352,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Cloud Pilot Technology Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Hong Kong Cloud Pilot Technology Co., Limited",
+      "Website": "https://hk.cloudchinamsp.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Developing",
+      "BN_Website_Domain__c": "hk.cloudchinamsp.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2469,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HK FUTURE INIGHT TECH LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HK FUTURE INIGHT TECH LIMITED",
+      "Website": "cloudshop.info",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Developing",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "cloudshop.info",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2513,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ZHONGJUXIN CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "ZHONGJUXIN CO., LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2514,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "COCLOUD HK Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "COCLOUD HK Limited",
+      "Website": "www.cocloud.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "cocloud.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCity:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2624,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "GOCLOUDS DATA (HONGKONG) CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "GOCLOUDS DATA (HONGKONG) CO., LIMITED",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2792,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "联洲国际技术有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "联洲国际技术有限公司",
+      "Website": "tp-link.com.hk",
+      "BillingCountry": "China",
+      "BillingCountryCode": "CN",
+      "AccountStatus__c": "Developing",
+      "BN_Website_Domain__c": "tp-link.com.hk",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "China Mainland"
+    },
+    "hk_indicators": [
+      "Website:.hk domain",
+      "BN_Website_Domain__c:.hk domain",
+      "BN_Website_Domain_and_Path__c:.hk domain"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2827,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Futurecloud Technology Co.,Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Futurecloud Technology Co.,Limited",
+      "Website": "www.futurecloud.cc",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "futurecloud.cc",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2868,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "好易聯支付網絡（香港）有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "好易聯支付網絡（香港）有限公司",
+      "Website": "https://gnete.com.hk/",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Qualified",
+      "BN_Website_Domain__c": "gnete.com.hk",
+      "Cloud_Production_Customer__c": "No"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "Website:.hk domain",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Account_Name_Original__c:Hong Kong text",
+      "BN_Website_Domain__c:.hk domain",
+      "BN_Website_Domain_and_Path__c:.hk domain"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3093,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+      "BillingCountry": "Albania",
+      "BillingCountryCode": "AL",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Albania"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3097,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3098,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "MEGAHARD LIMITED",
+      "Website": "https://megahardlimited.com/contact/",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Developing",
+      "Account_Status__c": "on_demand",
+      "BN_Website_Domain__c": "megahardlimited.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3107,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "NewBX Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "NewBX Limited",
+      "Website": "www.bixin.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Qualified",
+      "BN_Website_Domain__c": "bixin.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3110,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Dimennet (Hong Kong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Dimennet (Hong Kong) Limited",
+      "Website": "www.dimennet.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "dimennet.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3271,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "CLINK LAB LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "CLINK LAB LIMITED",
+      "Website": "/",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Qualified",
+      "Account_Status__c": "on_demand",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3279,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED ( No )",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "MEGAHARD LIMITED ( No )",
+      "Website": "megahardlimited.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "BN_Website_Domain__c": "megahardlimited.com",
+      "Cloud_Production_Customer__c": "No",
+      "Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3302,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hashkey",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "Hashkey",
+      "Website": "exchange.hashkey.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3313,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "OSL",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "OSL",
+      "Website": "www.osl.com",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3344,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "MEGA SURPLUS CLOUD TECH LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "MEGA SURPLUS CLOUD TECH LIMITED",
+      "Type": "Channel Partner / Reseller",
+      "Website": "http://mgs-cloud.com/",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No",
+      "HQ_Country__c": "Hong Kong"
+    },
+    "hk_indicators": [
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code",
+      "HQ_Country__c:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3434,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BAIDAODATA TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG BAIDAODATA TECHNOLOGY LIMITED",
+      "Website": "https://www.baidaodata.com/",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3481,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "Name": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+      "Website": "https://www.ltddir.com/companies/hong-kong-cloud-y-technology-co-limited/",
+      "BillingCountry": "Hong Kong",
+      "BillingCountryCode": "HK",
+      "AccountStatus__c": "Prospecting",
+      "Cloud_Production_Customer__c": "No"
+    },
+    "hk_indicators": [
+      "Name:Hong Kong text",
+      "Website:Hong Kong text",
+      "BillingCountry:Hong Kong text",
+      "BillingCountryCode:HK code"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3513,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Solusfutura Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Solusfutura Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 170,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HK FUTURE INIGHT TECH LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HK FUTURE INIGHT TECH LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong",
+      "install_base": "Q1FY26",
+      "first_order_close_date": "2025-06-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 289,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Wetech Trading Limited",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "current_order_type": "Commitment Plan",
+      "country": "Hong Kong",
+      "install_base": "Q2FY24",
+      "first_order_close_date": "2023-07-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 351,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "NewBX Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "NewBX Limited",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 413,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited*",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "AsiaPac Net Media Limited*",
+      "type": "Customer",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 442,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ZHONGJUXIN CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "ZHONGJUXIN CO., LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 496,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Funplus Interactive (Hong Kong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Funplus Interactive (Hong Kong) Limited",
+      "type": "Customer",
+      "country": "China Mainland"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 536,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "CLINK LAB LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "CLINK LAB LIMITED",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 597,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "TEAR GAMES LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "TEAR GAMES LIMITED",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 629,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "STARLING LABS LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "STARLING LABS LIMITED",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "current_order_type": "Commitment Plan",
+      "country": "Hong Kong",
+      "install_base": "Q1FY24",
+      "first_order_close_date": "2023-06-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 732,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Bytebase (HongKong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Bytebase (HongKong) Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "China Mainland"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1004,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Baidu (HONG KONG) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Baidu (HONG KONG) Limited",
+      "type": "Customer",
+      "country": "Hong Kong",
+      "install_base": "Q1FY23",
+      "first_order_close_date": "2022-06-01"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1081,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "OSL",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "OSL",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1112,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "GOCLOUDS DATA (HONGKONG) CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "GOCLOUDS DATA (HONGKONG) CO., LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "China Mainland"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1155,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "EcloudValley Techonology (HK) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "EcloudValley Techonology (HK) Limited",
+      "type": "Partner",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1164,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1231,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "MEGA SURPLUS CLOUD TECH LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "MEGA SURPLUS CLOUD TECH LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1286,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1298,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "OceanBase Hong Kong Limited",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong",
+      "install_base": "Q4FY23",
+      "first_order_close_date": "2023-02-01"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1383,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Albania"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1407,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Lazy Panda Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Lazy Panda Technology Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1554,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",
+      "type": "Customer",
+      "cloud_production_customer": "No"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1583,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1585,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AGILEWING TECHNOLOGY CO. LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "AGILEWING TECHNOLOGY CO. LIMITED",
+      "type": "Partner",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1666,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "KBQuest Hong Kong Limtied",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "KBQuest Hong Kong Limtied",
+      "type": "Partner",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1685,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Cloud Steps Technology (HK) Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Cloud Steps Technology (HK) Co., Limited",
+      "type": "Partner",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1761,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Shoplazza Hongkong Limited",
+      "type": "Customer",
+      "cloud_production_customer": "Yes",
+      "country": "Hong Kong",
+      "install_base": "Q2FY23",
+      "first_order_close_date": "2022-06-29"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1832,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "好易聯支付網絡（香港）有限公司",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "好易聯支付網絡（香港）有限公司",
+      "type": "Customer",
+      "cloud_production_customer": "No"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1896,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Animoca Brands Corporation Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Animoca Brands Corporation Ltd",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1932,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "ECR (HK) Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "ECR (HK) Technology Limited",
+      "type": "Partner",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 1985,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "SHOPLINE COMMERCE PTE. LTD.",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Singapore",
+      "install_base": "Q2FY24",
+      "first_order_close_date": "2023-09-01"
+    },
+    "hk_indicators": [
+      "name:public research candidate"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2024,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2029,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Zhuo Fanl Industrial Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Zhuo Fanl Industrial Co., Limited",
+      "type": "Customer",
+      "country": "Hong Kong",
+      "install_base": "Q2FY22",
+      "first_order_close_date": "2021-09-18"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2082,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "MEGAHARD LIMITED",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong",
+      "install_base": "Q1FY27",
+      "first_order_close_date": "2026-04-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2143,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Wati",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Wati",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2151,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "KLOOK",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "KLOOK",
+      "type": "Customer",
+      "country": "China Mainland"
+    },
+    "hk_indicators": [
+      "name:public research candidate"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2162,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Mai Xun Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Mai Xun Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2198,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Bytebase (HongKong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Bytebase (HongKong) Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2253,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Systex Information (H.K.) Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Systex Information (H.K.) Ltd",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2271,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "XJCP limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "XJCP limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2279,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG WONDERCLOUD LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG WONDERCLOUD LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2345,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Admazes Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Admazes Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:public research candidate",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2365,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2482,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Eats365",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Eats365",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong",
+      "install_base": "Q2FY25",
+      "first_order_close_date": "2024-09-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2508,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "EDNS Domains PTE Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "EDNS Domains PTE Ltd",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2613,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "CLOUDMOTION TECH LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "CLOUDMOTION TECH LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2625,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Futurecloud Technology Co.,Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Futurecloud Technology Co.,Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2683,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Dimennet (Hong Kong) Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Dimennet (Hong Kong) Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2686,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "RIVER GAME HK LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "RIVER GAME HK LIMITED",
+      "type": "Customer",
+      "country": "Hong Kong",
+      "install_base": "Q2FY26",
+      "first_order_close_date": "2025-08-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2695,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong Cloud Pilot Technology Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Hong Kong Cloud Pilot Technology Co., Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2705,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG YUSHENDATA TECHNOLOGY LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2709,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED ( No )",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "MEGAHARD LIMITED ( No )",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2740,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Livi Bank",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Livi Bank",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2757,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "iRainbow Hong Kong Limited.,",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "iRainbow Hong Kong Limited.,",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2768,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hashkey",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Hashkey",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2833,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "COCLOUD HK Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "COCLOUD HK Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2936,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Metaversedb Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Metaversedb Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 2992,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AmberGroup",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "AmberGroup",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3001,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Silvermine Ocean Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Silvermine Ocean Limited",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong",
+      "install_base": "Q1FY25",
+      "first_order_close_date": "2024-06-01"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3035,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Metaverse Cloud Solution Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Metaverse Cloud Solution Limited",
+      "type": "Customer",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3057,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "COIHUB TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "COIHUB TECHNOLOGY LIMITED",
+      "type": "Customer",
+      "country": "Hong Kong",
+      "install_base": "Q1FY23",
+      "first_order_close_date": "2022-03-31"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3120,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "AsiaPac Net Media Limited",
+      "type": "Customer",
+      "country": "Hong Kong",
+      "install_base": "Q1FY23",
+      "first_order_close_date": "2022-03-10"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3157,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Elasticsearch HK Ltd",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Elasticsearch HK Ltd",
+      "type": "Customer",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3174,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Hong Kong ZhongAn Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Hong Kong ZhongAn Technology Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text",
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3231,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "Instance Cloud Technology Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "Instance Cloud Technology Limited",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3280,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "FUNTECH TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "FUNTECH TECHNOLOGY LIMITED",
+      "type": "Partner",
+      "cloud_production_customer": "No",
+      "country": "Hong Kong"
+    },
+    "hk_indicators": [
+      "country:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3477,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "[CPPO] Hong Kong Cloud Pilot Technology Co., Limited",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "[CPPO] Hong Kong Cloud Pilot Technology Co., Limited",
+      "type": "Self-Serve"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3597,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+      "type": "Self-Serve"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3619,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+      "type": "Self-Serve"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 3903,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  },
+  {
+    "organization_label": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+    "category": "CRM/account business record",
+    "record_fields": {
+      "name": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+      "type": "Self-Serve"
+    },
+    "hk_indicators": [
+      "name:Hong Kong text"
+    ],
+    "source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0012/attempt=0001/finance.salesforce_account.0000000010000.zst.parquet",
+      "record": 4109,
+      "unit": "1-based Parquet row"
+    },
+    "relationship_warning": "Record presence and CRM labels are not proof of a paying or production customer, or customer-system compromise."
+  }
+]

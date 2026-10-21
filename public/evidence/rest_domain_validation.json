@@ -1,0 +1,9 @@
+{
+  "cause": "Broad field-name match included numeric CRM Domain_Rank__c scores as domains.",
+  "correction": "Explicit domain/website field allowlist plus normalized hostname/TLD validation; IP addresses, numeric-only values, whitespace, userinfo, malformed labels and URL paths/query data excluded.",
+  "numeric_only_domain_values_before": 30,
+  "numeric_only_domain_values_after": 0,
+  "normalized_domain_values_after": 229,
+  "business_label_count_unchanged": 421,
+  "private_source_evidence_preserved": true
+}

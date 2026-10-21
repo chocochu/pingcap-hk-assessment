@@ -1,0 +1,2272 @@
+[
+  {
+    "organization_label": "Sabetech Technology Limited",
+    "business_domain": "hopegaming.com",
+    "source_record_observations": 13,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=04/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 11,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 30,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5,
+      "DailyUsageFeed_V1:end_user_account_id": 64,
+      "DailyUsageFeed_V1:payer_account_id": 64,
+      "BillingEventFeed_V1:end_user_account_id": 166,
+      "BillingEventFeed_V1:from_account_id": 77
+    },
+    "distinct_address_records": 5,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECLOUDVALLEY TECHNOLOGY (HK) LIMITED",
+    "business_domain": "ecloudvalley.com",
+    "source_record_observations": 23,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=04/data.csv",
+        "record": 6,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 11,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 6,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 218,
+      "BillingEventFeed_V1:from_account_id": 113
+    },
+    "distinct_address_records": 10,
+    "distinct_linked_marketplace_accounts": 2,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECS Computers (HK) Limited",
+    "business_domain": "awscloud.vstecs.cn",
+    "source_record_observations": 4,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=04/data.csv",
+        "record": 7,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=11/data.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1147,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Sinnet Cloud Services Co.Ltd",
+    "business_domain": "sinnet-cloud.cn",
+    "source_record_observations": 6,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=04/data.csv",
+        "record": 10,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=05/data.csv",
+        "record": 12,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 642,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "shopline",
+    "business_domain": "shopline.com",
+    "source_record_observations": 8,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong",
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=12/data.csv",
+        "record": 14,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 804,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 805,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 8,
+      "DailyUsageFeed_V1:end_user_account_id": 112,
+      "BillingEventFeed_V1:end_user_account_id": 80
+    },
+    "distinct_address_records": 4,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONGKONG CLOUDSWAY LIMITED",
+    "business_domain": "wangsu.com",
+    "source_record_observations": 4,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=11/data.csv",
+        "record": 28,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=11/data.csv",
+        "record": 29,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=05/data.csv",
+        "record": 55,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "BillingEventFeed_V1:from_account_id": 96
+    },
+    "distinct_address_records": 4,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "DT Hongkong Holdings Limited",
+    "business_domain": "chainbase.com",
+    "source_record_observations": 5,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=07/data.csv",
+        "record": 100,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1133,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 7,
+      "DailyUsageFeed_V1:end_user_account_id": 26,
+      "DailyUsageFeed_V1:payer_account_id": 26,
+      "BillingEventFeed_V1:end_user_account_id": 256,
+      "BillingEventFeed_V1:from_account_id": 118
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Digital China (HK) Limited",
+    "business_domain": "digitalchina.com",
+    "source_record_observations": 39,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 12,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 15,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 19,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 21,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECR(HK) TECHNOLOGY LIMITED",
+    "business_domain": "ecloudvalley.com",
+    "source_record_observations": 16,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 16,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 4,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 600,
+      "BillingEventFeed_V1:from_account_id": 760
+    },
+    "distinct_address_records": 7,
+    "distinct_linked_marketplace_accounts": 3,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONGKONG SEAGA TECHNOLOGY LIMITED",
+    "business_domain": "wangsu.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 29,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=09/data.csv",
+        "record": 30,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 860,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "BillingEventFeed_V1:from_account_id": 96
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "STARLING LABS LIMITED",
+    "business_domain": "shopline.com",
+    "source_record_observations": 6,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong",
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=05/data.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 20,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 843,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 29,
+      "BillingEventFeed_V1:from_account_id": 48
+    },
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "business_domain": "oceanbase.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=05/data.csv",
+        "record": 3,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=02/data.csv",
+        "record": 44,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 671,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 9,
+      "DailyUsageFeed_V1:end_user_account_id": 6,
+      "BillingEventFeed_V1:end_user_account_id": 6
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "shoplazza",
+    "business_domain": "shoplazza.com",
+    "source_record_observations": 10,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=05/data.csv",
+        "record": 22,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 27,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=08/data.csv",
+        "record": 24,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 882,
+      "BillingEventFeed_V1:from_account_id": 381
+    },
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "YUNSHAN NETWORKS (HK) COMPANY LIMITED",
+    "business_domain": "yunshan.net",
+    "source_record_observations": 3,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=05/data.csv",
+        "record": 37,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 174,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 712,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 4
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECLOUDVALLEY TECHNOLOGY (HK) LIMITED",
+    "business_domain": "ecloudrover.com",
+    "source_record_observations": 15,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=10/data.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 94,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 6,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "business_domain": "shoplazza.com",
+    "source_record_observations": 15,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=10/data.csv",
+        "record": 18,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 20,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 25,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 35,
+      "DailyUsageFeed_V1:end_user_account_id": 909,
+      "BillingEventFeed_V1:end_user_account_id": 1359
+    },
+    "distinct_address_records": 6,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECR(HK) TECHNOLOGY LIMITED",
+    "business_domain": "ecloudrover.com",
+    "source_record_observations": 16,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 4,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 24,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 229,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "BillingEventFeed_V1:from_account_id": 305,
+      "DailyUsageFeed_V1:payer_account_id": 24
+    },
+    "distinct_address_records": 7,
+    "distinct_linked_marketplace_accounts": 3,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Hangzhou Qineasy Technology Co,.Ltd",
+    "business_domain": "qineasy.cn",
+    "source_record_observations": 5,
+    "indicators": [
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 9,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 798,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 915,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 62,
+      "BillingEventFeed_V1:from_account_id": 98
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 2,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Shopline Holdings Limited",
+    "business_domain": "shopline.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=03/data.csv",
+        "record": 22,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1201,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 621,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 19,
+      "DailyUsageFeed_V1:end_user_account_id": 144,
+      "BillingEventFeed_V1:end_user_account_id": 646
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Winway Energy Limited",
+    "business_domain": "matrixport.com",
+    "source_record_observations": 12,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=07/data.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 38,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 31,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 4,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Hangzhou Qineasy Technology Co., Ltd",
+    "business_domain": "qineasy.cn",
+    "source_record_observations": 5,
+    "indicators": [
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=07/data.csv",
+        "record": 8,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 838,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1138,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "EXU (HK) LIMITED",
+    "business_domain": "holla.world",
+    "source_record_observations": 7,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 13,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 7,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=08/data.csv",
+        "record": 16,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 8,
+      "DailyUsageFeed_V1:end_user_account_id": 547,
+      "BillingEventFeed_V1:end_user_account_id": 1005
+    },
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "DEBANK GLOBAL PTE. LTD",
+    "business_domain": "debank.com",
+    "source_record_observations": 6,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 29,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 22,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=08/data.csv",
+        "record": 10,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Ltd",
+    "business_domain": "service.oceanbase.com",
+    "source_record_observations": 12,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 33,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 3,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 26,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 4,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "INGRAM MICRO (CHINA) LTD",
+    "business_domain": "ingrammicro.com",
+    "source_record_observations": 18,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 35,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 28,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 184,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 35,
+      "BillingEventFeed_V1:from_account_id": 113
+    },
+    "distinct_address_records": 9,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Starling Labs Ltd.",
+    "business_domain": "joyy.com",
+    "source_record_observations": 6,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=01/data.csv",
+        "record": 45,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2024/month=02/data.csv",
+        "record": 38,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=12/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE LTD",
+    "business_domain": "joyy.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=11/data.csv",
+        "record": 3,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1114,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 436,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE LTD.",
+    "business_domain": "joyy.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=09/data.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 739,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 346,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 12,
+      "DailyUsageFeed_V1:end_user_account_id": 238,
+      "DailyUsageFeed_V1:payer_account_id": 238,
+      "BillingEventFeed_V1:end_user_account_id": 226,
+      "BillingEventFeed_V1:from_account_id": 104
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECLOUDVALLEY TECHNOLOGY (HK) LIMITED.",
+    "business_domain": "ecloudvalley.com",
+    "source_record_observations": 10,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=09/data.csv",
+        "record": 7,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 40,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 10,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 10,
+      "DailyUsageFeed_V1:payer_account_id": 112,
+      "BillingEventFeed_V1:from_account_id": 37
+    },
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 3,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "TypeTop Technology Limited",
+    "business_domain": "knn3.xyz",
+    "source_record_observations": 3,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=09/data.csv",
+        "record": 31,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 427,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 368,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 11
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "GOCLOUDS DATA (HONGKONG) CO., LIMITED",
+    "business_domain": "goclouds.plus",
+    "source_record_observations": 6,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 22,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1165,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECLOUDVALLEY TECHNOLOGY (HK) LIMITED.",
+    "business_domain": "ecloudrover.com",
+    "source_record_observations": 25,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 34,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 47,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 48,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 131,
+      "BillingEventFeed_V1:from_account_id": 316
+    },
+    "distinct_address_records": 8,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "WETECH TRADING LIMITED",
+    "business_domain": "cg.app",
+    "source_record_observations": 9,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=10/data.csv",
+        "record": 37,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=08/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 306,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 46,
+      "DailyUsageFeed_V1:end_user_account_id": 110,
+      "BillingEventFeed_V1:end_user_account_id": 1440,
+      "DailyUsageFeed_V1:payer_account_id": 105,
+      "BillingEventFeed_V1:from_account_id": 622
+    },
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 2,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "EXU (HK) LIMITED",
+    "business_domain": "gmail.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=08/data.csv",
+        "record": 14,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 327,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 3
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Young Phoenix Co., Limited",
+    "business_domain": "mgplay.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 82,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 2,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "zh limited",
+    "business_domain": "gmail.com",
+    "source_record_observations": 6,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 90,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 239,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 281,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 8,
+      "DailyUsageFeed_V1:end_user_account_id": 8,
+      "BillingEventFeed_V1:end_user_account_id": 41
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 2,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Flywheels Data Technology International HK Limited",
+    "business_domain": "velodb.io",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 131,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 132,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 11
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONG KONG NUCLEARPORT TECHNOLOGY LIMITED",
+    "business_domain": "bettagames.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 153,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 398,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "PingAn OneConnect Credit Reference Services Agency",
+    "business_domain": "ocft.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 174,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 364,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 277,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 8
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "business_domain": "service.oceanbase.com",
+    "source_record_observations": 18,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 200,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 201,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2023/month=07/data.csv",
+        "record": 202,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 8,
+      "DailyUsageFeed_V1:payer_account_id": 288,
+      "DailyUsageFeed_V1:end_user_account_id": 172,
+      "BillingEventFeed_V1:end_user_account_id": 451,
+      "BillingEventFeed_V1:from_account_id": 260
+    },
+    "distinct_address_records": 6,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Butterfly Effect（Hong Kong）Limited",
+    "business_domain": "butterfly.tech",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=04/data.csv",
+        "record": 15,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Ltd",
+    "business_domain": "oceanbase.com",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=04/data.csv",
+        "record": 16,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Courage Technology Limited",
+    "business_domain": "jksxit.com",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=04/data.csv",
+        "record": 17,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HongKong Qineasy Technology Limted",
+    "business_domain": "qineasy.cn",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong",
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=04/data.csv",
+        "record": 25,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "BillingEventFeed_V1:from_account_id": 19
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Ingram Micro (China) Limited",
+    "business_domain": "ingrammicro.com",
+    "source_record_observations": 3,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=09/data.csv",
+        "record": 12,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 10,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "RIVER GAME HK LIMITED",
+    "business_domain": "rivergame.net",
+    "source_record_observations": 4,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=09/data.csv",
+        "record": 17,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=07/data.csv",
+        "record": 16,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 834,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ULTRAPOWER (HK) LIMITED",
+    "business_domain": "ultrapower.com.cn",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 1,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 664,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ELITE CLOUD PTE. LTD.",
+    "business_domain": "elitecloud.sg",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 3,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 8,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "香港奇墨网络科技有限公司",
+    "business_domain": "itqm.hk",
+    "source_record_observations": 7,
+    "indicators": [
+      ".hk email domain",
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 13,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=06/data.csv",
+        "record": 5,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=08/data.csv",
+        "record": 3,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 11,
+      "BillingEventFeed_V1:from_account_id": 12
+    },
+    "distinct_address_records": 5,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "business_domain": "antgroup-inc.com",
+    "source_record_observations": 4,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 48,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=08/data.csv",
+        "record": 47,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=07/data.csv",
+        "record": 31,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 8,
+      "DailyUsageFeed_V1:end_user_account_id": 4,
+      "BillingEventFeed_V1:end_user_account_id": 14
+    },
+    "distinct_address_records": 4,
+    "distinct_linked_marketplace_accounts": 3,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+    "business_domain": "qineasy.cn",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=05/data.csv",
+        "record": 59,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "AMBER AI SERVICES LIMITED",
+    "business_domain": "ambergroup.io",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=06/data.csv",
+        "record": 24,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 23,
+      "DailyUsageFeed_V1:end_user_account_id": 990,
+      "DailyUsageFeed_V1:payer_account_id": 990,
+      "BillingEventFeed_V1:end_user_account_id": 928,
+      "BillingEventFeed_V1:from_account_id": 428
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ECR(HK) TECHNOLOGY LIMITED",
+    "business_domain": "oceanbase.com",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=03/data.csv",
+        "record": 11,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Hong Kong Cloud Pilot Technology Co., Limited",
+    "business_domain": "pilot-clouds.com",
+    "source_record_observations": 5,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=07/data.csv",
+        "record": 19,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 830,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 832,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 3,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Longport Technology HK Limited",
+    "business_domain": "longbridge.sg",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=07/data.csv",
+        "record": 27,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "GAIA INFORMATION GLOBAL LTD",
+    "business_domain": "netron.asia",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2026/month=01/data.csv",
+        "record": 9,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+    "business_domain": "bosicloud.com",
+    "source_record_observations": 8,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=12/data.csv",
+        "record": 10,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 43,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 745,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 35,
+      "BillingEventFeed_V1:from_account_id": 68
+    },
+    "distinct_address_records": 5,
+    "distinct_linked_marketplace_accounts": 2,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "CLOUD HONG KONG EAST ASIA TELECOM CO., LIMITED",
+    "business_domain": "spverycloud.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 26,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 881,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Flywheels Data Technology International HK Limited",
+    "business_domain": "velodb.cloud",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 52,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 115,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 11
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Hong Kong Interactive Lab Ltd",
+    "business_domain": "cryptoflowhk.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 58,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=09/data.csv",
+        "record": 30,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Shanghai Yunwuhua Technology Co., Ltd.",
+    "business_domain": "qineasy.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "public research candidate"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 194,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=09/data.csv",
+        "record": 1,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 6
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Jumpex Technology Limited",
+    "business_domain": "jumpex.io",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 204,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=10/data.csv",
+        "record": 11,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 7
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Young Phoenix Co., Limited",
+    "business_domain": "haoplay.com",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 403,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "ITNIO TECH LIMITED",
+    "business_domain": "itniotech.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 504,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=08/data.csv",
+        "record": 45,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONGKONG CLOUDSWAY LIMITED",
+    "business_domain": "cloudsway.com",
+    "source_record_observations": 4,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 643,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 861,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 886,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "BillingEventFeed_V1:from_account_id": 96
+    },
+    "distinct_address_records": 4,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Long Bridge Technology HK Limited",
+    "business_domain": "longbridge.sg",
+    "source_record_observations": 4,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 670,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=10/data.csv",
+        "record": 8,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=08/data.csv",
+        "record": 4,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONGKONG SEAGA TECHNOLOGY LIMITED",
+    "business_domain": "cloudsway.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 890,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1111,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "BillingEventFeed_V1:from_account_id": 96
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Satsume Limited",
+    "business_domain": "gmail.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 914,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=09/data.csv",
+        "record": 32,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5,
+      "DailyUsageFeed_V1:end_user_account_id": 27,
+      "DailyUsageFeed_V1:payer_account_id": 27,
+      "BillingEventFeed_V1:end_user_account_id": 114,
+      "BillingEventFeed_V1:from_account_id": 57
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Hong Kong ITQM Network Technology Limited",
+    "business_domain": "itqm.hk",
+    "source_record_observations": 2,
+    "indicators": [
+      ".hk email domain",
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 919,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=03/data.csv",
+        "record": 45,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "DailyUsageFeed_V1:payer_account_id": 38,
+      "BillingEventFeed_V1:from_account_id": 167
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Bitmart Limited",
+    "business_domain": "bitmart.ink",
+    "source_record_observations": 2,
+    "indicators": [
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=11/data.csv",
+        "record": 1046,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AddressFeed_V1/year=2025/month=06/data.csv",
+        "record": 31,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5,
+      "DailyUsageFeed_V1:end_user_account_id": 48,
+      "BillingEventFeed_V1:end_user_account_id": 236
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Starling Labs / Shopline",
+    "business_domain": "",
+    "source_record_observations": 339,
+    "indicators": [
+      "subscriber company name match"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AgreementDetailsReport_V1/year=2024/month=04/agreement_details_report_V1_2024-04-28.csv",
+        "record": 64,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AgreementDetailsReport_V1/year=2024/month=04/agreement_details_report_V1_2024-04-28.csv",
+        "record": 94,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AgreementDetailsReport_V1/year=2024/month=04/agreement_details_report_V1_2024-04-07.csv",
+        "record": 9,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 0,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "business_domain": "",
+    "source_record_observations": 140,
+    "indicators": [
+      "subscriber company name match"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AgreementDetailsReport_V1/year=2024/month=04/agreement_details_report_V1_2024-04-28.csv",
+        "record": 81,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AgreementDetailsReport_V1/year=2024/month=04/agreement_details_report_V1_2024-04-07.csv",
+        "record": 104,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/AgreementDetailsReport_V1/year=2024/month=04/agreement_details_report_V1_2024-04-21.csv",
+        "record": 102,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 0,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Flywheels Data Technology International HK Limited",
+    "business_domain": "selectdb.com",
+    "source_record_observations": 2,
+    "indicators": [
+      "Hong Kong name/location text",
+      "explicit business country Hong Kong"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 38,
+        "unit": "1-based CSV data row, header excluded"
+      },
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 85,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 11
+    },
+    "distinct_address_records": 2,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONG KONG NUCLEARPORT TECHNOLOGY LIMITED",
+    "business_domain": "fotoable.com",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 74,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {
+      "AgreementFeed_V1:acceptor_account_id": 5
+    },
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 1,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "HONGKONG INCLUDEWILL TECHNOLOGY LIMITED",
+    "business_domain": "actwill.com.cn",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 183,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  },
+  {
+    "organization_label": "Hong Kong Yunion Technology Co., Limited",
+    "business_domain": "ezmsp.cn",
+    "source_record_observations": 1,
+    "indicators": [
+      "Hong Kong name/location text"
+    ],
+    "source_examples": [
+      {
+        "member": "03_customer_book/data_feed_csv/datafeed/PIIFeed/PII_address.csv",
+        "record": 190,
+        "unit": "1-based CSV data row, header excluded"
+      }
+    ],
+    "activity": {},
+    "distinct_address_records": 1,
+    "distinct_linked_marketplace_accounts": 0,
+    "category": "Marketplace address/subscriber business records",
+    "caveat": "User-supplied business labels; historical address/account versions joined without validity-date enforcement. Activity counts are source observations by role, not unique transactions or proof of direct ownership. Resellers/payers may represent downstream customers."
+  }
+]

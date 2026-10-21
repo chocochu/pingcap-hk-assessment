@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "last_reviewed_date": "2026-10-21",
+  "timezone": "Asia/Hong_Kong",
+  "languages": [
+    "en",
+    "zh-Hant"
+  ],
+  "source_release_claim": {
+    "attribution": "Source releasing the material, as quoted by the site publisher; not independently verified.",
+    "claimed_total_tb": 10.6,
+    "stage_one_archive_count": 5,
+    "stage_one_compressed_gb": 128.3,
+    "stage_one_uncompressed": "just over 200 GB",
+    "additional_material": "The source says more is coming."
+  },
+  "analysis_scope": [
+    "09_gateway_logs.tar.gz",
+    "pingcap_leak_pack_rest.tar.gz",
+    "04_bigquery.tar.gz"
+  ],
+  "scope_states": {
+    "09_gateway_logs.tar.gz": "previously_reviewed",
+    "pingcap_leak_pack_rest.tar.gz": "previously_reviewed",
+    "04_bigquery.tar.gz": "in_progress"
+  },
+  "bq_completion_meaning": "Complete refers only to the declared inventory and scoped Hong Kong location scan, not comprehensive semantic analysis.",
+  "update_policy": "Update the site as additional material is released and reviewed; expand, correct or withdraw findings when evidence changes.",
+  "update_execution": "Progressive local updates and hourly local follow-ups configured while work remains; no automatic publication."
+}

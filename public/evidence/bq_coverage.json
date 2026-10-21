@@ -1,0 +1,31 @@
+{
+  "archive": "04_bigquery.tar.gz",
+  "status": "in_progress",
+  "updated_at": "2026-10-21T01:35:26.649565+00:00",
+  "inventory": {
+    "status": "in_progress",
+    "table_count": 4659,
+    "dataset_count": 52,
+    "archive_bytes": 33830461373,
+    "sha256": null
+  },
+  "scan": {
+    "status": "complete",
+    "tables_complete": 11,
+    "rows_parsed": 773449,
+    "parse_errors": 0,
+    "hk_location_rows": 17136,
+    "candidate_company_rows": 11802,
+    "tables_selected": 11,
+    "scope": "Full-row geography discovery in explicitly selected profile, account, organization and billing tables."
+  },
+  "limitations": [
+    "Inventory samples the first nonblank row schema per nested table; gzip integrity is not full JSON validation or source authentication.",
+    "This discovery batch selects 11 tables. Other tables, historical snapshots, free text and embedded arrays are outside its row analysis.",
+    "Hong Kong country or city/region fields are row-level geography signals, not verified residence, headquarters, employer identity or compromise.",
+    "Candidate company rows contain company/account labels and geography in the same record; semantic roles and ownership still require review.",
+    "Observations overlap across profiles, snapshots and tables and are not unique people, companies, customers or incidents.",
+    "No new company attribution is established by these discovery counts. Tenant-to-cluster joins and historical ownership are reviewed separately.",
+    "Counts include only checkpointed tables; a running table is excluded until its processing result is saved."
+  ]
+}

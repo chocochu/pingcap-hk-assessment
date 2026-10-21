@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+.vite/
+*.local
+.vercel/
+.env*
+!.env.example
+__pycache__/
+*.pyc
+
+.vercel

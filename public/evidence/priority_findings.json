@@ -1,0 +1,132 @@
+[
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "hk_connection": "HK legal entity confirmed by official terms.",
+    "observed_material": "800 billing observations, 2022-03 to 2026-07; 19 contextual support records, 13 containing SQL-like code blocks. CRM production flag says Yes, while another status says Prospecting.",
+    "attribution_and_limits": "Strong account-to-billing link; medium support association. No referenced cluster found in supplied gateway logs.",
+    "billing_evidence_refs": [
+      "B003"
+    ],
+    "public_sources": [
+      "https://www.shoplazza.com/privacy",
+      "https://www.shoplazza.cn/pages/hk-shoplazza-payments-terms-and-service",
+      "https://www.cr.gov.hk/docs/wrpt/RNC063_2018.08.13-2018.08.19.pdf"
+    ]
+  },
+  {
+    "organization_label": "STARLING LABS LIMITED",
+    "hk_connection": "SHOPLINE association corroborated by public terms, exact-name marketplace records with shopline.com, and linked support context. CRM domain starlinglabs.com remains independently unverified.",
+    "observed_material": "1,150 billing observations, 2023-08 to 2026-07; 12 contextual support records, 4 with SQL-like code blocks. Commitment Plan and Customer labels coexist with production flag No.",
+    "attribution_and_limits": "Strong account-to-billing link; medium support association. Do not combine with Singapore SHOPLINE Commerce or treat marketplace aliases as the same tenant.",
+    "billing_evidence_refs": [
+      "B012"
+    ],
+    "public_sources": [
+      "https://shopline.sg/terms",
+      "https://blog.shopline.tw/shopline-guidelines-for-sharing-and-republishing-content/",
+      "https://www.pingcap.com/case-study/shopline-slash-cluster-cost-with-tidb/"
+    ]
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "hk_connection": "Official site declares HK location; incorporation not independently established.",
+    "observed_material": "Billing groups: 18,200 / 329 / 31 observations, collectively 2023-07 to 2026-08. 232 contextual support records; 44 with SQL-like code blocks.",
+    "attribution_and_limits": "Strong account-to-billing links; medium support association. Hosting-provider role prevents attributing resources to downstream clients.",
+    "billing_evidence_refs": [
+      "B013",
+      "B029",
+      "B030"
+    ],
+    "public_sources": [
+      "https://wetechtl.cloud/contact/"
+    ]
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "hk_connection": "Historical HK incorporation plus company-declared HK headquarters; exact registry-to-domain link qualified.",
+    "observed_material": "Eight billing groups: 76 / 76 / 18 / 5 / 5 / 22 / 4,630 / 127 observations. Three support records reference two clusters; one appears in gateway logs with 11,594 historical records.",
+    "attribution_and_limits": "Gateway association is medium confidence and contextual. Ownership throughout the log interval and downstream customers remain unproved.",
+    "billing_evidence_refs": [
+      "B019",
+      "B021",
+      "B022",
+      "B023",
+      "B024",
+      "B025",
+      "B026",
+      "B027"
+    ],
+    "public_sources": [
+      "https://www.cr.gov.hk/docs/wrpt/RNC063_2025.02.17-2025.02.23.pdf",
+      "https://megahardlimited.com/contact/",
+      "https://megahardlimited.com/"
+    ]
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited",
+    "hk_connection": "Official company history names HK founding and headquarters.",
+    "observed_material": "642 observations on the main billing join, 2022-03 to 2026-08; a separate 6-observation join and a starred alias remain separate.",
+    "attribution_and_limits": "Commercial/account exposure in supplied files. Do not sum aliases or infer exposure of advertising clients.",
+    "billing_evidence_refs": [
+      "B005",
+      "B028"
+    ],
+    "public_sources": [
+      "https://www.asiapacdigital.com/about"
+    ]
+  },
+  {
+    "organization_label": "RIVER GAME HK LIMITED",
+    "hk_connection": "Official game terms name entity; official document gives HK address.",
+    "observed_material": "402 tenant-linked billing observations, 2025-07 to 2026-08.",
+    "attribution_and_limits": "Strong account-to-billing link; no demonstrated game-user database exposure.",
+    "billing_evidence_refs": [
+      "B002"
+    ],
+    "public_sources": [
+      "https://www.topheroes.com/en/term_of_service.html",
+      "https://www.rivergame.net/en/res/pdf/-_River_Game_HK_Limited_Compliance_EDPO_-_UK_Representative.pdf"
+    ]
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "hk_connection": "Official affiliate list confirms HK entity.",
+    "observed_material": "192 tenant-linked billing observations, 2022-06 to 2023-04. Separate Oceanbase label has 7 observations in 2026-01.",
+    "attribution_and_limits": "Database-vendor/test/evaluation use is possible. Do not merge labels or call this a production deployment.",
+    "billing_evidence_refs": [
+      "B011"
+    ],
+    "public_sources": [
+      "https://en.oceanbase.com/legal/subcontractors-affiliates",
+      "https://en.oceanbase.com/legal/service-agreement",
+      "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20220516.pdf"
+    ]
+  },
+  {
+    "organization_label": "KLOOK",
+    "hk_connection": "Klook official terms name HK operator; source label does not resolve exact account entity.",
+    "observed_material": "7 tenant-linked billing observations, 2022-08 to 2022-09; account is labeled POC and Mainland China in CRM.",
+    "attribution_and_limits": "Historical account exposure; not evidence of current production use or traveler-data exposure.",
+    "billing_evidence_refs": [
+      "B004"
+    ],
+    "public_sources": [
+      "https://www.klook.com/en-AU/conditions/",
+      "https://www.klook.com/en-US/policy/"
+    ]
+  },
+  {
+    "organization_label": "COIHUB TECHNOLOGY LIMITED",
+    "hk_connection": "Historical HK incorporation and official platform policy name exact entity.",
+    "observed_material": "20 tenant-linked billing observations, 2022-08 to 2022-10.",
+    "attribution_and_limits": "Historical commercial/account exposure; no inference about all Transsion entities or product users.",
+    "billing_evidence_refs": [
+      "B001"
+    ],
+    "public_sources": [
+      "https://www.cr.gov.hk/docs/wrpt/RNC063_2020.08.17-2020.08.23.pdf",
+      "https://www.financeaegis.com/policy",
+      "https://www.cloudsteps.net/build.html"
+    ]
+  }
+]

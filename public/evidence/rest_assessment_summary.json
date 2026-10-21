@@ -1,0 +1,100 @@
+{
+  "archive": "pingcap_leak_pack_rest.tar.gz",
+  "inventory": {
+    "members": 3226,
+    "regular_files": 2031,
+    "uncompressed_regular_file_bytes": 10763590005
+  },
+  "coverage": {
+    "csv": {
+      "files": 753,
+      "logical_data_rows": 468552,
+      "strict_utf8_or_csv_parse_failures": 0,
+      "row_width_anomalies": 281,
+      "anomaly_scope": "one April 2024 TaxItemFeed file; not used for company/address/tenant attribution",
+      "rowcount_crosscheck": "all core/feed CSV scanner counts equal independent strict validator counts"
+    },
+    "core_tables": {
+      "files": 48,
+      "rows": 1325495
+    },
+    "parquet": {
+      "files": 315,
+      "metadata_rows": 25424619,
+      "targeted_business_geography_rows": 14436604,
+      "matched_rows": 73115,
+      "retained_matched_rows": 73115,
+      "read_errors": 0,
+      "nonnull_cluster_id_values": 0
+    },
+    "text": {
+      "files_including_profiles_contacts": 522,
+      "records_or_physical_lines": 3859443,
+      "invalid_utf8_lines_scanned_as_bytes": 40,
+      "keyword_mention_records": 6986,
+      "hong_kong_literal_mention_lines": 7361,
+      "errors": []
+    },
+    "billing": {
+      "rows": 8796520,
+      "distinct_billing_tenant_ids": 1607,
+      "nonnull_cluster_id_values": 0
+    }
+  },
+  "discovery": {
+    "all_matched_records_processed": 73115,
+    "published_business_label_observations": 43348,
+    "distinct_exact_normalized_business_labels": 421,
+    "labels_additional_to_core": 339,
+    "excluded_record_observations_by_reason": {
+      "no_explicit_company_label_field": 10704,
+      "business_label_requires_manual_resolution_not_published": 10897,
+      "personal_style_email_or_known_false_positive_label": 8166
+    },
+    "detection_capped": false
+  },
+  "profiles": {
+    "explicit_HK_country_profile_rows": 416,
+    "distinct_profile_ids": 416,
+    "hubspot_hk_domain_contact_rows": 255,
+    "hubspot_hk_distinct_domains": 116
+  },
+  "contextual_crosswalk": {
+    "support_record_edges": 286,
+    "distinct_company_cluster_edges": 51,
+    "company_labels": 7,
+    "strength": "medium contextual, not authoritative ownership or continuous tenancy",
+    "method": "same parsed support URL contains explicit cluster ID plus tenant/org ID; exact tenant/org value joins explicit account/org field",
+    "dates": "issue creation/update dates, not proved cluster ownership interval",
+    "opaque_cluster_scan": "448 records with explicitly labeled 4-letter/26-alphanumeric cluster ID; zero tenant/known-company co-occurrence candidates"
+  },
+  "reference_units": {
+    "CSV": "1-based logical data row, header excluded",
+    "Parquet": "1-based row in file",
+    "core JSONL": "1-based nonblank JSONL record",
+    "support/ops/text JSONL or logs": "1-based physical line"
+  },
+  "excluded_or_limited": [
+    "No source authenticity or completeness attestation; evidence is supplied archive content.",
+    "Nested .tgz archives (17), PNG images (2), schema/source SQL (217) and other binary/source/config files were inventoried; their full semantic content was not comprehensively analyzed.",
+    "Parquet discovery scans business/name/geography/ID columns where available. About 10.99 million rows in other-column tables were not semantically analyzed; free-text/binary fields in Parquet are outside the discovery scan.",
+    "Text scan is a literal search for 23 corporate terms and Hong Kong spellings; mentions are not organization ownership proof and this is not exhaustive semantic entity recognition.",
+    "Broad discovery uses exact normalized business labels; aliases, source snapshots, resellers and marketing contacts must not be counted as unique affected companies.",
+    "Unreviewed business labels without clear organization form and personal-style labels are counted as exclusions, not published.",
+    "No credentials were tested, no infrastructure contacted, and no data uploaded.",
+    "Credential-category check covers only 286 contextually linked support records and narrow syntax forms; zero detections cannot establish absence.",
+    "SQL-like text may be diagnostic examples; no conclusion of customer database exfiltration follows.",
+    "Marketplace role observations are historical joins without validity-date enforcement; payer/reseller links are not customer-tenant ownership.",
+    "Coverage counts overlap across scans and must not be summed as distinct records."
+  ],
+  "outputs": {
+    "business_evidence": "rest_organization_evidence.json",
+    "expanded_discovery": "rest_expanded_business_discovery.json",
+    "marketplace": "rest_marketplace_candidates.json",
+    "billing": "rest_company_billing_evidence.json",
+    "contextual_crosswalk": "rest_contextual_crosswalk_evidence.json",
+    "material_categories": "rest_material_categories.json",
+    "profiles": "rest_profile_aggregates_detailed.json",
+    "redaction_audit": "rest_redaction_audit.json"
+  }
+}

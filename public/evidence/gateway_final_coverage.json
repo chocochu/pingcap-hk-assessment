@@ -1,0 +1,149 @@
+{
+  "archive": "09_gateway_logs.tar.gz",
+  "archive_traversal_completed": true,
+  "csv_files": 23651,
+  "uncompressed_csv_bytes": 43433059778,
+  "all_csv_files_consumed_after_recovery": true,
+  "valid_log_records": 103789392,
+  "malformed_record_fragments_excluded": 9,
+  "files_with_malformed_record_fragments": 3,
+  "unresolved_csv_parse_failures": 0,
+  "utf8_replacement_lines": 0,
+  "unsupported_schema_files": 0,
+  "distinct_cluster_field_values": 849309,
+  "distinct_numeric_cluster_values": 635890,
+  "distinct_opaque_cluster_values": 213419,
+  "cluster_aggregate_row_checksum": 103789392,
+  "rows_without_supported_cluster_value": 0,
+  "timestamp_range_utc": [
+    "2022-12-03T00:00:02.075242+00:00",
+    "2026-10-03T17:34:00.871000+00:00"
+  ],
+  "phase_counts": {
+    "relay_data": 102132516,
+    "[other-category]": 1463560,
+    "close": 193316
+  },
+  "status_counts": {
+    "success": 102316046,
+    "failed": 1473346
+  },
+  "region_counts": {
+    "us-east-1": 31298875,
+    "ap-northeast-1": 24914718,
+    "ap-southeast-1": 26248400,
+    "eu-central-1": 11346726,
+    "us-west-2": 9254070,
+    "[not-recorded]": 726603
+  },
+  "disjoint_pass_reconciliation": {
+    "csv_files": true,
+    "parsed_rows": true,
+    "fully_consumed_csv_files": true,
+    "unsupported_schema_files": true,
+    "malformed_rows": true,
+    "utf8_replacement_lines": true,
+    "parse_failure_files": true,
+    "same_failure_files": true,
+    "numeric_rows_reconcile": true,
+    "all_row_partition_reconciles": true
+  },
+  "recovery": [
+    {
+      "file": "09_gateway_logs/2026-04-24-1777010200.sample.csv",
+      "legacy_accepted_rows": 4329,
+      "standard_valid_rows": 4951,
+      "recovered_valid_rows": 622,
+      "malformed_record_fragments": [
+        {
+          "record": 4331,
+          "observed_columns": 12,
+          "expected_columns": 26
+        },
+        {
+          "record": 4332,
+          "observed_columns": 11,
+          "expected_columns": 26
+        },
+        {
+          "record": 4333,
+          "observed_columns": 5,
+          "expected_columns": 26
+        }
+      ],
+      "legacy_error": "new-line character seen in unquoted field - do you need to open the file with newline=''?",
+      "prefix_sha256": "79c0c8eaef73c88db051dddeafab7ce1eb81929f858af410e39d4e22b2fdd3b4",
+      "prefix_equality_verified": true,
+      "strict_csv": true,
+      "newline_mode": "newline=''",
+      "repair_applied": false
+    },
+    {
+      "file": "09_gateway_logs/2026-09-20-1789948800.sample.csv",
+      "legacy_accepted_rows": 5095,
+      "standard_valid_rows": 5112,
+      "recovered_valid_rows": 17,
+      "malformed_record_fragments": [
+        {
+          "record": 5097,
+          "observed_columns": 12,
+          "expected_columns": 26
+        },
+        {
+          "record": 5098,
+          "observed_columns": 11,
+          "expected_columns": 26
+        },
+        {
+          "record": 5099,
+          "observed_columns": 5,
+          "expected_columns": 26
+        }
+      ],
+      "legacy_error": "new-line character seen in unquoted field - do you need to open the file with newline=''?",
+      "prefix_sha256": "ad4ff92d2d312487c4b67690b925fbef2861897d9c98a443b598e0ff36889d11",
+      "prefix_equality_verified": true,
+      "strict_csv": true,
+      "newline_mode": "newline=''",
+      "repair_applied": false
+    },
+    {
+      "file": "09_gateway_logs/2025-07-27-1753588349.sample.csv",
+      "legacy_accepted_rows": 1627,
+      "standard_valid_rows": 2212,
+      "recovered_valid_rows": 585,
+      "malformed_record_fragments": [
+        {
+          "record": 1629,
+          "observed_columns": 12,
+          "expected_columns": 25
+        },
+        {
+          "record": 1630,
+          "observed_columns": 11,
+          "expected_columns": 25
+        },
+        {
+          "record": 1631,
+          "observed_columns": 4,
+          "expected_columns": 25
+        }
+      ],
+      "legacy_error": "new-line character seen in unquoted field - do you need to open the file with newline=''?",
+      "prefix_sha256": "c79623c9fb38537ac3281b44097e2de8df41deac78a4767aa9b11a2c0f161389",
+      "prefix_equality_verified": true,
+      "strict_csv": true,
+      "newline_mode": "newline=''",
+      "repair_applied": false
+    }
+  ],
+  "source_reference_unit": "Logical CSV record ordinal including header and malformed yielded records; not physical text line.",
+  "limitations": [
+    "Log records are not deduplicated connections or customers.",
+    "Cluster identifiers alone do not identify legal entities.",
+    "Input .sample.csv names do not establish full production traffic coverage.",
+    "No IP geolocation or client infrastructure inventory was performed.",
+    "Integrity hashes and successful decompression do not establish independent authenticity.",
+    "Malformed record fragments were excluded, not repaired or guessed."
+  ]
+}

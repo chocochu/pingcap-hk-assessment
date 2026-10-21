@@ -1,0 +1,6 @@
+{
+  "private_numeric_links_after_exact_full_field_filter": 100,
+  "removed_unconsumed_numeric_substrings": 162,
+  "embedded_links_previously_used_for_billing_or_cluster_crosswalk": 0,
+  "conclusion": "All billing and support-URL joins use full-string numeric equality in explicit tenant/org fields; no public findings changed."
+}

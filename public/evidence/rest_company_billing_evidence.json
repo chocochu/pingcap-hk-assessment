@@ -1,0 +1,647 @@
+[
+  {
+    "organization_label": "COIHUB TECHNOLOGY LIMITED",
+    "billing_row_observations": 20,
+    "billing_month_min": "2022-08",
+    "billing_month_max": "2022-10",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 57,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 806,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "RIVER GAME HK LIMITED",
+    "billing_row_observations": 402,
+    "billing_month_min": "2025-07",
+    "billing_month_max": "2026-08",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 103,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 25541,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 81240,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Shoplazza Hongkong Limited",
+    "billing_row_observations": 800,
+    "billing_month_min": "2022-03",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 183,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 113,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 85096,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "KLOOK",
+    "billing_row_observations": 7,
+    "billing_month_min": "2022-08",
+    "billing_month_max": "2022-09",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 251,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 667,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited",
+    "billing_row_observations": 642,
+    "billing_month_min": "2022-03",
+    "billing_month_max": "2026-08",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 334,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 115,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 315,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited*",
+    "billing_row_observations": 6,
+    "billing_month_min": "2022-03",
+    "billing_month_max": "2022-07",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 430,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 138606,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Baidu (HONG KONG) Limited",
+    "billing_row_observations": 20,
+    "billing_month_min": "2022-04",
+    "billing_month_max": "2025-04",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 460,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 212,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Amber AI Limited",
+    "billing_row_observations": 390,
+    "billing_month_min": "2022-08",
+    "billing_month_max": "2024-08",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 497,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 671,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Bit.com",
+    "billing_row_observations": 95,
+    "billing_month_min": "2022-09",
+    "billing_month_max": "2023-07",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 669,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 816,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Matrixport Technologies Ltd.",
+    "billing_row_observations": 809,
+    "billing_month_min": "2022-09",
+    "billing_month_max": "2026-03",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 769,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 815,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 254573,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "OceanBase Hong Kong Limited",
+    "billing_row_observations": 192,
+    "billing_month_min": "2022-06",
+    "billing_month_max": "2023-04",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 956,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 522,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "STARLING LABS LIMITED",
+    "billing_row_observations": 1150,
+    "billing_month_min": "2023-08",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1312,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 3134,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 558,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "billing_row_observations": 18200,
+    "billing_month_min": "2023-07",
+    "billing_month_max": "2026-08",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1357,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 2922,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 576,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+    "billing_row_observations": 867,
+    "billing_month_min": "2022-06",
+    "billing_month_max": "2025-08",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1364,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 438,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Eats365",
+    "billing_row_observations": 48,
+    "billing_month_min": "2024-03",
+    "billing_month_max": "2024-09",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1420,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 5206,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Metaverse Cloud Solution Limited",
+    "billing_row_observations": 31,
+    "billing_month_min": "2024-07",
+    "billing_month_max": "2024-07",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 1818,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 6385,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "HK FUTURE INIGHT TECH LIMITED",
+    "billing_row_observations": 64,
+    "billing_month_min": "2025-05",
+    "billing_month_max": "2026-05",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2513,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 23165,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 1010506,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Oceanbase",
+    "billing_row_observations": 7,
+    "billing_month_min": "2026-01",
+    "billing_month_max": "2026-01",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 2994,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 138158,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 76,
+    "billing_month_min": "2026-03",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3107,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 84767,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "CLINK LAB LIMITED",
+    "billing_row_observations": 48,
+    "billing_month_min": "2026-04",
+    "billing_month_max": "2026-08",
+    "match_basis": "exact billing_tenant_id matches explicit Portal_ID__c account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/nexuscrm_run_2026-10-04/run_id=20261004T010014Z/fault_domain=business/chunk=0001/attempt=0001/nexuscrm.Account.0000000010000.zst.parquet",
+      "record": 3279,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 1203794,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 76,
+    "billing_month_min": "2026-06",
+    "billing_month_max": "2026-06",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 92,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 3207558,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 18,
+    "billing_month_min": "2026-04",
+    "billing_month_max": "2026-06",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 857,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 1582717,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 5,
+    "billing_month_min": "2025-12",
+    "billing_month_max": "2025-12",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 858,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 506478,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 5,
+    "billing_month_min": "2026-06",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 861,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 3206913,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 22,
+    "billing_month_min": "2025-12",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 865,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 276410,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 166400,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 4630,
+    "billing_month_min": "2026-06",
+    "billing_month_max": "2026-08",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 866,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 3207387,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "MEGAHARD LIMITED",
+    "billing_row_observations": 127,
+    "billing_month_min": "2026-06",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 878,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 3207287,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "AsiaPac Net Media Limited",
+    "billing_row_observations": 6,
+    "billing_month_min": "2022-03",
+    "billing_month_max": "2022-07",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 1454,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 138606,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "billing_row_observations": 329,
+    "billing_month_min": "2026-02",
+    "billing_month_max": "2026-07",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 1787,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000010000.zst.parquet",
+        "record": 1971379,
+        "unit": "1-based Parquet row"
+      },
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 81554,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  },
+  {
+    "organization_label": "Wetech Trading Limited",
+    "billing_row_observations": 31,
+    "billing_month_min": "2026-05",
+    "billing_month_max": "2026-08",
+    "match_basis": "exact billing_tenant_id matches explicit org_id account/org field; no cluster linkage",
+    "account_source": {
+      "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0014/attempt=0001/finance.salesforce_org.0000000010000.zst.parquet",
+      "record": 1788,
+      "unit": "1-based Parquet row"
+    },
+    "billing_source_examples": [
+      {
+        "member": "06_finance_snapshots/df_finance_run_2026-10-04/run_id=20261004T020011Z/chunk=0002/attempt=0001/finance.dbaas_billing.0000000020000.zst.parquet",
+        "record": 2251973,
+        "unit": "1-based Parquet row"
+      }
+    ],
+    "caveat": "Billing observation does not prove paid invoices, production use, gateway ownership, credential compromise, or customer database exfiltration."
+  }
+]

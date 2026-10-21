@@ -1,0 +1,16 @@
+[
+  {
+    "file": "09_gateway_logs.tar.gz",
+    "command": "gzip -t",
+    "exit_code": 0,
+    "elapsed_seconds": 29.33,
+    "diagnostic": ""
+  },
+  {
+    "file": "pingcap_leak_pack_rest.tar.gz",
+    "command": "gzip -t",
+    "exit_code": 0,
+    "elapsed_seconds": 5.92,
+    "diagnostic": ""
+  }
+]

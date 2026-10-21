@@ -1,0 +1,23 @@
+{
+  "geographic_source_ip_supplement_performed": false,
+  "status": "not_performed_provider_download_denied",
+  "reason": "The standard download of the official DB-IP Lite country database returned HTTP 403 with Cloudflare error code 1010. No access-control workaround or alternate database was used.",
+  "attempted_database": {
+    "provider": "DB-IP",
+    "product": "IP to Country Lite",
+    "observed_release": "October 2026",
+    "source_page": "https://db-ip.com/db/download/ip-to-country-lite",
+    "download_url": "https://download.db-ip.com/free/dbip-country-lite-2026-10.csv.gz",
+    "format_documentation": "https://db-ip.com/db/format/ip-to-country-lite/csv.html",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "download_error_evidence": "analysis/private/geo_download_error.json",
+  "source_ip_classification_rows": 0,
+  "limitations": [
+    "No conclusion about Hong Kong source-IP geography can be drawn from this unperformed supplement.",
+    "Hong Kong company attribution in the assessment must use separate business evidence.",
+    "IP geolocation, even if available, would not establish organization ownership or headquarters."
+  ],
+  "privacy": "No individual IP was submitted to a network service. No gateway client addresses were retained for this supplement."
+}
