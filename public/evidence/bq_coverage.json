@@ -1,7 +1,7 @@
 {
   "archive": "04_bigquery.tar.gz",
   "status": "in_progress",
-  "updated_at": "2026-10-21T01:48:42.525825+00:00",
+  "updated_at": "2026-10-21T04:58:16.331618+00:00",
   "inventory": {
     "status": "complete",
     "table_count": 6458,

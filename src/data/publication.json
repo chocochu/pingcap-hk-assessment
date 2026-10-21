@@ -1,9 +1,17 @@
 {
-  "version": "0.2.2",
-  "preparedAt": "2026-10-21T02:23:10Z",
-  "sourceReportSha256": "bab01fc27a194406650d41f94af5e838facc7da673f1b7c72ad46c64b7f5cff7",
-  "contentSha256": "9f9a702cd50d3a0efb649613e25020431e737d03989b2727e8742ec0b9a011aa",
+  "version": "0.2.3",
+  "preparedAt": "2026-10-21T08:05:20+00:00",
+  "sourceReportSha256": "d1436aeee35f5513325d7377bd2544407786ee3e14df6add9d388a1e6e09ec24",
+  "contentSha256": "617c1042103ea9730d4b2beef7230611cb774648576797a29605735c78da6ffd",
   "history": [
+    {
+      "version": "0.2.3",
+      "preparedAt": "2026-10-21T08:05:20+00:00",
+      "summary": {
+        "en": "Integrated validated BigQuery reviews of commercial and support associations, stored-field presence, document and billing-model structure, numeric precision, and additional company-name context. Identity, historical ownership and incident-impact limits remain explicit.",
+        "zh-Hant": "整合已通過驗證的 BigQuery 檢視結果，包括商業及支援紀錄關聯、儲存欄位存在情況、文件與計費模型結構、數值精度，以及新增公司名稱背景。明確保留身分、歷史擁有關係及事件影響的解讀限制。"
+      }
+    },
     {
       "version": "0.2.2",
       "preparedAt": "2026-10-21T02:23:10Z",
