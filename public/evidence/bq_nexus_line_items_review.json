@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "nonempty_sources_scanned": 3,
+    "source_row_observations": 4781,
+    "parse_errors": 0,
+    "reference_sources_scanned": 0,
+    "parent_projections_read": 0,
+    "reference_targets_admitted": 0
+  },
+  "sources": {
+    "BQNLI001": {
+      "record_kind": "quote_product_custom",
+      "distinct_id_groups": 1048,
+      "distinct_raw_lines": 1048,
+      "distinct_whole_record_versions": 1048,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 0,
+      "id_record_versions": 1048,
+      "maximum_versions_per_id_group": 1,
+      "multiversion_id_groups": 0,
+      "row_observations": 1048,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 1048,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "reference_targets_admitted": 0,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "Autoapprove__c": {
+          "absent": 1048
+        },
+        "CreatedById": {
+          "nonempty_string": 1048
+        },
+        "CreatedDate": {
+          "nonempty_string": 1048
+        },
+        "Description": {
+          "absent": 1048
+        },
+        "Description__c": {
+          "absent": 1048
+        },
+        "Discount__c": {
+          "absent": 1048
+        },
+        "Id": {
+          "nonempty_string": 1048
+        },
+        "IsDeleted": {
+          "nonempty_string": 1048
+        },
+        "LastModifiedById": {
+          "nonempty_string": 1048
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 1048
+        },
+        "List_Price__c": {
+          "absent": 1048
+        },
+        "Name": {
+          "absent": 1048
+        },
+        "NetFees__c": {
+          "absent": 13,
+          "nonempty_string": 1035
+        },
+        "Net_fees__c": {
+          "absent": 1048
+        },
+        "OpportunityProduct__c": {
+          "absent": 1035,
+          "nonempty_string": 13
+        },
+        "OwnerId": {
+          "absent": 1035,
+          "nonempty_string": 13
+        },
+        "Product_Code__c": {
+          "absent": 1048
+        },
+        "Product_Name__c": {
+          "absent": 1048
+        },
+        "Product__c": {
+          "absent": 1048
+        },
+        "Quantity__c": {
+          "absent": 1048
+        },
+        "Quote__c": {
+          "nonempty_string": 1048
+        },
+        "Recalculate__c": {
+          "nonempty_string": 1048
+        },
+        "RecordTypeId": {
+          "absent": 1048
+        },
+        "Service_End_Date__c": {
+          "absent": 1048
+        },
+        "Service_Start_Date__c": {
+          "absent": 1048
+        },
+        "SystemModstamp": {
+          "nonempty_string": 1048
+        },
+        "Term_Months__c": {
+          "absent": 1048
+        },
+        "Total_List_Price__c": {
+          "absent": 13,
+          "nonempty_string": 1035
+        },
+        "Unit_Net_Price__c": {
+          "absent": 1048
+        },
+        "_record_loaded_at": {
+          "nonempty_string": 1048
+        },
+        "_record_source_manifest_uri": {
+          "nonempty_string": 1048
+        },
+        "_record_source_run_id": {
+          "nonempty_string": 1048
+        },
+        "_record_watermark_at": {
+          "nonempty_string": 1048
+        },
+        "_snapshot_date": {
+          "absent": 1048
+        },
+        "_snapshot_loaded_at": {
+          "absent": 1048
+        },
+        "_snapshot_run_id": {
+          "absent": 1048
+        },
+        "_source_database": {
+          "absent": 1048
+        },
+        "_source_manifest_uri": {
+          "absent": 1048
+        },
+        "_source_name": {
+          "absent": 1048
+        },
+        "_source_table": {
+          "absent": 1048
+        },
+        "name": {
+          "absent": 1048
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 1048
+        },
+        "Quote__c": {
+          "admitted_literal_string": 1048
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 1048,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 1,
+          "repeated_literal_groups": 0,
+          "row_observations": 1048
+        },
+        "Quote__c": {
+          "distinct_literal_groups": 912,
+          "excess_occurrences": 136,
+          "maximum_occurrences": 8,
+          "repeated_literal_groups": 66,
+          "row_observations": 1048
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 1048
+        },
+        "Quote__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 1048
+        }
+      },
+      "literal_flags": {
+        "IsDeleted": {
+          "string_one": 1048
+        },
+        "Recalculate__c": {
+          "string_zero": 1048
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 1048
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 1048
+        },
+        "Service_End_Date__c": {
+          "absent": 1048
+        },
+        "Service_Start_Date__c": {
+          "absent": 1048
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 1048
+        },
+        "_record_loaded_at": {
+          "offset_timestamp": 1048
+        },
+        "_record_watermark_at": {
+          "offset_timestamp": 1048
+        },
+        "_snapshot_date": {
+          "absent": 1048
+        },
+        "_snapshot_loaded_at": {
+          "absent": 1048
+        }
+      }
+    },
+    "BQNLI002": {
+      "record_kind": "quote_line_item",
+      "distinct_id_groups": 1089,
+      "distinct_raw_lines": 1089,
+      "distinct_whole_record_versions": 1089,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 0,
+      "id_record_versions": 1089,
+      "maximum_versions_per_id_group": 1,
+      "multiversion_id_groups": 0,
+      "row_observations": 1089,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 1089,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "reference_targets_admitted": 0,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "CreatedById": {
+          "nonempty_string": 1089
+        },
+        "CreatedDate": {
+          "nonempty_string": 1089
+        },
+        "CurrencyIsoCode": {
+          "absent": 3,
+          "nonempty_string": 1086
+        },
+        "Description": {
+          "absent": 1030,
+          "empty_string": 28,
+          "nonempty_string": 31
+        },
+        "Discount": {
+          "absent": 991,
+          "nonempty_string": 98
+        },
+        "Id": {
+          "nonempty_string": 1089
+        },
+        "IsDeleted": {
+          "nonempty_string": 1089
+        },
+        "LastModifiedById": {
+          "nonempty_string": 1089
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 1089
+        },
+        "LineNumber": {
+          "nonempty_string": 1089
+        },
+        "ListPrice": {
+          "absent": 4,
+          "nonempty_string": 1085
+        },
+        "Name": {
+          "absent": 1089
+        },
+        "Net_Fees_Total__c": {
+          "absent": 1064,
+          "nonempty_string": 25
+        },
+        "Net_fees__c": {
+          "absent": 28,
+          "nonempty_string": 1061
+        },
+        "OwnerId": {
+          "nonempty_string": 1089
+        },
+        "PricebookEntryId": {
+          "nonempty_string": 1089
+        },
+        "Product2Id": {
+          "absent": 1,
+          "nonempty_string": 1088
+        },
+        "Quantity": {
+          "nonempty_string": 1089
+        },
+        "QuoteId": {
+          "nonempty_string": 1089
+        },
+        "RecordTypeId": {
+          "absent": 1089
+        },
+        "ServiceDate": {
+          "absent": 1089
+        },
+        "Service_End_Date__c": {
+          "absent": 21,
+          "nonempty_string": 1068
+        },
+        "Service_Start_Date__c": {
+          "absent": 9,
+          "nonempty_string": 1080
+        },
+        "SourceOpportunityLineItemId__c": {
+          "absent": 1022,
+          "nonempty_string": 67
+        },
+        "Subtotal": {
+          "absent": 1089
+        },
+        "SystemModstamp": {
+          "nonempty_string": 1089
+        },
+        "Term_Months__c": {
+          "absent": 10,
+          "nonempty_string": 1079
+        },
+        "Term_years__c": {
+          "absent": 1089
+        },
+        "TotalPrice": {
+          "absent": 1089
+        },
+        "UnitPrice": {
+          "nonempty_string": 1089
+        },
+        "Unit_Net_Price__c": {
+          "absent": 10,
+          "nonempty_string": 1079
+        },
+        "_record_loaded_at": {
+          "nonempty_string": 1089
+        },
+        "_record_source_manifest_uri": {
+          "nonempty_string": 1089
+        },
+        "_record_source_run_id": {
+          "nonempty_string": 1089
+        },
+        "_record_watermark_at": {
+          "nonempty_string": 1089
+        },
+        "_snapshot_date": {
+          "absent": 1089
+        },
+        "_snapshot_loaded_at": {
+          "absent": 1089
+        },
+        "_snapshot_run_id": {
+          "absent": 1089
+        },
+        "_source_database": {
+          "absent": 1089
+        },
+        "_source_manifest_uri": {
+          "absent": 1089
+        },
+        "_source_name": {
+          "absent": 1089
+        },
+        "_source_table": {
+          "absent": 1089
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 1089
+        },
+        "QuoteId": {
+          "admitted_literal_string": 1089
+        },
+        "Product2Id": {
+          "absent": 1,
+          "admitted_literal_string": 1088
+        },
+        "PricebookEntryId": {
+          "admitted_literal_string": 1089
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 1089,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 1,
+          "repeated_literal_groups": 0,
+          "row_observations": 1089
+        },
+        "QuoteId": {
+          "distinct_literal_groups": 954,
+          "excess_occurrences": 135,
+          "maximum_occurrences": 8,
+          "repeated_literal_groups": 75,
+          "row_observations": 1089
+        },
+        "Product2Id": {
+          "distinct_literal_groups": 14,
+          "excess_occurrences": 1074,
+          "maximum_occurrences": 664,
+          "repeated_literal_groups": 12,
+          "row_observations": 1088
+        },
+        "PricebookEntryId": {
+          "distinct_literal_groups": 22,
+          "excess_occurrences": 1067,
+          "maximum_occurrences": 663,
+          "repeated_literal_groups": 16,
+          "row_observations": 1089
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 1089
+        },
+        "QuoteId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 1089
+        },
+        "Product2Id": {
+          "groups_with_any_unverified_observation": 1,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 1,
+          "groups_with_one_valid_value": 1088
+        },
+        "PricebookEntryId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 1089
+        }
+      },
+      "literal_flags": {
+        "IsDeleted": {
+          "string_one": 34,
+          "string_zero": 1055
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 1089
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 1089
+        },
+        "ServiceDate": {
+          "absent": 1089
+        },
+        "Service_End_Date__c": {
+          "absent": 21,
+          "calendar_yyyy_mm_dd": 1068
+        },
+        "Service_Start_Date__c": {
+          "absent": 9,
+          "calendar_yyyy_mm_dd": 1080
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 1089
+        },
+        "_record_loaded_at": {
+          "offset_timestamp": 1089
+        },
+        "_record_watermark_at": {
+          "offset_timestamp": 1089
+        },
+        "_snapshot_date": {
+          "absent": 1089
+        },
+        "_snapshot_loaded_at": {
+          "absent": 1089
+        }
+      }
+    },
+    "BQNLI003": {
+      "record_kind": "opportunity_line_item",
+      "distinct_id_groups": 2644,
+      "distinct_raw_lines": 2644,
+      "distinct_whole_record_versions": 2644,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 0,
+      "id_record_versions": 2644,
+      "maximum_versions_per_id_group": 1,
+      "multiversion_id_groups": 0,
+      "row_observations": 2644,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 2644,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "reference_targets_admitted": 0,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "CreatedById": {
+          "nonempty_string": 2644
+        },
+        "CreatedDate": {
+          "nonempty_string": 2644
+        },
+        "CurrencyIsoCode": {
+          "nonempty_string": 2644
+        },
+        "Description": {
+          "absent": 26,
+          "empty_string": 2308,
+          "nonempty_string": 310
+        },
+        "Discount": {
+          "absent": 40,
+          "nonempty_string": 2604
+        },
+        "Id": {
+          "nonempty_string": 2644
+        },
+        "IsDeleted": {
+          "nonempty_string": 2644
+        },
+        "LastModifiedById": {
+          "nonempty_string": 2644
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 2644
+        },
+        "ListPrice": {
+          "nonempty_string": 2644
+        },
+        "Name": {
+          "absent": 2644
+        },
+        "Net_Fees_Total__c": {
+          "absent": 2644
+        },
+        "Net_fees__c": {
+          "absent": 8,
+          "nonempty_string": 2636
+        },
+        "OpportunityId": {
+          "nonempty_string": 2644
+        },
+        "OpportunityProduct__c": {
+          "absent": 2644
+        },
+        "OwnerId": {
+          "absent": 2607,
+          "nonempty_string": 37
+        },
+        "PricebookEntryId": {
+          "nonempty_string": 2644
+        },
+        "Product2Id": {
+          "nonempty_string": 2644
+        },
+        "Quantity": {
+          "nonempty_string": 2644
+        },
+        "Recalculate__c": {
+          "nonempty_string": 2644
+        },
+        "RecordTypeId": {
+          "absent": 2644
+        },
+        "ServiceDate": {
+          "absent": 2644
+        },
+        "Service_End_Date__c": {
+          "absent": 2613,
+          "nonempty_string": 31
+        },
+        "Service_Start_Date__c": {
+          "absent": 17,
+          "nonempty_string": 2627
+        },
+        "SystemModstamp": {
+          "nonempty_string": 2644
+        },
+        "Term_Mounths__c": {
+          "nonempty_string": 2644
+        },
+        "TotalPrice": {
+          "absent": 37,
+          "nonempty_string": 2607
+        },
+        "UnitPrice": {
+          "absent": 2,
+          "nonempty_string": 2642
+        },
+        "Unit_Net_Price__c": {
+          "absent": 9,
+          "nonempty_string": 2635
+        },
+        "_record_loaded_at": {
+          "nonempty_string": 2644
+        },
+        "_record_source_manifest_uri": {
+          "nonempty_string": 2644
+        },
+        "_record_source_run_id": {
+          "nonempty_string": 2644
+        },
+        "_record_watermark_at": {
+          "nonempty_string": 2644
+        },
+        "_snapshot_date": {
+          "absent": 2644
+        },
+        "_snapshot_loaded_at": {
+          "absent": 2644
+        },
+        "_snapshot_run_id": {
+          "absent": 2644
+        },
+        "_source_database": {
+          "absent": 2644
+        },
+        "_source_manifest_uri": {
+          "absent": 2644
+        },
+        "_source_name": {
+          "absent": 2644
+        },
+        "_source_table": {
+          "absent": 2644
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 2644
+        },
+        "OpportunityId": {
+          "admitted_literal_string": 2644
+        },
+        "Product2Id": {
+          "admitted_literal_string": 2644
+        },
+        "PricebookEntryId": {
+          "admitted_literal_string": 2644
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 2644,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 1,
+          "repeated_literal_groups": 0,
+          "row_observations": 2644
+        },
+        "OpportunityId": {
+          "distinct_literal_groups": 2526,
+          "excess_occurrences": 118,
+          "maximum_occurrences": 8,
+          "repeated_literal_groups": 66,
+          "row_observations": 2644
+        },
+        "Product2Id": {
+          "distinct_literal_groups": 20,
+          "excess_occurrences": 2624,
+          "maximum_occurrences": 1890,
+          "repeated_literal_groups": 14,
+          "row_observations": 2644
+        },
+        "PricebookEntryId": {
+          "distinct_literal_groups": 28,
+          "excess_occurrences": 2616,
+          "maximum_occurrences": 1887,
+          "repeated_literal_groups": 20,
+          "row_observations": 2644
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 2644
+        },
+        "OpportunityId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 2644
+        },
+        "Product2Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 2644
+        },
+        "PricebookEntryId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 2644
+        }
+      },
+      "literal_flags": {
+        "IsDeleted": {
+          "string_one": 15,
+          "string_zero": 2629
+        },
+        "Recalculate__c": {
+          "string_one": 1,
+          "string_zero": 2643
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 2644
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 2644
+        },
+        "ServiceDate": {
+          "absent": 2644
+        },
+        "Service_End_Date__c": {
+          "absent": 2613,
+          "calendar_yyyy_mm_dd": 31
+        },
+        "Service_Start_Date__c": {
+          "absent": 17,
+          "calendar_yyyy_mm_dd": 2627
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 2644
+        },
+        "_record_loaded_at": {
+          "offset_timestamp": 2644
+        },
+        "_record_watermark_at": {
+          "offset_timestamp": 2644
+        },
+        "_snapshot_date": {
+          "absent": 2644
+        },
+        "_snapshot_loaded_at": {
+          "absent": 2644
+        }
+      }
+    }
+  },
+  "company_or_hk_attribution_performed": false,
+  "cross_source_or_native_join_performed": false,
+  "financial_or_execution_interpretation_performed": false,
+  "raw_final_union_performed": false,
+  "historical_ownership_established": false,
+  "deletion_recalculation_semantics_established": false,
+  "limitations": [
+    "Three final-layer NexusCRM sources are counted separately: custom quote product, quote line item and opportunity line item. Row observations, exact whole-record versions and source-local Id groups are different units; none is a validated unique business line, product owner, customer or incident count.",
+    "Every source row and repeated occurrence remains in the private census. Whole-record versions include excluded financial, quantity, term, payload and ingestion changes. No latest version, synthetic compound key or deduplicated business record is elected; multiversion and single-version Id groups alike are not admitted reference targets.",
+    "Candidate identifiers use private source-and-role-qualified groups under a declared conservative syntax: nonempty strings of at most 256 Unicode characters without padding, whitespace or Unicode control/format characters. Numeric and boolean types are not coerced. This is not authoritative native-ID grammar, SQL varchar(255) conformance or SQL collation equality.",
+    "Custom Quote__c, native QuoteId and OpportunityId remain separately named roles in separate source classes. Product2Id and PricebookEntryId are unresolved roles only in the declared line-item sources. Equal strings or group counts do not establish shared members, one line-item grain, namespace equivalence or target membership.",
+    "Per-Id role cardinality reports zero, one or multiple observed strict groups and unverified observations. It is an intra-source structural diagnostic, not a parent join or reference-integrity result. Different role values across versions do not by themselves prove a conflict; no unmatched-target category is computed.",
+    "Three reviewed SQL schemas contribute exact column names to presence coverage only. SQL types, defaults, NOT NULL, primary/unique keys and utf8mb4_unicode_ci collation are not imposed on JSON observations. DDL-only reference-like fields remain presence/type only. NetFees__c/Net_fees__c, Term_Months__c/Term_Mounths__c and other exact case/spelling variants remain distinct.",
+    "Known and late-discovered fields have complete all-row presence partitions, including absence. Additional field names and private hashes are omitted; only their source-local count is published. First-row inventory schemas and DDL do not establish actual all-row types.",
+    "IsDeleted and applicable Recalculate__c fields receive fixed literal/type categories without deletion or recalculation semantics. Dates receive fixed calendar/syntax categories without raw timestamps, epochs, ordering, durations, effective-time attribution, latest-state election or current-state conclusions.",
+    "Prices, fees, discounts, quantities, line numbers, currencies, terms, descriptions, names, owner/person identifiers and source metadata are presence/type only. Exact typed whole-record hashing preserves precision, scalar types and signed zero internally; no raw values, identifiers, per-record hashes, amounts, totals, URLs or credentials are exported.",
+    "No parent projection or target data was read, and no bridge hash, target lookup, native/polymorphic join, raw/final union, cross-CRM mapping, financial comparison, revenue/ARR, company/customer/Hong Kong attribution or incident-impact conclusion is made. Future target work requires separately reviewed contracts and explicit approval.",
+    "The exporter recomputes the retained private assessment read-only. Original source parsing and byte/EOF truth rely on frozen scan receipts and unchanged archive identity; no archive is reread by the exporter."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "full_assessment_recomputed_readonly": true,
+    "all_retained_projection_privacy_shapes_validated": true,
+    "selected_source_receipts_reconciled": true,
+    "selected_nested_gzip_eof_receipts_valid": true,
+    "reference_sources_excluded_from_scan": true,
+    "frozen_inputs_rechecked_after_export": true,
+    "archive_reread_by_exporter": false
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "status": "complete",
+  "archive": "04_bigquery.tar.gz",
+  "archive_sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+  "scope": "Separate native-ID and exact organization-name support source associations across three selected tables.",
+  "summary": {
+    "tables_complete": 3,
+    "rows_parsed": 193563,
+    "parse_errors": 0
+  },
+  "table_coverage": [
+    {
+      "source_alias": "BQS001",
+      "record_role": "Native tenant records",
+      "status": "complete",
+      "rows_parsed": 178309,
+      "rows_stored": 178309,
+      "parse_errors": 0
+    },
+    {
+      "source_alias": "BQS002",
+      "record_role": "Support organization records",
+      "status": "complete",
+      "rows_parsed": 13023,
+      "rows_stored": 13023,
+      "parse_errors": 0
+    },
+    {
+      "source_alias": "BQS003",
+      "record_role": "Support ticket records",
+      "status": "complete",
+      "rows_parsed": 2231,
+      "rows_stored": 2231,
+      "parse_errors": 0
+    }
+  ],
+  "native_explicit_id_hk_route": {
+    "summary": {
+      "admitted_organizations": 0,
+      "admitted_label_strings": 0,
+      "organizations_with_tickets": 0,
+      "distinct_ticket_ids": 0,
+      "source_ticket_rows": 0,
+      "duplicate_ticket_rows_collapsed": 0,
+      "tickets_with_merge_metadata": 0,
+      "merged_ticket_reference_count": 0,
+      "structured_field_presence": {},
+      "boolean_value_counts": {
+        "custom_customer_feature_requested_": {},
+        "custom_handoff_required": {},
+        "custom_kb_article_needed_": {},
+        "custom_production_down_": {},
+        "custom_solution_proposed": {},
+        "custom_workaround_provided": {},
+        "has_incidents": {}
+      },
+      "status_categories": {},
+      "eligible_hk_native_ids": 0,
+      "excluded_native_ids": {}
+    },
+    "label_counts": []
+  },
+  "exact_organization_name_route": {
+    "summary": {
+      "admitted_organizations": 49,
+      "admitted_label_strings": 49,
+      "organizations_with_tickets": 4,
+      "distinct_ticket_ids": 171,
+      "source_ticket_rows": 171,
+      "duplicate_ticket_rows_collapsed": 0,
+      "tickets_with_merge_metadata": 171,
+      "merged_ticket_reference_count": 4,
+      "structured_field_presence": {
+        "custom_cluster_name": 64,
+        "custom_current_ti_db_version": 61,
+        "custom_product_category": 171,
+        "custom_severity": 170,
+        "custom_ti_db_cloud_deployment_type": 68,
+        "priority": 171
+      },
+      "boolean_value_counts": {
+        "custom_customer_feature_requested_": {
+          "false": 171
+        },
+        "custom_handoff_required": {
+          "false": 171
+        },
+        "custom_kb_article_needed_": {
+          "false": 170,
+          "true": 1
+        },
+        "custom_production_down_": {
+          "false": 170,
+          "true": 1
+        },
+        "custom_solution_proposed": {
+          "false": 171
+        },
+        "custom_workaround_provided": {
+          "false": 171
+        },
+        "has_incidents": {
+          "false": 171
+        }
+      },
+      "status_categories": {
+        "closed": 162,
+        "pending": 7,
+        "open": 2
+      },
+      "hk_geography_inherited": false,
+      "native_tenant_relationship_asserted": false,
+      "eligible_named_organization_ids": 49,
+      "excluded_organization_ids": {}
+    },
+    "label_counts": [
+      {
+        "organization_label": "365 Technologies Holding Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "ADVANCE INTELLIGENCE PTE. LTD.",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "AGILEWING TECHNOLOGY CO. LIMITED",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "AdTech Innovation Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Admazes Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "AmberGroup",
+        "organizations": 1,
+        "distinct_ticket_ids": 69
+      },
+      {
+        "organization_label": "Animoca Brands Corporation Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "AsiaPac Net Media Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "AsiaPac Net Media Limited*",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "AsiaPac Net Media Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Baidu (HONG KONG) Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 6
+      },
+      {
+        "organization_label": "Bytebase (HongKong) Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Cloud Steps Technology (HK) Co., Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "EDNS Domains PTE Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Eats365",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "FWD GROUP MANAGEMENT HOLDINGS LIMITED",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Funplus Interactive (Hong Kong) Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Geely Automobile Holdings Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Guangzhou University",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "H&amp;W Technology Service Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "HONG KONG WONDERCLOUD LIMITED",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Hytto Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Lazy Panda Technology Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Livi Bank",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Matrixport Technologies Ltd.",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Meichintrading trading company ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "NODE REAL PTE LTD.",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "North China University of Technology",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "OceanBase Hong Kong Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "OneConnect Financial Technology Co Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Orient Overseas Container Line Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "PAX",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "STARLING LABS LIMITED",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Sabetech Technology Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Solusfutura Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Standard Chartered Bank",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Systex Information (H.K.) Ltd",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Wetech Trading Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Zhejiang University",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "Zhuo Fanl Industrial Co., Limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 95
+      },
+      {
+        "organization_label": "iRainbow Hong Kong Limited.,",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "jc limited",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "miHoYo Co., Ltd.",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "paxglobal",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      },
+      {
+        "organization_label": "shoplazza",
+        "organizations": 1,
+        "distinct_ticket_ids": 1
+      },
+      {
+        "organization_label": "shopline",
+        "organizations": 1,
+        "distinct_ticket_ids": 0
+      }
+    ]
+  },
+  "mapping_diagnostics": {
+    "native_distinct_ids": 178309,
+    "organization_distinct_ids": 13023,
+    "ticket_distinct_ids": 2231,
+    "native_ids_with_conflicting_projected_records": 0,
+    "organization_ids_with_conflicting_projected_records": 0,
+    "ticket_ids_with_conflicting_projected_records": 0,
+    "native_duplicate_rows_beyond_first_id": 0,
+    "organization_duplicate_rows_beyond_first_id": 0,
+    "ticket_duplicate_rows_beyond_first_id": 0,
+    "native_zendesk_reference_distinct_values": 11686,
+    "native_zendesk_reference_values_present_as_organization_id": 11684,
+    "organization_ids_referenced_by_multiple_native_ids": 2
+  },
+  "ticket_exclusions": {
+    "missing_or_unsupported_organization_id": 540,
+    "deleted_or_unsupported_ticket_deletion": 101
+  },
+  "overlap": {
+    "organization_ids": 0,
+    "ticket_ids": 0
+  },
+  "limitations": [
+    "This is a source-association review of three selected tables, not verified corporate identity, current support entitlement, production use, compromise or customer-data exposure.",
+    "The native route requires an eligible exact company label, explicit native Hong Kong country, and the canonical tenant-to-support-organization-to-ticket references. No eligible native Hong Kong attribution is inferred from organization names alone.",
+    "The exact organization-name route has no inherited Hong Kong geography and establishes no native tenant, financial, cluster or gateway relationship. Existing label strings can denote aliases or different legal entities.",
+    "Routes overlap and must not be added. Organization and ticket IDs are deduplicated within each route; source row observations and distinct IDs remain separate.",
+    "Only equality of retained structured projections is used to collapse duplicate IDs; whole-record equality is not claimed. Conflicting projections, ambiguous mappings and explicit or unsupported deletion states are excluded.",
+    "Nonnegative JSON integer identifiers are converted to decimal strings. String tokens remain unchanged; floating-point values, booleans, whitespace-padded tokens and unsupported types are rejected. No case or leading-zero normalization is applied.",
+    "A missing deletion indicator does not prove that a record is active. Distinct ticket IDs are not collapsed using merge-reference metadata.",
+    "Structured-field counts indicate that values or flags occur in support records. Cluster names, versions, ticket text, personal fields and raw identifiers are not disclosed; a production-down flag is not independent verification of an incident.",
+    "The reviewed string Swire Properties Inc., if present, must not be substituted for a Hong Kong legal entity. Earlier reviewed identity limitations remain applicable."
+  ]
+}

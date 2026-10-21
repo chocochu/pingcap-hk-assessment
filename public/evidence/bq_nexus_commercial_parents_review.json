@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "nonempty_sources_scanned": 2,
+    "source_row_observations": 1477,
+    "parse_errors": 0,
+    "reference_sources_scanned": 0,
+    "reference_targets_admitted": 0
+  },
+  "sources": {
+    "BQNCP001": {
+      "record_kind": "contract",
+      "distinct_id_groups": 505,
+      "distinct_raw_lines": 505,
+      "distinct_whole_record_versions": 505,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 30,
+      "id_record_versions": 505,
+      "maximum_versions_per_id_group": 1,
+      "multiversion_id_groups": 0,
+      "row_observations": 505,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 505,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "reference_targets_admitted": 0,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "AccountId": {
+          "nonempty_string": 505
+        },
+        "Archived__c": {
+          "nonempty_string": 505
+        },
+        "ContractNumber": {
+          "nonempty_string": 505
+        },
+        "ContractTerm": {
+          "nonempty_string": 505
+        },
+        "CreatedById": {
+          "absent": 4,
+          "nonempty_string": 501
+        },
+        "CreatedDate": {
+          "nonempty_string": 505
+        },
+        "Description": {
+          "absent": 493,
+          "empty_string": 7,
+          "nonempty_string": 5
+        },
+        "EndDate": {
+          "absent": 26,
+          "nonempty_string": 479
+        },
+        "Id": {
+          "nonempty_string": 505
+        },
+        "IsDeleted": {
+          "nonempty_string": 505
+        },
+        "LastModifiedById": {
+          "absent": 3,
+          "nonempty_string": 502
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 505
+        },
+        "Name": {
+          "empty_string": 4,
+          "nonempty_string": 501
+        },
+        "OwnerId": {
+          "nonempty_string": 505
+        },
+        "RecordTypeId": {
+          "nonempty_string": 505
+        },
+        "StartDate": {
+          "nonempty_string": 505
+        },
+        "Status": {
+          "nonempty_string": 505
+        },
+        "StatusCode": {
+          "nonempty_string": 505
+        },
+        "SystemModstamp": {
+          "nonempty_string": 505
+        },
+        "_record_loaded_at": {
+          "nonempty_string": 505
+        },
+        "_record_source_manifest_uri": {
+          "nonempty_string": 505
+        },
+        "_record_source_run_id": {
+          "nonempty_string": 505
+        },
+        "_record_watermark_at": {
+          "nonempty_string": 505
+        },
+        "_snapshot_date": {
+          "absent": 505
+        },
+        "_snapshot_loaded_at": {
+          "absent": 505
+        },
+        "_snapshot_run_id": {
+          "absent": 505
+        },
+        "_source_database": {
+          "absent": 505
+        },
+        "_source_manifest_uri": {
+          "absent": 505
+        },
+        "_source_name": {
+          "absent": 505
+        },
+        "_source_table": {
+          "absent": 505
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 505
+        },
+        "AccountId": {
+          "admitted_literal_string": 505
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 505,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 1,
+          "repeated_literal_groups": 0,
+          "row_observations": 505
+        },
+        "AccountId": {
+          "distinct_literal_groups": 401,
+          "excess_occurrences": 104,
+          "maximum_occurrences": 7,
+          "repeated_literal_groups": 73,
+          "row_observations": 505
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 505
+        },
+        "AccountId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 505
+        }
+      },
+      "status_syntax": {
+        "Status": {
+          "ascii_status_token": 504,
+          "other_nonempty_string": 1
+        },
+        "StatusCode": {
+          "ascii_status_token": 505
+        }
+      },
+      "literal_flags": {
+        "Archived__c": {
+          "string_one": 14,
+          "string_zero": 491
+        },
+        "IsDeleted": {
+          "string_zero": 505
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 505
+        },
+        "EndDate": {
+          "absent": 26,
+          "calendar_yyyy_mm_dd": 479
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 505
+        },
+        "StartDate": {
+          "calendar_yyyy_mm_dd": 505
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 505
+        },
+        "_record_loaded_at": {
+          "offset_timestamp": 505
+        },
+        "_record_watermark_at": {
+          "offset_timestamp": 505
+        },
+        "_snapshot_date": {
+          "absent": 505
+        },
+        "_snapshot_loaded_at": {
+          "absent": 505
+        }
+      }
+    },
+    "BQNCP002": {
+      "record_kind": "quote",
+      "distinct_id_groups": 972,
+      "distinct_raw_lines": 972,
+      "distinct_whole_record_versions": 972,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 109,
+      "id_record_versions": 972,
+      "maximum_versions_per_id_group": 1,
+      "multiversion_id_groups": 0,
+      "row_observations": 972,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 972,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "reference_targets_admitted": 0,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "ACV_Amount_do_not_use__c": {
+          "absent": 1,
+          "nonempty_string": 971
+        },
+        "AccountId": {
+          "nonempty_string": 972
+        },
+        "Account_Name_for_email_template__c": {
+          "absent": 2,
+          "nonempty_string": 970
+        },
+        "Account_Owner_for_email_template__c": {
+          "absent": 2,
+          "nonempty_string": 970
+        },
+        "ApprovedPrice__c": {
+          "nonempty_string": 972
+        },
+        "Contains_Other_Nonstd_Terms__c": {
+          "nonempty_string": 972
+        },
+        "CreatedById": {
+          "nonempty_string": 972
+        },
+        "CreatedDate": {
+          "nonempty_string": 972
+        },
+        "CurrencyIsoCode": {
+          "nonempty_string": 972
+        },
+        "Customers_Cluster_Configuration__c": {
+          "nonempty_string": 972
+        },
+        "Description": {
+          "absent": 30,
+          "empty_string": 936,
+          "nonempty_string": 6
+        },
+        "Escalate_to_CEO_Approval__c": {
+          "nonempty_string": 972
+        },
+        "Escalate_to_Finance_Head_Approval__c": {
+          "nonempty_string": 972
+        },
+        "ExpirationDate": {
+          "absent": 12,
+          "nonempty_string": 960
+        },
+        "Governing_Contract_Family__c": {
+          "empty_string": 910,
+          "nonempty_string": 62
+        },
+        "Governing_Service_End_Date__c": {
+          "absent": 920,
+          "nonempty_string": 52
+        },
+        "Governing_Service_Start_Date__c": {
+          "absent": 920,
+          "nonempty_string": 52
+        },
+        "How_will_the_customer_place_an_order__c": {
+          "empty_string": 92,
+          "nonempty_string": 880
+        },
+        "Id": {
+          "nonempty_string": 972
+        },
+        "Including_man_days_or_Premium_support__c": {
+          "nonempty_string": 972
+        },
+        "IsConvertQuote__c": {
+          "nonempty_string": 972
+        },
+        "IsDeleted": {
+          "nonempty_string": 972
+        },
+        "Is_Non_standard_Program__c": {
+          "nonempty_string": 972
+        },
+        "Is_Standard_Migration_Program__c": {
+          "nonempty_string": 972
+        },
+        "LastModifiedById": {
+          "nonempty_string": 972
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 972
+        },
+        "Line_Item_Count__c": {
+          "absent": 14,
+          "nonempty_string": 958
+        },
+        "Name": {
+          "nonempty_string": 972
+        },
+        "Needapprove__c": {
+          "nonempty_string": 972
+        },
+        "OpportunityId": {
+          "nonempty_string": 972
+        },
+        "Opportunity_Name_for_email_template__c": {
+          "absent": 2,
+          "nonempty_string": 970
+        },
+        "Other_Nonstandard_Terms_and_Conditions__c": {
+          "absent": 53,
+          "empty_string": 643,
+          "nonempty_string": 276
+        },
+        "OwnerId": {
+          "nonempty_string": 972
+        },
+        "Payment_Term__c": {
+          "nonempty_string": 972
+        },
+        "Payment_Type__c": {
+          "empty_string": 5,
+          "nonempty_string": 967
+        },
+        "Pricebook2Id": {
+          "empty_string": 2,
+          "nonempty_string": 970
+        },
+        "Priced_Line_Item_Count__c": {
+          "absent": 14,
+          "nonempty_string": 958
+        },
+        "Product_Family__c": {
+          "absent": 903,
+          "empty_string": 1,
+          "nonempty_string": 68
+        },
+        "Product_Name__c": {
+          "absent": 18,
+          "empty_string": 58,
+          "nonempty_string": 896
+        },
+        "QuoteNumber": {
+          "nonempty_string": 972
+        },
+        "RecordTypeId": {
+          "absent": 1,
+          "nonempty_string": 971
+        },
+        "Service_End_Date__c": {
+          "absent": 920,
+          "nonempty_string": 52
+        },
+        "Service_Start_Date__c": {
+          "absent": 920,
+          "nonempty_string": 52
+        },
+        "Status": {
+          "nonempty_string": 972
+        },
+        "SystemModstamp": {
+          "nonempty_string": 972
+        },
+        "Termed_Line_Item_Count__c": {
+          "absent": 14,
+          "nonempty_string": 958
+        },
+        "Total_Credit_Amount__c": {
+          "absent": 13,
+          "nonempty_string": 959
+        },
+        "_record_loaded_at": {
+          "nonempty_string": 972
+        },
+        "_record_source_manifest_uri": {
+          "nonempty_string": 972
+        },
+        "_record_source_run_id": {
+          "nonempty_string": 972
+        },
+        "_record_watermark_at": {
+          "nonempty_string": 972
+        },
+        "_snapshot_date": {
+          "absent": 972
+        },
+        "_snapshot_loaded_at": {
+          "absent": 972
+        },
+        "_snapshot_run_id": {
+          "absent": 972
+        },
+        "_source_database": {
+          "absent": 972
+        },
+        "_source_manifest_uri": {
+          "absent": 972
+        },
+        "_source_name": {
+          "absent": 972
+        },
+        "_source_table": {
+          "absent": 972
+        },
+        "netfees__c": {
+          "absent": 13,
+          "nonempty_string": 959
+        },
+        "overall_start_date__c": {
+          "absent": 34,
+          "nonempty_string": 938
+        },
+        "tcv_amount_c__c": {
+          "absent": 13,
+          "nonempty_string": 959
+        },
+        "total_list_price__c": {
+          "absent": 13,
+          "nonempty_string": 959
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 972
+        },
+        "AccountId": {
+          "admitted_literal_string": 972
+        },
+        "OpportunityId": {
+          "admitted_literal_string": 972
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 972,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 1,
+          "repeated_literal_groups": 0,
+          "row_observations": 972
+        },
+        "AccountId": {
+          "distinct_literal_groups": 258,
+          "excess_occurrences": 714,
+          "maximum_occurrences": 25,
+          "repeated_literal_groups": 172,
+          "row_observations": 972
+        },
+        "OpportunityId": {
+          "distinct_literal_groups": 647,
+          "excess_occurrences": 325,
+          "maximum_occurrences": 7,
+          "repeated_literal_groups": 204,
+          "row_observations": 972
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 972
+        },
+        "AccountId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 972
+        },
+        "OpportunityId": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 972
+        }
+      },
+      "status_syntax": {
+        "Status": {
+          "ascii_status_token": 958,
+          "other_nonempty_string": 14
+        }
+      },
+      "literal_flags": {
+        "IsDeleted": {
+          "string_one": 16,
+          "string_zero": 956
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 972
+        },
+        "ExpirationDate": {
+          "absent": 12,
+          "calendar_yyyy_mm_dd": 960
+        },
+        "Governing_Service_End_Date__c": {
+          "absent": 920,
+          "calendar_yyyy_mm_dd": 52
+        },
+        "Governing_Service_Start_Date__c": {
+          "absent": 920,
+          "calendar_yyyy_mm_dd": 52
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 972
+        },
+        "Service_End_Date__c": {
+          "absent": 920,
+          "calendar_yyyy_mm_dd": 52
+        },
+        "Service_Start_Date__c": {
+          "absent": 920,
+          "calendar_yyyy_mm_dd": 52
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 972
+        },
+        "_record_loaded_at": {
+          "offset_timestamp": 972
+        },
+        "_record_watermark_at": {
+          "offset_timestamp": 972
+        },
+        "_snapshot_date": {
+          "absent": 972
+        },
+        "_snapshot_loaded_at": {
+          "absent": 972
+        },
+        "overall_start_date__c": {
+          "absent": 34,
+          "calendar_yyyy_mm_dd": 938
+        }
+      }
+    }
+  },
+  "company_or_hk_attribution_performed": false,
+  "cross_source_or_native_join_performed": false,
+  "financial_or_execution_interpretation_performed": false,
+  "raw_final_union_performed": false,
+  "historical_ownership_established": false,
+  "status_execution_semantics_established": false,
+  "limitations": [
+    "Two final-layer NexusCRM parent sources, contract and quote, are counted separately. Rows, exact whole-record versions and source-local Id groups are different units; none is a unique customer, executed contract, current service or incident count.",
+    "Every row and occurrence remains in the private census. Whole-record versions include excluded amounts, terms, payload and ingestion changes. Multiple versions under one Id are quarantined from target admission; no latest row or business primary-key contract is elected. Single-version groups are not admitted targets either.",
+    "Id and AccountId are private source-and-role-qualified candidate groups; quote additionally includes OpportunityId. Only nonempty strings of at most 256 Unicode characters without padding, whitespace or Unicode control/format characters pass the declared syntax. Other types are not coerced. This grammar is not an authoritative native-ID contract.",
+    "Source-local role counts are exploratory cardinality diagnostics. Existing account/opportunity projections lack compatible exact whole-record versions and were not loaded or joined. Equal source-local group counts or literal strings do not establish shared identities, native references, company relationships or cross-CRM equivalence.",
+    "Status and contract StatusCode use fixed syntax/type categories only. IsDeleted and contract Archived__c use literal/type categories. No raw enum vocabulary is published or interpreted as approval, execution, lifecycle, enforceability or customer activity.",
+    "Named dates and timestamps use fixed calendar/syntax categories only. No raw times, ordering, service durations, effective dates, latest-state election, current state, snapshot completeness or historical ownership is inferred.",
+    "All declared fields and late unknown fields were counted over all rows, including absence. Additional field names and their private hashes are omitted; only their source-local count is published. First-row inventory schemas were not treated as all-row contracts.",
+    "Amounts, prices, fees, credits, currency, terms, quantities/counts, names, configuration, descriptions, quote/contract numbers, owner/person IDs, source metadata and Pricebook2Id/RecordTypeId remain presence/type only. No raw values, identifiers, per-record hashes, amounts, totals, URLs or credentials are exported.",
+    "Exact typed whole-record hashing preserves numeric precision, scalar types and signed zero. Raw-line differences remain separate diagnostics. No source union, native/polymorphic join, accepted reference target, financial interpretation, company/customer/Hong Kong attribution or incident-impact claim is made.",
+    "Only the two parent streams belong to this census. Line-item/product sources, raw layers, Salesforce sources and document bodies are outside it. A later phase requires its own reviewed scope and reference policy.",
+    "This export recomputes the retained private assessment read-only. Original stream parsing and byte/EOF truth rely on frozen scan receipts and unchanged archive identity; the exporter does not reread archive contents."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "full_assessment_recomputed_readonly": true,
+    "all_retained_projection_privacy_shapes_validated": true,
+    "selected_source_receipts_reconciled": true,
+    "selected_nested_gzip_eof_receipts_valid": true,
+    "reference_sources_excluded_from_scan": true,
+    "frozen_inputs_rechecked_after_export": true,
+    "archive_reread_by_exporter": false
+  }
+}

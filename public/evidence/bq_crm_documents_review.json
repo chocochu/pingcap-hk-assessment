@@ -1,0 +1,1858 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 6,
+    "rows_parsed": 4271,
+    "verified_empty_tables": 1,
+    "parse_errors": 0
+  },
+  "sources": {
+    "BQDOC001": {
+      "namespace": "salesforce",
+      "record_family": "document",
+      "counts": {
+        "distinct_native_id_hashes": 2976,
+        "distinct_raw_line_hashes": 2976,
+        "distinct_whole_decoded_record_hashes": 2976,
+        "duplicate_rows_with_same_id_and_decoded_record": 0,
+        "id_record_versions": 2976,
+        "multi_version_native_id_hashes_quarantined": 0,
+        "rows": 2976,
+        "single_version_native_id_hashes": 2976
+      },
+      "native_id_state_rows": {
+        "strict_string": 2976
+      },
+      "fields": {
+        "_fivetran_deleted": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 2975
+            },
+            {
+              "kind": "boolean",
+              "shape": "boolean_true",
+              "category": "literal_boolean_true",
+              "rows": 1
+            }
+          ]
+        },
+        "_fivetran_synced": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 2976
+            }
+          ]
+        },
+        "content_modified_date": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 2976
+            }
+          ]
+        },
+        "content_size": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "decimal_string_positive_unit_unverified",
+              "rows": 2976
+            }
+          ]
+        },
+        "content_size_long": {
+          "row_observations": 2976,
+          "present_rows": 2975,
+          "nonempty_rows": 2975,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 1
+            },
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "decimal_string_positive_unit_unverified",
+              "rows": 2975
+            }
+          ]
+        },
+        "created_by_id": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "created_date": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 2976
+            }
+          ]
+        },
+        "file_extension": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "file_type": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "id": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "is_archived": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 2976
+            }
+          ]
+        },
+        "is_deleted": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 2975
+            },
+            {
+              "kind": "boolean",
+              "shape": "boolean_true",
+              "category": "literal_boolean_true",
+              "rows": 1
+            }
+          ]
+        },
+        "is_internal_only": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 2976
+            }
+          ]
+        },
+        "last_modified_by_id": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "last_modified_date": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 2976
+            }
+          ]
+        },
+        "latest_published_version_id": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "owner_id": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "parent_id": {
+          "row_observations": 2976,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 2976
+            }
+          ]
+        },
+        "publish_status": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "sharing_option": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "sharing_privacy": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "system_modstamp": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 2976
+            }
+          ]
+        },
+        "title": {
+          "row_observations": 2976,
+          "present_rows": 2976,
+          "nonempty_rows": 2976,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 2976
+            }
+          ]
+        },
+        "version_data": {
+          "row_observations": 2976,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 2976
+            }
+          ]
+        },
+        "version_data_url": {
+          "row_observations": 2976,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 2976
+            }
+          ]
+        }
+      },
+      "extra_top_level_field_names_count": 5
+    },
+    "BQDOC002": {
+      "namespace": "salesforce",
+      "record_family": "version",
+      "counts": {
+        "distinct_native_id_hashes": 1127,
+        "distinct_raw_line_hashes": 1127,
+        "distinct_whole_decoded_record_hashes": 1127,
+        "duplicate_rows_with_same_id_and_decoded_record": 0,
+        "id_record_versions": 1127,
+        "multi_version_native_id_hashes_quarantined": 0,
+        "rows": 1127,
+        "single_version_native_id_hashes": 1127
+      },
+      "native_id_state_rows": {
+        "strict_string": 1127
+      },
+      "fields": {
+        "_fivetran_deleted": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 1127
+            }
+          ]
+        },
+        "_fivetran_synced": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 1127
+            }
+          ]
+        },
+        "checksum": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "hex_string_32",
+              "category": "presence_only_hex_string_32",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_body_id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_document_id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_location": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_modified_by_id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_modified_date": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_size": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "decimal_string_positive_unit_unverified",
+              "rows": 1127
+            }
+          ]
+        },
+        "content_size_long": {
+          "row_observations": 1127,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 1127
+            }
+          ]
+        },
+        "created_by_id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "created_date": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 1127
+            }
+          ]
+        },
+        "currency_iso_code": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "file_extension": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "file_type": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "first_publish_location_id": {
+          "row_observations": 1127,
+          "present_rows": 1126,
+          "nonempty_rows": 1126,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 1
+            },
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1126
+            }
+          ]
+        },
+        "id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "is_asset_enabled": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 1091
+            },
+            {
+              "kind": "boolean",
+              "shape": "boolean_true",
+              "category": "literal_boolean_true",
+              "rows": 36
+            }
+          ]
+        },
+        "is_deleted": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 1127
+            }
+          ]
+        },
+        "is_latest": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 8
+            },
+            {
+              "kind": "boolean",
+              "shape": "boolean_true",
+              "category": "literal_boolean_true",
+              "rows": 1119
+            }
+          ]
+        },
+        "is_major_version": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "boolean",
+              "shape": "boolean_false",
+              "category": "literal_boolean_false",
+              "rows": 6
+            },
+            {
+              "kind": "boolean",
+              "shape": "boolean_true",
+              "category": "literal_boolean_true",
+              "rows": 1121
+            }
+          ]
+        },
+        "last_modified_by_id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "last_modified_date": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 1127
+            }
+          ]
+        },
+        "negative_rating_count": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "presence_only_decimal_string_1_to_32",
+              "rows": 1127
+            }
+          ]
+        },
+        "origin": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "owner_id": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "path_on_client": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "positive_rating_count": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "presence_only_decimal_string_1_to_32",
+              "rows": 1127
+            }
+          ]
+        },
+        "publish_status": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "rating_count": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "presence_only_decimal_string_1_to_32",
+              "rows": 1127
+            }
+          ]
+        },
+        "sharing_option": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "sharing_privacy": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "system_modstamp": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 1127
+            }
+          ]
+        },
+        "title": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "version_data": {
+          "row_observations": 1127,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 1127
+            }
+          ]
+        },
+        "version_data_url": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 1127
+            }
+          ]
+        },
+        "version_number": {
+          "row_observations": 1127,
+          "present_rows": 1127,
+          "nonempty_rows": 1127,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "presence_only_decimal_string_1_to_32",
+              "rows": 1127
+            }
+          ]
+        }
+      },
+      "extra_top_level_field_names_count": 2
+    },
+    "BQDOC003": {
+      "namespace": "salesforce",
+      "record_family": "link",
+      "counts": {
+        "distinct_native_id_hashes": 0,
+        "distinct_raw_line_hashes": 0,
+        "distinct_whole_decoded_record_hashes": 0,
+        "duplicate_rows_with_same_id_and_decoded_record": 0,
+        "id_record_versions": 0,
+        "multi_version_native_id_hashes_quarantined": 0,
+        "rows": 0,
+        "single_version_native_id_hashes": 0
+      },
+      "native_id_state_rows": {},
+      "fields": {
+        "content_document_id": {
+          "row_observations": 0,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": []
+        },
+        "id": {
+          "row_observations": 0,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": []
+        },
+        "is_deleted": {
+          "row_observations": 0,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": []
+        },
+        "linked_entity_id": {
+          "row_observations": 0,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": []
+        },
+        "share_type": {
+          "row_observations": 0,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": []
+        },
+        "visibility": {
+          "row_observations": 0,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": []
+        }
+      },
+      "extra_top_level_field_names_count": 0
+    },
+    "BQDOC004": {
+      "namespace": "nexuscrm_final",
+      "record_family": "document",
+      "counts": {
+        "distinct_native_id_hashes": 42,
+        "distinct_raw_line_hashes": 42,
+        "distinct_whole_decoded_record_hashes": 42,
+        "duplicate_rows_with_same_id_and_decoded_record": 0,
+        "id_record_versions": 42,
+        "multi_version_native_id_hashes_quarantined": 0,
+        "rows": 42,
+        "single_version_native_id_hashes": 42
+      },
+      "native_id_state_rows": {
+        "strict_string": 42
+      },
+      "fields": {
+        "ArchivedById": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "empty_string",
+              "category": "empty_string",
+              "rows": 42
+            }
+          ]
+        },
+        "ContentAssetId": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 40,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "empty_string",
+              "category": "empty_string",
+              "rows": 2
+            },
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 40
+            }
+          ]
+        },
+        "ContentSize": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "ContentSizeLong": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "CreatedById": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "CreatedDate": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "Id": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "IsArchived": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "literal_string_zero",
+              "rows": 42
+            }
+          ]
+        },
+        "IsDeleted": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "literal_string_zero",
+              "rows": 42
+            }
+          ]
+        },
+        "IsInternalOnly": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "literal_string_zero",
+              "rows": 42
+            }
+          ]
+        },
+        "LastModifiedById": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "LastModifiedDate": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "LatestPublishedVersionId": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "OwnerId": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "ParentId": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "empty_string",
+              "category": "empty_string",
+              "rows": 42
+            }
+          ]
+        },
+        "PublishStatus": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "SystemModstamp": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "Title": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "VersionData": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "VersionDataUrl": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_loaded_at": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_source_manifest_uri": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_source_run_id": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_watermark_at": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        }
+      },
+      "extra_top_level_field_names_count": 0
+    },
+    "BQDOC005": {
+      "namespace": "nexuscrm_final",
+      "record_family": "version",
+      "counts": {
+        "distinct_native_id_hashes": 42,
+        "distinct_raw_line_hashes": 42,
+        "distinct_whole_decoded_record_hashes": 42,
+        "duplicate_rows_with_same_id_and_decoded_record": 0,
+        "id_record_versions": 42,
+        "multi_version_native_id_hashes_quarantined": 0,
+        "rows": 42,
+        "single_version_native_id_hashes": 42
+      },
+      "native_id_state_rows": {
+        "strict_string": 42
+      },
+      "fields": {
+        "ContentBodyId": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "ContentDocumentId": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "ContentSize": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_size_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "ContentSizeLong": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "CreatedDate": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "FileExtension": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "FileType": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "FirstPublishLocationId": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "Id": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "IsDeleted": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "decimal_string_1_to_32",
+              "category": "literal_string_zero",
+              "rows": 42
+            }
+          ]
+        },
+        "IsLatest": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "LastModifiedDate": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "OwnerId": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "PathOnClient": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "SharingOption": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "SharingPrivacy": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "SystemModstamp": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "Title": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "VersionData": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "VersionDataUrl": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "VersionNumber": {
+          "row_observations": 42,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_loaded_at": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_source_manifest_uri": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_source_run_id": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 42
+            }
+          ]
+        },
+        "_record_watermark_at": {
+          "row_observations": 42,
+          "present_rows": 42,
+          "nonempty_rows": 42,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 42
+            }
+          ]
+        }
+      },
+      "extra_top_level_field_names_count": 0
+    },
+    "BQDOC006": {
+      "namespace": "nexuscrm_final",
+      "record_family": "link",
+      "counts": {
+        "distinct_native_id_hashes": 84,
+        "distinct_raw_line_hashes": 84,
+        "distinct_whole_decoded_record_hashes": 84,
+        "duplicate_rows_with_same_id_and_decoded_record": 0,
+        "id_record_versions": 84,
+        "multi_version_native_id_hashes_quarantined": 0,
+        "rows": 84,
+        "single_version_native_id_hashes": 84
+      },
+      "native_id_state_rows": {
+        "strict_string": 84
+      },
+      "fields": {
+        "ContentDocumentId": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 84
+            }
+          ]
+        },
+        "Id": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 84
+            }
+          ]
+        },
+        "IsDeleted": {
+          "row_observations": 84,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 84
+            }
+          ]
+        },
+        "LinkedEntityId": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 84
+            }
+          ]
+        },
+        "ShareType": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 84
+            }
+          ]
+        },
+        "Visibility": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "uninterpreted_enum_other_string",
+              "rows": 84
+            }
+          ]
+        },
+        "_record_loaded_at": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "unsupported_timestamp",
+              "rows": 84
+            }
+          ]
+        },
+        "_record_source_manifest_uri": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "presence_only_other_string",
+              "rows": 84
+            }
+          ]
+        },
+        "_record_source_run_id": {
+          "row_observations": 84,
+          "present_rows": 84,
+          "nonempty_rows": 84,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "other_string",
+              "category": "strict_string",
+              "rows": 84
+            }
+          ]
+        }
+      },
+      "extra_top_level_field_names_count": 0
+    }
+  },
+  "relationships": {
+    "nexuscrm_final": {
+      "version_to_document": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 42,
+        "dispositions": {
+          "document_reference_absent": 42
+        }
+      },
+      "link_to_document": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 84,
+        "dispositions": {
+          "single_version_document_reference_concordant": 84
+        }
+      },
+      "document_latest_version_roundtrip": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 42,
+        "dispositions": {
+          "latest_reference_absent": 42
+        }
+      },
+      "document_incoming_version_references": {
+        "concordant_version_id_groups": 0,
+        "document_groups_with_concordant_version_references": 0,
+        "document_groups_with_multiple_concordant_version_references": 0,
+        "single_version_document_groups": 42
+      }
+    },
+    "salesforce": {
+      "version_to_document": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 1127,
+        "dispositions": {
+          "single_version_document_reference_concordant": 1127
+        }
+      },
+      "link_to_document": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 0,
+        "dispositions": {}
+      },
+      "document_latest_version_roundtrip": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 2976,
+        "dispositions": {
+          "latest_version_id_unmatched": 1857,
+          "single_version_latest_reference_roundtrip_concordant": 1119
+        }
+      },
+      "document_incoming_version_references": {
+        "concordant_version_id_groups": 1127,
+        "document_groups_with_concordant_version_references": 1119,
+        "document_groups_with_multiple_concordant_version_references": 6,
+        "single_version_document_groups": 2976
+      }
+    }
+  },
+  "company_attribution_established": false,
+  "document_urls_fetched": false,
+  "cross_crm_deduplication_performed": false,
+  "limitations": [
+    "Six exact physical sources only. Salesforce and Nexus final, snake_case and CamelCase fields remain separate; no cross-CRM deduplication or joins.",
+    "Only unpadded nonempty strings up to 256 characters without whitespace or control characters are identifier syntax candidates. No numeric coercion, case folding, prefix inference or 15/18-character normalization is performed.",
+    "Private identifier hashes are namespace-and-object-qualified. Whole-record hashes and raw-line hashes preserve versions; every ID with multiple whole-record versions is quarantined from relationship checks. Multiple versions are not automatically business contradictions.",
+    "Forward document references and latest-published-version round trips are independent diagnostics. A latest reference is concordant only if the target version points back to the same document and both IDs have single full-record versions. Recorded is_latest flags do not elect a current version.",
+    "LinkedEntityId, ParentId, FirstPublishLocationId and ContentBodyId receive only type/presence and syntax counts; no target object type, account, person, ownership or commercial relationship is inferred.",
+    "No title, filename, path, URL, checksum, owner/person identifier or payload value is retained or separately hashed. Complete-record hashes detect unselected changes. No URL is dereferenced and no document is fetched.",
+    "Size fields are classified by strict nonnegative integer syntax and zero/positive category only. Units are unverified; no size value, byte total or unique leaked-content volume is reported.",
+    "Unknown enum text remains private source-and-field-qualified hashes. Flags preserve literal boolean and string categories without treating strings as verified booleans. All-row optional field absence is distinguished from first-row sampling.",
+    "Metadata, field presence and concordant literal references do not prove binary availability, sensitive content, access, executed contracts, current status, customers or incident impact.",
+    "Public field categories describe all selected rows. Nonempty includes whitespace strings and nonstring values unless their container is empty; it is not a count of usable files or valid URLs.",
+    "The extra-field count reports distinct top-level keys outside the declared field census. Unknown key names and enum hashes are omitted; their contents have not been reviewed.",
+    "Physical sources remain separate, including the verified-empty Salesforce link table. Raw Nexus counterparts remain outside this batch. No company association or incident deduplication is performed."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "assessment_recomputed": true,
+    "source_receipts_reconciled": true,
+    "selected_source_ordinals_verified": true,
+    "selected_sources_gzip_eof_validated": true
+  }
+}

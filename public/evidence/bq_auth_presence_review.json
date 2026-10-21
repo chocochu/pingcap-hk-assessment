@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 13,
+    "rows_parsed": 225202,
+    "parse_errors": 0,
+    "invalid_native_ids": 0,
+    "unsupported_field_or_flag_values": 0
+  },
+  "sources": {
+    "BQAUTH001": {
+      "native_unit": "rows and full-record versions only",
+      "layer": "final",
+      "record_family": "portal_auth_hash_field",
+      "native_id_available": false,
+      "counts": {
+        "distinct_full_record_versions": 6,
+        "exact_duplicate_rows": 0,
+        "rows_stored": 6
+      },
+      "target_fields": {
+        "token_hash": {
+          "row_classifications": {
+            "nonempty": 6
+          },
+          "full_record_versions_with_nonempty_field": 6
+        }
+      }
+    },
+    "BQAUTH002": {
+      "native_unit": "rows and full-record versions only",
+      "layer": "raw",
+      "record_family": "portal_auth_hash_field",
+      "native_id_available": false,
+      "counts": {
+        "distinct_full_record_versions": 41,
+        "exact_duplicate_rows": 0,
+        "rows_stored": 41
+      },
+      "target_fields": {
+        "token_hash": {
+          "row_classifications": {
+            "nonempty": 41
+          },
+          "full_record_versions_with_nonempty_field": 41
+        }
+      }
+    },
+    "BQAUTH003": {
+      "native_unit": "record IDs",
+      "layer": "final",
+      "record_family": "user_password_field",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 373,
+        "distinct_native_identifiers": 373,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 373,
+        "unique_nonconflicting_identifiers": 373
+      },
+      "target_fields": {
+        "Password": {
+          "row_classifications": {
+            "nonempty": 373
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 373
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsActive": {
+          "literal_one": 172,
+          "literal_zero": 201
+        },
+        "IsDeleted": {
+          "literal_zero": 373
+        }
+      }
+    },
+    "BQAUTH004": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "user_password_field",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 31462,
+        "distinct_native_identifiers": 373,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 372,
+        "rows_stored": 31462,
+        "unique_nonconflicting_identifiers": 1
+      },
+      "target_fields": {
+        "Password": {
+          "row_classifications": {
+            "empty": 60,
+            "nonempty": 31402
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 1
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsActive": {
+          "literal_one": 14028,
+          "literal_zero": 17434
+        },
+        "IsDeleted": {
+          "literal_zero": 31462
+        }
+      }
+    },
+    "BQAUTH005": {
+      "native_unit": "record IDs",
+      "layer": "final",
+      "record_family": "system_session_token_fields",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 3550,
+        "distinct_native_identifiers": 3550,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 3550,
+        "unique_nonconflicting_identifiers": 3550
+      },
+      "target_fields": {
+        "Token": {
+          "row_classifications": {
+            "nonempty": 3550
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 3550
+        },
+        "CurrentBearerToken": {
+          "row_classifications": {
+            "nonempty": 3550
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 3550
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsRevoked": {
+          "literal_one": 280,
+          "literal_zero": 3270
+        }
+      }
+    },
+    "BQAUTH006": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "system_session_token_fields",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 180751,
+        "distinct_native_identifiers": 24333,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 23728,
+        "rows_stored": 180751,
+        "unique_nonconflicting_identifiers": 605
+      },
+      "target_fields": {
+        "Token": {
+          "row_classifications": {
+            "nonempty": 180751
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 605
+        },
+        "CurrentBearerToken": {
+          "row_classifications": {
+            "missing": 94961,
+            "nonempty": 85790
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 541
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsRevoked": {
+          "literal_one": 15416,
+          "literal_zero": 165335
+        }
+      }
+    },
+    "BQAUTH007": {
+      "native_unit": "record IDs",
+      "layer": "final",
+      "record_family": "connected_app_consumer_fields",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 27,
+        "distinct_native_identifiers": 27,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 27,
+        "unique_nonconflicting_identifiers": 27
+      },
+      "target_fields": {
+        "ConsumerKey": {
+          "row_classifications": {
+            "nonempty": 27
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 27
+        },
+        "ConsumerSecret": {
+          "row_classifications": {
+            "empty": 15,
+            "missing": 6,
+            "nonempty": 6
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 6
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsActive": {
+          "literal_one": 25,
+          "literal_zero": 2
+        }
+      }
+    },
+    "BQAUTH008": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "connected_app_consumer_fields",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 1643,
+        "distinct_native_identifiers": 28,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 28,
+        "rows_stored": 1643,
+        "unique_nonconflicting_identifiers": 0
+      },
+      "target_fields": {
+        "ConsumerKey": {
+          "row_classifications": {
+            "nonempty": 1643
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 0
+        },
+        "ConsumerSecret": {
+          "row_classifications": {
+            "empty": 823,
+            "missing": 284,
+            "nonempty": 536
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 0
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsActive": {
+          "literal_one": 1504,
+          "literal_zero": 139
+        }
+      }
+    },
+    "BQAUTH009": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "named_credential_secret_field",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 69,
+        "distinct_native_identifiers": 1,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 1,
+        "rows_stored": 69,
+        "unique_nonconflicting_identifiers": 0
+      },
+      "target_fields": {
+        "SecretValue": {
+          "row_classifications": {
+            "nonempty": 69
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 0
+        }
+      },
+      "stored_flag_row_classifications": {}
+    },
+    "BQAUTH010": {
+      "native_unit": "principal identifiers",
+      "layer": "raw",
+      "record_family": "connected_principal_ciphertext_fields",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 13,
+        "distinct_native_identifiers": 6,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 1,
+        "rows_stored": 13,
+        "unique_nonconflicting_identifiers": 5
+      },
+      "target_fields": {
+        "AccessTokenCiphertext": {
+          "row_classifications": {
+            "nonempty": 13
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 5
+        },
+        "RefreshTokenCiphertext": {
+          "row_classifications": {
+            "nonempty": 13
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 5
+        }
+      },
+      "stored_flag_row_classifications": {}
+    },
+    "BQAUTH011": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "api_token_hash_field",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 172,
+        "distinct_native_identifiers": 5,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 5,
+        "rows_stored": 172,
+        "unique_nonconflicting_identifiers": 0
+      },
+      "target_fields": {
+        "TokenHash": {
+          "row_classifications": {
+            "nonempty": 172
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 0
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsRevoked": {
+          "literal_one": 72,
+          "literal_zero": 100
+        }
+      }
+    },
+    "BQAUTH012": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "oauth_refresh_token_hash_field",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 6959,
+        "distinct_native_identifiers": 436,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 421,
+        "rows_stored": 6959,
+        "unique_nonconflicting_identifiers": 15
+      },
+      "target_fields": {
+        "TokenHash": {
+          "row_classifications": {
+            "nonempty": 6959
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 15
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsRevoked": {
+          "literal_one": 3380,
+          "literal_zero": 3579
+        }
+      }
+    },
+    "BQAUTH013": {
+      "native_unit": "record IDs",
+      "layer": "raw",
+      "record_family": "webhook_secret_field",
+      "native_id_available": true,
+      "counts": {
+        "distinct_full_record_versions": 136,
+        "distinct_native_identifiers": 2,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 2,
+        "rows_stored": 136,
+        "unique_nonconflicting_identifiers": 0
+      },
+      "target_fields": {
+        "SecretValue": {
+          "row_classifications": {
+            "nonempty": 136
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 0
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsActive": {
+          "literal_one": 136
+        }
+      }
+    }
+  },
+  "limitations": [
+    "This review covers the 13 remaining tables in one reviewed 19-table credential-field census. The earlier API-record and five final integration credential sources remain separate reviews. This does not establish complete credential coverage of the archive.",
+    "Each public alias identifies one source only. Raw and final layers remain separate, with no cross-layer deduplication, latest-version selection, expiry analysis or rotation history. Counts across sources are not unique credentials, accounts or people.",
+    "Portal-auth sources have no admitted native session ID. Their counts describe rows and canonical whole-record versions only. Neither token_hash nor google_sub is used as a session or person identifier; record versions are not unique sessions, people or credentials.",
+    "Native identifiers in the other sources are counted within that source. ConnectedPrincipalId counts principals rather than tokens. Full-record conflicts remain visible, without selecting a winner; conflicted identifiers are excluded from unique nonconflicting identifier field-presence counts.",
+    "Whole-record versions include ingestion metadata. A difference anywhere in a record can create a different version; a version conflict does not by itself establish a changed credential. Exact duplicate diagnostics refer to canonical whole-record versions.",
+    "Password, Token, CurrentBearerToken, ConsumerKey, ConsumerSecret, SecretValue, TokenHash and ciphertext are field names. Presence does not establish format, plaintext storage, hashing or encryption strength, decryptability, unique credential values or present usability. ConsumerKey presence alone is not evidence of a secret. No credential or endpoint is tested.",
+    "Stored activity, revocation and deletion flags count rows, including conflicting versions. String zero and one remain literal_zero and literal_one without false/true interpretation; these flags do not establish current validity.",
+    "The review makes no company, customer or Hong Kong attribution. Only fixed aliases, source families, layer and count units, approved field names, aggregate counts and fixed categories are exported. Native IDs, paths, record digests, personal data, credentials, token prefixes, endpoint values and individual timestamps are excluded.",
+    "The export is frozen to reviewed source, code and results. Missing or empty fields do not prove absence of exposure. Changes require another review."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true,
+    "database_assessment_recomputed": true,
+    "selected_sources_gzip_eof_validated": true
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "additional_cumulative_rows": 0,
+  "additional_physical_sources": 0,
+  "limitations": [
+    "These are three exact source label strings with bounded public company-name context. Public name matches do not authenticate CRM records or establish customer relationships, product use, compromise or incident impact.",
+    "Only source-row observations are counted. Native identifiers were not reread or revalidated; no unique-company or unique-native-identifier count is inferred.",
+    "The Hong Kong country category is an observation on each selected source row, not a determination of incorporation jurisdiction. Office location and incorporation remain separate.",
+    "CargoSmart has source lifecycle subscriber; the other two source lifecycle categories are missing. Missing combines absent fields, JSON null and empty strings; lifecycle is not inferred from another system.",
+    "All three source timestamps are unsupported. No current-state, as-of-date, latest-history or simultaneous-history claim is made.",
+    "The false deletion categories are source snapshots, not proof of live status or an active business relationship.",
+    "The DataCom incorporation statement is historical 2014 evidence. Its current IANA address is not labeled headquarters. Current company-registry status was not checked for any of the three labels.",
+    "This separate supplement does not revise earlier frozen reviews, expand the baseline directories, add physical-source coverage or establish exhaustive affected-company coverage."
+  ],
+  "reviewed_label_count": 3,
+  "reviewed_labels": [
+    {
+      "country_category": "hk",
+      "deletion_flags": {
+        "_fivetran_deleted": "false",
+        "is_deleted": "false"
+      },
+      "identity_context": "Official corporate pages identify this full holding-company name as incorporated in the Cayman Islands and list its head office in Hong Kong. This does not identify a subsidiary or retail brand.",
+      "lifecycle_category": "missing",
+      "official_sources": [
+        {
+          "title": "Sa Sa corporate structure",
+          "url": "https://corp.sasa.com/en/about-sasa/corporate-directory.php"
+        },
+        {
+          "title": "Sa Sa corporate information",
+          "url": "https://corp.sasa.com/en/investor-relations/stock-information.php?tab=2"
+        }
+      ],
+      "source_label": "Sa Sa International Holdings Limited",
+      "source_record_count": 1,
+      "unsupported_timestamp_fields": [
+        "_fivetran_synced",
+        "property_createdate",
+        "property_hs_lastmodifieddate"
+      ]
+    },
+    {
+      "country_category": "hk",
+      "deletion_flags": {
+        "_fivetran_deleted": "false",
+        "is_deleted": "false"
+      },
+      "identity_context": "Official company pages identify CargoSmart Limited as incorporated in the British Virgin Islands and label its headquarters in Sha Tin, Hong Kong. The source lifecycle is subscriber; this does not establish customer status, paid use or operational use.",
+      "lifecycle_category": "subscriber",
+      "official_sources": [
+        {
+          "title": "CargoSmart about us and incorporation footer",
+          "url": "https://www.cargosmart.com/en-us/company/about-us/"
+        },
+        {
+          "title": "CargoSmart headquarters and incorporation footer",
+          "url": "https://www.cargosmart.com/en-us/company/contact-us/"
+        }
+      ],
+      "source_label": "CargoSmart Limited",
+      "source_record_count": 1,
+      "unsupported_timestamp_fields": [
+        "_fivetran_synced",
+        "property_createdate",
+        "property_hs_lastmodifieddate"
+      ]
+    },
+    {
+      "country_category": "hk",
+      "deletion_flags": {
+        "_fivetran_deleted": "false",
+        "is_deleted": "false"
+      },
+      "identity_context": "The IANA .hkt record, last updated 16 January 2026, uses this full company name and gives a Hong Kong address; it does not identify that address as headquarters. A company-submitted ICANN application dated 28 August 2014, posted 14 October 2014, states Hong Kong incorporation in its policy. This is historical incorporation evidence; current company-registry status was not checked. No other group company or brand is substituted.",
+      "lifecycle_category": "missing",
+      "official_sources": [
+        {
+          "title": "IANA .hkt manager record",
+          "url": "https://www.iana.org/domains/root/db/hkt.html"
+        },
+        {
+          "title": "2014 ICANN application, page 17, Exhibit B, section 1.0",
+          "url": "https://itp.cdn.icann.org/en/files/registry-agreements/hkt/hkt-spec13-application-14oct14-en.pdf"
+        }
+      ],
+      "source_label": "PCCW-HKT DataCom Services Limited",
+      "source_record_count": 1,
+      "unsupported_timestamp_fields": [
+        "_fivetran_synced",
+        "property_createdate",
+        "property_hs_lastmodifieddate"
+      ]
+    }
+  ],
+  "reviewed_on": "2026-10-21",
+  "schema_version": 1,
+  "source_record_count": 3,
+  "status": "reviewed_bounded_identity_context"
+}

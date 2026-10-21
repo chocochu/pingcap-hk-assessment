@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 2,
+    "rows_parsed": 19458,
+    "parse_errors": 0,
+    "labels_with_content_metadata": 4,
+    "associated_comment_ids": 1519,
+    "associated_attachment_metadata_ids": 40
+  },
+  "parent_baseline": {
+    "historical_identity_consistent_ticket_ids": 171,
+    "original_exact_name_route_organizations": 49,
+    "original_exact_name_route_ticket_ids": 171,
+    "parent_rows_parsed": 193563,
+    "parent_tables_complete": 3,
+    "parent_conflict_policy": "retained_structured_projections_only"
+  },
+  "sources": {
+    "BQSC001": {
+      "record_family": "comment",
+      "counts": {
+        "conflicting_native_ids_quarantined": 0,
+        "distinct_native_ids": 18920,
+        "exact_duplicate_rows": 0,
+        "rows_staged": 18920,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 18920
+      },
+      "nonconflicting_id_material": {
+        "field_presence": {
+          "body": {
+            "nonempty": 18920
+          },
+          "html_body": {
+            "nonempty": 18920
+          },
+          "plain_body": {
+            "empty": 11,
+            "missing": 15765,
+            "nonempty": 3144
+          }
+        },
+        "literal_flags": {
+          "deleted": {
+            "missing": 18920
+          },
+          "public": {
+            "boolean_false": 2952,
+            "boolean_true": 15968
+          }
+        },
+        "content_types": {}
+      }
+    },
+    "BQSC002": {
+      "record_family": "attachment",
+      "counts": {
+        "conflicting_native_ids_quarantined": 0,
+        "distinct_native_ids": 538,
+        "exact_duplicate_rows": 0,
+        "rows_staged": 538,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 538
+      },
+      "nonconflicting_id_material": {
+        "field_presence": {},
+        "literal_flags": {
+          "deleted": {
+            "boolean_false": 538
+          },
+          "inline": {
+            "boolean_false": 538
+          }
+        },
+        "content_types": {
+          "application/json": 9,
+          "application/pdf": 9,
+          "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 4,
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 2,
+          "application/x-gzip": 15,
+          "application/zip": 12,
+          "image/gif": 1,
+          "image/jpeg": 43,
+          "image/png": 315,
+          "other_string": 73,
+          "text/csv": 16,
+          "text/plain": 39
+        }
+      }
+    }
+  },
+  "comment_dispositions": {
+    "conflicting_comment_versions": 0,
+    "exact_approved_label_association": 1519,
+    "missing_or_unsupported_parent_organization_reference": 2914,
+    "organization_name_not_approved": 14487
+  },
+  "attachment_dispositions": {
+    "conflicting_attachment_versions": 0,
+    "exact_approved_label_association": 40,
+    "parent_comment_missing_or_unsupported_parent_organization_reference": 110,
+    "parent_comment_organization_name_not_approved": 388
+  },
+  "exact_name_route_labels": [
+    {
+      "organization_label": "AmberGroup",
+      "historical_identity_consistent_ticket_ids": 69,
+      "identity_consistent_organization_ids": 1,
+      "original_admitted_ticket_ids": 69,
+      "comments": {
+        "distinct_parent_ticket_ids": 69,
+        "row_observations": 588,
+        "unique_native_ids": 588,
+        "unique_native_ids_on_original_admitted_ticket_route": 588,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 588
+        },
+        "material": {
+          "field_presence": {
+            "body": {
+              "nonempty": 588
+            },
+            "html_body": {
+              "nonempty": 588
+            },
+            "plain_body": {
+              "empty": 3,
+              "missing": 448,
+              "nonempty": 137
+            }
+          },
+          "literal_flags": {
+            "deleted": {
+              "missing": 588
+            },
+            "public": {
+              "boolean_false": 70,
+              "boolean_true": 518
+            }
+          },
+          "content_types": {}
+        }
+      },
+      "attachments": {
+        "distinct_parent_ticket_ids": 3,
+        "row_observations": 4,
+        "unique_native_ids": 4,
+        "unique_native_ids_on_original_admitted_ticket_route": 4,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 4
+        },
+        "material": {
+          "field_presence": {},
+          "literal_flags": {
+            "deleted": {
+              "boolean_false": 4
+            },
+            "inline": {
+              "boolean_false": 4
+            }
+          },
+          "content_types": {
+            "image/jpeg": 2,
+            "image/png": 2
+          }
+        }
+      }
+    },
+    {
+      "organization_label": "Baidu (HONG KONG) Limited",
+      "historical_identity_consistent_ticket_ids": 6,
+      "identity_consistent_organization_ids": 1,
+      "original_admitted_ticket_ids": 6,
+      "comments": {
+        "distinct_parent_ticket_ids": 6,
+        "row_observations": 64,
+        "unique_native_ids": 64,
+        "unique_native_ids_on_original_admitted_ticket_route": 64,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 64
+        },
+        "material": {
+          "field_presence": {
+            "body": {
+              "nonempty": 64
+            },
+            "html_body": {
+              "nonempty": 64
+            },
+            "plain_body": {
+              "nonempty": 64
+            }
+          },
+          "literal_flags": {
+            "deleted": {
+              "missing": 64
+            },
+            "public": {
+              "boolean_false": 9,
+              "boolean_true": 55
+            }
+          },
+          "content_types": {}
+        }
+      },
+      "attachments": {
+        "distinct_parent_ticket_ids": 6,
+        "row_observations": 13,
+        "unique_native_ids": 13,
+        "unique_native_ids_on_original_admitted_ticket_route": 13,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 13
+        },
+        "material": {
+          "field_presence": {},
+          "literal_flags": {
+            "deleted": {
+              "boolean_false": 13
+            },
+            "inline": {
+              "boolean_false": 13
+            }
+          },
+          "content_types": {
+            "application/zip": 2,
+            "image/png": 6,
+            "text/plain": 5
+          }
+        }
+      }
+    },
+    {
+      "organization_label": "Zhuo Fanl Industrial Co., Limited",
+      "historical_identity_consistent_ticket_ids": 95,
+      "identity_consistent_organization_ids": 1,
+      "original_admitted_ticket_ids": 95,
+      "comments": {
+        "distinct_parent_ticket_ids": 95,
+        "row_observations": 863,
+        "unique_native_ids": 863,
+        "unique_native_ids_on_original_admitted_ticket_route": 863,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 863
+        },
+        "material": {
+          "field_presence": {
+            "body": {
+              "nonempty": 863
+            },
+            "html_body": {
+              "nonempty": 863
+            },
+            "plain_body": {
+              "empty": 1,
+              "missing": 763,
+              "nonempty": 99
+            }
+          },
+          "literal_flags": {
+            "deleted": {
+              "missing": 863
+            },
+            "public": {
+              "boolean_false": 49,
+              "boolean_true": 814
+            }
+          },
+          "content_types": {}
+        }
+      },
+      "attachments": {
+        "distinct_parent_ticket_ids": 6,
+        "row_observations": 23,
+        "unique_native_ids": 23,
+        "unique_native_ids_on_original_admitted_ticket_route": 23,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 23
+        },
+        "material": {
+          "field_presence": {},
+          "literal_flags": {
+            "deleted": {
+              "boolean_false": 23
+            },
+            "inline": {
+              "boolean_false": 23
+            }
+          },
+          "content_types": {
+            "application/x-gzip": 6,
+            "image/png": 14,
+            "other_string": 1,
+            "text/csv": 1,
+            "text/plain": 1
+          }
+        }
+      }
+    },
+    {
+      "organization_label": "shoplazza",
+      "historical_identity_consistent_ticket_ids": 1,
+      "identity_consistent_organization_ids": 1,
+      "original_admitted_ticket_ids": 1,
+      "comments": {
+        "distinct_parent_ticket_ids": 1,
+        "row_observations": 4,
+        "unique_native_ids": 4,
+        "unique_native_ids_on_original_admitted_ticket_route": 4,
+        "parent_projection_deletion_strata": {
+          "no_explicit_deletion_in_retained_parent_projection": 4
+        },
+        "material": {
+          "field_presence": {
+            "body": {
+              "nonempty": 4
+            },
+            "html_body": {
+              "nonempty": 4
+            },
+            "plain_body": {
+              "nonempty": 4
+            }
+          },
+          "literal_flags": {
+            "deleted": {
+              "missing": 4
+            },
+            "public": {
+              "boolean_false": 1,
+              "boolean_true": 3
+            }
+          },
+          "content_types": {}
+        }
+      },
+      "attachments": {
+        "distinct_parent_ticket_ids": 0,
+        "row_observations": 0,
+        "unique_native_ids": 0,
+        "unique_native_ids_on_original_admitted_ticket_route": 0,
+        "parent_projection_deletion_strata": {},
+        "material": {
+          "field_presence": {},
+          "literal_flags": {
+            "deleted": {},
+            "inline": {}
+          },
+          "content_types": {}
+        }
+      }
+    }
+  ],
+  "hk_geography_inherited": false,
+  "native_tenant_relationship_asserted": false,
+  "incident_deduplication_performed": false,
+  "attachment_urls_fetched": false,
+  "limitations": [
+    "This review covers two selected Zendesk comment and attachment-metadata tables. Global counts and exact approved organization-name associations remain separate; comments, attachments, tickets and row observations are not added as unique incidents.",
+    "The frozen parent review admitted 49 organization IDs and 171 ticket IDs through exact approved label strings. Four labels have associated content metadata in this batch. This route does not inherit Hong Kong geography or establish corporate identity, tenant, financial, cluster or gateway ownership.",
+    "Parent organizations and tickets use the earlier retained structured-projection conflict policy. Whole-record conflict coverage for parent tables is not claimed. New comment and attachment IDs use full-record hashes; conflicting versions are quarantined without a latest-version election.",
+    "Nonnegative JSON integer identifiers normalize to decimal strings within the existing Zendesk namespace. String identifiers keep case and leading zeros. Unsupported and missing primary IDs remain row observations; invalid, unmatched or conflicting references cannot enter label associations.",
+    "Identity-consistent historical content associations are retained with separate parent-deletion strata. Original admitted-route counts stay distinct. No explicit deletion in a retained parent projection is not proof of a missing or false source flag, current activity or entitlement.",
+    "Public, deleted and inline fields remain literal stored classifications. Numeric strings and integers are not interpreted as booleans. Stored public or inline flags do not prove present accessibility; no URL or endpoint was contacted.",
+    "Body, HTML-body and plain-body presence counts do not disclose their content or establish customer-data exposure or a verified incident. Nonstring representations are classified as unsupported, not absent.",
+    "Attachment MIME categories come from a fixed allowlist; unlisted strings are grouped as other_string. These are metadata observations. No attachment was downloaded, opened or analyzed, and availability or malware status is not established.",
+    "Dispositions use the first applicable exclusion and form a mutually exclusive partition; several problems can coexist in one record. Earlier identity limitations for all approved labels remain applicable.",
+    "Only fixed aliases, approved label strings, fixed field/category names and aggregate counts are exported. Raw IDs, bodies, URLs, filenames, personal fields, timestamps, hashes and private paths are excluded. Changed reviewed inputs or code require another review."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "parent_assessment_recomputed": true,
+    "parent_relations_rederived": true,
+    "child_assessment_recomputed": true,
+    "source_receipts_reconciled": true,
+    "selected_source_ordinals_verified": true,
+    "selected_sources_gzip_eof_validated": true
+  }
+}

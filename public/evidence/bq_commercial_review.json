@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "archive": "04_bigquery.tar.gz",
+  "archive_sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+  "scope": "Independent full-row scan of five selected contract, quote, opportunity, marketplace tax and order-product account tables using the unchanged geography scanner.",
+  "summary": {
+    "rows_parsed": 13329,
+    "parse_errors": 0,
+    "hk_location_rows": 585,
+    "candidate_company_rows": 245,
+    "tables_complete": 5,
+    "tables_selected": 5
+  },
+  "table_coverage": [
+    {
+      "source_alias": "BQC001",
+      "record_role": "Contract billing geography",
+      "status": "complete",
+      "rows_parsed": 512,
+      "parse_errors": 0,
+      "hk_location_rows": 51,
+      "candidate_company_rows": 0,
+      "label_coverage": "Geography only"
+    },
+    {
+      "source_alias": "BQC002",
+      "record_role": "Quote recipient geography",
+      "status": "complete",
+      "rows_parsed": 1213,
+      "parse_errors": 0,
+      "hk_location_rows": 88,
+      "candidate_company_rows": 0,
+      "label_coverage": "Geography only"
+    },
+    {
+      "source_alias": "BQC003",
+      "record_role": "AWS opportunity geography",
+      "status": "complete",
+      "rows_parsed": 3851,
+      "parse_errors": 0,
+      "hk_location_rows": 177,
+      "candidate_company_rows": 0,
+      "label_coverage": "Geography only"
+    },
+    {
+      "source_alias": "BQC004",
+      "record_role": "Marketplace tax customer geography",
+      "status": "complete",
+      "rows_parsed": 515,
+      "parse_errors": 0,
+      "hk_location_rows": 13,
+      "candidate_company_rows": 0,
+      "label_coverage": "Geography only"
+    },
+    {
+      "source_alias": "BQC005",
+      "record_role": "Order-product account observations",
+      "status": "complete",
+      "rows_parsed": 7238,
+      "parse_errors": 0,
+      "hk_location_rows": 256,
+      "candidate_company_rows": 245,
+      "label_coverage": "Account-label observations"
+    }
+  ],
+  "company_attribution_status": "Not established by this aggregate batch",
+  "limitations": [
+    "This separate five-table batch supplements the 26-table discovery batch. Neither batch is a full-archive row analysis.",
+    "Hong Kong geography is a source-record signal, not verified headquarters, residence, corporate identity, production use or compromise.",
+    "Contracts and quotes contain billing or recipient geography. Their account_id fields require a validated account join before company attribution; contract and quote names are not company labels.",
+    "Opportunity Country_for_AWS__c is an AWS opportunity role. Company_Name_for_AWS__c and Account_Name_Original__c are not supported by the unchanged scanner label allowlist. These observations are geography only.",
+    "Marketplace taxed_customer_country and taxed_customer_city concern the taxed customer. The scanner does not support taxed_tenant_name as a label. The modeled customer-to-tenant relationship requires separate validation before company attribution.",
+    "Only the combined order-product account source contributes candidate company rows, through account_name. These are repeated account labels on order-product records, not unique companies or orders; source lineage and data_source populations were not reviewed.",
+    "The geography-only sources may contain company-related information that this scanner does not extract. A zero candidate count does not mean that such information is absent.",
+    "No source-specific account, tenant, infrastructure or support joins were performed in this batch. Candidate labels, private source paths, identifiers and raw records are excluded from this export."
+  ]
+}

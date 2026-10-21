@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "census": {
+    "counts": {
+      "tables_complete": 29,
+      "rows_parsed": 7951942,
+      "sources_with_fractional_or_exponent_numbers": 4,
+      "sources_with_numeric_decoding_risk": 3,
+      "parse_errors": 0,
+      "additional_physical_sources": 0,
+      "sources_without_fractional_or_exponent_numbers": 25,
+      "float_overflow_values": 0,
+      "float_roundtrip_changed_values": 289432,
+      "fractional_or_exponent_leaves": 993386,
+      "integer_leaves": 1341313,
+      "rows_with_float_overflow": 0,
+      "rows_with_float_roundtrip_changes": 260181,
+      "rows_with_fractional_or_exponent_numbers": 512067
+    },
+    "sources": {
+      "BQNUM001": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 41,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM002": {
+        "family": "sales_content",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 238424,
+        "fractional_or_exponent_leaves": 797722,
+        "integer_leaves": 6100,
+        "rows_parsed": 401911,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 209275,
+        "rows_with_fractional_or_exponent_numbers": 401249
+      },
+      "BQNUM003": {
+        "family": "sales_content",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 3045,
+        "integer_leaves": 4228,
+        "rows_parsed": 3672,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 3018
+      },
+      "BQNUM004": {
+        "family": "sales_content",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 307,
+        "fractional_or_exponent_leaves": 23972,
+        "integer_leaves": 313484,
+        "rows_parsed": 168728,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 307,
+        "rows_with_fractional_or_exponent_numbers": 21072
+      },
+      "BQNUM005": {
+        "family": "dataapp",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 227864,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM006": {
+        "family": "dataapp",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 42640,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM007": {
+        "family": "dataapp",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 45428,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM008": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 6,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM009": {
+        "family": "hubspot",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 50701,
+        "fractional_or_exponent_leaves": 168647,
+        "integer_leaves": 1017501,
+        "rows_parsed": 86741,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 50599,
+        "rows_with_fractional_or_exponent_numbers": 86728
+      },
+      "BQNUM010": {
+        "family": "hubspot",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 6729847,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM011": {
+        "family": "support_content",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 18920,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM012": {
+        "family": "support_content",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 538,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM013": {
+        "family": "integration",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 6,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM014": {
+        "family": "integration",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 2,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM015": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 27,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM016": {
+        "family": "integration",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 5,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM017": {
+        "family": "integration",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 436,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM018": {
+        "family": "integration",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 1,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM019": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 373,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM020": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 3550,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM021": {
+        "family": "integration",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 1,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM022": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 1643,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM023": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 69,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM024": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 13,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM025": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 172,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM026": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 6959,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM027": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 180751,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM028": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 136,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      },
+      "BQNUM029": {
+        "family": "authentication",
+        "float_overflow_values": 0,
+        "float_roundtrip_changed_values": 0,
+        "fractional_or_exponent_leaves": 0,
+        "integer_leaves": 0,
+        "rows_parsed": 31462,
+        "rows_with_float_overflow": 0,
+        "rows_with_float_roundtrip_changes": 0,
+        "rows_with_fractional_or_exponent_numbers": 0
+      }
+    }
+  },
+  "sales_exact_audit": {
+    "source_count": 3,
+    "rows_parsed": 574311,
+    "sources": {
+      "BQSALE001": {
+        "census_source_alias": "BQNUM004",
+        "distinct_exact_signatures": 168728,
+        "distinct_native_ids": 168728,
+        "distinct_python_signatures": 168728,
+        "exact_projection_mismatch_rows": 0,
+        "native_ids_with_changed_version_count": 0,
+        "native_ids_with_multiple_exact_versions": 0,
+        "native_ids_with_multiple_python_versions": 0,
+        "python_signature_groups_with_multiple_exact_versions": 0,
+        "rows": 168728
+      },
+      "BQSALE002": {
+        "census_source_alias": "BQNUM003",
+        "distinct_exact_signatures": 3672,
+        "distinct_native_ids": 3672,
+        "distinct_python_signatures": 3672,
+        "exact_projection_mismatch_rows": 0,
+        "native_ids_with_changed_version_count": 0,
+        "native_ids_with_multiple_exact_versions": 0,
+        "native_ids_with_multiple_python_versions": 0,
+        "python_signature_groups_with_multiple_exact_versions": 0,
+        "rows": 3672
+      },
+      "BQSALE003": {
+        "census_source_alias": "BQNUM002",
+        "distinct_exact_signatures": 401911,
+        "distinct_native_ids": 401911,
+        "distinct_python_signatures": 401911,
+        "exact_projection_mismatch_rows": 0,
+        "native_ids_with_changed_version_count": 0,
+        "native_ids_with_multiple_exact_versions": 0,
+        "native_ids_with_multiple_python_versions": 0,
+        "python_signature_groups_with_multiple_exact_versions": 0,
+        "rows": 401911
+      }
+    },
+    "checks": {
+      "exact_projections_equal": true,
+      "frozen_sales_outputs_unchanged": true,
+      "full_sales_assessment_equal": true,
+      "no_signature_collisions": true
+    }
+  },
+  "hubspot_exact_audit": {
+    "company_source_alias": "BQNUM009",
+    "counts": {
+      "distinct_exact_whole_record_signatures": 86741,
+      "distinct_legacy_whole_record_signatures": 86741,
+      "legacy_projection_groups_with_multiple_exact_projections": 0,
+      "legacy_whole_record_groups_with_multiple_exact_versions": 0,
+      "native_ids_with_multiple_exact_whole_versions": 0,
+      "native_ids_with_multiple_legacy_whole_versions": 0,
+      "rows": 86741,
+      "safe_projection_changed_rows": 0
+    },
+    "checks": {
+      "approved_candidate_summary_unchanged": true,
+      "approved_supplement_unchanged": true,
+      "candidate_observations_unchanged": true,
+      "candidate_summary_unchanged": true,
+      "complete_assessment_unchanged": true,
+      "reviewed_public_labels_unchanged": true,
+      "reviewed_public_summary_unchanged": true,
+      "unknown_triage_unchanged": true
+    },
+    "all_downstream_data_unchanged": true,
+    "original_signatures_cover_safe_projections_only": true,
+    "whole_record_signatures_are_new_audit_diagnostics": true,
+    "history_reuse": {
+      "source_alias": "BQNUM010",
+      "rows_reused": 6729847,
+      "numeric_leaves": 0,
+      "reread_by_exact_audit": false
+    }
+  },
+  "additional_physical_sources": 0,
+  "additional_cumulative_source_rows": 0,
+  "all_earlier_families_covered": false,
+  "legacy_signatures_reclassified_as_lossless": false,
+  "limitations": [
+    "The census rereads 29 previously reviewed physical streams from six review families. Census, Sales and HubSpot checks overlap existing coverage and each other; they add zero physical sources and zero cumulative source-row coverage.",
+    "Fractional or exponent JSON tokens are compared as exact decimal values with the decimal text emitted after a Python float round trip. Changed values establish legacy decoding limitations even where output checks pass. Numeric strings are not decoded.",
+    "The census identifies decoding risk. It does not by itself prove record collisions or recompute earlier database projections. Twenty-five streams contain no fractional or exponent JSON tokens; this closes only the specified float-conversion risk for those streams.",
+    "Sales rereads three streams and compares each frozen native ID, physical line, Python-decoded signature and safe projection. Exact typed signatures are used to recompute source-local versions and the full reference, label, snippet and deletion assessment.",
+    "HubSpot rereads the company stream. Original HubSpot signatures cover safe projections only. Whole-record legacy and exact signatures reported here are new audit diagnostics, not signatures retained by the original run.",
+    "HubSpot history reuses 6729847 frozen rows after matching the full-stream census with zero numeric leaves. It is not reread by the exact company audit and creates no additional coverage. Same-ID history does not establish simultaneous validity or temporal ownership.",
+    "Changed numeric leaves, affected rows, signature collision groups, native-ID version counts, safe-projection changes and complete assessment comparisons are separate units and findings. Equal public totals alone are insufficient.",
+    "Exact typed signatures normalize decimal token spelling without rounding, distinguish integer from fractional or exponent JSON types, retain signed zero, and ignore JSON whitespace and object order. They are not raw-byte signatures.",
+    "Legacy signatures remain Python-decoded or projection-only signatures; successful bounded comparisons do not make them lossless. This review does not cover every earlier family or prove general analyzer correctness.",
+    "Only fixed aliases, fixed categories, aggregate counts and booleans are exported. No raw identifiers, numeric values, hashes, private paths, source text, names, URLs or credentials are exported. No live service, identity, customer, geography, temporal attribution or incident-impact claim is made."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshots": true,
+    "numeric_source_receipts_reconciled": true,
+    "sales_database_and_full_assessment_recomputed": true,
+    "hubspot_database_and_full_outputs_recomputed": true,
+    "selected_sources_gzip_eof_validated": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "archive": "04_bigquery.tar.gz",
+  "archive_sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+  "scope": "Four selected HubSpot source label strings with official public identity context.",
+  "source_alias": "BQH001",
+  "source_role": "HubSpot company records",
+  "summary": {
+    "reviewed_source_labels": 4,
+    "source_record_count": 6,
+    "distinct_native_company_id_count": 6
+  },
+  "reviewed_labels": [
+    {
+      "source_label": "China Mobile International Limited",
+      "source_record_count": 3,
+      "distinct_native_company_id_count": 3,
+      "geography_categories": {
+        "country": "hk"
+      },
+      "lifecycle_category": "missing",
+      "timestamp_status": "unsupported",
+      "deletion_categories": {
+        "is_deleted": "false",
+        "_fivetran_deleted": "false"
+      },
+      "official_legal_name": "China Mobile International Limited",
+      "name_match": "exact_public_company_name",
+      "identity_context": "The official headquarters document uses this company name and gives a Hong Kong headquarters address. The selected document does not establish incorporation jurisdiction.",
+      "official_sources": [
+        {
+          "title": "CMI headquarters",
+          "url": "https://www.cmi.chinamobile.com/pdf/CMIs_headquarters.pdf"
+        }
+      ]
+    },
+    {
+      "source_label": "China Telecom Global Limited",
+      "source_record_count": 1,
+      "distinct_native_company_id_count": 1,
+      "geography_categories": {
+        "country": "hk"
+      },
+      "lifecycle_category": "missing",
+      "timestamp_status": "unsupported",
+      "deletion_categories": {
+        "is_deleted": "false",
+        "_fivetran_deleted": "false"
+      },
+      "official_legal_name": "China Telecom Global Limited",
+      "name_match": "exact_public_legal_name",
+      "identity_context": "Official General Terms dated 9 March 2018 identify this legal name as incorporated under Hong Kong law. An order form may specify an affiliate, so this context does not identify every group contract or CRM account.",
+      "official_sources": [
+        {
+          "title": "General Terms, clause 1.1(a)",
+          "url": "https://www.chinatelecomglobal.com/footer/detail/37532"
+        }
+      ]
+    },
+    {
+      "source_label": "Sun Hung Kai Properties Limited",
+      "source_record_count": 1,
+      "distinct_native_company_id_count": 1,
+      "geography_categories": {
+        "country": "hk"
+      },
+      "lifecycle_category": "missing",
+      "timestamp_status": "unsupported",
+      "deletion_categories": {
+        "is_deleted": "false",
+        "_fivetran_deleted": "false"
+      },
+      "official_legal_name": "Sun Hung Kai Properties Limited",
+      "name_match": "exact_public_legal_name_case_insensitive",
+      "identity_context": "Official articles adopted 6 November 2025 identify this legal entity, incorporated in Hong Kong on 14 July 1972, with its current name recorded in March 1973.",
+      "official_sources": [
+        {
+          "title": "Articles of Association",
+          "url": "https://www.shkp.com/sites/assets/files/2025-11/E_SHKP_Articles_of_Association_20251106.pdf"
+        }
+      ]
+    },
+    {
+      "source_label": "VTech Holdings Ltd.",
+      "source_record_count": 1,
+      "distinct_native_company_id_count": 1,
+      "geography_categories": {
+        "country": "hk"
+      },
+      "lifecycle_category": "missing",
+      "timestamp_status": "unsupported",
+      "deletion_categories": {
+        "is_deleted": "false",
+        "_fivetran_deleted": "false"
+      },
+      "official_legal_name": "VTech Holdings Limited",
+      "name_match": "abbreviation_consistent_not_exact_legal_name",
+      "identity_context": "The source abbreviation is consistent with VTech Holdings Limited but is not an exact legal-name match. Official disclosure dated 31 July 2026 identifies Bermuda incorporation; the official offices page lists a Hong Kong corporate head office. This does not identify a Hong Kong subsidiary.",
+      "official_sources": [
+        {
+          "title": "Change of Bermuda registered office address",
+          "url": "https://www.vtech.com/wp-content/uploads/2026/07/e_Announcement_ChangeofBermudaRegisteredOfficeAddress_Jul312026.pdf"
+        },
+        {
+          "title": "VTech offices",
+          "url": "https://www.vtech.com/en/contact/vtech-offices/"
+        },
+        {
+          "title": "VTech bye-laws, independent corroboration",
+          "url": "https://www.vtech.com/wp-content/uploads/2024/07/e_Bye-laws2023.pdf"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "These are four exact source label strings with bounded official public identity context, not authenticated CRM identities, verified customers, product use, compromise, or incident-impact findings.",
+    "The Hong Kong country category and missing lifecycle category occur on the same source rows. Lifecycle values from other CRM systems are not substituted.",
+    "The lifecycle category missing combines an absent field, JSON null, and an empty string; it does not identify which of those source states occurred.",
+    "Source timestamps are unsupported in the frozen projection. No current-state, as-of-date, latest-history, or simultaneous-history claim is made.",
+    "Distinct native company IDs are source identifiers, not distinct legal entities. Three China Mobile source records do not establish three companies.",
+    "The VTech source label is abbreviation-consistent, not an exact legal-name match; Hong Kong head-office presence is distinct from Bermuda incorporation.",
+    "All other candidates are excluded from this four-label supplement. The baseline label directory is not expanded by this export.",
+    "Source deletion flags are categorical snapshot observations and do not prove an active business relationship.",
+    "The wider candidate pool and unsupported source values remain unresolved; the selected review does not establish exhaustive affected-company coverage."
+  ]
+}

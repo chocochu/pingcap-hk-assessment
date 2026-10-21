@@ -1,0 +1,77 @@
+{
+  "additional_cumulative_rows": 0,
+  "additional_physical_sources": 0,
+  "limitations": [
+    "These are two exact source label strings with bounded public company-name context. Public name matches do not authenticate CRM records or establish customer relationships, product use, compromise or incident impact.",
+    "Only source-row observations are counted. Native identifiers were not reread or revalidated; no unique-company or unique-native-identifier count is inferred.",
+    "The Hong Kong country category is an observation on each selected source row, not a determination of incorporation jurisdiction. Office location and incorporation remain separate.",
+    "Both source lifecycle categories are lead. This does not establish customer status, paid use or operational use.",
+    "All three source timestamps are unsupported. No current-state, as-of-date, latest-history or simultaneous-history claim is made.",
+    "The false deletion categories are source snapshots, not proof of live status or an active business relationship.",
+    "Public statements retain their 2022, 2023 and 2015 dates. No current company-registry search, licence validation or headquarters verification was performed. Undated webpage retrieval does not establish current corporate status.",
+    "The existing broader Everbright brand directory records are not merged or added to these observations. This separate supplement does not revise earlier frozen reviews, expand the baseline directories, add physical-source coverage or establish exhaustive affected-company coverage."
+  ],
+  "reviewed_label_count": 2,
+  "reviewed_labels": [
+    {
+      "country_category": "hk",
+      "deletion_flags": {
+        "_fivetran_deleted": "false",
+        "is_deleted": "false"
+      },
+      "identity_context": "A company announcement dated 10 January 2022 and its name-mapping table identify this exact former name as renamed to China Everbright Securities International Company Limited. A company filing dated 30 November 2023 identifies that renamed entity as incorporated under Hong Kong law. These are dated public statements; the former name does not date the CRM observation. The existing broader Everbright Securities International directory label is not merged with this source label or its observation.",
+      "lifecycle_category": "lead",
+      "official_sources": [
+        {
+          "title": "10 January 2022 company renaming announcement",
+          "url": "https://www.ebshk.com/materials/Press/EBSILaunch_EN.pdf"
+        },
+        {
+          "title": "2022 company-name mapping, page 2, holding-company table row 4",
+          "url": "https://www.ebshk.com/rebranding/2022.pdf"
+        },
+        {
+          "title": "30 November 2023 HKEX-hosted company filing, page 5, CEBSI definition",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1130/2023113000783.pdf"
+        }
+      ],
+      "source_label": "Everbright Sun Hung Kai Company Limited",
+      "source_record_count": 1,
+      "unsupported_timestamp_fields": [
+        "_fivetran_synced",
+        "property_createdate",
+        "property_hs_lastmodifieddate"
+      ]
+    },
+    {
+      "country_category": "hk",
+      "deletion_flags": {
+        "_fivetran_deleted": "false",
+        "is_deleted": "false"
+      },
+      "identity_context": "Rapyd Hong Kong end-user terms retrieved on 21 October 2026 identify Neat Limited and public company number 2312276; the page is undated. The Hong Kong Companies Registry list published 30 November 2015 lists NEAT LIMITED with the same number and 26 November 2015 in the incorporation/registration column. This public number connects the public documents only; it was not compared with a private CRM identifier. The historical registry listing does not establish current registry or licence status, and no wider group or similarly named entity is substituted.",
+      "lifecycle_category": "lead",
+      "official_sources": [
+        {
+          "title": "Rapyd Hong Kong end-user terms, opening identity paragraph",
+          "url": "https://www.rapyd.net/security-compliance/rapyd-terms-for-end-user-hong-kong-new/"
+        },
+        {
+          "title": "30 November 2015 Companies Registry list, page 191, sequence 2093",
+          "url": "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20151123.pdf"
+        }
+      ],
+      "source_label": "Neat Limited",
+      "source_record_count": 1,
+      "unsupported_timestamp_fields": [
+        "_fivetran_synced",
+        "property_createdate",
+        "property_hs_lastmodifieddate"
+      ]
+    }
+  ],
+  "reviewed_on": "2026-10-21",
+  "schema_version": 1,
+  "source_record_count": 2,
+  "status": "reviewed_bounded_identity_context"
+}

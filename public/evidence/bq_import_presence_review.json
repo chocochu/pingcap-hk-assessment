@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 4,
+    "rows_parsed": 250292,
+    "parse_errors": 0,
+    "supplementary_rereads_additional_physical_sources": 0
+  },
+  "sources": {
+    "BQIMP001": {
+      "record_family": "import",
+      "native_id_available": true,
+      "count_unit": "source-local record IDs and rows",
+      "counts": {
+        "conflicting_native_ids": 0,
+        "distinct_full_record_versions": 46882,
+        "distinct_native_ids": 46882,
+        "exact_duplicate_rows": 0,
+        "invalid_or_missing_primary_id_rows": 0,
+        "rows_stored": 46882,
+        "unique_nonconflicting_native_ids": 46882
+      },
+      "field_presence_rows": {
+        "source_url": {
+          "nonempty": 46882
+        },
+        "current_tables": {
+          "nonempty": 46882
+        },
+        "completed_tables": {
+          "nonempty": 46882
+        },
+        "pending_tables": {
+          "nonempty": 46882
+        },
+        "custom_csv_format": {
+          "missing": 6752,
+          "nonempty": 40130
+        },
+        "csv_format": {
+          "missing": 46882
+        },
+        "target_table_infos": {
+          "missing": 18000,
+          "nonempty": 28882
+        }
+      },
+      "stored_literal_rows": {
+        "clean_up": {
+          "true": 46882
+        }
+      },
+      "timestamp_state_rows": {
+        "created_at": {
+          "aware": 46882
+        },
+        "started_at": {
+          "aware": 42850,
+          "missing": 4032
+        },
+        "finished_at": {
+          "aware": 46878,
+          "missing": 4
+        },
+        "updated_at": {
+          "aware": 46882
+        }
+      },
+      "identifier_state_rows": {
+        "id": {
+          "valid": 46882
+        },
+        "tenant_id": {
+          "valid": 46882
+        },
+        "project_id": {
+          "valid": 46882
+        },
+        "cluster_id": {
+          "valid": 46882
+        },
+        "task_id": {
+          "missing": 1680,
+          "valid": 45202
+        }
+      },
+      "category_state_rows": {
+        "status": {
+          "known_literal": 46881,
+          "unreviewed_string": 1
+        },
+        "data_format": {
+          "unreviewed_string": 46882
+        },
+        "data_source_type": {
+          "unreviewed_string": 46882
+        }
+      },
+      "known_literal_category_rows": {
+        "status": {
+          "canceled": 3644,
+          "completed": 39175,
+          "failed": 4062
+        },
+        "data_format": {},
+        "data_source_type": {}
+      }
+    },
+    "BQIMP002": {
+      "record_family": "serverless_import",
+      "native_id_available": true,
+      "count_unit": "source-local record IDs and rows",
+      "counts": {
+        "conflicting_native_ids": 0,
+        "distinct_full_record_versions": 201058,
+        "distinct_native_ids": 201058,
+        "exact_duplicate_rows": 0,
+        "invalid_or_missing_primary_id_rows": 0,
+        "rows_stored": 201058,
+        "unique_nonconflicting_native_ids": 201058
+      },
+      "field_presence_rows": {
+        "source_url": {
+          "missing": 201058
+        },
+        "current_tables": {
+          "missing": 1499,
+          "nonempty": 199559
+        },
+        "completed_tables": {
+          "missing": 1499,
+          "nonempty": 199559
+        },
+        "pending_tables": {
+          "missing": 1499,
+          "nonempty": 199559
+        },
+        "custom_csv_format": {
+          "missing": 201058
+        },
+        "csv_format": {
+          "missing": 18295,
+          "nonempty": 182763
+        },
+        "target_table_infos": {
+          "nonempty": 201058
+        }
+      },
+      "stored_literal_rows": {
+        "clean_up": {
+          "true": 201058
+        }
+      },
+      "timestamp_state_rows": {
+        "created_at": {
+          "aware": 201058
+        },
+        "started_at": {
+          "aware": 197023,
+          "missing": 4035
+        },
+        "completed_at": {
+          "aware": 201053,
+          "missing": 5
+        },
+        "updated_at": {
+          "aware": 201058
+        }
+      },
+      "identifier_state_rows": {
+        "id": {
+          "valid": 201058
+        },
+        "tenant_id": {
+          "valid": 201058
+        },
+        "project_id": {
+          "valid": 201058
+        },
+        "cluster_id": {
+          "valid": 201058
+        },
+        "task_id": {
+          "valid": 201058
+        },
+        "id_compat": {
+          "valid": 201058
+        }
+      },
+      "category_state_rows": {
+        "status": {
+          "known_literal": 201057,
+          "unreviewed_string": 1
+        },
+        "data_format": {
+          "unreviewed_string": 201058
+        },
+        "data_source_type": {
+          "unreviewed_string": 201058
+        }
+      },
+      "known_literal_category_rows": {
+        "status": {
+          "canceled": 786,
+          "completed": 120882,
+          "failed": 79389
+        },
+        "data_format": {},
+        "data_source_type": {}
+      }
+    },
+    "BQIMP003": {
+      "record_family": "dm_job_source",
+      "native_id_available": false,
+      "count_unit": "rows and full-record versions; no admitted primary ID",
+      "counts": {
+        "distinct_full_record_versions": 1795,
+        "exact_duplicate_rows": 0,
+        "rows_stored": 1795
+      },
+      "field_presence_rows": {
+        "route_rules": {
+          "nonempty": 1795
+        },
+        "ba_rules": {
+          "nonempty": 1795
+        },
+        "binlog_name": {
+          "missing": 1337,
+          "nonempty": 458
+        },
+        "binlog_pos": {
+          "nonempty": 1795
+        }
+      },
+      "stored_literal_rows": {
+        "gtid": {
+          "false": 1754,
+          "true": 41
+        },
+        "case_sensitive": {
+          "false": 1795
+        }
+      },
+      "timestamp_state_rows": {
+        "deleted_at": {
+          "aware": 1761,
+          "missing": 34
+        }
+      },
+      "identifier_state_rows": {
+        "job_id": {
+          "valid": 1795
+        },
+        "conn_profile_id": {
+          "valid": 1795
+        }
+      },
+      "category_state_rows": {
+        "dump_status": {
+          "missing": 354,
+          "unreviewed_string": 1441
+        },
+        "load_status": {
+          "missing": 452,
+          "unreviewed_string": 1343
+        }
+      },
+      "known_literal_category_rows": {
+        "dump_status": {},
+        "load_status": {}
+      }
+    },
+    "BQIMP004": {
+      "record_family": "us_cdc_task",
+      "native_id_available": true,
+      "count_unit": "source-local record IDs and rows",
+      "counts": {
+        "conflicting_native_ids": 0,
+        "distinct_full_record_versions": 557,
+        "distinct_native_ids": 557,
+        "exact_duplicate_rows": 0,
+        "invalid_or_missing_primary_id_rows": 0,
+        "rows_stored": 557,
+        "unique_nonconflicting_native_ids": 557
+      },
+      "field_presence_rows": {
+        "checkpoint_tso": {
+          "nonempty": 557
+        },
+        "start_time_stamp": {
+          "nonempty": 557
+        },
+        "target_time_stamp": {
+          "nonempty": 557
+        }
+      },
+      "stored_literal_rows": {
+        "ignore_replication": {
+          "literal_one": 307,
+          "literal_zero": 250
+        },
+        "retry": {
+          "literal_zero": 526,
+          "unsupported": 31
+        }
+      },
+      "timestamp_state_rows": {
+        "created_at": {
+          "aware": 557
+        },
+        "updated_at": {
+          "aware": 557
+        }
+      },
+      "identifier_state_rows": {
+        "id": {
+          "valid": 557
+        },
+        "cluster_id": {
+          "valid": 557
+        },
+        "cdc_cluster_id": {
+          "valid": 557
+        }
+      },
+      "category_state_rows": {
+        "status": {
+          "unreviewed_string": 557
+        },
+        "down_stream_type": {
+          "known_literal": 491,
+          "unreviewed_string": 66
+        }
+      },
+      "known_literal_category_rows": {
+        "status": {},
+        "down_stream_type": {
+          "kafka": 188,
+          "mysql": 303
+        }
+      }
+    }
+  },
+  "import_reference_checks": {
+    "BQIMP001": {
+      "count_unit": "source-local native import IDs",
+      "concordant_import_ids": 25365,
+      "concordant_import_ids_matching_multiple_cluster_sources": 2359,
+      "concordant_import_ids_using_any_project_derived_cluster_owner": 0,
+      "dispositions": {
+        "cluster_project_disagreement": 2827,
+        "cluster_tenant_disagreement": 134,
+        "concordant_explicit_cluster_owner": 25365,
+        "conflicting_import_versions": 0,
+        "unmatched_cluster_reference": 18556
+      },
+      "creation_bound_diagnostics": {
+        "source_at_or_after_all_retained_parent_creation": 25365
+      },
+      "parent_creation_observations_repeated_per_concordant_import": {
+        "aware": 53089
+      },
+      "concordant_import_field_presence": {
+        "source_url": {
+          "nonempty": 25365
+        },
+        "current_tables": {
+          "nonempty": 25365
+        },
+        "completed_tables": {
+          "nonempty": 25365
+        },
+        "pending_tables": {
+          "nonempty": 25365
+        },
+        "custom_csv_format": {
+          "missing": 5545,
+          "nonempty": 19820
+        }
+      }
+    },
+    "BQIMP002": {
+      "count_unit": "source-local native import IDs",
+      "concordant_import_ids": 199839,
+      "concordant_import_ids_matching_multiple_cluster_sources": 0,
+      "concordant_import_ids_using_any_project_derived_cluster_owner": 0,
+      "dispositions": {
+        "cluster_project_disagreement": 1218,
+        "cluster_tenant_disagreement": 1,
+        "concordant_explicit_cluster_owner": 199839,
+        "conflicting_import_versions": 0
+      },
+      "creation_bound_diagnostics": {
+        "source_at_or_after_all_retained_parent_creation": 199839
+      },
+      "parent_creation_observations_repeated_per_concordant_import": {
+        "aware": 399678
+      },
+      "concordant_import_field_presence": {
+        "target_table_infos": {
+          "nonempty": 199839
+        },
+        "csv_format": {
+          "missing": 17946,
+          "nonempty": 181893
+        }
+      }
+    }
+  },
+  "dm_role_cardinality": {
+    "distinct_job_ids": 1795,
+    "distinct_job_profile_pairs": 1795,
+    "distinct_profile_ids": 1795,
+    "full_record_versions": 1795,
+    "pairs_with_multiple_full_record_versions": 0,
+    "versions_with_both_valid_role_ids": 1795
+  },
+  "numeric_precision_audit": {
+    "BQIMP001": {
+      "distinct_exact_number_record_signatures": 46882,
+      "distinct_python_decoded_record_signatures": 46882,
+      "native_ids_with_conflicting_exact_versions": 0,
+      "native_ids_with_conflicting_python_versions": 0,
+      "python_signature_groups_with_multiple_exact_versions": 0,
+      "rows": 46882,
+      "fractional_or_exponent_leaves": 0,
+      "fractional_or_exponent_values_changed_by_float_roundtrip": 0,
+      "integer_leaves": 0,
+      "rows_with_float_roundtrip_value_changes": 0,
+      "rows_with_fractional_or_exponent_numbers": 0
+    },
+    "BQIMP002": {
+      "distinct_exact_number_record_signatures": 201058,
+      "distinct_python_decoded_record_signatures": 201058,
+      "native_ids_with_conflicting_exact_versions": 0,
+      "native_ids_with_conflicting_python_versions": 0,
+      "python_signature_groups_with_multiple_exact_versions": 0,
+      "rows": 201058,
+      "fractional_or_exponent_leaves": 0,
+      "fractional_or_exponent_values_changed_by_float_roundtrip": 0,
+      "integer_leaves": 0,
+      "rows_with_float_roundtrip_value_changes": 0,
+      "rows_with_fractional_or_exponent_numbers": 0
+    },
+    "BQIMP003": {
+      "distinct_exact_number_record_signatures": 1795,
+      "distinct_python_decoded_record_signatures": 1795,
+      "native_ids_with_conflicting_exact_versions": 0,
+      "native_ids_with_conflicting_python_versions": 0,
+      "python_signature_groups_with_multiple_exact_versions": 0,
+      "rows": 1795,
+      "fractional_or_exponent_leaves": 0,
+      "fractional_or_exponent_values_changed_by_float_roundtrip": 0,
+      "integer_leaves": 0,
+      "rows_with_float_roundtrip_value_changes": 0,
+      "rows_with_fractional_or_exponent_numbers": 0
+    },
+    "BQIMP004": {
+      "distinct_exact_number_record_signatures": 557,
+      "distinct_python_decoded_record_signatures": 557,
+      "native_ids_with_conflicting_exact_versions": 0,
+      "native_ids_with_conflicting_python_versions": 0,
+      "python_signature_groups_with_multiple_exact_versions": 0,
+      "rows": 557,
+      "fractional_or_exponent_leaves": 0,
+      "fractional_or_exponent_values_changed_by_float_roundtrip": 0,
+      "integer_leaves": 0,
+      "rows_with_float_roundtrip_value_changes": 0,
+      "rows_with_fractional_or_exponent_numbers": 0
+    }
+  },
+  "cdc_cross_namespace_join_performed": false,
+  "company_attribution_performed": false,
+  "hk_geography_inherited": false,
+  "temporal_ownership_attribution_performed": false,
+  "limitations": [
+    "Four physical sources are counted once. The seven-field union and exact-number audit reread those sources and add no physical-source or cumulative unique-row count.",
+    "Field-presence, literal-category, identifier-state and timestamp-state counts describe rows, including rows under conflicting native IDs. They are not counts of unique values, tables, files, credentials, jobs or incidents.",
+    "The seven listed material fields are assessed on every row of both import sources. This fixed union is not an exhaustive census of every optional or encoded field. Missing combines an absent field and JSON null; empty and unsupported representations remain separate.",
+    "Concordance dispositions count source-local native import IDs after full-record conflict quarantine. Conditional field-presence counts use those concordant IDs and only the original per-source fields; the wider seven-field union is row-level only. Do not add these subsets or different source populations.",
+    "Every retained matching cluster and project mapping is checked. Explicit cluster tenant fields and project-derived owners remain separate. Frozen parent projections normalize original integer IDs to strings and lack full original-record hashes and complete lifecycle evidence.",
+    "Creation diagnostics compare an import creation timestamp with all retained cluster/project creation timestamps. Predating all values, lying between minimum and maximum, and being at or after all values are distinct. Missing, naive, date-only or unsupported timestamps cannot pass the aware-time comparison. Parent timestamp observations repeat for each concordant import and are not unique resources.",
+    "Matching keys and compatible creation bounds do not establish historical ownership, temporal continuity, production use, a customer identity, Hong Kong geography, successful imports or customer-database contents. Source labels and timestamps are not converted into company attribution.",
+    "DM has no admitted primary record ID. Rows, full-record versions, distinct job-role identifiers, distinct profile-role identifiers and role-labelled pairs remain separate units, with no admitted job-master or profile bridge. CDC cluster_id and cdc_cluster_id belong to an unbridged metadb_us namespace and are not joined to metadb_new.",
+    "Stored flags and fixed enum spellings remain classifications. The true/false categories combine JSON booleans with matching case-insensitive string spellings; literal_zero/literal_one mean string zero/one. Other forms remain unsupported. In particular retry is a stored literal category, not a boolean or a verified retry count. These categories and status words do not establish current activity or operational success.",
+    "The exact-number audit reconciles each source line, retained native ID and Python-decoded record signature. These four sources contain no fractional/exponent JSON-number leaves and no collapsed exact-number record distinctions. Numeric text inside strings is not decoded. This result does not validate other analyzers or sources.",
+    "Only fixed source aliases, field/category names and aggregate counts are exported. Raw identifiers, private paths, enum/record hashes, individual timestamps, names, URLs, routing values and payloads are excluded. No endpoint, credential or external system is contacted. Changed frozen inputs require another review."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true,
+    "selected_source_ordinals_verified": true,
+    "selected_sources_gzip_eof_validated": true,
+    "main_assessment_recomputed": true,
+    "all_retained_parent_mappings_checked": true,
+    "union_reread_reconciled": true,
+    "numeric_audit_recomputed": true,
+    "numeric_audit_rows_reconciled": true
+  }
+}

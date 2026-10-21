@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 3,
+    "rows_parsed": 315932,
+    "parse_errors": 0
+  },
+  "sources": {
+    "BQAPP001": {
+      "record_family": "app",
+      "counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_native_ids": 42640,
+        "exact_duplicate_rows": 0,
+        "rows_staged": 42640,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 42640
+      },
+      "nonconflicting_ids_with_nonempty_fields": {},
+      "nonconflicting_id_creation_states": {
+        "parsed": 42640
+      },
+      "stored_is_deleted_literal_row_counts": {
+        "literal_string_zero": 9701,
+        "literal_string_one": 32939
+      }
+    },
+    "BQAPP002": {
+      "record_family": "endpoint",
+      "counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_native_ids": 227864,
+        "exact_duplicate_rows": 0,
+        "rows_staged": 227864,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 227864
+      },
+      "nonconflicting_ids_with_nonempty_fields": {
+        "args": 51956,
+        "settings": 227864
+      },
+      "nonconflicting_id_creation_states": {
+        "parsed": 227864
+      },
+      "stored_is_deleted_literal_row_counts": {
+        "literal_string_zero": 49162,
+        "literal_string_one": 178702
+      }
+    },
+    "BQAPP003": {
+      "record_family": "publication",
+      "counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_native_ids": 45428,
+        "exact_duplicate_rows": 0,
+        "rows_staged": 45428,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 45428
+      },
+      "nonconflicting_ids_with_nonempty_fields": {
+        "args": 21345,
+        "settings": 45428,
+        "sql_template": 21246
+      },
+      "nonconflicting_id_creation_states": {
+        "parsed": 45428
+      }
+    }
+  },
+  "endpoint_to_app": {
+    "dispositions": {
+      "concordant_native_app_reference": 227864,
+      "conflicting_endpoint_versions": 0
+    },
+    "concordant_reference_creation_order": {
+      "creation_order_compatible": 227864
+    }
+  },
+  "publication_to_endpoint_and_app": {
+    "dispositions": {
+      "cluster_reference_disagreement": 195,
+      "concordant_native_app_endpoint_cluster_references": 45233,
+      "conflicting_publication_versions": 0
+    },
+    "concordant_reference_creation_order": {
+      "creation_order_compatible": 45233
+    },
+    "concordant_publication_ids_with_nonempty_sql_template": 21051
+  },
+  "company_attribution_performed": false,
+  "organization_to_tenant_mapping_performed": false,
+  "cluster_existence_verified": false,
+  "limitations": [
+    "This review covers three selected native Data App tables. Counts are separate by source and do not establish customer, company or Hong Kong attribution. No organization-to-tenant mapping is performed.",
+    "Nonempty SQL-template, argument and settings string fields are counted without reading their meaning or decoding nested contents. Presence does not establish execution, query results, successful endpoint access or customer-database exposure.",
+    "Counts distinguish row observations, distinct native identifiers and unique nonconflicting identifiers. Exact full-record duplicates collapse; every identifier with differing full-record versions is quarantined. No latest-version election is made.",
+    "Native references require exact nonempty strings with no surrounding whitespace. Numbers and booleans are not coerced. Invalid primary IDs remain row observations and cannot enter distinct-ID relationships.",
+    "Relationship dispositions form a mutually exclusive partition using the first applicable exclusion. Multiple problems can coexist in one record. Publication concordance requires agreeing native app, endpoint and cluster references; cluster existence and cross-dataset namespaces are not verified.",
+    "Stored is_deleted values remain literal row classifications from a separate source census. Numeric zero/one strings are not interpreted as deleted or not deleted, and no derived deletion or lifecycle counts are exported. Current activity and deployment remain unverified. Publication records have no source deletion field.",
+    "Creation-order comparisons use timezone-aware or explicit UTC source times. Compatible order does not establish ownership, current validity or production use. No raw timestamps are published.",
+    "Only fixed public aliases, approved field names, count categories and aggregate counts are exported. SQL text, argument/settings values, names, URLs, organization/project/endpoint/cluster identifiers, personal fields, private paths and per-record hashes are excluded.",
+    "The export is a frozen reviewed snapshot with reconciled source receipts and a recomputed database assessment. Changed inputs or code require another review. This batch is not comprehensive interpretation of the archive."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true,
+    "database_assessment_recomputed": true,
+    "selected_sources_gzip_eof_validated": true,
+    "deletion_literal_census_reconciled": true
+  }
+}

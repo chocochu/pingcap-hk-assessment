@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "scope": "Five-source aggregate identity-model census without identity attribution.",
+  "summary": {
+    "tables": 5,
+    "source_rows": 545062,
+    "parse_errors": 0
+  },
+  "source_census": [
+    {
+      "source_alias": "BQIC001",
+      "source_role": "Surrogate-key model",
+      "counts": {
+        "source_rows": 181935,
+        "distinct_decoded_record_versions": 181935,
+        "distinct_raw_line_versions": 181935,
+        "duplicate_decoded_record_rows": 0,
+        "duplicate_raw_line_rows": 0,
+        "distinct_selected_projection_versions": 181935,
+        "selected_projection_groups_with_whole_record_variation": 0,
+        "distinct_nonempty_surrogate_string_groups": 180824,
+        "multi_version_surrogate_string_groups": 932
+      },
+      "additional_top_level_key_count": 1,
+      "fields": [
+        {
+          "field_role": "Surrogate key",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 180824,
+          "distinct_nonempty_typed_values": 180824,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "hex_string_64",
+              "interpretation_category": "unadmitted_hex_string_64",
+              "rows": 181935
+            }
+          ]
+        },
+        {
+          "field_role": "Customer reference",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 180824,
+          "distinct_nonempty_typed_values": 180824,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "decimal_string_1_to_32",
+              "interpretation_category": "unadmitted_decimal_string_1_to_32",
+              "rows": 178684
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 2976
+            },
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 275
+            }
+          ]
+        },
+        {
+          "field_role": "Customer type",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 2,
+          "distinct_nonempty_typed_values": 2,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 181935
+            }
+          ]
+        },
+        {
+          "field_role": "Customer creation timestamp",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 177935,
+          "distinct_nonempty_typed_values": 177935,
+          "type_shape_categories": [
+            {
+              "json_type": "absent",
+              "shape": "absent",
+              "interpretation_category": "absent",
+              "rows": 3
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unsupported_timestamp",
+              "rows": 181932
+            }
+          ]
+        },
+        {
+          "field_role": "Account reference",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 3590,
+          "distinct_nonempty_typed_values": 3590,
+          "type_shape_categories": [
+            {
+              "json_type": "absent",
+              "shape": "absent",
+              "interpretation_category": "absent",
+              "rows": 178345
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 3306
+            },
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 284
+            }
+          ]
+        },
+        {
+          "field_role": "Instance creation timestamp",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 179116,
+          "distinct_nonempty_typed_values": 179116,
+          "type_shape_categories": [
+            {
+              "json_type": "absent",
+              "shape": "absent",
+              "interpretation_category": "absent",
+              "rows": 1
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unsupported_timestamp",
+              "rows": 181934
+            }
+          ]
+        },
+        {
+          "field_role": "Instance type",
+          "row_observations": 181935,
+          "distinct_present_typed_values": 2,
+          "distinct_nonempty_typed_values": 2,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 181935
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_alias": "BQIC002",
+      "source_role": "Identity registry model",
+      "counts": {
+        "source_rows": 181938,
+        "distinct_decoded_record_versions": 181938,
+        "distinct_raw_line_versions": 181938,
+        "duplicate_decoded_record_rows": 0,
+        "duplicate_raw_line_rows": 0,
+        "distinct_selected_projection_versions": 181938,
+        "selected_projection_groups_with_whole_record_variation": 0,
+        "distinct_nonempty_surrogate_string_groups": 180827,
+        "multi_version_surrogate_string_groups": 932
+      },
+      "additional_top_level_key_count": 0,
+      "fields": [
+        {
+          "field_role": "Identity type",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 2,
+          "distinct_nonempty_typed_values": 2,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 181938
+            }
+          ]
+        },
+        {
+          "field_role": "Identity value",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 181938,
+          "distinct_nonempty_typed_values": 181938,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "decimal_string_1_to_32",
+              "interpretation_category": "unadmitted_decimal_string_1_to_32",
+              "rows": 178345
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 3306
+            },
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 287
+            }
+          ]
+        },
+        {
+          "field_role": "Surrogate key",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 180827,
+          "distinct_nonempty_typed_values": 180827,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "hex_string_64",
+              "interpretation_category": "unadmitted_hex_string_64",
+              "rows": 181938
+            }
+          ]
+        },
+        {
+          "field_role": "Compatibility customer reference",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 180827,
+          "distinct_nonempty_typed_values": 180827,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "decimal_string_1_to_32",
+              "interpretation_category": "unadmitted_decimal_string_1_to_32",
+              "rows": 178684
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 2976
+            },
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 278
+            }
+          ]
+        },
+        {
+          "field_role": "Compatibility customer type",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 2,
+          "distinct_nonempty_typed_values": 2,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 181938
+            }
+          ]
+        },
+        {
+          "field_role": "Compatibility creation timestamp",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 177938,
+          "distinct_nonempty_typed_values": 177938,
+          "type_shape_categories": [
+            {
+              "json_type": "absent",
+              "shape": "absent",
+              "interpretation_category": "absent",
+              "rows": 3
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unsupported_timestamp",
+              "rows": 181935
+            }
+          ]
+        },
+        {
+          "field_role": "First-seen timestamp",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 12,
+          "distinct_nonempty_typed_values": 12,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unsupported_timestamp",
+              "rows": 181938
+            }
+          ]
+        },
+        {
+          "field_role": "Last-seen timestamp",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 10,
+          "distinct_nonempty_typed_values": 10,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unsupported_timestamp",
+              "rows": 181938
+            }
+          ]
+        },
+        {
+          "field_role": "Bootstrap run reference",
+          "row_observations": 181938,
+          "distinct_present_typed_values": 11,
+          "distinct_nonempty_typed_values": 11,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 181938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_alias": "BQIC003",
+      "source_role": "Separate dated finance bootstrap model",
+      "counts": {
+        "source_rows": 18,
+        "distinct_decoded_record_versions": 18,
+        "distinct_raw_line_versions": 18,
+        "duplicate_decoded_record_rows": 0,
+        "duplicate_raw_line_rows": 0,
+        "distinct_selected_projection_versions": 18,
+        "selected_projection_groups_with_whole_record_variation": 0,
+        "distinct_nonempty_surrogate_string_groups": 18,
+        "multi_version_surrogate_string_groups": 0
+      },
+      "additional_top_level_key_count": 0,
+      "fields": [
+        {
+          "field_role": "Identity type",
+          "row_observations": 18,
+          "distinct_present_typed_values": 1,
+          "distinct_nonempty_typed_values": 1,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 18
+            }
+          ]
+        },
+        {
+          "field_role": "Identity value",
+          "row_observations": 18,
+          "distinct_present_typed_values": 18,
+          "distinct_nonempty_typed_values": 18,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 18
+            }
+          ]
+        },
+        {
+          "field_role": "Surrogate key",
+          "row_observations": 18,
+          "distinct_present_typed_values": 18,
+          "distinct_nonempty_typed_values": 18,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "hex_string_64",
+              "interpretation_category": "unadmitted_hex_string_64",
+              "rows": 18
+            }
+          ]
+        },
+        {
+          "field_role": "Compatibility customer reference",
+          "row_observations": 18,
+          "distinct_present_typed_values": 18,
+          "distinct_nonempty_typed_values": 18,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 18
+            }
+          ]
+        },
+        {
+          "field_role": "Compatibility customer type",
+          "row_observations": 18,
+          "distinct_present_typed_values": 1,
+          "distinct_nonempty_typed_values": 1,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 18
+            }
+          ]
+        },
+        {
+          "field_role": "Compatibility creation timestamp",
+          "row_observations": 18,
+          "distinct_present_typed_values": 18,
+          "distinct_nonempty_typed_values": 18,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unsupported_timestamp",
+              "rows": 18
+            }
+          ]
+        },
+        {
+          "field_role": "Source account reference",
+          "row_observations": 18,
+          "distinct_present_typed_values": 18,
+          "distinct_nonempty_typed_values": 18,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "uuid_shaped_string",
+              "interpretation_category": "unadmitted_uuid_shaped_string",
+              "rows": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_alias": "BQIC004",
+      "source_role": "Customer dimension model",
+      "counts": {
+        "source_rows": 180824,
+        "distinct_decoded_record_versions": 180824,
+        "distinct_raw_line_versions": 180824,
+        "duplicate_decoded_record_rows": 0,
+        "duplicate_raw_line_rows": 0,
+        "distinct_selected_projection_versions": 180824,
+        "selected_projection_groups_with_whole_record_variation": 0,
+        "distinct_nonempty_surrogate_string_groups": 180824,
+        "multi_version_surrogate_string_groups": 0
+      },
+      "additional_top_level_key_count": 6,
+      "fields": [
+        {
+          "field_role": "Surrogate key",
+          "row_observations": 180824,
+          "distinct_present_typed_values": 180824,
+          "distinct_nonempty_typed_values": 180824,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "hex_string_64",
+              "interpretation_category": "unadmitted_hex_string_64",
+              "rows": 180824
+            }
+          ]
+        },
+        {
+          "field_role": "Tenant-array field",
+          "row_observations": 180824,
+          "distinct_present_typed_values": 178132,
+          "distinct_nonempty_typed_values": 178131,
+          "type_shape_categories": [
+            {
+              "json_type": "array",
+              "shape": "empty_array",
+              "interpretation_category": "unadmitted_empty_array",
+              "rows": 2693
+            },
+            {
+              "json_type": "array",
+              "shape": "nonempty_array",
+              "interpretation_category": "unadmitted_nonempty_array",
+              "rows": 178131
+            }
+          ]
+        },
+        {
+          "field_role": "Billing-capability flag",
+          "row_observations": 180824,
+          "distinct_present_typed_values": 2,
+          "distinct_nonempty_typed_values": 2,
+          "type_shape_categories": [
+            {
+              "json_type": "boolean",
+              "shape": "boolean_false",
+              "interpretation_category": "boolean_false",
+              "rows": 179219
+            },
+            {
+              "json_type": "boolean",
+              "shape": "boolean_true",
+              "interpretation_category": "boolean_true",
+              "rows": 1605
+            }
+          ]
+        }
+      ],
+      "tenant_array_observations": {
+        "states": {
+          "all_strict_decimal_strings": 178131,
+          "empty_array": 2693
+        },
+        "element_types": [
+          {
+            "json_type": "string",
+            "shape": "decimal_string_1_to_32",
+            "elements": 178309
+          }
+        ],
+        "counts": {
+          "elements": 178309,
+          "decimal_string_elements": 178309,
+          "distinct_decimal_string_values": 178309,
+          "rows_with_duplicate_elements": 0,
+          "duplicate_elements_beyond_first_per_row": 0,
+          "rows_with_multiple_distinct_elements": 119,
+          "surrogate_string_groups_with_multiple_array_sets": 0,
+          "surrogate_string_groups_with_multiple_decimal_string_array_sets": 0,
+          "decimal_string_values_in_multiple_surrogate_string_groups": 0
+        }
+      }
+    },
+    {
+      "source_alias": "BQIC005",
+      "source_role": "NetSuite mapping model",
+      "counts": {
+        "source_rows": 347,
+        "distinct_decoded_record_versions": 347,
+        "distinct_raw_line_versions": 347,
+        "duplicate_decoded_record_rows": 0,
+        "duplicate_raw_line_rows": 0,
+        "distinct_selected_projection_versions": 347,
+        "selected_projection_groups_with_whole_record_variation": 0,
+        "distinct_nonempty_surrogate_string_groups": 347,
+        "multi_version_surrogate_string_groups": 0
+      },
+      "additional_top_level_key_count": 0,
+      "fields": [
+        {
+          "field_role": "NetSuite reference",
+          "row_observations": 347,
+          "distinct_present_typed_values": 347,
+          "distinct_nonempty_typed_values": 347,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 347
+            }
+          ]
+        },
+        {
+          "field_role": "NetSuite name",
+          "row_observations": 347,
+          "distinct_present_typed_values": 347,
+          "distinct_nonempty_typed_values": 347,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 347
+            }
+          ]
+        },
+        {
+          "field_role": "Surrogate key",
+          "row_observations": 347,
+          "distinct_present_typed_values": 347,
+          "distinct_nonempty_typed_values": 347,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "hex_string_64",
+              "interpretation_category": "unadmitted_hex_string_64",
+              "rows": 347
+            }
+          ]
+        },
+        {
+          "field_role": "Customer-dimension name",
+          "row_observations": 347,
+          "distinct_present_typed_values": 347,
+          "distinct_nonempty_typed_values": 347,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 347
+            }
+          ]
+        },
+        {
+          "field_role": "Salesforce account reference",
+          "row_observations": 347,
+          "distinct_present_typed_values": 303,
+          "distinct_nonempty_typed_values": 303,
+          "type_shape_categories": [
+            {
+              "json_type": "absent",
+              "shape": "absent",
+              "interpretation_category": "absent",
+              "rows": 44
+            },
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unadmitted_other_string",
+              "rows": 303
+            }
+          ]
+        },
+        {
+          "field_role": "Uninterpreted region field",
+          "row_observations": 347,
+          "distinct_present_typed_values": 4,
+          "distinct_nonempty_typed_values": 4,
+          "type_shape_categories": [
+            {
+              "json_type": "string",
+              "shape": "other_string",
+              "interpretation_category": "unreviewed_enum_string",
+              "rows": 347
+            }
+          ]
+        },
+        {
+          "field_role": "Billing-capability flag",
+          "row_observations": 347,
+          "distinct_present_typed_values": 2,
+          "distinct_nonempty_typed_values": 2,
+          "type_shape_categories": [
+            {
+              "json_type": "boolean",
+              "shape": "boolean_false",
+              "interpretation_category": "boolean_false",
+              "rows": 33
+            },
+            {
+              "json_type": "boolean",
+              "shape": "boolean_true",
+              "interpretation_category": "boolean_true",
+              "rows": 314
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "This is an aggregate type, shape, cardinality, and version census of five bounded sources. It does not resolve people, authenticate companies or customers, establish a tenant bridge, or identify Hong Kong entities or current activity.",
+    "Rows, decoded-record versions, raw-line versions, surrogate string groups, and array elements are different units. Source totals must not be interpreted as unique companies, people, tenants, or resources.",
+    "Equality and cardinality use source-and-field-qualified typed hashes privately. No cross-source equality bridge is computed. Raw values, identifiers, names, field-name hashes, and value hashes are excluded from this artifact.",
+    "Multiple whole-record versions within a surrogate string group are not automatically conflicts. They may reflect identity-model multiplicity; no latest version or historical validity is elected.",
+    "All enum meanings remain unreviewed. A decimal, hexadecimal, or UUID-shaped string is a syntax observation, not an admitted identifier namespace or evidence of a corporate identity.",
+    "Every tenant-array element was typed. Source-local surrogate/array-set counts do not authenticate native tenant ownership or establish a relationship between datasets.",
+    "The dated finance bootstrap source remains separate from the registry. Similar counts or shapes do not establish equal source content, equivalence, or compatible mappings.",
+    "Timestamp categories describe parseability only. Unsupported timestamps do not establish current or historical states; first-seen, last-seen, bootstrap, and creation fields are not proven effective dates.",
+    "Additional top-level keys absent from the sampled schema are counted by source only. Their names and contents remain outside the admitted field scope.",
+    "Billing-capability flags and model names are source categories, not proof of payment, product use, incident impact, or customer status. Further interpretation requires transformation lineage, enum dictionaries, namespace/key constraints, and effective-date policies."
+  ]
+}

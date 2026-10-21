@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 2,
+    "rows_parsed": 353397,
+    "parse_errors": 0
+  },
+  "sources": {
+    "BQMSP001": {
+      "record_family": "native_billing_config",
+      "counts": {
+        "distinct_full_record_versions_with_valid_grouping_id": 178404,
+        "distinct_id_groups": 178404,
+        "exact_duplicate_rows_with_valid_grouping_id": 0,
+        "multi_version_id_groups_quarantined": 0,
+        "row_observations": 178404,
+        "rows_without_valid_grouping_id": 0,
+        "single_version_id_groups": 178404
+      },
+      "distinct_identifiers_by_role": {
+        "managed_tenant_id": 44,
+        "tenant_id": 178286
+      },
+      "name_state_row_observations": {},
+      "time_parseability_row_observations": {
+        "created_at": {
+          "parsed_timezone_aware": 178404
+        },
+        "updated_at": {
+          "parsed_timezone_aware": 178404
+        },
+        "start_active_time": {
+          "parsed_timezone_aware": 178404
+        }
+      },
+      "created_updated_order_row_observations": {
+        "nondecreasing_recorded_times": 178404
+      },
+      "fixed_category_row_observations": {
+        "type": {
+          "unknown_string": 178404
+        },
+        "status": {
+          "unknown_string": 178404
+        }
+      },
+      "need_unique_mark_literal_row_observations": {
+        "boolean_true": 178330,
+        "missing": 74
+      },
+      "primary_identifier_state_row_observations": {
+        "valid": 178404
+      },
+      "role_identifier_state_row_observations": {
+        "tenant_id": {
+          "valid": 178404
+        },
+        "managed_tenant_id": {
+          "missing": 42685,
+          "valid": 135719
+        }
+      }
+    },
+    "BQMSP002": {
+      "record_family": "modeled_cost_detail",
+      "counts": {
+        "distinct_full_record_versions_with_valid_grouping_id": 174993,
+        "distinct_id_groups": 174993,
+        "exact_duplicate_rows_with_valid_grouping_id": 0,
+        "multi_version_id_groups_quarantined": 0,
+        "row_observations": 174993,
+        "rows_without_valid_grouping_id": 0,
+        "single_version_id_groups": 174993
+      },
+      "distinct_identifiers_by_role": {
+        "billing_cluster_id": 314,
+        "billing_config_tenant_id": 10,
+        "billing_project_id": 74,
+        "billing_tenant_id": 50,
+        "binded_billing_config_id": 10,
+        "msp_parent_tenant_id": 6,
+        "tenant_id": 50
+      },
+      "name_state_row_observations": {
+        "tenant_name": {
+          "approved_exact_label": 2542,
+          "missing": 1207,
+          "unknown_name": 171244
+        },
+        "tenant_name_origin": {
+          "missing": 1207,
+          "unknown_name": 173786
+        },
+        "msp_parent_tenant_name": {
+          "approved_exact_label": 55255,
+          "missing": 1213,
+          "unknown_name": 118525
+        }
+      },
+      "time_parseability_row_observations": {
+        "billing_created_at": {
+          "parsed_timezone_aware": 174993
+        },
+        "billing_updated_at": {
+          "parsed_timezone_aware": 174993
+        },
+        "billing_cost_date": {
+          "naive_datetime": 174993
+        },
+        "unit_created_at": {
+          "missing": 1483,
+          "parsed_timezone_aware": 173510
+        },
+        "unit_updated_at": {
+          "missing": 1483,
+          "parsed_timezone_aware": 173510
+        },
+        "tenant_created_at": {
+          "missing": 1207,
+          "parsed_timezone_aware": 173786
+        }
+      },
+      "created_updated_order_row_observations": {
+        "nondecreasing_recorded_times": 174993
+      },
+      "fixed_category_row_observations": {
+        "billing_status": {
+          "unknown_string": 174993
+        },
+        "tenant_status": {
+          "empty": 159243,
+          "literal:active": 14543,
+          "missing": 1207
+        }
+      },
+      "need_unique_mark_literal_row_observations": {},
+      "primary_identifier_state_row_observations": {
+        "valid": 174993
+      },
+      "role_identifier_state_row_observations": {
+        "billing_tenant_id": {
+          "missing": 1207,
+          "valid": 173786
+        },
+        "billing_config_tenant_id": {
+          "valid": 174993
+        },
+        "tenant_id": {
+          "missing": 1207,
+          "valid": 173786
+        },
+        "msp_parent_tenant_id": {
+          "missing": 1213,
+          "valid": 173780
+        },
+        "binded_billing_config_id": {
+          "valid": 174993
+        },
+        "billing_cluster_id": {
+          "missing": 10532,
+          "valid": 164461
+        },
+        "billing_project_id": {
+          "missing": 53855,
+          "valid": 121138
+        }
+      }
+    }
+  },
+  "config_reference_dispositions": {
+    "exact_single_version_config_reference": 174993,
+    "multi_version_model_cost_groups_quarantined": 0
+  },
+  "resource_reference_dispositions": {
+    "concordant_retained_cluster_project_references": 112041,
+    "missing_or_unsupported_model_resource_reference": 62952,
+    "multi_version_model_cost_groups_quarantined": 0
+  },
+  "config_reference_cardinality": {
+    "distinct_referenced_config_identifiers_from_single_version_model_groups": 10,
+    "model_id_groups_with_multiple_config_references_across_all_versions": 0,
+    "referenced_config_identifiers_with_multiple_model_groups": 10,
+    "referenced_config_identifiers_with_one_model_group": 0
+  },
+  "model_role_to_config_role": {
+    "billing_tenant_id": {
+      "tenant_id": {
+        "different_literal_identifiers": 173786,
+        "model_role_value_unverified": 1207
+      },
+      "managed_tenant_id": {
+        "both_role_values_unverified": 1022,
+        "compared_role_value_unverified": 118525,
+        "different_literal_identifiers": 55261,
+        "model_role_value_unverified": 185
+      }
+    },
+    "billing_config_tenant_id": {
+      "tenant_id": {
+        "equal_literal_identifiers": 174993
+      },
+      "managed_tenant_id": {
+        "compared_role_value_unverified": 119547,
+        "different_literal_identifiers": 55446
+      }
+    },
+    "tenant_id": {
+      "tenant_id": {
+        "different_literal_identifiers": 173786,
+        "model_role_value_unverified": 1207
+      },
+      "managed_tenant_id": {
+        "both_role_values_unverified": 1022,
+        "compared_role_value_unverified": 118525,
+        "different_literal_identifiers": 55261,
+        "model_role_value_unverified": 185
+      }
+    },
+    "msp_parent_tenant_id": {
+      "tenant_id": {
+        "equal_literal_identifiers": 173780,
+        "model_role_value_unverified": 1213
+      },
+      "managed_tenant_id": {
+        "both_role_values_unverified": 1022,
+        "compared_role_value_unverified": 118525,
+        "different_literal_identifiers": 55255,
+        "model_role_value_unverified": 191
+      }
+    }
+  },
+  "model_role_to_retained_resource_role": {
+    "billing_tenant_id": {
+      "retained_cluster_tenant": {
+        "both_role_values_unverified": 1207,
+        "compared_role_value_unverified": 61745,
+        "equal_literal_identifiers": 112041
+      },
+      "retained_project_tenant": {
+        "both_role_values_unverified": 1207,
+        "compared_role_value_unverified": 52648,
+        "equal_literal_identifiers": 121138
+      }
+    },
+    "billing_config_tenant_id": {
+      "retained_cluster_tenant": {
+        "compared_role_value_unverified": 62952,
+        "different_literal_identifiers": 112041
+      },
+      "retained_project_tenant": {
+        "compared_role_value_unverified": 53855,
+        "different_literal_identifiers": 121138
+      }
+    },
+    "tenant_id": {
+      "retained_cluster_tenant": {
+        "both_role_values_unverified": 1207,
+        "compared_role_value_unverified": 61745,
+        "equal_literal_identifiers": 112041
+      },
+      "retained_project_tenant": {
+        "both_role_values_unverified": 1207,
+        "compared_role_value_unverified": 52648,
+        "equal_literal_identifiers": 121138
+      }
+    },
+    "msp_parent_tenant_id": {
+      "retained_cluster_tenant": {
+        "both_role_values_unverified": 1213,
+        "compared_role_value_unverified": 61739,
+        "different_literal_identifiers": 112041
+      },
+      "retained_project_tenant": {
+        "both_role_values_unverified": 1213,
+        "compared_role_value_unverified": 52642,
+        "different_literal_identifiers": 121138
+      }
+    }
+  },
+  "time_order_diagnostics": {
+    "config_created_to_billing_created": {
+      "nondecreasing_recorded_times": 174993
+    },
+    "config_start_active_to_billing_created": {
+      "nondecreasing_recorded_times": 174993
+    },
+    "cluster_created_to_billing_created": {
+      "nondecreasing_recorded_times": 112041
+    },
+    "project_created_to_billing_created": {
+      "nondecreasing_recorded_times": 112041
+    }
+  },
+  "known_label_row_observations_by_name_role": {
+    "tenant_name": [
+      {
+        "organization_label": "MEGAHARD LIMITED",
+        "row_observations": 2542
+      }
+    ],
+    "tenant_name_origin": [],
+    "msp_parent_tenant_name": [
+      {
+        "organization_label": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+        "row_observations": 310
+      },
+      {
+        "organization_label": "MEGAHARD LIMITED",
+        "row_observations": 54945
+      }
+    ]
+  },
+  "retained_parent_mapping_states": {
+    "unambiguous_retained_owner_mapping": 356
+  },
+  "billing_role_semantics_verified": false,
+  "customer_status_established": false,
+  "hk_geography_inherited": false,
+  "model_transformation_lineage_verified": false,
+  "temporal_company_attribution_performed": false,
+  "limitations": [
+    "This selected two-source batch covers native billing-config rows and one MSP cost-detail model. Source row counts and grouping-key counts are not unique customers, charges, resources or incidents. Eleven other MSP model tables remain outside this batch.",
+    "The model billing_cost_id has unproved uniqueness as a schema contract. All source rows and full-record version counts are retained privately. Multiple versions may be legitimate cost line items; multi-version groups are conservatively excluded from comparisons without being declared invalid costs. No latest-row election is made.",
+    "Signatures retain exact fractional/exponent numeric tokens with type separation, avoiding binary-float precision loss. Alternate numeric spellings can conservatively count as separate versions; JSON whitespace and object key order do not change signatures.",
+    "The four model tenant-ID columns and two config tenant-ID columns remain distinct roles. Literal equality or difference does not establish payer, manager, reseller, parent, subclient or end-user semantics, or verified transformation SQL/version lineage.",
+    "New source identifiers require exact nonempty strings without outer whitespace; numbers and booleans are not coerced. Invalid primary identifiers remain source row observations and cannot enter grouping-key comparisons.",
+    "Resource checks reuse every applicable retained V3 project/cluster projection across three cluster sources. V3 lacks original identifier-type provenance and whole-record hashes and previously converted integer IDs to strings. These checks establish bounded projected-key concordance only, not strict source-string identity or ownership.",
+    "Resource dispositions use the first applicable exclusion, so several issues can coexist in one record. The separate role-comparison matrix compares each available unambiguous parent mapping even when the complete resource-reference chain is not concordant. A literal matrix match cannot replace the complete-chain result.",
+    "Only timezone-aware or explicit UTC timestamps support order diagnostics. Missing, unsupported, naive and date-only values remain separate. Compatible recorded times do not establish effective billing dates, historical ownership, current validity or temporal company attribution.",
+    "Exact approved label strings remain separate under tenant_name, tenant_name_origin and msp_parent_tenant_name. Counts are source row observations, including any quarantined or repeated rows. A label string establishes neither corporate identity, Hong Kong geography, customer status, billing roles nor incident impact.",
+    "Status/type values use fixed literal categories; numeric flag strings and integers retain their literal types. Unknown names/status strings are classified privately; their values and hashes are not exported. No lifecycle status is inferred.",
+    "The public artifact contains fixed source aliases, approved role/field names, approved exact labels and aggregate counts only. Native IDs, raw timestamps, unknown names, per-record hashes, emails, financial amounts, free text, payload values and private paths are excluded.",
+    "The frozen export reconciles selected source receipts, recomputes the assessment and rederives every staged parent projection from the frozen parent database. No account, customer system, URL or credential is contacted or tested."
+  ],
+  "retained_parent_projection_scope": {
+    "requested_model_cluster_ids": 314,
+    "requested_project_ids_including_cluster_parents": 74,
+    "retained_cluster_rows": 304,
+    "retained_project_rows": 74
+  },
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "selected_sources_gzip_eof_validated": true,
+    "source_receipts_reconciled": true,
+    "database_assessment_recomputed": true,
+    "all_retained_parent_projection_rows_rederived": true,
+    "source_snapshots_verified": true
+  }
+}

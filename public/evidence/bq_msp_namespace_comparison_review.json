@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "new_physical_sources_reviewed": 2,
+    "new_source_rows_parsed": 143120,
+    "parse_errors": 0,
+    "reused_baseline_model_sources": 1,
+    "reused_baseline_model_rows": 174993,
+    "model_namespaces_compared": 3,
+    "physical_sources_deduplicated": 0
+  },
+  "sources": {
+    "BQMSPC001": {
+      "namespace": "model_dbaas_billing",
+      "provenance": "new_full_source_review",
+      "model_source": {
+        "record_family": "modeled_cost_detail",
+        "counts": {
+          "distinct_full_record_versions_with_valid_grouping_id": 71560,
+          "distinct_id_groups": 71560,
+          "exact_duplicate_rows_with_valid_grouping_id": 0,
+          "multi_version_id_groups_quarantined": 0,
+          "row_observations": 71560,
+          "rows_without_valid_grouping_id": 0,
+          "single_version_id_groups": 71560
+        },
+        "distinct_identifiers_by_role": {
+          "billing_cluster_id": 107,
+          "billing_config_tenant_id": 7,
+          "billing_project_id": 32,
+          "billing_tenant_id": 22,
+          "binded_billing_config_id": 7,
+          "msp_parent_tenant_id": 3,
+          "tenant_id": 22
+        },
+        "name_state_row_observations": {
+          "tenant_name": {
+            "missing": 779,
+            "unknown_name": 70781
+          },
+          "tenant_name_origin": {
+            "missing": 71560
+          },
+          "msp_parent_tenant_name": {
+            "missing": 71560
+          }
+        },
+        "time_parseability_row_observations": {
+          "billing_created_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "billing_updated_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "billing_cost_date": {
+            "naive_datetime": 71560
+          },
+          "unit_created_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "unit_updated_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "tenant_created_at": {
+            "missing": 779,
+            "parsed_timezone_aware": 70781
+          }
+        },
+        "created_updated_order_row_observations": {
+          "nondecreasing_recorded_times": 71560
+        },
+        "fixed_category_row_observations": {
+          "billing_status": {
+            "unknown_string": 71560
+          },
+          "tenant_status": {
+            "literal:active": 66095,
+            "missing": 779,
+            "unknown_string": 4686
+          }
+        },
+        "need_unique_mark_literal_row_observations": {}
+      },
+      "primary_identifier_state_rows": {
+        "valid": 71560
+      },
+      "optional_fields": {
+        "available": true,
+        "field_presence_rows": {
+          "tenant_name": {
+            "absent": 779,
+            "nonempty_string": 70781
+          },
+          "tenant_name_origin": {
+            "absent": 71560
+          },
+          "msp_parent_tenant_name": {
+            "absent": 71560
+          },
+          "tenant_region": {
+            "absent": 779,
+            "nonempty_string": 70781
+          },
+          "msp_parent_tenant_region": {
+            "absent": 71560
+          }
+        }
+      },
+      "diagnostics": {
+        "billing_role_semantics_verified": false,
+        "config_reference_cardinality": {
+          "distinct_referenced_config_identifiers_from_single_version_model_groups": 7,
+          "model_id_groups_with_multiple_config_references_across_all_versions": 0,
+          "referenced_config_identifiers_with_multiple_model_groups": 7,
+          "referenced_config_identifiers_with_one_model_group": 0
+        },
+        "config_reference_dispositions": {
+          "exact_single_version_config_reference": 71560,
+          "multi_version_model_cost_groups_quarantined": 0
+        },
+        "customer_status_established": false,
+        "hk_geography_inherited": false,
+        "known_label_row_observations_by_name_role": {
+          "tenant_name": [],
+          "tenant_name_origin": [],
+          "msp_parent_tenant_name": []
+        },
+        "model_role_to_config_role": {
+          "billing_tenant_id": {
+            "tenant_id": {
+              "different_literal_identifiers": 70781,
+              "model_role_value_unverified": 779
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 743,
+              "compared_role_value_unverified": 70781,
+              "model_role_value_unverified": 36
+            }
+          },
+          "billing_config_tenant_id": {
+            "tenant_id": {
+              "equal_literal_identifiers": 71560
+            },
+            "managed_tenant_id": {
+              "compared_role_value_unverified": 71524,
+              "different_literal_identifiers": 36
+            }
+          },
+          "tenant_id": {
+            "tenant_id": {
+              "different_literal_identifiers": 70781,
+              "model_role_value_unverified": 779
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 743,
+              "compared_role_value_unverified": 70781,
+              "model_role_value_unverified": 36
+            }
+          },
+          "msp_parent_tenant_id": {
+            "tenant_id": {
+              "equal_literal_identifiers": 70781,
+              "model_role_value_unverified": 779
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 743,
+              "compared_role_value_unverified": 70781,
+              "model_role_value_unverified": 36
+            }
+          }
+        },
+        "model_role_to_retained_resource_role": {
+          "billing_tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 7714,
+              "equal_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 3,
+              "equal_literal_identifiers": 70778
+            }
+          },
+          "billing_config_tenant_id": {
+            "retained_cluster_tenant": {
+              "compared_role_value_unverified": 8493,
+              "different_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "compared_role_value_unverified": 782,
+              "different_literal_identifiers": 70778
+            }
+          },
+          "tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 7714,
+              "equal_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 3,
+              "equal_literal_identifiers": 70778
+            }
+          },
+          "msp_parent_tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 7714,
+              "different_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 3,
+              "different_literal_identifiers": 70778
+            }
+          }
+        },
+        "model_transformation_lineage_verified": false,
+        "resource_reference_dispositions": {
+          "concordant_retained_cluster_project_references": 63067,
+          "missing_or_unsupported_model_resource_reference": 8493,
+          "multi_version_model_cost_groups_quarantined": 0
+        },
+        "retained_parent_mapping_states": {
+          "unambiguous_retained_owner_mapping": 139
+        },
+        "temporal_company_attribution_performed": false,
+        "time_order_diagnostics": {
+          "config_created_to_billing_created": {
+            "nondecreasing_recorded_times": 71560
+          },
+          "config_start_active_to_billing_created": {
+            "nondecreasing_recorded_times": 71560
+          },
+          "cluster_created_to_billing_created": {
+            "nondecreasing_recorded_times": 63067
+          },
+          "project_created_to_billing_created": {
+            "nondecreasing_recorded_times": 63067
+          }
+        }
+      }
+    },
+    "BQMSPC002": {
+      "namespace": "model_tidbcloud",
+      "provenance": "new_full_source_review",
+      "model_source": {
+        "record_family": "modeled_cost_detail",
+        "counts": {
+          "distinct_full_record_versions_with_valid_grouping_id": 71560,
+          "distinct_id_groups": 71560,
+          "exact_duplicate_rows_with_valid_grouping_id": 0,
+          "multi_version_id_groups_quarantined": 0,
+          "row_observations": 71560,
+          "rows_without_valid_grouping_id": 0,
+          "single_version_id_groups": 71560
+        },
+        "distinct_identifiers_by_role": {
+          "billing_cluster_id": 107,
+          "billing_config_tenant_id": 7,
+          "billing_project_id": 32,
+          "billing_tenant_id": 22,
+          "binded_billing_config_id": 7,
+          "msp_parent_tenant_id": 3,
+          "tenant_id": 22
+        },
+        "name_state_row_observations": {
+          "tenant_name": {
+            "missing": 779,
+            "unknown_name": 70781
+          },
+          "tenant_name_origin": {
+            "missing": 71560
+          },
+          "msp_parent_tenant_name": {
+            "missing": 71560
+          }
+        },
+        "time_parseability_row_observations": {
+          "billing_created_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "billing_updated_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "billing_cost_date": {
+            "naive_datetime": 71560
+          },
+          "unit_created_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "unit_updated_at": {
+            "parsed_timezone_aware": 71560
+          },
+          "tenant_created_at": {
+            "missing": 779,
+            "parsed_timezone_aware": 70781
+          }
+        },
+        "created_updated_order_row_observations": {
+          "nondecreasing_recorded_times": 71560
+        },
+        "fixed_category_row_observations": {
+          "billing_status": {
+            "unknown_string": 71560
+          },
+          "tenant_status": {
+            "literal:active": 66095,
+            "missing": 779,
+            "unknown_string": 4686
+          }
+        },
+        "need_unique_mark_literal_row_observations": {}
+      },
+      "primary_identifier_state_rows": {
+        "valid": 71560
+      },
+      "optional_fields": {
+        "available": true,
+        "field_presence_rows": {
+          "tenant_name": {
+            "absent": 779,
+            "nonempty_string": 70781
+          },
+          "tenant_name_origin": {
+            "absent": 71560
+          },
+          "msp_parent_tenant_name": {
+            "absent": 71560
+          },
+          "tenant_region": {
+            "absent": 779,
+            "nonempty_string": 70781
+          },
+          "msp_parent_tenant_region": {
+            "absent": 71560
+          }
+        }
+      },
+      "diagnostics": {
+        "billing_role_semantics_verified": false,
+        "config_reference_cardinality": {
+          "distinct_referenced_config_identifiers_from_single_version_model_groups": 7,
+          "model_id_groups_with_multiple_config_references_across_all_versions": 0,
+          "referenced_config_identifiers_with_multiple_model_groups": 7,
+          "referenced_config_identifiers_with_one_model_group": 0
+        },
+        "config_reference_dispositions": {
+          "exact_single_version_config_reference": 71560,
+          "multi_version_model_cost_groups_quarantined": 0
+        },
+        "customer_status_established": false,
+        "hk_geography_inherited": false,
+        "known_label_row_observations_by_name_role": {
+          "tenant_name": [],
+          "tenant_name_origin": [],
+          "msp_parent_tenant_name": []
+        },
+        "model_role_to_config_role": {
+          "billing_tenant_id": {
+            "tenant_id": {
+              "different_literal_identifiers": 70781,
+              "model_role_value_unverified": 779
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 743,
+              "compared_role_value_unverified": 70781,
+              "model_role_value_unverified": 36
+            }
+          },
+          "billing_config_tenant_id": {
+            "tenant_id": {
+              "equal_literal_identifiers": 71560
+            },
+            "managed_tenant_id": {
+              "compared_role_value_unverified": 71524,
+              "different_literal_identifiers": 36
+            }
+          },
+          "tenant_id": {
+            "tenant_id": {
+              "different_literal_identifiers": 70781,
+              "model_role_value_unverified": 779
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 743,
+              "compared_role_value_unverified": 70781,
+              "model_role_value_unverified": 36
+            }
+          },
+          "msp_parent_tenant_id": {
+            "tenant_id": {
+              "equal_literal_identifiers": 70781,
+              "model_role_value_unverified": 779
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 743,
+              "compared_role_value_unverified": 70781,
+              "model_role_value_unverified": 36
+            }
+          }
+        },
+        "model_role_to_retained_resource_role": {
+          "billing_tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 7714,
+              "equal_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 3,
+              "equal_literal_identifiers": 70778
+            }
+          },
+          "billing_config_tenant_id": {
+            "retained_cluster_tenant": {
+              "compared_role_value_unverified": 8493,
+              "different_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "compared_role_value_unverified": 782,
+              "different_literal_identifiers": 70778
+            }
+          },
+          "tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 7714,
+              "equal_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 3,
+              "equal_literal_identifiers": 70778
+            }
+          },
+          "msp_parent_tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 7714,
+              "different_literal_identifiers": 63067
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 779,
+              "compared_role_value_unverified": 3,
+              "different_literal_identifiers": 70778
+            }
+          }
+        },
+        "model_transformation_lineage_verified": false,
+        "resource_reference_dispositions": {
+          "concordant_retained_cluster_project_references": 63067,
+          "missing_or_unsupported_model_resource_reference": 8493,
+          "multi_version_model_cost_groups_quarantined": 0
+        },
+        "retained_parent_mapping_states": {
+          "unambiguous_retained_owner_mapping": 139
+        },
+        "temporal_company_attribution_performed": false,
+        "time_order_diagnostics": {
+          "config_created_to_billing_created": {
+            "nondecreasing_recorded_times": 71560
+          },
+          "config_start_active_to_billing_created": {
+            "nondecreasing_recorded_times": 71560
+          },
+          "cluster_created_to_billing_created": {
+            "nondecreasing_recorded_times": 63067
+          },
+          "project_created_to_billing_created": {
+            "nondecreasing_recorded_times": 63067
+          }
+        }
+      }
+    },
+    "BQMSPC003": {
+      "namespace": "model_msp_subclient_billing",
+      "provenance": "reused_frozen_baseline",
+      "model_source": {
+        "record_family": "modeled_cost_detail",
+        "counts": {
+          "distinct_full_record_versions_with_valid_grouping_id": 174993,
+          "distinct_id_groups": 174993,
+          "exact_duplicate_rows_with_valid_grouping_id": 0,
+          "multi_version_id_groups_quarantined": 0,
+          "row_observations": 174993,
+          "rows_without_valid_grouping_id": 0,
+          "single_version_id_groups": 174993
+        },
+        "distinct_identifiers_by_role": {
+          "billing_cluster_id": 314,
+          "billing_config_tenant_id": 10,
+          "billing_project_id": 74,
+          "billing_tenant_id": 50,
+          "binded_billing_config_id": 10,
+          "msp_parent_tenant_id": 6,
+          "tenant_id": 50
+        },
+        "name_state_row_observations": {
+          "tenant_name": {
+            "approved_exact_label": 2542,
+            "missing": 1207,
+            "unknown_name": 171244
+          },
+          "tenant_name_origin": {
+            "missing": 1207,
+            "unknown_name": 173786
+          },
+          "msp_parent_tenant_name": {
+            "approved_exact_label": 55255,
+            "missing": 1213,
+            "unknown_name": 118525
+          }
+        },
+        "time_parseability_row_observations": {
+          "billing_created_at": {
+            "parsed_timezone_aware": 174993
+          },
+          "billing_updated_at": {
+            "parsed_timezone_aware": 174993
+          },
+          "billing_cost_date": {
+            "naive_datetime": 174993
+          },
+          "unit_created_at": {
+            "missing": 1483,
+            "parsed_timezone_aware": 173510
+          },
+          "unit_updated_at": {
+            "missing": 1483,
+            "parsed_timezone_aware": 173510
+          },
+          "tenant_created_at": {
+            "missing": 1207,
+            "parsed_timezone_aware": 173786
+          }
+        },
+        "created_updated_order_row_observations": {
+          "nondecreasing_recorded_times": 174993
+        },
+        "fixed_category_row_observations": {
+          "billing_status": {
+            "unknown_string": 174993
+          },
+          "tenant_status": {
+            "empty": 159243,
+            "literal:active": 14543,
+            "missing": 1207
+          }
+        },
+        "need_unique_mark_literal_row_observations": {}
+      },
+      "primary_identifier_state_rows": {
+        "valid": 174993
+      },
+      "optional_fields": {
+        "available": false,
+        "field_presence_rows": null
+      },
+      "diagnostics": {
+        "billing_role_semantics_verified": false,
+        "config_reference_cardinality": {
+          "distinct_referenced_config_identifiers_from_single_version_model_groups": 10,
+          "model_id_groups_with_multiple_config_references_across_all_versions": 0,
+          "referenced_config_identifiers_with_multiple_model_groups": 10,
+          "referenced_config_identifiers_with_one_model_group": 0
+        },
+        "config_reference_dispositions": {
+          "exact_single_version_config_reference": 174993,
+          "multi_version_model_cost_groups_quarantined": 0
+        },
+        "customer_status_established": false,
+        "hk_geography_inherited": false,
+        "known_label_row_observations_by_name_role": {
+          "tenant_name": [
+            {
+              "organization_label": "MEGAHARD LIMITED",
+              "row_observations": 2542
+            }
+          ],
+          "tenant_name_origin": [],
+          "msp_parent_tenant_name": [
+            {
+              "organization_label": "HONG KONG CLOUD Y TECHNOLOGY CO., LTD",
+              "row_observations": 310
+            },
+            {
+              "organization_label": "MEGAHARD LIMITED",
+              "row_observations": 54945
+            }
+          ]
+        },
+        "model_role_to_config_role": {
+          "billing_tenant_id": {
+            "tenant_id": {
+              "different_literal_identifiers": 173786,
+              "model_role_value_unverified": 1207
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 1022,
+              "compared_role_value_unverified": 118525,
+              "different_literal_identifiers": 55261,
+              "model_role_value_unverified": 185
+            }
+          },
+          "billing_config_tenant_id": {
+            "tenant_id": {
+              "equal_literal_identifiers": 174993
+            },
+            "managed_tenant_id": {
+              "compared_role_value_unverified": 119547,
+              "different_literal_identifiers": 55446
+            }
+          },
+          "tenant_id": {
+            "tenant_id": {
+              "different_literal_identifiers": 173786,
+              "model_role_value_unverified": 1207
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 1022,
+              "compared_role_value_unverified": 118525,
+              "different_literal_identifiers": 55261,
+              "model_role_value_unverified": 185
+            }
+          },
+          "msp_parent_tenant_id": {
+            "tenant_id": {
+              "equal_literal_identifiers": 173780,
+              "model_role_value_unverified": 1213
+            },
+            "managed_tenant_id": {
+              "both_role_values_unverified": 1022,
+              "compared_role_value_unverified": 118525,
+              "different_literal_identifiers": 55255,
+              "model_role_value_unverified": 191
+            }
+          }
+        },
+        "model_role_to_retained_resource_role": {
+          "billing_tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 1207,
+              "compared_role_value_unverified": 61745,
+              "equal_literal_identifiers": 112041
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 1207,
+              "compared_role_value_unverified": 52648,
+              "equal_literal_identifiers": 121138
+            }
+          },
+          "billing_config_tenant_id": {
+            "retained_cluster_tenant": {
+              "compared_role_value_unverified": 62952,
+              "different_literal_identifiers": 112041
+            },
+            "retained_project_tenant": {
+              "compared_role_value_unverified": 53855,
+              "different_literal_identifiers": 121138
+            }
+          },
+          "tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 1207,
+              "compared_role_value_unverified": 61745,
+              "equal_literal_identifiers": 112041
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 1207,
+              "compared_role_value_unverified": 52648,
+              "equal_literal_identifiers": 121138
+            }
+          },
+          "msp_parent_tenant_id": {
+            "retained_cluster_tenant": {
+              "both_role_values_unverified": 1213,
+              "compared_role_value_unverified": 61739,
+              "different_literal_identifiers": 112041
+            },
+            "retained_project_tenant": {
+              "both_role_values_unverified": 1213,
+              "compared_role_value_unverified": 52642,
+              "different_literal_identifiers": 121138
+            }
+          }
+        },
+        "model_transformation_lineage_verified": false,
+        "resource_reference_dispositions": {
+          "concordant_retained_cluster_project_references": 112041,
+          "missing_or_unsupported_model_resource_reference": 62952,
+          "multi_version_model_cost_groups_quarantined": 0
+        },
+        "retained_parent_mapping_states": {
+          "unambiguous_retained_owner_mapping": 356
+        },
+        "temporal_company_attribution_performed": false,
+        "time_order_diagnostics": {
+          "config_created_to_billing_created": {
+            "nondecreasing_recorded_times": 174993
+          },
+          "config_start_active_to_billing_created": {
+            "nondecreasing_recorded_times": 174993
+          },
+          "cluster_created_to_billing_created": {
+            "nondecreasing_recorded_times": 112041
+          },
+          "project_created_to_billing_created": {
+            "nondecreasing_recorded_times": 112041
+          }
+        }
+      }
+    }
+  },
+  "common_projection_definition": {
+    "grouping_identifier": "billing_cost_id",
+    "identifier_roles": [
+      "billing_tenant_id",
+      "billing_config_tenant_id",
+      "tenant_id",
+      "msp_parent_tenant_id",
+      "binded_billing_config_id",
+      "billing_cluster_id",
+      "billing_project_id"
+    ],
+    "identifier_state_policy": "frozen_strict_nonempty_strings_without_surrounding_whitespace",
+    "names_regions_times_and_payloads_included": false
+  },
+  "namespace_comparisons": [
+    {
+      "left_namespace": "BQMSPC001",
+      "right_namespace": "BQMSPC002",
+      "row_counts_equal": true,
+      "uncompressed_byte_lengths_equal": true,
+      "uncompressed_streams_byte_equal": false,
+      "compressed_stream_equality_available": true,
+      "primary_identifier_state_counts_equal": true,
+      "compressed_streams_byte_equal": false,
+      "full_decoded_record_multiset": {
+        "equal": true,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 71560,
+        "right_only_row_observations": 0,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "valid_grouping_id_occurrence_multiset": {
+        "equal": true,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 71560,
+        "right_only_row_observations": 0,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "normalized_common_role_projection_multiset": {
+        "equal": true,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 71560,
+        "right_only_row_observations": 0,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "reference_diagnostic_aggregate_equality": {
+        "config_reference_dispositions": true,
+        "resource_reference_dispositions": true,
+        "model_role_to_config_role": true,
+        "model_role_to_retained_resource_role": true,
+        "time_order_diagnostics": true
+      },
+      "cross_namespace_business_identity_established": false,
+      "transformation_lineage_established": false,
+      "physical_sources_deduplicated": false
+    },
+    {
+      "left_namespace": "BQMSPC001",
+      "right_namespace": "BQMSPC003",
+      "row_counts_equal": false,
+      "uncompressed_byte_lengths_equal": false,
+      "uncompressed_streams_byte_equal": false,
+      "compressed_stream_equality_available": false,
+      "primary_identifier_state_counts_equal": false,
+      "compressed_streams_byte_equal": null,
+      "full_decoded_record_multiset": {
+        "equal": false,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 70797,
+        "right_distinct_keys": 174993,
+        "right_only_row_observations": 174230,
+        "shared_distinct_keys": 763,
+        "shared_row_observations": 763
+      },
+      "valid_grouping_id_occurrence_multiset": {
+        "equal": false,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 174993,
+        "right_only_row_observations": 103433,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "normalized_common_role_projection_multiset": {
+        "equal": false,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 174993,
+        "right_only_row_observations": 103433,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "reference_diagnostic_aggregate_equality": {
+        "config_reference_dispositions": false,
+        "resource_reference_dispositions": false,
+        "model_role_to_config_role": false,
+        "model_role_to_retained_resource_role": false,
+        "time_order_diagnostics": false
+      },
+      "cross_namespace_business_identity_established": false,
+      "transformation_lineage_established": false,
+      "physical_sources_deduplicated": false
+    },
+    {
+      "left_namespace": "BQMSPC002",
+      "right_namespace": "BQMSPC003",
+      "row_counts_equal": false,
+      "uncompressed_byte_lengths_equal": false,
+      "uncompressed_streams_byte_equal": false,
+      "compressed_stream_equality_available": false,
+      "primary_identifier_state_counts_equal": false,
+      "compressed_streams_byte_equal": null,
+      "full_decoded_record_multiset": {
+        "equal": false,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 70797,
+        "right_distinct_keys": 174993,
+        "right_only_row_observations": 174230,
+        "shared_distinct_keys": 763,
+        "shared_row_observations": 763
+      },
+      "valid_grouping_id_occurrence_multiset": {
+        "equal": false,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 174993,
+        "right_only_row_observations": 103433,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "normalized_common_role_projection_multiset": {
+        "equal": false,
+        "left_distinct_keys": 71560,
+        "left_only_row_observations": 0,
+        "right_distinct_keys": 174993,
+        "right_only_row_observations": 103433,
+        "shared_distinct_keys": 71560,
+        "shared_row_observations": 71560
+      },
+      "reference_diagnostic_aggregate_equality": {
+        "config_reference_dispositions": false,
+        "resource_reference_dispositions": false,
+        "model_role_to_config_role": false,
+        "model_role_to_retained_resource_role": false,
+        "time_order_diagnostics": false
+      },
+      "cross_namespace_business_identity_established": false,
+      "transformation_lineage_established": false,
+      "physical_sources_deduplicated": false
+    }
+  ],
+  "billing_role_semantics_verified": false,
+  "company_identity_established": false,
+  "customer_status_established": false,
+  "hk_geography_inherited": false,
+  "limitations": [
+    "Two new physical source streams remain separate namespaces. The previously reviewed third detail model and billing-config/native-resource snapshots are reused without adding source rows to this scan.",
+    "All physical rows, raw-line hashes and exact typed full-record hashes are preserved privately. Fractional/exponent numeric tokens retain precision even in excluded payload fields. Alternate numeric spellings may count as separate full-record versions; no monetary value or payload is retained.",
+    "billing_cost_id remains a source-local grouping key with unproved uniqueness, not a customer or unique-charge identifier. Multi-version groups may be legitimate line items; they are excluded from reference comparisons without being declared invalid costs or assigned a latest version.",
+    "The declared common projection contains the grouping-ID value/state and seven distinct identifier roles/states only. Names, regions, timestamps, amounts, package/invoice values and all other payloads are excluded from that projection. Unsupported values are represented by fixed states and do not become admitted IDs.",
+    "Uncompressed-stream byte equality, decoded full-record hash-multiset equality, valid grouping-ID occurrence equality, identifier-state equality and normalized common-role-projection equality are separate diagnostics. Equal sizes, aggregate counts or any one equality level do not prove transformation lineage, substitutability or business-entity identity.",
+    "Each new namespace is assessed through an explicitly filtered read-only view of its own model rows and the frozen native config rows only. No other model namespace enters that assessment. Newly requested parent mappings are fetched from the full frozen native database, not bounded by the earlier model staged-parent subset.",
+    "Every retained parent row and all three native cluster sources are considered. The parent snapshot lacks whole-record hashes and original identifier-type provenance and previously normalized integers to strings. Projected key concordance is not strict source-string identity, ownership or historical validity.",
+    "Every row of each new source is classified for the five declared name/region fields, including fields absent from the sampled schema. Regions retain presence/type states only. Unknown names retain hashes only; approved exact labels remain in their original separate name roles.",
+    "The baseline name classifier combines absent and JSON null as missing, while separately classifying empty/whitespace name strings. It did not retain region fields or source-field presence distinctions. Full baseline optional-field presence is therefore unavailable and is not inferred from missing projected values.",
+    "Reference and timestamp diagnostics retain the baseline limits. Equal tenant strings do not prove payer, manager, parent, reseller, subclient or end-user roles; compatible recorded times do not establish effective dates or temporal company attribution.",
+    "No company identity, customer status, Hong Kong geography, current use, incident impact, model transformation lineage or cross-namespace business identity is established. No URLs, accounts, credentials or external systems are contacted.",
+    "The nine monthly/ARR models remain outside this batch. These physical-source and row counts cannot be deduplicated merely because models appear similar.",
+    "The public counts distinguish two newly parsed physical sources from one reused baseline model. Neither baseline config rows nor reused baseline model rows are counted as newly reviewed rows.",
+    "Pairwise multiset intersections are row observations at the explicitly named representation. A grouping-ID or common-role subset does not make the richer complete records interchangeable. Stream equality is assessed separately from decoded-record equality.",
+    "Source names are fixed namespace labels. Public content contains only approved aggregate schemas and previously approved exact labels; private identifiers, row hashes, unknown name/category hashes, timestamps, region values, monetary values and source paths are omitted."
+  ],
+  "retained_parent_projection_scope": {
+    "BQMSPC001": {
+      "requested_model_cluster_ids": 107,
+      "requested_project_ids_including_cluster_parents": 32,
+      "retained_cluster_rows": 126,
+      "retained_project_rows": 32
+    },
+    "BQMSPC002": {
+      "requested_model_cluster_ids": 107,
+      "requested_project_ids_including_cluster_parents": 32,
+      "retained_cluster_rows": 126,
+      "retained_project_rows": 32
+    }
+  },
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "selected_source_ordinals_verified": true,
+    "selected_sources_gzip_eof_validated": true,
+    "source_receipts_reconciled": true,
+    "all_namespace_assessments_recomputed": true,
+    "all_retained_parent_rows_rederived": true,
+    "source_snapshots_verified": true,
+    "baseline_public_export_recomputed": true
+  }
+}

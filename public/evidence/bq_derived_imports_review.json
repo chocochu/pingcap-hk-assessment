@@ -1,0 +1,1689 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 6,
+    "rows_parsed": 582045,
+    "parse_errors": 0,
+    "physical_sources_deduplicated": 0
+  },
+  "sources": {
+    "BQDRV001": {
+      "namespace": "codex_nexuscrm_phase1",
+      "table": "dwm_dbaas_imports",
+      "record_family": "dwm",
+      "candidate_full_record_versions": 46586,
+      "distinct_candidate_id_groups": 46586,
+      "distinct_whole_record_versions": 46586,
+      "duplicate_rows_with_valid_candidate": 0,
+      "duplicate_whole_record_row_observations": 0,
+      "multiversion_candidate_groups": 0,
+      "row_observations": 46586,
+      "rows_without_valid_candidate": 0,
+      "single_version_candidate_groups": 46586,
+      "candidate_grouping_field": "id",
+      "candidate_grouping_contract_verified": false,
+      "candidate_identifier_state_rows": {
+        "valid_strict_string": 46586
+      },
+      "role_identifier_state_rows": {
+        "cluster_id": {
+          "valid_strict_string": 46586
+        },
+        "id": {
+          "valid_strict_string": 46586
+        },
+        "project_id": {
+          "valid_strict_string": 46586
+        },
+        "task_id": {
+          "absent": 1680,
+          "valid_strict_string": 44906
+        },
+        "tenant_id": {
+          "valid_strict_string": 46586
+        }
+      },
+      "distinct_source_and_field_qualified_identifiers": {
+        "cluster_id": 9604,
+        "id": 46586,
+        "project_id": 2927,
+        "task_id": 30516,
+        "tenant_id": 2750
+      },
+      "candidate_to_role_cardinality": {
+        "id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46586,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "task_id": {
+          "groups_with_any_unverified_role_observation": 1680,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 1680,
+          "groups_with_one_distinct_valid_value": 44906,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "tenant_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46586,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "project_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46586,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46586,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        }
+      },
+      "field_presence_rows": {
+        "bucket_region": {
+          "absent": 1151,
+          "nonempty_string": 45435
+        },
+        "clean_up": {
+          "nonempty_string": 46586
+        },
+        "cluster_id": {
+          "nonempty_string": 46586
+        },
+        "completed_percent": {
+          "nonempty_string": 46586
+        },
+        "completed_tables": {
+          "nonempty_string": 46586
+        },
+        "created_at": {
+          "nonempty_string": 46586
+        },
+        "creator": {
+          "absent": 3397,
+          "nonempty_string": 43189
+        },
+        "csv_format": {
+          "absent": 46586
+        },
+        "current_tables": {
+          "nonempty_string": 46586
+        },
+        "custom_csv_format": {
+          "absent": 6584,
+          "nonempty_string": 40002
+        },
+        "data_format": {
+          "nonempty_string": 46586
+        },
+        "data_source_type": {
+          "nonempty_string": 46586
+        },
+        "finished_at": {
+          "absent": 4,
+          "nonempty_string": 46582
+        },
+        "id": {
+          "nonempty_string": 46586
+        },
+        "message": {
+          "absent": 42649,
+          "nonempty_string": 3937
+        },
+        "name": {
+          "absent": 2355,
+          "nonempty_string": 44231
+        },
+        "pending_tables": {
+          "nonempty_string": 46586
+        },
+        "post_import_completed_percent": {
+          "absent": 1680,
+          "nonempty_string": 44906
+        },
+        "processed_data_size": {
+          "absent": 13616,
+          "nonempty_string": 32970
+        },
+        "project_id": {
+          "nonempty_string": 46586
+        },
+        "source_url": {
+          "nonempty_string": 46586
+        },
+        "started_at": {
+          "absent": 3997,
+          "nonempty_string": 42589
+        },
+        "status": {
+          "nonempty_string": 46586
+        },
+        "target_table_infos": {
+          "absent": 18000,
+          "nonempty_string": 28586
+        },
+        "task_id": {
+          "absent": 1680,
+          "nonempty_string": 44906
+        },
+        "tenant_id": {
+          "nonempty_string": 46586
+        },
+        "total_files": {
+          "absent": 14570,
+          "nonempty_string": 32016
+        },
+        "total_size": {
+          "absent": 12054,
+          "nonempty_string": 34532
+        },
+        "total_tables_count": {
+          "absent": 1680,
+          "nonempty_string": 44906
+        },
+        "updated_at": {
+          "nonempty_string": 46586
+        }
+      },
+      "extra_top_level_fields_count": 1,
+      "fixed_literal_category_rows": {
+        "data_format": {
+          "unknown_string": 46586
+        },
+        "data_source_type": {
+          "unknown_string": 46586
+        },
+        "status": {
+          "literal:canceled": 3601,
+          "literal:completed": 39046,
+          "literal:failed": 3938,
+          "unknown_string": 1
+        }
+      },
+      "literal_flag_rows": {
+        "clean_up": {
+          "literal_string_true": 46586
+        }
+      },
+      "timestamp_state_rows": {
+        "created_at": {
+          "parsed_timezone_aware": 46586
+        },
+        "finished_at": {
+          "absent": 4,
+          "parsed_timezone_aware": 46582
+        },
+        "started_at": {
+          "absent": 3997,
+          "parsed_timezone_aware": 42589
+        },
+        "updated_at": {
+          "parsed_timezone_aware": 46586
+        }
+      },
+      "same_row_time_order_rows": {
+        "created_at__to__started_at": {
+          "nondecreasing_recorded_times": 42589,
+          "time_order_unverified": 3997
+        },
+        "created_at__to__updated_at": {
+          "nondecreasing_recorded_times": 46586
+        },
+        "started_at__to__finished_at": {
+          "nondecreasing_recorded_times": 42588,
+          "time_order_unverified": 3998
+        }
+      },
+      "same_row_role_agreement_rows": {},
+      "single_version_group_role_agreement": {}
+    },
+    "BQDRV002": {
+      "namespace": "model_tidbcloud",
+      "table": "dwm_dbaas_imports",
+      "record_family": "dwm",
+      "candidate_full_record_versions": 46882,
+      "distinct_candidate_id_groups": 46882,
+      "distinct_whole_record_versions": 46882,
+      "duplicate_rows_with_valid_candidate": 0,
+      "duplicate_whole_record_row_observations": 0,
+      "multiversion_candidate_groups": 0,
+      "row_observations": 46882,
+      "rows_without_valid_candidate": 0,
+      "single_version_candidate_groups": 46882,
+      "candidate_grouping_field": "id",
+      "candidate_grouping_contract_verified": false,
+      "candidate_identifier_state_rows": {
+        "valid_strict_string": 46882
+      },
+      "role_identifier_state_rows": {
+        "cluster_id": {
+          "valid_strict_string": 46882
+        },
+        "id": {
+          "valid_strict_string": 46882
+        },
+        "project_id": {
+          "valid_strict_string": 46882
+        },
+        "task_id": {
+          "absent": 1680,
+          "valid_strict_string": 45202
+        },
+        "tenant_id": {
+          "valid_strict_string": 46882
+        }
+      },
+      "distinct_source_and_field_qualified_identifiers": {
+        "cluster_id": 9692,
+        "id": 46882,
+        "project_id": 2940,
+        "task_id": 30780,
+        "tenant_id": 2757
+      },
+      "candidate_to_role_cardinality": {
+        "id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46882,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "task_id": {
+          "groups_with_any_unverified_role_observation": 1680,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 1680,
+          "groups_with_one_distinct_valid_value": 45202,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "tenant_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46882,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "project_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46882,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 46882,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        }
+      },
+      "field_presence_rows": {
+        "bucket_region": {
+          "absent": 1151,
+          "nonempty_string": 45731
+        },
+        "clean_up": {
+          "nonempty_string": 46882
+        },
+        "cluster_id": {
+          "nonempty_string": 46882
+        },
+        "completed_percent": {
+          "nonempty_string": 46882
+        },
+        "completed_tables": {
+          "nonempty_string": 46882
+        },
+        "created_at": {
+          "nonempty_string": 46882
+        },
+        "creator": {
+          "absent": 3397,
+          "nonempty_string": 43485
+        },
+        "csv_format": {
+          "absent": 46882
+        },
+        "current_tables": {
+          "nonempty_string": 46882
+        },
+        "custom_csv_format": {
+          "absent": 6752,
+          "nonempty_string": 40130
+        },
+        "data_format": {
+          "nonempty_string": 46882
+        },
+        "data_source_type": {
+          "nonempty_string": 46882
+        },
+        "finished_at": {
+          "absent": 4,
+          "nonempty_string": 46878
+        },
+        "id": {
+          "nonempty_string": 46882
+        },
+        "message": {
+          "absent": 42821,
+          "nonempty_string": 4061
+        },
+        "name": {
+          "absent": 2355,
+          "nonempty_string": 44527
+        },
+        "pending_tables": {
+          "nonempty_string": 46882
+        },
+        "post_import_completed_percent": {
+          "absent": 1680,
+          "nonempty_string": 45202
+        },
+        "processed_data_size": {
+          "absent": 13630,
+          "nonempty_string": 33252
+        },
+        "project_id": {
+          "nonempty_string": 46882
+        },
+        "source_url": {
+          "nonempty_string": 46882
+        },
+        "started_at": {
+          "absent": 4032,
+          "nonempty_string": 42850
+        },
+        "status": {
+          "nonempty_string": 46882
+        },
+        "target_table_infos": {
+          "absent": 18000,
+          "nonempty_string": 28882
+        },
+        "task_id": {
+          "absent": 1680,
+          "nonempty_string": 45202
+        },
+        "tenant_id": {
+          "nonempty_string": 46882
+        },
+        "total_files": {
+          "absent": 14602,
+          "nonempty_string": 32280
+        },
+        "total_size": {
+          "absent": 12068,
+          "nonempty_string": 34814
+        },
+        "total_tables_count": {
+          "absent": 1680,
+          "nonempty_string": 45202
+        },
+        "updated_at": {
+          "nonempty_string": 46882
+        }
+      },
+      "extra_top_level_fields_count": 1,
+      "fixed_literal_category_rows": {
+        "data_format": {
+          "unknown_string": 46882
+        },
+        "data_source_type": {
+          "unknown_string": 46882
+        },
+        "status": {
+          "literal:canceled": 3644,
+          "literal:completed": 39175,
+          "literal:failed": 4062,
+          "unknown_string": 1
+        }
+      },
+      "literal_flag_rows": {
+        "clean_up": {
+          "literal_string_true": 46882
+        }
+      },
+      "timestamp_state_rows": {
+        "created_at": {
+          "parsed_timezone_aware": 46882
+        },
+        "finished_at": {
+          "absent": 4,
+          "parsed_timezone_aware": 46878
+        },
+        "started_at": {
+          "absent": 4032,
+          "parsed_timezone_aware": 42850
+        },
+        "updated_at": {
+          "parsed_timezone_aware": 46882
+        }
+      },
+      "same_row_time_order_rows": {
+        "created_at__to__started_at": {
+          "nondecreasing_recorded_times": 42850,
+          "time_order_unverified": 4032
+        },
+        "created_at__to__updated_at": {
+          "nondecreasing_recorded_times": 46882
+        },
+        "started_at__to__finished_at": {
+          "nondecreasing_recorded_times": 42849,
+          "time_order_unverified": 4033
+        }
+      },
+      "same_row_role_agreement_rows": {},
+      "single_version_group_role_agreement": {}
+    },
+    "BQDRV003": {
+      "namespace": "model_tidbcloud",
+      "table": "dws_cloud_tenants_project_cluster_importdetail",
+      "record_family": "wide",
+      "candidate_full_record_versions": 229384,
+      "distinct_candidate_id_groups": 229384,
+      "distinct_whole_record_versions": 229384,
+      "duplicate_rows_with_valid_candidate": 0,
+      "duplicate_whole_record_row_observations": 0,
+      "multiversion_candidate_groups": 0,
+      "row_observations": 229384,
+      "rows_without_valid_candidate": 0,
+      "single_version_candidate_groups": 229384,
+      "candidate_grouping_field": "import_id",
+      "candidate_grouping_contract_verified": false,
+      "candidate_identifier_state_rows": {
+        "valid_strict_string": 229384
+      },
+      "role_identifier_state_rows": {
+        "cluster_id": {
+          "valid_strict_string": 229384
+        },
+        "cluster_project_id": {
+          "valid_strict_string": 229384
+        },
+        "cluster_tenant_id": {
+          "valid_strict_string": 229384
+        },
+        "import_id": {
+          "valid_strict_string": 229384
+        },
+        "project_id": {
+          "valid_strict_string": 229384
+        },
+        "tenant_id": {
+          "valid_strict_string": 229384
+        }
+      },
+      "distinct_source_and_field_qualified_identifiers": {
+        "cluster_id": 14406,
+        "cluster_project_id": 9437,
+        "cluster_tenant_id": 9121,
+        "import_id": 229384,
+        "project_id": 9437,
+        "tenant_id": 9121
+      },
+      "candidate_to_role_cardinality": {
+        "import_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "tenant_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "project_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_tenant_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_project_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        }
+      },
+      "field_presence_rows": {
+        "cluster_control_plane": {
+          "nonempty_string": 229384
+        },
+        "cluster_created_at": {
+          "nonempty_string": 229384
+        },
+        "cluster_created_by_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_creation_finished_time": {
+          "absent": 47,
+          "nonempty_string": 229337
+        },
+        "cluster_deleted_time": {
+          "absent": 188300,
+          "nonempty_string": 41084
+        },
+        "cluster_deploy_type": {
+          "nonempty_string": 229384
+        },
+        "cluster_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_name": {
+          "nonempty_string": 229384
+        },
+        "cluster_poc_deleted": {
+          "nonempty_string": 229384
+        },
+        "cluster_project_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_provider_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_service_plan": {
+          "absent": 17962,
+          "nonempty_string": 211422
+        },
+        "cluster_status": {
+          "nonempty_string": 229384
+        },
+        "cluster_tenant_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_updated_at": {
+          "nonempty_string": 229384
+        },
+        "ga_channel": {
+          "nonempty_string": 229384
+        },
+        "ga_device_category": {
+          "nonempty_string": 229384
+        },
+        "ga_device_mobile_brand_name": {
+          "nonempty_string": 229384
+        },
+        "ga_device_mobile_model_name": {
+          "nonempty_string": 229384
+        },
+        "ga_device_operating_system": {
+          "nonempty_string": 229384
+        },
+        "ga_utm_campaign": {
+          "nonempty_string": 229384
+        },
+        "ga_utm_medium": {
+          "nonempty_string": 229384
+        },
+        "ga_utm_source": {
+          "nonempty_string": 229384
+        },
+        "import_created_at": {
+          "nonempty_string": 229384
+        },
+        "import_finished_at": {
+          "absent": 5,
+          "nonempty_string": 229379
+        },
+        "import_id": {
+          "nonempty_string": 229384
+        },
+        "import_started_at": {
+          "absent": 5625,
+          "nonempty_string": 223759
+        },
+        "import_status": {
+          "nonempty_string": 229384
+        },
+        "import_updated_at": {
+          "nonempty_string": 229384
+        },
+        "mixpanel_user_source": {
+          "nonempty_string": 229384
+        },
+        "org_owner_email": {
+          "absent": 12017,
+          "nonempty_string": 217367
+        },
+        "org_owner_name": {
+          "absent": 10905,
+          "nonempty_string": 218479
+        },
+        "project_created_at": {
+          "nonempty_string": 229384
+        },
+        "project_id": {
+          "nonempty_string": 229384
+        },
+        "project_name": {
+          "nonempty_string": 229384
+        },
+        "project_status": {
+          "nonempty_string": 229384
+        },
+        "project_updated_at": {
+          "nonempty_string": 229384
+        },
+        "provider_created_at": {
+          "nonempty_string": 229384
+        },
+        "provider_name": {
+          "nonempty_string": 229384
+        },
+        "provider_status": {
+          "nonempty_string": 229384
+        },
+        "region_created_at": {
+          "absent": 62405,
+          "nonempty_string": 166979
+        },
+        "region_display_name": {
+          "nonempty_string": 229384
+        },
+        "region_name": {
+          "nonempty_string": 229384
+        },
+        "region_status": {
+          "nonempty_string": 229384
+        },
+        "serverless_cluster_monthly_invoice_spend_limit": {
+          "absent": 42419,
+          "integer": 186737,
+          "nonempty_string": 228
+        },
+        "source_url": {
+          "absent": 229384
+        },
+        "spend_limit_biz_type": {
+          "absent": 42419,
+          "nonempty_string": 186965
+        },
+        "spend_limit_created_at": {
+          "absent": 42419,
+          "nonempty_string": 186965
+        },
+        "spend_limit_status": {
+          "absent": 42419,
+          "nonempty_string": 186965
+        },
+        "target_table_infos": {
+          "absent": 229384
+        },
+        "tenant_created_at": {
+          "nonempty_string": 229384
+        },
+        "tenant_email": {
+          "empty_string": 442,
+          "nonempty_string": 228942
+        },
+        "tenant_id": {
+          "nonempty_string": 229384
+        },
+        "tenant_in_salesforce": {
+          "boolean": 229384
+        },
+        "tenant_internal_user": {
+          "boolean": 229384
+        },
+        "tenant_lead_id": {
+          "absent": 10856,
+          "empty_string": 442,
+          "nonempty_string": 218086
+        },
+        "tenant_name": {
+          "nonempty_string": 229384
+        },
+        "tenant_name_origin": {
+          "nonempty_string": 229384
+        },
+        "tenant_region": {
+          "nonempty_string": 229384
+        },
+        "tenant_region_salesforce_origin": {
+          "absent": 10876,
+          "nonempty_string": 218508
+        },
+        "tenant_status": {
+          "empty_string": 211836,
+          "nonempty_string": 17548
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 17182,
+          "empty_string": 204306,
+          "nonempty_string": 7896
+        }
+      },
+      "extra_top_level_fields_count": 25,
+      "fixed_literal_category_rows": {
+        "cluster_deploy_type": {
+          "literal:dedicated": 9006,
+          "unknown_string": 220378
+        },
+        "cluster_status": {
+          "literal:deleted": 32749,
+          "unknown_string": 196635
+        },
+        "import_status": {
+          "literal:canceled": 2129,
+          "literal:completed": 144311,
+          "literal:failed": 82943,
+          "unknown_string": 1
+        },
+        "project_status": {
+          "literal:active": 219361,
+          "unknown_string": 10023
+        },
+        "provider_status": {
+          "literal:active": 229384
+        },
+        "region_status": {
+          "literal:active": 227864,
+          "literal:inactive": 1520
+        },
+        "tenant_status": {
+          "empty_string": 211836,
+          "literal:active": 17517,
+          "literal:pending": 12,
+          "unknown_string": 19
+        }
+      },
+      "literal_flag_rows": {
+        "cluster_poc_deleted": {
+          "literal_string_false": 1301,
+          "literal_string_true": 30,
+          "literal_string_zero": 228053
+        },
+        "tenant_in_salesforce": {
+          "boolean_false": 10856,
+          "boolean_true": 218528
+        },
+        "tenant_internal_user": {
+          "boolean_false": 39092,
+          "boolean_true": 190292
+        }
+      },
+      "timestamp_state_rows": {
+        "cluster_created_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "cluster_creation_finished_time": {
+          "absent": 47,
+          "parsed_timezone_aware": 229337
+        },
+        "cluster_deleted_time": {
+          "absent": 188300,
+          "parsed_timezone_aware": 41084
+        },
+        "cluster_updated_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "import_created_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "import_finished_at": {
+          "absent": 5,
+          "parsed_timezone_aware": 229379
+        },
+        "import_started_at": {
+          "absent": 5625,
+          "parsed_timezone_aware": 223759
+        },
+        "import_updated_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "project_created_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "tenant_created_at": {
+          "parsed_timezone_aware": 229384
+        }
+      },
+      "same_row_time_order_rows": {
+        "cluster_created_at__to__import_created_at": {
+          "nondecreasing_recorded_times": 229384
+        },
+        "import_created_at__to__import_started_at": {
+          "nondecreasing_recorded_times": 223759,
+          "time_order_unverified": 5625
+        },
+        "import_created_at__to__import_updated_at": {
+          "nondecreasing_recorded_times": 229384
+        },
+        "import_started_at__to__import_finished_at": {
+          "nondecreasing_recorded_times": 223759,
+          "time_order_unverified": 5625
+        },
+        "project_created_at__to__import_created_at": {
+          "later_field_predates_earlier_field": 9,
+          "nondecreasing_recorded_times": 229375
+        }
+      },
+      "same_row_role_agreement_rows": {
+        "project_id__vs__cluster_project_id": {
+          "equal_strict_strings": 229384
+        },
+        "tenant_id__vs__cluster_tenant_id": {
+          "equal_strict_strings": 229384
+        }
+      },
+      "single_version_group_role_agreement": {
+        "project_id__vs__cluster_project_id": {
+          "equal_strict_strings": 229384
+        },
+        "tenant_id__vs__cluster_tenant_id": {
+          "equal_strict_strings": 229384
+        }
+      }
+    },
+    "BQDRV004": {
+      "namespace": "model_tidbcloud",
+      "table": "dws_cloud_tenants_project_cluster_importdetail_v2",
+      "record_family": "wide",
+      "candidate_full_record_versions": 229384,
+      "distinct_candidate_id_groups": 229384,
+      "distinct_whole_record_versions": 229384,
+      "duplicate_rows_with_valid_candidate": 0,
+      "duplicate_whole_record_row_observations": 0,
+      "multiversion_candidate_groups": 0,
+      "row_observations": 229384,
+      "rows_without_valid_candidate": 0,
+      "single_version_candidate_groups": 229384,
+      "candidate_grouping_field": "import_id",
+      "candidate_grouping_contract_verified": false,
+      "candidate_identifier_state_rows": {
+        "valid_strict_string": 229384
+      },
+      "role_identifier_state_rows": {
+        "cluster_id": {
+          "valid_strict_string": 229384
+        },
+        "cluster_project_id": {
+          "valid_strict_string": 229384
+        },
+        "cluster_tenant_id": {
+          "valid_strict_string": 229384
+        },
+        "import_id": {
+          "valid_strict_string": 229384
+        },
+        "project_id": {
+          "valid_strict_string": 229384
+        },
+        "tenant_id": {
+          "valid_strict_string": 229384
+        }
+      },
+      "distinct_source_and_field_qualified_identifiers": {
+        "cluster_id": 14406,
+        "cluster_project_id": 9437,
+        "cluster_tenant_id": 9121,
+        "import_id": 229384,
+        "project_id": 9437,
+        "tenant_id": 9121
+      },
+      "candidate_to_role_cardinality": {
+        "import_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "tenant_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "project_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_tenant_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "cluster_project_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 229384,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        }
+      },
+      "field_presence_rows": {
+        "cluster_control_plane": {
+          "nonempty_string": 229384
+        },
+        "cluster_created_at": {
+          "nonempty_string": 229384
+        },
+        "cluster_created_by_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_creation_finished_time": {
+          "absent": 47,
+          "nonempty_string": 229337
+        },
+        "cluster_deleted_time": {
+          "absent": 188300,
+          "nonempty_string": 41084
+        },
+        "cluster_deploy_type": {
+          "nonempty_string": 229384
+        },
+        "cluster_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_name": {
+          "nonempty_string": 229384
+        },
+        "cluster_poc_deleted": {
+          "nonempty_string": 229384
+        },
+        "cluster_project_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_provider_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_service_plan": {
+          "absent": 17962,
+          "nonempty_string": 211422
+        },
+        "cluster_status": {
+          "nonempty_string": 229384
+        },
+        "cluster_tenant_id": {
+          "nonempty_string": 229384
+        },
+        "cluster_updated_at": {
+          "nonempty_string": 229384
+        },
+        "ga_channel": {
+          "nonempty_string": 229384
+        },
+        "ga_device_category": {
+          "nonempty_string": 229384
+        },
+        "ga_device_mobile_brand_name": {
+          "nonempty_string": 229384
+        },
+        "ga_device_mobile_model_name": {
+          "nonempty_string": 229384
+        },
+        "ga_device_operating_system": {
+          "nonempty_string": 229384
+        },
+        "ga_utm_campaign": {
+          "nonempty_string": 229384
+        },
+        "ga_utm_medium": {
+          "nonempty_string": 229384
+        },
+        "ga_utm_source": {
+          "nonempty_string": 229384
+        },
+        "import_created_at": {
+          "nonempty_string": 229384
+        },
+        "import_finished_at": {
+          "absent": 5,
+          "nonempty_string": 229379
+        },
+        "import_id": {
+          "nonempty_string": 229384
+        },
+        "import_started_at": {
+          "absent": 5625,
+          "nonempty_string": 223759
+        },
+        "import_status": {
+          "nonempty_string": 229384
+        },
+        "import_updated_at": {
+          "nonempty_string": 229384
+        },
+        "mixpanel_user_source": {
+          "nonempty_string": 229384
+        },
+        "org_owner_email": {
+          "absent": 12017,
+          "nonempty_string": 217367
+        },
+        "org_owner_name": {
+          "absent": 10905,
+          "nonempty_string": 218479
+        },
+        "project_created_at": {
+          "nonempty_string": 229384
+        },
+        "project_id": {
+          "nonempty_string": 229384
+        },
+        "project_name": {
+          "nonempty_string": 229384
+        },
+        "project_status": {
+          "nonempty_string": 229384
+        },
+        "project_updated_at": {
+          "nonempty_string": 229384
+        },
+        "provider_created_at": {
+          "nonempty_string": 229384
+        },
+        "provider_name": {
+          "nonempty_string": 229384
+        },
+        "provider_status": {
+          "nonempty_string": 229384
+        },
+        "region_created_at": {
+          "absent": 62405,
+          "nonempty_string": 166979
+        },
+        "region_display_name": {
+          "nonempty_string": 229384
+        },
+        "region_name": {
+          "nonempty_string": 229384
+        },
+        "region_status": {
+          "nonempty_string": 229384
+        },
+        "serverless_cluster_monthly_invoice_spend_limit": {
+          "absent": 42419,
+          "integer": 186737,
+          "nonempty_string": 228
+        },
+        "source_url": {
+          "absent": 229384
+        },
+        "spend_limit_biz_type": {
+          "absent": 42419,
+          "nonempty_string": 186965
+        },
+        "spend_limit_created_at": {
+          "absent": 42419,
+          "nonempty_string": 186965
+        },
+        "spend_limit_status": {
+          "absent": 42419,
+          "nonempty_string": 186965
+        },
+        "target_table_infos": {
+          "absent": 229384
+        },
+        "tenant_created_at": {
+          "nonempty_string": 229384
+        },
+        "tenant_email": {
+          "empty_string": 442,
+          "nonempty_string": 228942
+        },
+        "tenant_id": {
+          "nonempty_string": 229384
+        },
+        "tenant_in_salesforce": {
+          "boolean": 229384
+        },
+        "tenant_internal_user": {
+          "boolean": 229384
+        },
+        "tenant_lead_id": {
+          "absent": 10856,
+          "empty_string": 442,
+          "nonempty_string": 218086
+        },
+        "tenant_name": {
+          "nonempty_string": 229384
+        },
+        "tenant_name_origin": {
+          "nonempty_string": 229384
+        },
+        "tenant_region": {
+          "nonempty_string": 229384
+        },
+        "tenant_region_salesforce_origin": {
+          "absent": 10876,
+          "nonempty_string": 218508
+        },
+        "tenant_status": {
+          "empty_string": 211836,
+          "nonempty_string": 17548
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 17182,
+          "empty_string": 204306,
+          "nonempty_string": 7896
+        }
+      },
+      "extra_top_level_fields_count": 25,
+      "fixed_literal_category_rows": {
+        "cluster_deploy_type": {
+          "literal:dedicated": 9006,
+          "unknown_string": 220378
+        },
+        "cluster_status": {
+          "literal:deleted": 32749,
+          "unknown_string": 196635
+        },
+        "import_status": {
+          "literal:canceled": 2129,
+          "literal:completed": 144311,
+          "literal:failed": 82943,
+          "unknown_string": 1
+        },
+        "project_status": {
+          "literal:active": 219361,
+          "unknown_string": 10023
+        },
+        "provider_status": {
+          "literal:active": 229384
+        },
+        "region_status": {
+          "literal:active": 227864,
+          "literal:inactive": 1520
+        },
+        "tenant_status": {
+          "empty_string": 211836,
+          "literal:active": 17517,
+          "literal:pending": 12,
+          "unknown_string": 19
+        }
+      },
+      "literal_flag_rows": {
+        "cluster_poc_deleted": {
+          "literal_string_false": 1301,
+          "literal_string_true": 30,
+          "literal_string_zero": 228053
+        },
+        "tenant_in_salesforce": {
+          "boolean_false": 10856,
+          "boolean_true": 218528
+        },
+        "tenant_internal_user": {
+          "boolean_false": 39092,
+          "boolean_true": 190292
+        }
+      },
+      "timestamp_state_rows": {
+        "cluster_created_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "cluster_creation_finished_time": {
+          "absent": 47,
+          "parsed_timezone_aware": 229337
+        },
+        "cluster_deleted_time": {
+          "absent": 188300,
+          "parsed_timezone_aware": 41084
+        },
+        "cluster_updated_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "import_created_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "import_finished_at": {
+          "absent": 5,
+          "parsed_timezone_aware": 229379
+        },
+        "import_started_at": {
+          "absent": 5625,
+          "parsed_timezone_aware": 223759
+        },
+        "import_updated_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "project_created_at": {
+          "parsed_timezone_aware": 229384
+        },
+        "tenant_created_at": {
+          "parsed_timezone_aware": 229384
+        }
+      },
+      "same_row_time_order_rows": {
+        "cluster_created_at__to__import_created_at": {
+          "nondecreasing_recorded_times": 229384
+        },
+        "import_created_at__to__import_started_at": {
+          "nondecreasing_recorded_times": 223759,
+          "time_order_unverified": 5625
+        },
+        "import_created_at__to__import_updated_at": {
+          "nondecreasing_recorded_times": 229384
+        },
+        "import_started_at__to__import_finished_at": {
+          "nondecreasing_recorded_times": 223759,
+          "time_order_unverified": 5625
+        },
+        "project_created_at__to__import_created_at": {
+          "later_field_predates_earlier_field": 9,
+          "nondecreasing_recorded_times": 229375
+        }
+      },
+      "same_row_role_agreement_rows": {
+        "project_id__vs__cluster_project_id": {
+          "equal_strict_strings": 229384
+        },
+        "tenant_id__vs__cluster_tenant_id": {
+          "equal_strict_strings": 229384
+        }
+      },
+      "single_version_group_role_agreement": {
+        "project_id__vs__cluster_project_id": {
+          "equal_strict_strings": 229384
+        },
+        "tenant_id__vs__cluster_tenant_id": {
+          "equal_strict_strings": 229384
+        }
+      }
+    },
+    "BQDRV005": {
+      "namespace": "metadb_new",
+      "table": "dm_precheck_items",
+      "record_family": "precheck",
+      "candidate_full_record_versions": 29415,
+      "distinct_candidate_id_groups": 29415,
+      "distinct_whole_record_versions": 29415,
+      "duplicate_rows_with_valid_candidate": 0,
+      "duplicate_whole_record_row_observations": 0,
+      "multiversion_candidate_groups": 0,
+      "row_observations": 29415,
+      "rows_without_valid_candidate": 0,
+      "single_version_candidate_groups": 29415,
+      "candidate_grouping_field": "id",
+      "candidate_grouping_contract_verified": false,
+      "candidate_identifier_state_rows": {
+        "valid_strict_string": 29415
+      },
+      "role_identifier_state_rows": {
+        "id": {
+          "valid_strict_string": 29415
+        },
+        "precheck_id": {
+          "valid_strict_string": 29415
+        }
+      },
+      "distinct_source_and_field_qualified_identifiers": {
+        "id": 29415,
+        "precheck_id": 2810
+      },
+      "candidate_to_role_cardinality": {
+        "id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 29415,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "precheck_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 29415,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        }
+      },
+      "field_presence_rows": {
+        "cluster_id": {
+          "absent": 29415
+        },
+        "created_at": {
+          "nonempty_string": 29415
+        },
+        "desc": {
+          "nonempty_string": 29415
+        },
+        "id": {
+          "nonempty_string": 29415
+        },
+        "job_id": {
+          "absent": 29415
+        },
+        "precheck_id": {
+          "nonempty_string": 29415
+        },
+        "project_id": {
+          "absent": 29415
+        },
+        "results": {
+          "nonempty_string": 29415
+        },
+        "status": {
+          "nonempty_string": 29415
+        },
+        "tenant_id": {
+          "absent": 29415
+        },
+        "updated_at": {
+          "nonempty_string": 29415
+        }
+      },
+      "extra_top_level_fields_count": 1,
+      "fixed_literal_category_rows": {
+        "status": {
+          "literal:failed": 744,
+          "literal:running": 2,
+          "unknown_string": 28669
+        }
+      },
+      "literal_flag_rows": {},
+      "timestamp_state_rows": {
+        "created_at": {
+          "parsed_timezone_aware": 29415
+        },
+        "updated_at": {
+          "parsed_timezone_aware": 29415
+        }
+      },
+      "same_row_time_order_rows": {
+        "created_at__to__updated_at": {
+          "nondecreasing_recorded_times": 29415
+        }
+      },
+      "same_row_role_agreement_rows": {},
+      "single_version_group_role_agreement": {}
+    },
+    "BQDRV006": {
+      "namespace": "metadb_new",
+      "table": "dm_job_modifications",
+      "record_family": "modification",
+      "candidate_full_record_versions": 394,
+      "distinct_candidate_id_groups": 394,
+      "distinct_whole_record_versions": 394,
+      "duplicate_rows_with_valid_candidate": 0,
+      "duplicate_whole_record_row_observations": 0,
+      "multiversion_candidate_groups": 0,
+      "row_observations": 394,
+      "rows_without_valid_candidate": 0,
+      "single_version_candidate_groups": 394,
+      "candidate_grouping_field": "id",
+      "candidate_grouping_contract_verified": false,
+      "candidate_identifier_state_rows": {
+        "valid_strict_string": 394
+      },
+      "role_identifier_state_rows": {
+        "id": {
+          "valid_strict_string": 394
+        },
+        "job_id": {
+          "valid_strict_string": 394
+        }
+      },
+      "distinct_source_and_field_qualified_identifiers": {
+        "id": 394,
+        "job_id": 381
+      },
+      "candidate_to_role_cardinality": {
+        "id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 394,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        },
+        "job_id": {
+          "groups_with_any_unverified_role_observation": 0,
+          "groups_with_multiple_distinct_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_distinct_valid_value": 394,
+          "multiversion_groups_with_multiple_distinct_valid_values": 0
+        }
+      },
+      "field_presence_rows": {
+        "cluster_id": {
+          "absent": 394
+        },
+        "created_at": {
+          "nonempty_string": 394
+        },
+        "finished_at": {
+          "nonempty_string": 394
+        },
+        "id": {
+          "nonempty_string": 394
+        },
+        "job_id": {
+          "nonempty_string": 394
+        },
+        "operator_id": {
+          "nonempty_string": 394
+        },
+        "param": {
+          "nonempty_string": 394
+        },
+        "precheck_id": {
+          "absent": 394
+        },
+        "project_id": {
+          "absent": 394
+        },
+        "tenant_id": {
+          "absent": 394
+        },
+        "type": {
+          "nonempty_string": 394
+        },
+        "updated_at": {
+          "nonempty_string": 394
+        }
+      },
+      "extra_top_level_fields_count": 0,
+      "fixed_literal_category_rows": {
+        "type": {
+          "unknown_string": 394
+        }
+      },
+      "literal_flag_rows": {},
+      "timestamp_state_rows": {
+        "created_at": {
+          "parsed_timezone_aware": 394
+        },
+        "finished_at": {
+          "parsed_timezone_aware": 394
+        },
+        "updated_at": {
+          "parsed_timezone_aware": 394
+        }
+      },
+      "same_row_time_order_rows": {
+        "created_at__to__finished_at": {
+          "nondecreasing_recorded_times": 394
+        },
+        "created_at__to__updated_at": {
+          "nondecreasing_recorded_times": 394
+        }
+      },
+      "same_row_role_agreement_rows": {},
+      "single_version_group_role_agreement": {}
+    }
+  },
+  "derived_pair_comparisons": [
+    {
+      "left_source": "BQDRV001",
+      "right_source": "BQDRV002",
+      "common_roles": [
+        "id",
+        "task_id",
+        "tenant_id",
+        "project_id",
+        "cluster_id"
+      ],
+      "comparison_domain": "same_role_strict_string_representation_only",
+      "common_projection_excludes_names_regions_timestamps_payloads": true,
+      "compressed_streams_byte_equal": false,
+      "uncompressed_streams_byte_equal": false,
+      "representations": {
+        "raw_lines": {
+          "equal": false,
+          "left_distinct_keys": 46586,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 46882,
+          "right_only_row_observations": 296,
+          "shared_distinct_keys": 46586,
+          "shared_row_observations": 46586
+        },
+        "full_records": {
+          "equal": false,
+          "left_distinct_keys": 46586,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 46882,
+          "right_only_row_observations": 296,
+          "shared_distinct_keys": 46586,
+          "shared_row_observations": 46586
+        },
+        "candidate_ids": {
+          "equal": false,
+          "left_distinct_keys": 46586,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 46882,
+          "right_only_row_observations": 296,
+          "shared_distinct_keys": 46586,
+          "shared_row_observations": 46586
+        },
+        "common_role_projections": {
+          "equal": false,
+          "left_distinct_keys": 46586,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 46882,
+          "right_only_row_observations": 296,
+          "shared_distinct_keys": 46586,
+          "shared_row_observations": 46586
+        }
+      },
+      "source_namespaces_admitted_equal": false,
+      "transformation_lineage_established": false,
+      "physical_sources_deduplicated": false
+    },
+    {
+      "left_source": "BQDRV003",
+      "right_source": "BQDRV004",
+      "common_roles": [
+        "import_id",
+        "tenant_id",
+        "project_id",
+        "cluster_id",
+        "cluster_tenant_id",
+        "cluster_project_id"
+      ],
+      "comparison_domain": "same_role_strict_string_representation_only",
+      "common_projection_excludes_names_regions_timestamps_payloads": true,
+      "compressed_streams_byte_equal": false,
+      "uncompressed_streams_byte_equal": false,
+      "representations": {
+        "raw_lines": {
+          "equal": true,
+          "left_distinct_keys": 229384,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 229384,
+          "right_only_row_observations": 0,
+          "shared_distinct_keys": 229384,
+          "shared_row_observations": 229384
+        },
+        "full_records": {
+          "equal": true,
+          "left_distinct_keys": 229384,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 229384,
+          "right_only_row_observations": 0,
+          "shared_distinct_keys": 229384,
+          "shared_row_observations": 229384
+        },
+        "candidate_ids": {
+          "equal": true,
+          "left_distinct_keys": 229384,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 229384,
+          "right_only_row_observations": 0,
+          "shared_distinct_keys": 229384,
+          "shared_row_observations": 229384
+        },
+        "common_role_projections": {
+          "equal": true,
+          "left_distinct_keys": 229384,
+          "left_only_row_observations": 0,
+          "right_distinct_keys": 229384,
+          "right_only_row_observations": 0,
+          "shared_distinct_keys": 229384,
+          "shared_row_observations": 229384
+        }
+      },
+      "source_namespaces_admitted_equal": false,
+      "transformation_lineage_established": false,
+      "physical_sources_deduplicated": false
+    }
+  ],
+  "company_attribution_performed": false,
+  "hk_geography_inherited": false,
+  "native_reference_join_performed": false,
+  "successful_operation_established": false,
+  "temporal_ownership_attribution_performed": false,
+  "current_native_mapping_status": "authoritative_derived_and_ancillary_namespace_mapping_not_established_in_reviewed_evidence",
+  "limitations": [
+    "Six physical sources remain separate. Counts refer to source row observations and source-local candidate id/import_id groups; they do not establish unique imports, jobs, resources, customers or charges. No physical source is deduplicated.",
+    "Full-record versions retain excluded payload changes and exact numeric tokens. No latest row is elected. Alternate fractional/exponent spellings remain separate typed versions; object-key order and JSON whitespace do not. Raw-line and stream byte comparisons remain separate.",
+    "Pair comparisons use a declared same-role strict-string comparison domain. Matching raw-line, full-record or role multisets establish representation agreement only; they do not establish an authoritative namespace mapping, transformation lineage, native identity bridge or permission to union sources.",
+    "Same-row tenant/cluster-tenant and project/cluster-project agreement describes literal modeled-column consistency. It does not establish native resource ownership or a validated parent relationship.",
+    "Timestamp summaries use fixed syntax and exact fractional timezone-aware ordering. Date-only, naive, absent and unsupported values remain unverified for ordering. Compatible times and reversed times are diagnostics, not effective dates, current state, successful operations or historical ownership.",
+    "Field presence is checked over every source row, including absent observations. The approved field catalog began with sampled schemas plus explicit census fields. Unknown top-level field identities and values are omitted; only the number of additional fields is exported after validating their all-row partitions.",
+    "Status and flag categories report only explicitly allowed literal spellings or fixed type states. They do not establish business success or failure. Unknown category values are omitted; known literal spellings are observed category values, not identity or customer labels.",
+    "Names, emails, region values, URLs, payloads, query or connection values, financial amounts and arbitrary text are neither exported nor fetched. No monetary sum, company/customer classification, Hong Kong attribution or incident impact is established.",
+    "Native import baselines are contextual metadata only and are not joined or re-counted here. Authoritative derived-source and ancillary-job namespace mappings remain unestablished in the reviewed evidence; this does not rule out future corroboration."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "assessment_recomputed": true,
+    "source_receipts_reconciled": true,
+    "selected_source_ordinals_verified": true,
+    "selected_sources_gzip_eof_validated": true,
+    "archive_identity_unchanged": true,
+    "read_only_database": true
+  }
+}

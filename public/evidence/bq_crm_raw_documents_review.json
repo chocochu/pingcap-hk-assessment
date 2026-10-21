@@ -1,0 +1,1194 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 3,
+    "rows_parsed": 12684,
+    "verified_empty_tables": 0,
+    "parse_errors": 0
+  },
+  "sources": {
+    "BQRAWDOC001": {
+      "namespace": "nexuscrm_raw",
+      "record_family": "document",
+      "counts": {
+        "distinct_native_id_groups": 42,
+        "distinct_raw_line_observations": 3192,
+        "distinct_whole_record_versions": 3192,
+        "duplicate_rows_same_native_id_and_record": 0,
+        "native_id_record_versions": 3192,
+        "multi_version_native_id_groups_quarantined": 42,
+        "rows": 3192,
+        "single_version_native_id_groups": 0
+      },
+      "native_id_syntax_rows": {
+        "strict_string": 3192
+      },
+      "fields": {
+        "ArchivedById": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "empty_string",
+              "category": "empty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentAssetId": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3040,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "empty_string",
+              "category": "empty_string",
+              "rows": 152
+            },
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3040
+            }
+          ]
+        },
+        "ContentBodyId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentDocumentId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentSize": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentSizeLong": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "CreatedById": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "CreatedDate": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "FirstPublishLocationId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "Id": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "IsArchived": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "literal_string_zero",
+              "rows": 3192
+            }
+          ]
+        },
+        "IsDeleted": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "literal_string_zero",
+              "rows": 3192
+            }
+          ]
+        },
+        "IsInternalOnly": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "literal_string_zero",
+              "rows": 3192
+            }
+          ]
+        },
+        "LastModifiedById": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "LastModifiedDate": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "LatestPublishedVersionId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "OwnerId": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "ParentId": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "empty_string",
+              "category": "empty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "PathOnClient": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "PublishStatus": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "SystemModstamp": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "Title": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "VersionData": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "VersionDataUrl": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "_snapshot_date": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "fixed_calendar_date",
+              "rows": 3192
+            }
+          ]
+        },
+        "_snapshot_loaded_at": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "_snapshot_run_id": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_database": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_manifest_uri": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_name": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_table": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        }
+      },
+      "extra_top_level_fields_count": 0
+    },
+    "BQRAWDOC002": {
+      "namespace": "nexuscrm_raw",
+      "record_family": "version",
+      "counts": {
+        "distinct_native_id_groups": 42,
+        "distinct_raw_line_observations": 3192,
+        "distinct_whole_record_versions": 3192,
+        "duplicate_rows_same_native_id_and_record": 0,
+        "native_id_record_versions": 3192,
+        "multi_version_native_id_groups_quarantined": 42,
+        "rows": 3192,
+        "single_version_native_id_groups": 0
+      },
+      "native_id_syntax_rows": {
+        "strict_string": 3192
+      },
+      "fields": {
+        "ContentBodyId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentDocumentId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentSize": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_size_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "ContentSizeLong": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "CreatedDate": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "FileExtension": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "FileType": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "FirstPublishLocationId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "Id": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "IsDeleted": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "literal_string_zero",
+              "rows": 3192
+            }
+          ]
+        },
+        "IsLatest": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "LastModifiedDate": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "LatestPublishedVersionId": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "OwnerId": {
+          "row_observations": 3192,
+          "present_rows": 3066,
+          "nonempty_rows": 3066,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 126
+            },
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 3066
+            }
+          ]
+        },
+        "PathOnClient": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "SharingOption": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "SharingPrivacy": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "SystemModstamp": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "Title": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "VersionData": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "VersionDataUrl": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "VersionNumber": {
+          "row_observations": 3192,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 3192
+            }
+          ]
+        },
+        "_snapshot_date": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "fixed_calendar_date",
+              "rows": 3192
+            }
+          ]
+        },
+        "_snapshot_loaded_at": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 3192
+            }
+          ]
+        },
+        "_snapshot_run_id": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_database": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_manifest_uri": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_name": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        },
+        "_source_table": {
+          "row_observations": 3192,
+          "present_rows": 3192,
+          "nonempty_rows": 3192,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 3192
+            }
+          ]
+        }
+      },
+      "extra_top_level_fields_count": 0
+    },
+    "BQRAWDOC003": {
+      "namespace": "nexuscrm_raw",
+      "record_family": "link",
+      "counts": {
+        "distinct_native_id_groups": 84,
+        "distinct_raw_line_observations": 6300,
+        "distinct_whole_record_versions": 6300,
+        "duplicate_rows_same_native_id_and_record": 0,
+        "native_id_record_versions": 6300,
+        "multi_version_native_id_groups_quarantined": 84,
+        "rows": 6300,
+        "single_version_native_id_groups": 0
+      },
+      "native_id_syntax_rows": {
+        "strict_string": 6300
+      },
+      "fields": {
+        "ContentBodyId": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "ContentDocumentId": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "ContentSize": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "ContentSizeLong": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "FirstPublishLocationId": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "Id": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "IsDeleted": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "LatestPublishedVersionId": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "LinkedEntityId": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "strict_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "PathOnClient": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "ShareType": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "VersionData": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "VersionDataUrl": {
+          "row_observations": 6300,
+          "present_rows": 0,
+          "nonempty_rows": 0,
+          "categories": [
+            {
+              "kind": "absent",
+              "shape": "absent",
+              "category": "absent",
+              "rows": 6300
+            }
+          ]
+        },
+        "Visibility": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "uninterpreted_enum_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "_snapshot_date": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "fixed_calendar_date",
+              "rows": 6300
+            }
+          ]
+        },
+        "_snapshot_loaded_at": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "unsupported_timestamp",
+              "rows": 6300
+            }
+          ]
+        },
+        "_snapshot_run_id": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "_source_database": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "_source_manifest_uri": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "_source_name": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        },
+        "_source_table": {
+          "row_observations": 6300,
+          "present_rows": 6300,
+          "nonempty_rows": 6300,
+          "categories": [
+            {
+              "kind": "string",
+              "shape": "nonempty_string",
+              "category": "presence_only_nonempty_string",
+              "rows": 6300
+            }
+          ]
+        }
+      },
+      "extra_top_level_fields_count": 0
+    }
+  },
+  "relationships": {
+    "nexuscrm_raw": {
+      "version_to_document": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 42,
+        "dispositions": {
+          "source_id_multiple_versions_quarantined": 42
+        }
+      },
+      "link_to_document": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 84,
+        "dispositions": {
+          "source_id_multiple_versions_quarantined": 84
+        }
+      },
+      "document_latest_version_roundtrip": {
+        "unit": "distinct source-local native ID groups",
+        "native_id_groups": 42,
+        "dispositions": {
+          "document_id_multiple_versions_quarantined": 42
+        }
+      },
+      "document_incoming_version_references": {
+        "concordant_version_id_groups": 0,
+        "document_groups_with_concordant_version_references": 0,
+        "document_groups_with_multiple_concordant_version_references": 0,
+        "single_version_document_groups": 0
+      }
+    }
+  },
+  "document_urls_fetched": false,
+  "document_contents_reviewed": false,
+  "raw_final_union_performed": false,
+  "latest_or_effective_time_established": false,
+  "company_attribution_established": false,
+  "limitations": [
+    "These three raw Nexus tables contain 12,684 row observations across repeated ingestion snapshots. They are not counts of unique documents, leaked files or current attachments.",
+    "Every source-local native ID group has multiple whole-record versions, including ingestion metadata in the version definition. All such groups are quarantined from conservative source-local references; this does not establish invalid documents or business contradictions.",
+    "All selected raw version rows lack ContentDocumentId and all selected raw document rows lack LatestPublishedVersionId. Raw link rows contain document-reference syntax, but multi-version quarantine prevents admitting conservative links.",
+    "VersionData and VersionDataUrl are absent across all selected rows. Titles, paths, payloads, URLs and owner/person values are not retained or fetched. Metadata presence does not establish content availability or sensitive content.",
+    "Snapshot dates match the declared calendar-date syntax. Snapshot loaded-at values are nonempty strings outside the declared fixed timestamp syntax; this does not prove invalid timestamps. Run and source metadata have presence/type categories only.",
+    "No snapshot grouping, effective-time attribution, latest/current selection, historical ownership or complete-snapshot claim is made. Whole-record versions retain every ingestion change.",
+    "Version ContentSize values fall outside the declared nonnegative-integer syntax. Units remain unverified; no size totals or content volume are reported.",
+    "Raw and final layers remain separate. No raw/final union, identity bridge, company/customer/Hong Kong attribution, transformation lineage or incident deduplication is established.",
+    "Optional fields were checked on every row. Unknown field names and values are omitted. Nonempty includes whitespace strings and nonempty containers; it does not mean a usable URL or file."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "assessment_recomputed": true,
+    "source_receipts_reconciled": true,
+    "selected_source_ordinals_verified": true,
+    "selected_sources_gzip_eof_validated": true,
+    "archive_identity_unchanged": true,
+    "read_only_database": true
+  }
+}

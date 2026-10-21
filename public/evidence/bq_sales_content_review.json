@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 3,
+    "rows_parsed": 574311,
+    "parse_errors": 0
+  },
+  "sources": {
+    "BQSALE001": {
+      "record_family": "engagement",
+      "counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_full_record_versions": 168728,
+        "distinct_native_ids": 168728,
+        "exact_duplicate_rows": 0,
+        "nonconflicting_ids_with_nonempty_snippet": 0,
+        "rows_stored": 168728,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 168728
+      },
+      "stored_deletion_flag_row_counts": {
+        "false": 168724,
+        "true": 4
+      },
+      "snippet_presence_row_counts": {}
+    },
+    "BQSALE002": {
+      "record_family": "recording",
+      "counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_full_record_versions": 3672,
+        "distinct_native_ids": 3672,
+        "exact_duplicate_rows": 0,
+        "nonconflicting_ids_with_nonempty_snippet": 0,
+        "rows_stored": 3672,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 3672
+      },
+      "stored_deletion_flag_row_counts": {
+        "false": 3669,
+        "true": 3
+      },
+      "snippet_presence_row_counts": {}
+    },
+    "BQSALE003": {
+      "record_family": "utterance",
+      "counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_full_record_versions": 401911,
+        "distinct_native_ids": 401911,
+        "exact_duplicate_rows": 0,
+        "nonconflicting_ids_with_nonempty_snippet": 401259,
+        "rows_stored": 401911,
+        "rows_without_valid_primary_id": 0,
+        "unique_nonconflicting_native_ids": 401911
+      },
+      "stored_deletion_flag_row_counts": {
+        "false": 401908,
+        "true": 3
+      },
+      "snippet_presence_row_counts": {
+        "nonempty": 401259,
+        "missing": 650,
+        "empty": 2
+      }
+    }
+  },
+  "recording_to_engagement": {
+    "dispositions": {
+      "conflicting_recording_versions": 0,
+      "concordant_engagement_reference": 3672
+    },
+    "account_name_dispositions": {
+      "agreeing_unreviewed_account_name": 3586,
+      "account_name_unverified": 22,
+      "account_name_disagreement": 61,
+      "agreeing_approved_account_label": 3
+    },
+    "deletion_strata": {
+      "explicit_false_flags_in_chain": 3669,
+      "explicit_deleted_flag_in_chain": 3
+    }
+  },
+  "utterance_to_recording_and_engagement": {
+    "dispositions": {
+      "conflicting_utterance_versions": 0,
+      "concordant_recording_and_engagement_references": 401911
+    },
+    "deletion_strata": {
+      "explicit_false_flags_in_chain": 401908,
+      "explicit_deleted_flag_in_chain": 3
+    },
+    "snippet_presence": {
+      "nonempty": 401259,
+      "missing": 650,
+      "empty": 2
+    }
+  },
+  "approved_account_label_associations": [
+    {
+      "organization_label": "Amber AI Limited",
+      "engagement_ids": 2,
+      "recording_ids": 2,
+      "utterance_ids": 184,
+      "utterance_ids_with_nonempty_snippet": 184,
+      "deletion_strata": {
+        "explicit_false_flags_in_chain": 184
+      }
+    },
+    {
+      "organization_label": "Bytebase (HongKong) Limited",
+      "engagement_ids": 1,
+      "recording_ids": 1,
+      "utterance_ids": 232,
+      "utterance_ids_with_nonempty_snippet": 232,
+      "deletion_strata": {
+        "explicit_false_flags_in_chain": 232
+      }
+    }
+  ],
+  "hk_geography_inherited": false,
+  "native_crm_or_tenant_mapping_performed": false,
+  "temporal_attribution_performed": false,
+  "limitations": [
+    "This selected three-table review measures stored transcription fields and exact references. Engagement IDs, recording IDs, utterance IDs and rows are different units; they are not unique meetings, speakers, audio files or incidents.",
+    "Native references are assessed separately from account-name associations. A concordant native chain does not establish agreement between account names, legal identity, customer status, Hong Kong geography or incident impact.",
+    "A label association requires the recording and engagement account_name fields to agree exactly with one of the two labels admitted in this frozen export. The labels remain source-name associations only, with no native CRM-account, tenant or infrastructure inheritance.",
+    "Per-label engagement and recording counts include only chains containing at least one admitted concordant utterance. They do not enumerate all recordings with agreeing account names. Label-route counts are subsets of the native-reference counts and must not be added to them.",
+    "Full-record duplicate and conflicting-version diagnostics remain source-local. Any ID with different full-record versions is quarantined without latest-version selection. A difference may be ingestion metadata rather than changed conversation content.",
+    "Deleted and unknown-deletion observations remain historical strata. Stored false flags do not prove current availability, and literal zero/one categories are not interpreted as current deletion or activity. Relationship dispositions use the first applicable exclusion; multiple issues can coexist.",
+    "No date ordering or temporal attribution is performed. Heterogeneous source timestamps are not used to infer contemporaneous ownership.",
+    "Nonempty snippet fields do not establish actual speech, audio availability, technical secrets, customer-database contents or complete conversation coverage. Missing includes absent or null fields. No audio, attachment or URL is fetched and no credential is tested.",
+    "Only the two approved label strings, fixed aliases and categories, and aggregate counts are exported. Native IDs, per-record hashes, paths, snippets, subjects, speaker or owner details, emails, URLs and timestamps are excluded. Changed inputs or results require another review."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true,
+    "database_assessment_recomputed": true,
+    "selected_sources_gzip_eof_validated": true
+  }
+}

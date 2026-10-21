@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "nonempty_sources_scanned": 2,
+    "source_row_observations": 276552,
+    "parse_errors": 0
+  },
+  "sources": {
+    "BQQCL001": {
+      "source_layer": "final",
+      "record_family": "quarantine_claim",
+      "distinct_id_groups": 45433,
+      "distinct_raw_lines": 45433,
+      "distinct_whole_record_versions": 45433,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 0,
+      "id_record_versions": 45433,
+      "maximum_versions_per_id_group": 1,
+      "multiversion_id_groups": 0,
+      "row_observations": 45433,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 45433,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "CreatedById": {
+          "nonempty_string": 45433
+        },
+        "CreatedDate": {
+          "nonempty_string": 45433
+        },
+        "HubSpotRemoteId__c": {
+          "nonempty_string": 45433
+        },
+        "Id": {
+          "nonempty_string": 45433
+        },
+        "IsDeleted": {
+          "nonempty_string": 45433
+        },
+        "LastModifiedById": {
+          "nonempty_string": 45433
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 45433
+        },
+        "OwnerId": {
+          "nonempty_string": 45433
+        },
+        "PortalId__c": {
+          "nonempty_string": 45433
+        },
+        "Reason__c": {
+          "nonempty_string": 45433
+        },
+        "Resolved__c": {
+          "nonempty_string": 45433
+        },
+        "SalesforceObject__c": {
+          "nonempty_string": 45433
+        },
+        "SalesforceRecordId__c": {
+          "nonempty_string": 45433
+        },
+        "Status__c": {
+          "nonempty_string": 45433
+        },
+        "SystemModstamp": {
+          "nonempty_string": 45433
+        },
+        "TargetObject__c": {
+          "nonempty_string": 45433
+        },
+        "TargetRecordId__c": {
+          "nonempty_string": 45433
+        },
+        "_record_loaded_at": {
+          "nonempty_string": 45433
+        },
+        "_record_source_manifest_uri": {
+          "nonempty_string": 45433
+        },
+        "_record_source_run_id": {
+          "nonempty_string": 45433
+        },
+        "_record_watermark_at": {
+          "nonempty_string": 45433
+        },
+        "_snapshot_date": {
+          "absent": 45433
+        },
+        "_snapshot_loaded_at": {
+          "absent": 45433
+        },
+        "_snapshot_run_id": {
+          "absent": 45433
+        },
+        "_source_database": {
+          "absent": 45433
+        },
+        "_source_manifest_uri": {
+          "absent": 45433
+        },
+        "_source_name": {
+          "absent": 45433
+        },
+        "_source_table": {
+          "absent": 45433
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 45433
+        },
+        "PortalId__c": {
+          "admitted_literal_string": 45433
+        },
+        "HubSpotRemoteId__c": {
+          "admitted_literal_string": 45433
+        },
+        "SalesforceRecordId__c": {
+          "admitted_literal_string": 45433
+        },
+        "TargetRecordId__c": {
+          "admitted_literal_string": 45433
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 45433,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 1,
+          "repeated_literal_groups": 0,
+          "row_observations": 45433
+        },
+        "PortalId__c": {
+          "distinct_literal_groups": 1,
+          "excess_occurrences": 45432,
+          "maximum_occurrences": 45433,
+          "repeated_literal_groups": 1,
+          "row_observations": 45433
+        },
+        "HubSpotRemoteId__c": {
+          "distinct_literal_groups": 9992,
+          "excess_occurrences": 35441,
+          "maximum_occurrences": 2154,
+          "repeated_literal_groups": 3864,
+          "row_observations": 45433
+        },
+        "SalesforceRecordId__c": {
+          "distinct_literal_groups": 9997,
+          "excess_occurrences": 35436,
+          "maximum_occurrences": 2154,
+          "repeated_literal_groups": 3869,
+          "row_observations": 45433
+        },
+        "TargetRecordId__c": {
+          "distinct_literal_groups": 9992,
+          "excess_occurrences": 35441,
+          "maximum_occurrences": 2154,
+          "repeated_literal_groups": 3864,
+          "row_observations": 45433
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "PortalId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "HubSpotRemoteId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "SalesforceRecordId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "TargetRecordId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        }
+      },
+      "exploratory_portal_remote_tuple": {
+        "state_rows": {
+          "strict_portal_remote_pair": 45433
+        },
+        "distinct_pairs": 9992,
+        "excess_occurrences": 35441,
+        "maximum_occurrences": 2154,
+        "repeated_pairs": 3864,
+        "row_observations": 45433
+      },
+      "object_syntax": {
+        "SalesforceObject__c": {
+          "ascii_object_token": 45433
+        },
+        "TargetObject__c": {
+          "ascii_object_token": 45433
+        }
+      },
+      "status_reason_presence": {
+        "Reason__c": {
+          "nonempty_string": 45433
+        },
+        "Status__c": {
+          "nonempty_string": 45433
+        }
+      },
+      "literal_flags": {
+        "IsDeleted": {
+          "string_zero": 45433
+        },
+        "Resolved__c": {
+          "string_zero": 45433
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 45433
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 45433
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 45433
+        },
+        "_record_loaded_at": {
+          "offset_timestamp": 45433
+        },
+        "_record_watermark_at": {
+          "offset_timestamp": 45433
+        },
+        "_snapshot_date": {
+          "absent": 45433
+        },
+        "_snapshot_loaded_at": {
+          "absent": 45433
+        }
+      }
+    },
+    "BQQCL002": {
+      "source_layer": "raw",
+      "record_family": "quarantine_claim",
+      "distinct_id_groups": 45433,
+      "distinct_raw_lines": 231119,
+      "distinct_whole_record_versions": 231119,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_rows_with_strict_id": 0,
+      "duplicate_whole_record_occurrences": 0,
+      "extra_top_level_fields_count": 0,
+      "id_record_versions": 231119,
+      "maximum_versions_per_id_group": 8,
+      "multiversion_id_groups": 42275,
+      "row_observations": 231119,
+      "rows_without_strict_id": 0,
+      "single_version_id_groups": 3158,
+      "candidate_grouping_field": "Id",
+      "candidate_grouping_contract_verified": false,
+      "numeric_leaf_counts": {
+        "integer_leaves": 0,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "CreatedById": {
+          "nonempty_string": 231119
+        },
+        "CreatedDate": {
+          "nonempty_string": 231119
+        },
+        "HubSpotRemoteId__c": {
+          "nonempty_string": 231119
+        },
+        "Id": {
+          "nonempty_string": 231119
+        },
+        "IsDeleted": {
+          "nonempty_string": 231119
+        },
+        "LastModifiedById": {
+          "nonempty_string": 231119
+        },
+        "LastModifiedDate": {
+          "nonempty_string": 231119
+        },
+        "OwnerId": {
+          "nonempty_string": 231119
+        },
+        "PortalId__c": {
+          "nonempty_string": 231119
+        },
+        "Reason__c": {
+          "nonempty_string": 231119
+        },
+        "Resolved__c": {
+          "nonempty_string": 231119
+        },
+        "SalesforceObject__c": {
+          "nonempty_string": 231119
+        },
+        "SalesforceRecordId__c": {
+          "nonempty_string": 231119
+        },
+        "Status__c": {
+          "nonempty_string": 231119
+        },
+        "SystemModstamp": {
+          "nonempty_string": 231119
+        },
+        "TargetObject__c": {
+          "nonempty_string": 231119
+        },
+        "TargetRecordId__c": {
+          "nonempty_string": 231119
+        },
+        "_record_loaded_at": {
+          "absent": 231119
+        },
+        "_record_source_manifest_uri": {
+          "absent": 231119
+        },
+        "_record_source_run_id": {
+          "absent": 231119
+        },
+        "_record_watermark_at": {
+          "absent": 231119
+        },
+        "_snapshot_date": {
+          "nonempty_string": 231119
+        },
+        "_snapshot_loaded_at": {
+          "nonempty_string": 231119
+        },
+        "_snapshot_run_id": {
+          "nonempty_string": 231119
+        },
+        "_source_database": {
+          "nonempty_string": 231119
+        },
+        "_source_manifest_uri": {
+          "nonempty_string": 231119
+        },
+        "_source_name": {
+          "nonempty_string": 231119
+        },
+        "_source_table": {
+          "nonempty_string": 231119
+        }
+      },
+      "identifier_state_rows": {
+        "Id": {
+          "admitted_literal_string": 231119
+        },
+        "PortalId__c": {
+          "admitted_literal_string": 231119
+        },
+        "HubSpotRemoteId__c": {
+          "admitted_literal_string": 231119
+        },
+        "SalesforceRecordId__c": {
+          "admitted_literal_string": 231119
+        },
+        "TargetRecordId__c": {
+          "admitted_literal_string": 231119
+        }
+      },
+      "identifier_cardinality": {
+        "Id": {
+          "distinct_literal_groups": 45433,
+          "excess_occurrences": 185686,
+          "maximum_occurrences": 8,
+          "repeated_literal_groups": 42275,
+          "row_observations": 231119
+        },
+        "PortalId__c": {
+          "distinct_literal_groups": 1,
+          "excess_occurrences": 231118,
+          "maximum_occurrences": 231119,
+          "repeated_literal_groups": 1,
+          "row_observations": 231119
+        },
+        "HubSpotRemoteId__c": {
+          "distinct_literal_groups": 9992,
+          "excess_occurrences": 221127,
+          "maximum_occurrences": 17231,
+          "repeated_literal_groups": 9931,
+          "row_observations": 231119
+        },
+        "SalesforceRecordId__c": {
+          "distinct_literal_groups": 9997,
+          "excess_occurrences": 221122,
+          "maximum_occurrences": 17231,
+          "repeated_literal_groups": 9936,
+          "row_observations": 231119
+        },
+        "TargetRecordId__c": {
+          "distinct_literal_groups": 9992,
+          "excess_occurrences": 221127,
+          "maximum_occurrences": 17231,
+          "repeated_literal_groups": 9931,
+          "row_observations": 231119
+        }
+      },
+      "id_to_role_cardinality": {
+        "Id": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "PortalId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "HubSpotRemoteId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "SalesforceRecordId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        },
+        "TargetRecordId__c": {
+          "groups_with_any_unverified_observation": 0,
+          "groups_with_multiple_valid_values": 0,
+          "groups_with_no_valid_value": 0,
+          "groups_with_one_valid_value": 45433
+        }
+      },
+      "exploratory_portal_remote_tuple": {
+        "state_rows": {
+          "strict_portal_remote_pair": 231119
+        },
+        "distinct_pairs": 9992,
+        "excess_occurrences": 221127,
+        "maximum_occurrences": 17231,
+        "repeated_pairs": 9931,
+        "row_observations": 231119
+      },
+      "object_syntax": {
+        "SalesforceObject__c": {
+          "ascii_object_token": 231119
+        },
+        "TargetObject__c": {
+          "ascii_object_token": 231119
+        }
+      },
+      "status_reason_presence": {
+        "Reason__c": {
+          "nonempty_string": 231119
+        },
+        "Status__c": {
+          "nonempty_string": 231119
+        }
+      },
+      "literal_flags": {
+        "IsDeleted": {
+          "string_zero": 231119
+        },
+        "Resolved__c": {
+          "string_zero": 231119
+        }
+      },
+      "timestamp_syntax": {
+        "CreatedDate": {
+          "offset_timestamp": 231119
+        },
+        "LastModifiedDate": {
+          "offset_timestamp": 231119
+        },
+        "SystemModstamp": {
+          "offset_timestamp": 231119
+        },
+        "_record_loaded_at": {
+          "absent": 231119
+        },
+        "_record_watermark_at": {
+          "absent": 231119
+        },
+        "_snapshot_date": {
+          "calendar_yyyy_mm_dd": 231119
+        },
+        "_snapshot_loaded_at": {
+          "offset_timestamp": 231119
+        }
+      }
+    }
+  },
+  "inventory_only_empty_binding_references": {
+    "source_count": 2,
+    "selected_streams_scanned": 0,
+    "source_rows_scanned": 0,
+    "accepted_mapping_evidence": false
+  },
+  "cross_source_comparison_performed": false,
+  "cross_source_or_native_join_performed": false,
+  "raw_final_union_performed": false,
+  "accepted_binding_established": false,
+  "resolved_flag_semantics_established": false,
+  "company_or_hk_attribution_performed": false,
+  "historical_ownership_established": false,
+  "definition_review": {
+    "reviewed_source_doc_test_members": 14,
+    "exact_target_identifier_terms": 11,
+    "exact_matches": 0,
+    "authoritative_matching_contract_established": false
+  },
+  "limitations": [
+    "Two nonempty quarantine-claim sources are counted separately. Rows, whole-record versions and source-local Id groups are different units; none is a unique person, company, accepted identity binding or incident count.",
+    "Every source row and repeated occurrence remains in the private census. Whole-record versions include excluded payload and ingestion changes. Multiple versions under one Id do not establish contradictions; no latest record, effective date or accepted binding is elected.",
+    "Identifiers enter private source-and-role-qualified groups only under a conservative syntax: nonempty strings of at most 256 Unicode characters, without padding, whitespace or Unicode control/format characters. Other types are not coerced. This is not an authoritative native-identifier grammar.",
+    "PortalId__c and HubSpotRemoteId__c pairs are exploratory source-local claim tuples. Equal group counts across raw and final sources are not a comparison of their members and do not establish namespace equivalence, shared identities, transformation lineage or permission to join sources.",
+    "Object fields have fixed syntax/type categories only. Status and reason fields are presence/type only. Resolved and deletion flags are literal/type categories without state-machine semantics. A nonempty target or stored resolution value is not accepted mapping evidence.",
+    "The two binding exports remain inventory-verified empty references. They were not selected for this scan and contribute zero scanned sources or rows. Empty exports neither supply an accepted binding nor prove that no relationship existed historically or elsewhere.",
+    "All 28 declared fields were checked on every row, including absence. Additional field names and all values are omitted; only their source-local field count is exported. Owner/person fields and ingestion values remain presence categories.",
+    "Exact typed whole-record hashing preserves numeric precision, signed zero and scalar JSON types. Raw-line differences remain separate diagnostics. No amount, text, identifier, per-record hash, unknown field name, URL, person value or source path is exported.",
+    "A bounded definition review of fourteen named source/document/test leads found no exact match for eleven selected identifiers. The review did not establish an export-matching constructor, object namespace, portal scope or resolution state machine. Other files, versions and differently named implementations remain outside that review.",
+    "No raw/final union, cross-source comparison, native-resource join, accepted identity bridge, current-state inference, historical ownership, company/customer/Hong Kong attribution or incident-impact claim is made.",
+    "This export recomputes the retained private assessment read-only. Original stream parsing and byte/EOF truth rely on frozen scan receipts and unchanged archive identity; the archive is not reread by this exporter."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "full_assessment_recomputed_readonly": true,
+    "all_retained_projection_privacy_shapes_validated": true,
+    "selected_source_receipts_reconciled": true,
+    "selected_nested_gzip_eof_receipts_valid": true,
+    "inventory_only_empty_binding_references_excluded_from_scans": true,
+    "frozen_inputs_rechecked_after_export": true,
+    "archive_reread_by_exporter": false
+  }
+}

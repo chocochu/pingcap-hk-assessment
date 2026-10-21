@@ -1,0 +1,3915 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "summary": {
+    "new_physical_sources": 9,
+    "source_row_observations": 357500,
+    "parse_errors": 0,
+    "source_local_distinct_typed_record_versions": 181955,
+    "source_local_duplicate_typed_record_occurrences": 175545
+  },
+  "batches": {
+    "arr": {
+      "physical_sources": 3,
+      "source_row_observations": 2833
+    },
+    "group": {
+      "physical_sources": 3,
+      "source_row_observations": 36554
+    },
+    "distribution": {
+      "physical_sources": 3,
+      "source_row_observations": 318113
+    }
+  },
+  "sources": {
+    "BQMSPM001": {
+      "batch": "arr",
+      "namespace": "model_dbaas_billing",
+      "distinct_raw_lines": 575,
+      "distinct_typed_full_record_versions": 575,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_typed_record_occurrences": 0,
+      "repeated_typed_full_record_versions": 0,
+      "rows": 575,
+      "numeric_leaf_counts": {
+        "integer_leaves": 1149,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 575
+        },
+        "account_current_order_type": {
+          "absent": 575
+        },
+        "account_fraud_user": {
+          "absent": 575
+        },
+        "arr": {
+          "absent": 0,
+          "integer": 383,
+          "nonempty_string": 192
+        },
+        "billing_binded_package_id": {
+          "absent": 575
+        },
+        "billing_cluster_id": {
+          "absent": 575
+        },
+        "billing_cluster_name": {
+          "absent": 575
+        },
+        "billing_config_tenant_id": {
+          "absent": 575
+        },
+        "billing_consumed_source": {
+          "absent": 575
+        },
+        "billing_cost_price": {
+          "absent": 575
+        },
+        "billing_cost_unit_num": {
+          "absent": 575
+        },
+        "billing_internal_tag": {
+          "absent": 575
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 575
+        },
+        "billing_labels": {
+          "absent": 575
+        },
+        "billing_project_id": {
+          "absent": 575
+        },
+        "billing_project_name": {
+          "absent": 575
+        },
+        "billing_raw_price": {
+          "absent": 575
+        },
+        "billing_sales_chanel": {
+          "absent": 575
+        },
+        "billing_status": {
+          "absent": 575
+        },
+        "billing_tenant_id": {
+          "absent": 575
+        },
+        "billing_unit": {
+          "absent": 575
+        },
+        "binded_billing_config_id": {
+          "absent": 575
+        },
+        "cluster_created_at": {
+          "absent": 575
+        },
+        "cluster_deploy_type": {
+          "absent": 575
+        },
+        "cluster_provider_name": {
+          "absent": 575
+        },
+        "cluster_status": {
+          "absent": 575
+        },
+        "credit_closed_reason": {
+          "absent": 575
+        },
+        "credit_type": {
+          "absent": 575
+        },
+        "credit_usage": {
+          "absent": 575
+        },
+        "monthly_cost": {
+          "absent": 0,
+          "integer": 391,
+          "nonempty_string": 184
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 0,
+          "integer": 375,
+          "nonempty_string": 200
+        },
+        "msp_parent_tenant_id": {
+          "absent": 575
+        },
+        "msp_parent_tenant_region": {
+          "absent": 575
+        },
+        "tenant_created_at": {
+          "absent": 575
+        },
+        "tenant_customer_id": {
+          "absent": 575
+        },
+        "tenant_email": {
+          "absent": 575
+        },
+        "tenant_id": {
+          "absent": 25,
+          "nonempty_string": 550
+        },
+        "tenant_in_salesforce": {
+          "absent": 575
+        },
+        "tenant_internal_user": {
+          "absent": 575
+        },
+        "tenant_lead_id": {
+          "absent": 575
+        },
+        "tenant_name": {
+          "absent": 25,
+          "nonempty_string": 550
+        },
+        "tenant_name_origin": {
+          "absent": 575
+        },
+        "tenant_plan": {
+          "absent": 575
+        },
+        "tenant_region": {
+          "absent": 575
+        },
+        "tenant_segmentation": {
+          "absent": 575
+        },
+        "tenant_status": {
+          "absent": 575
+        },
+        "tenant_third_party_account_code": {
+          "absent": 575
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 575
+        },
+        "unit_category": {
+          "absent": 575
+        },
+        "unit_category_business_type": {
+          "absent": 575
+        },
+        "unit_description": {
+          "absent": 575
+        },
+        "unit_provider": {
+          "absent": 575
+        },
+        "unit_region": {
+          "absent": 575
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 0,
+        "present_field_row_observations": 0,
+        "presence_state_field_row_counts": {
+          "absent": 0,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 0,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 25,
+            "admitted_literal_string": 550
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 528,
+          "maximum_occurrences": 25,
+          "repeated_literal_hashes": 22,
+          "row_observations": 550
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 575
+        },
+        "syntax_rows": {
+          "yyyy_mm": 575
+        },
+        "distinct_literal_hashes": 25,
+        "excess_occurrences": 550,
+        "maximum_occurrences": 23,
+        "repeated_literal_hashes": 25,
+        "row_observations": 575
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 550,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 1,
+          "repeated_pairs": 0,
+          "row_observations": 550
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 575
+        },
+        "account_fraud_user": {
+          "absent": 575
+        },
+        "billing_status": {
+          "absent": 575
+        },
+        "cluster_status": {
+          "absent": 575
+        },
+        "tenant_in_salesforce": {
+          "absent": 575
+        },
+        "tenant_internal_user": {
+          "absent": 575
+        },
+        "tenant_status": {
+          "absent": 575
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "integer": 383,
+          "json_fractional_or_exponent_string": 192
+        },
+        "billing_cost_price": {
+          "absent": 575
+        },
+        "billing_cost_unit_num": {
+          "absent": 575
+        },
+        "billing_raw_price": {
+          "absent": 575
+        },
+        "credit_usage": {
+          "absent": 575
+        },
+        "monthly_cost": {
+          "integer": 391,
+          "json_fractional_or_exponent_string": 184
+        },
+        "moving_3_month_avg_cost": {
+          "integer": 375,
+          "json_fractional_or_exponent_string": 200
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 575
+        },
+        "tenant_created_at": {
+          "absent": 575
+        }
+      }
+    },
+    "BQMSPM002": {
+      "batch": "arr",
+      "namespace": "model_msp_subclient_billing",
+      "distinct_raw_lines": 1683,
+      "distinct_typed_full_record_versions": 1683,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_typed_record_occurrences": 0,
+      "repeated_typed_full_record_versions": 0,
+      "rows": 1683,
+      "numeric_leaf_counts": {
+        "integer_leaves": 3980,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 1683
+        },
+        "account_current_order_type": {
+          "absent": 1683
+        },
+        "account_fraud_user": {
+          "absent": 1683
+        },
+        "arr": {
+          "absent": 0,
+          "integer": 1323,
+          "nonempty_string": 360
+        },
+        "billing_binded_package_id": {
+          "absent": 1683
+        },
+        "billing_cluster_id": {
+          "absent": 1683
+        },
+        "billing_cluster_name": {
+          "absent": 1683
+        },
+        "billing_config_tenant_id": {
+          "absent": 1683
+        },
+        "billing_consumed_source": {
+          "absent": 1683
+        },
+        "billing_cost_price": {
+          "absent": 1683
+        },
+        "billing_cost_unit_num": {
+          "absent": 1683
+        },
+        "billing_internal_tag": {
+          "absent": 1683
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 1683
+        },
+        "billing_labels": {
+          "absent": 1683
+        },
+        "billing_project_id": {
+          "absent": 1683
+        },
+        "billing_project_name": {
+          "absent": 1683
+        },
+        "billing_raw_price": {
+          "absent": 1683
+        },
+        "billing_sales_chanel": {
+          "absent": 1683
+        },
+        "billing_status": {
+          "absent": 1683
+        },
+        "billing_tenant_id": {
+          "absent": 1683
+        },
+        "billing_unit": {
+          "absent": 1683
+        },
+        "binded_billing_config_id": {
+          "absent": 1683
+        },
+        "cluster_created_at": {
+          "absent": 1683
+        },
+        "cluster_deploy_type": {
+          "absent": 1683
+        },
+        "cluster_provider_name": {
+          "absent": 1683
+        },
+        "cluster_status": {
+          "absent": 1683
+        },
+        "credit_closed_reason": {
+          "absent": 1683
+        },
+        "credit_type": {
+          "absent": 1683
+        },
+        "credit_usage": {
+          "absent": 1683
+        },
+        "monthly_cost": {
+          "absent": 0,
+          "integer": 1348,
+          "nonempty_string": 335
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 0,
+          "integer": 1309,
+          "nonempty_string": 374
+        },
+        "msp_parent_tenant_id": {
+          "absent": 1683
+        },
+        "msp_parent_tenant_region": {
+          "absent": 66,
+          "nonempty_string": 1617
+        },
+        "tenant_created_at": {
+          "absent": 1683
+        },
+        "tenant_customer_id": {
+          "absent": 1683
+        },
+        "tenant_email": {
+          "absent": 1683
+        },
+        "tenant_id": {
+          "absent": 33,
+          "nonempty_string": 1650
+        },
+        "tenant_in_salesforce": {
+          "absent": 1683
+        },
+        "tenant_internal_user": {
+          "absent": 1683
+        },
+        "tenant_lead_id": {
+          "absent": 1683
+        },
+        "tenant_name": {
+          "absent": 33,
+          "nonempty_string": 1650
+        },
+        "tenant_name_origin": {
+          "absent": 33,
+          "nonempty_string": 1650
+        },
+        "tenant_plan": {
+          "absent": 1683
+        },
+        "tenant_region": {
+          "absent": 1683
+        },
+        "tenant_segmentation": {
+          "absent": 1683
+        },
+        "tenant_status": {
+          "absent": 1683
+        },
+        "tenant_third_party_account_code": {
+          "absent": 1683
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 1683
+        },
+        "unit_category": {
+          "absent": 1683
+        },
+        "unit_category_business_type": {
+          "absent": 1683
+        },
+        "unit_description": {
+          "absent": 1683
+        },
+        "unit_provider": {
+          "absent": 1683
+        },
+        "unit_region": {
+          "absent": 1683
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 0,
+        "present_field_row_observations": 0,
+        "presence_state_field_row_counts": {
+          "absent": 0,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 0,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 33,
+            "admitted_literal_string": 1650
+          },
+          "distinct_literal_hashes": 50,
+          "excess_occurrences": 1600,
+          "maximum_occurrences": 33,
+          "repeated_literal_hashes": 50,
+          "row_observations": 1650
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 1683
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "absent": 1683
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 1683
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "absent": 1683
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 1683
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 1683
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 1683
+        },
+        "syntax_rows": {
+          "yyyy_mm": 1683
+        },
+        "distinct_literal_hashes": 33,
+        "excess_occurrences": 1650,
+        "maximum_occurrences": 51,
+        "repeated_literal_hashes": 33,
+        "row_observations": 1683
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 1650,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 1,
+          "repeated_pairs": 0,
+          "row_observations": 1650
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 1683
+        },
+        "account_fraud_user": {
+          "absent": 1683
+        },
+        "billing_status": {
+          "absent": 1683
+        },
+        "cluster_status": {
+          "absent": 1683
+        },
+        "tenant_in_salesforce": {
+          "absent": 1683
+        },
+        "tenant_internal_user": {
+          "absent": 1683
+        },
+        "tenant_status": {
+          "absent": 1683
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "integer": 1323,
+          "json_fractional_or_exponent_string": 360
+        },
+        "billing_cost_price": {
+          "absent": 1683
+        },
+        "billing_cost_unit_num": {
+          "absent": 1683
+        },
+        "billing_raw_price": {
+          "absent": 1683
+        },
+        "credit_usage": {
+          "absent": 1683
+        },
+        "monthly_cost": {
+          "integer": 1348,
+          "json_fractional_or_exponent_string": 335
+        },
+        "moving_3_month_avg_cost": {
+          "integer": 1309,
+          "json_fractional_or_exponent_string": 374
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 1683
+        },
+        "tenant_created_at": {
+          "absent": 1683
+        }
+      }
+    },
+    "BQMSPM003": {
+      "batch": "arr",
+      "namespace": "model_tidbcloud",
+      "distinct_raw_lines": 575,
+      "distinct_typed_full_record_versions": 575,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_typed_record_occurrences": 0,
+      "repeated_typed_full_record_versions": 0,
+      "rows": 575,
+      "numeric_leaf_counts": {
+        "integer_leaves": 1149,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 575
+        },
+        "account_current_order_type": {
+          "absent": 575
+        },
+        "account_fraud_user": {
+          "absent": 575
+        },
+        "arr": {
+          "absent": 0,
+          "integer": 383,
+          "nonempty_string": 192
+        },
+        "billing_binded_package_id": {
+          "absent": 575
+        },
+        "billing_cluster_id": {
+          "absent": 575
+        },
+        "billing_cluster_name": {
+          "absent": 575
+        },
+        "billing_config_tenant_id": {
+          "absent": 575
+        },
+        "billing_consumed_source": {
+          "absent": 575
+        },
+        "billing_cost_price": {
+          "absent": 575
+        },
+        "billing_cost_unit_num": {
+          "absent": 575
+        },
+        "billing_internal_tag": {
+          "absent": 575
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 575
+        },
+        "billing_labels": {
+          "absent": 575
+        },
+        "billing_project_id": {
+          "absent": 575
+        },
+        "billing_project_name": {
+          "absent": 575
+        },
+        "billing_raw_price": {
+          "absent": 575
+        },
+        "billing_sales_chanel": {
+          "absent": 575
+        },
+        "billing_status": {
+          "absent": 575
+        },
+        "billing_tenant_id": {
+          "absent": 575
+        },
+        "billing_unit": {
+          "absent": 575
+        },
+        "binded_billing_config_id": {
+          "absent": 575
+        },
+        "cluster_created_at": {
+          "absent": 575
+        },
+        "cluster_deploy_type": {
+          "absent": 575
+        },
+        "cluster_provider_name": {
+          "absent": 575
+        },
+        "cluster_status": {
+          "absent": 575
+        },
+        "credit_closed_reason": {
+          "absent": 575
+        },
+        "credit_type": {
+          "absent": 575
+        },
+        "credit_usage": {
+          "absent": 575
+        },
+        "monthly_cost": {
+          "absent": 0,
+          "integer": 391,
+          "nonempty_string": 184
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 0,
+          "integer": 375,
+          "nonempty_string": 200
+        },
+        "msp_parent_tenant_id": {
+          "absent": 575
+        },
+        "msp_parent_tenant_region": {
+          "absent": 575
+        },
+        "tenant_created_at": {
+          "absent": 575
+        },
+        "tenant_customer_id": {
+          "absent": 575
+        },
+        "tenant_email": {
+          "absent": 575
+        },
+        "tenant_id": {
+          "absent": 25,
+          "nonempty_string": 550
+        },
+        "tenant_in_salesforce": {
+          "absent": 575
+        },
+        "tenant_internal_user": {
+          "absent": 575
+        },
+        "tenant_lead_id": {
+          "absent": 575
+        },
+        "tenant_name": {
+          "absent": 25,
+          "nonempty_string": 550
+        },
+        "tenant_name_origin": {
+          "absent": 575
+        },
+        "tenant_plan": {
+          "absent": 575
+        },
+        "tenant_region": {
+          "absent": 575
+        },
+        "tenant_segmentation": {
+          "absent": 575
+        },
+        "tenant_status": {
+          "absent": 575
+        },
+        "tenant_third_party_account_code": {
+          "absent": 575
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 575
+        },
+        "unit_category": {
+          "absent": 575
+        },
+        "unit_category_business_type": {
+          "absent": 575
+        },
+        "unit_description": {
+          "absent": 575
+        },
+        "unit_provider": {
+          "absent": 575
+        },
+        "unit_region": {
+          "absent": 575
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 0,
+        "present_field_row_observations": 0,
+        "presence_state_field_row_counts": {
+          "absent": 0,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 0,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 25,
+            "admitted_literal_string": 550
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 528,
+          "maximum_occurrences": 25,
+          "repeated_literal_hashes": 22,
+          "row_observations": 550
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 575
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 575
+        },
+        "syntax_rows": {
+          "yyyy_mm": 575
+        },
+        "distinct_literal_hashes": 25,
+        "excess_occurrences": 550,
+        "maximum_occurrences": 23,
+        "repeated_literal_hashes": 25,
+        "row_observations": 575
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 550,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 1,
+          "repeated_pairs": 0,
+          "row_observations": 550
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 575
+        },
+        "account_fraud_user": {
+          "absent": 575
+        },
+        "billing_status": {
+          "absent": 575
+        },
+        "cluster_status": {
+          "absent": 575
+        },
+        "tenant_in_salesforce": {
+          "absent": 575
+        },
+        "tenant_internal_user": {
+          "absent": 575
+        },
+        "tenant_status": {
+          "absent": 575
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "integer": 383,
+          "json_fractional_or_exponent_string": 192
+        },
+        "billing_cost_price": {
+          "absent": 575
+        },
+        "billing_cost_unit_num": {
+          "absent": 575
+        },
+        "billing_raw_price": {
+          "absent": 575
+        },
+        "credit_usage": {
+          "absent": 575
+        },
+        "monthly_cost": {
+          "integer": 391,
+          "json_fractional_or_exponent_string": 184
+        },
+        "moving_3_month_avg_cost": {
+          "integer": 375,
+          "json_fractional_or_exponent_string": 200
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 575
+        },
+        "tenant_created_at": {
+          "absent": 575
+        }
+      }
+    },
+    "BQMSPM004": {
+      "batch": "group",
+      "namespace": "model_dbaas_billing",
+      "distinct_raw_lines": 4178,
+      "distinct_typed_full_record_versions": 4178,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_typed_record_occurrences": 0,
+      "repeated_typed_full_record_versions": 0,
+      "rows": 4178,
+      "numeric_leaf_counts": {
+        "integer_leaves": 516,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 1148,
+          "nonempty_string": 3030
+        },
+        "account_current_order_type": {
+          "absent": 4178
+        },
+        "account_fraud_user": {
+          "absent": 1917,
+          "nonempty_string": 2261
+        },
+        "arr": {
+          "absent": 4178
+        },
+        "billing_binded_package_id": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_cluster_id": {
+          "absent": 4178
+        },
+        "billing_cluster_name": {
+          "absent": 4178
+        },
+        "billing_config_tenant_id": {
+          "absent": 4178
+        },
+        "billing_consumed_source": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_cost_price": {
+          "absent": 0,
+          "integer": 261,
+          "nonempty_string": 3917
+        },
+        "billing_cost_unit_num": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_internal_tag": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_labels": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_project_id": {
+          "absent": 4178
+        },
+        "billing_project_name": {
+          "absent": 4178
+        },
+        "billing_raw_price": {
+          "absent": 0,
+          "integer": 255,
+          "nonempty_string": 3923
+        },
+        "billing_sales_chanel": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_status": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_tenant_id": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "billing_unit": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "binded_billing_config_id": {
+          "absent": 4178
+        },
+        "cluster_created_at": {
+          "absent": 4178
+        },
+        "cluster_deploy_type": {
+          "absent": 4178
+        },
+        "cluster_provider_name": {
+          "absent": 4178
+        },
+        "cluster_status": {
+          "absent": 4178
+        },
+        "credit_closed_reason": {
+          "absent": 3908,
+          "nonempty_string": 270
+        },
+        "credit_type": {
+          "absent": 3908,
+          "empty_string": 270
+        },
+        "credit_usage": {
+          "absent": 3908,
+          "nonempty_string": 270
+        },
+        "monthly_cost": {
+          "absent": 4178
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 4178
+        },
+        "msp_parent_tenant_id": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "msp_parent_tenant_region": {
+          "absent": 4178
+        },
+        "tenant_created_at": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_customer_id": {
+          "absent": 1148,
+          "nonempty_string": 3030
+        },
+        "tenant_email": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_id": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_in_salesforce": {
+          "absent": 147,
+          "boolean": 4031
+        },
+        "tenant_internal_user": {
+          "absent": 147,
+          "boolean": 4031
+        },
+        "tenant_lead_id": {
+          "absent": 206,
+          "nonempty_string": 3972
+        },
+        "tenant_name": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_name_origin": {
+          "absent": 4178
+        },
+        "tenant_plan": {
+          "absent": 206,
+          "nonempty_string": 3972
+        },
+        "tenant_region": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_segmentation": {
+          "absent": 1148,
+          "nonempty_string": 3030
+        },
+        "tenant_status": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_third_party_account_code": {
+          "absent": 4178
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 4178
+        },
+        "unit_category": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "unit_category_business_type": {
+          "absent": 6,
+          "nonempty_string": 4172
+        },
+        "unit_description": {
+          "absent": 0,
+          "empty_string": 216,
+          "nonempty_string": 3962
+        },
+        "unit_provider": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "unit_region": {
+          "absent": 0,
+          "empty_string": 495,
+          "nonempty_string": 3683
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 0,
+        "present_field_row_observations": 0,
+        "presence_state_field_row_counts": {
+          "absent": 0,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 0,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 147,
+            "admitted_literal_string": 4031
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 4009,
+          "maximum_occurrences": 1011,
+          "repeated_literal_hashes": 20,
+          "row_observations": 4031
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 147,
+            "admitted_literal_string": 4031
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 4009,
+          "maximum_occurrences": 1011,
+          "repeated_literal_hashes": 20,
+          "row_observations": 4031
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 147,
+            "admitted_literal_string": 4031
+          },
+          "distinct_literal_hashes": 3,
+          "excess_occurrences": 4028,
+          "maximum_occurrences": 4016,
+          "repeated_literal_hashes": 3,
+          "row_observations": 4031
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 4178
+        },
+        "syntax_rows": {
+          "yyyy_mm": 4178
+        },
+        "distinct_literal_hashes": 25,
+        "excess_occurrences": 4153,
+        "maximum_occurrences": 350,
+        "repeated_literal_hashes": 25,
+        "row_observations": 4178
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 3847,
+          "maximum_pair_occurrences": 98,
+          "repeated_pairs": 182,
+          "row_observations": 4031
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 3847,
+          "maximum_pair_occurrences": 98,
+          "repeated_pairs": 182,
+          "row_observations": 4031
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 24,
+          "excess_pair_occurrences": 4007,
+          "maximum_pair_occurrences": 342,
+          "repeated_pairs": 24,
+          "row_observations": 4031
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 1148,
+          "other_nonempty_string": 3030
+        },
+        "account_fraud_user": {
+          "absent": 1917,
+          "other_nonempty_string": 2261
+        },
+        "billing_status": {
+          "other_nonempty_string": 4178
+        },
+        "cluster_status": {
+          "absent": 4178
+        },
+        "tenant_in_salesforce": {
+          "absent": 147,
+          "boolean_true": 4031
+        },
+        "tenant_internal_user": {
+          "absent": 147,
+          "boolean_false": 4017,
+          "boolean_true": 14
+        },
+        "tenant_status": {
+          "absent": 147,
+          "other_nonempty_string": 4031
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "absent": 4178
+        },
+        "billing_cost_price": {
+          "integer": 261,
+          "json_fractional_or_exponent_string": 3917
+        },
+        "billing_cost_unit_num": {
+          "json_integer_string": 4178
+        },
+        "billing_raw_price": {
+          "integer": 255,
+          "json_fractional_or_exponent_string": 3923
+        },
+        "credit_usage": {
+          "absent": 3908,
+          "other_nonempty_string": 270
+        },
+        "monthly_cost": {
+          "absent": 4178
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 4178
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 4178
+        },
+        "tenant_created_at": {
+          "absent": 147,
+          "other_nonempty_string": 4031
+        }
+      }
+    },
+    "BQMSPM005": {
+      "batch": "group",
+      "namespace": "model_msp_subclient_billing",
+      "distinct_raw_lines": 28198,
+      "distinct_typed_full_record_versions": 28198,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_typed_record_occurrences": 0,
+      "repeated_typed_full_record_versions": 0,
+      "rows": 28198,
+      "numeric_leaf_counts": {
+        "integer_leaves": 1764,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 2573,
+          "nonempty_string": 25625
+        },
+        "account_current_order_type": {
+          "absent": 3193,
+          "empty_string": 24833,
+          "nonempty_string": 172
+        },
+        "account_fraud_user": {
+          "absent": 3193,
+          "empty_string": 21330,
+          "nonempty_string": 3675
+        },
+        "arr": {
+          "absent": 28198
+        },
+        "billing_binded_package_id": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_cluster_id": {
+          "absent": 28198
+        },
+        "billing_cluster_name": {
+          "absent": 28198
+        },
+        "billing_config_tenant_id": {
+          "absent": 28198
+        },
+        "billing_consumed_source": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_cost_price": {
+          "absent": 0,
+          "integer": 885,
+          "nonempty_string": 27313
+        },
+        "billing_cost_unit_num": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_internal_tag": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_labels": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_project_id": {
+          "absent": 28198
+        },
+        "billing_project_name": {
+          "absent": 28198
+        },
+        "billing_raw_price": {
+          "absent": 0,
+          "integer": 879,
+          "nonempty_string": 27319
+        },
+        "billing_sales_chanel": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_status": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "billing_tenant_id": {
+          "absent": 209,
+          "nonempty_string": 27989
+        },
+        "billing_unit": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "binded_billing_config_id": {
+          "absent": 28198
+        },
+        "cluster_created_at": {
+          "absent": 28198
+        },
+        "cluster_deploy_type": {
+          "absent": 28198
+        },
+        "cluster_provider_name": {
+          "absent": 28198
+        },
+        "cluster_status": {
+          "absent": 28198
+        },
+        "credit_closed_reason": {
+          "absent": 12090,
+          "empty_string": 15554,
+          "nonempty_string": 554
+        },
+        "credit_type": {
+          "absent": 12090,
+          "empty_string": 16108
+        },
+        "credit_usage": {
+          "absent": 12090,
+          "nonempty_string": 16108
+        },
+        "monthly_cost": {
+          "absent": 28198
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 28198
+        },
+        "msp_parent_tenant_id": {
+          "absent": 212,
+          "nonempty_string": 27986
+        },
+        "msp_parent_tenant_region": {
+          "absent": 28198
+        },
+        "tenant_created_at": {
+          "absent": 209,
+          "nonempty_string": 27989
+        },
+        "tenant_customer_id": {
+          "absent": 2573,
+          "nonempty_string": 25625
+        },
+        "tenant_email": {
+          "absent": 209,
+          "empty_string": 112,
+          "nonempty_string": 27877
+        },
+        "tenant_id": {
+          "absent": 209,
+          "nonempty_string": 27989
+        },
+        "tenant_in_salesforce": {
+          "absent": 209,
+          "boolean": 27989
+        },
+        "tenant_internal_user": {
+          "absent": 209,
+          "boolean": 27989
+        },
+        "tenant_lead_id": {
+          "absent": 209,
+          "empty_string": 112,
+          "nonempty_string": 27877
+        },
+        "tenant_name": {
+          "absent": 209,
+          "nonempty_string": 27989
+        },
+        "tenant_name_origin": {
+          "absent": 28198
+        },
+        "tenant_plan": {
+          "absent": 28198
+        },
+        "tenant_region": {
+          "absent": 209,
+          "nonempty_string": 27989
+        },
+        "tenant_segmentation": {
+          "absent": 2573,
+          "nonempty_string": 25625
+        },
+        "tenant_status": {
+          "absent": 209,
+          "empty_string": 26434,
+          "nonempty_string": 1555
+        },
+        "tenant_third_party_account_code": {
+          "absent": 28198
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 28198
+        },
+        "unit_category": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "unit_category_business_type": {
+          "absent": 955,
+          "nonempty_string": 27243
+        },
+        "unit_description": {
+          "absent": 0,
+          "empty_string": 311,
+          "nonempty_string": 27887
+        },
+        "unit_provider": {
+          "absent": 0,
+          "nonempty_string": 28198
+        },
+        "unit_region": {
+          "absent": 0,
+          "empty_string": 557,
+          "nonempty_string": 27641
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 0,
+        "present_field_row_observations": 0,
+        "presence_state_field_row_counts": {
+          "absent": 0,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 0,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 209,
+            "admitted_literal_string": 27989
+          },
+          "distinct_literal_hashes": 50,
+          "excess_occurrences": 27939,
+          "maximum_occurrences": 19625,
+          "repeated_literal_hashes": 48,
+          "row_observations": 27989
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 209,
+            "admitted_literal_string": 27989
+          },
+          "distinct_literal_hashes": 50,
+          "excess_occurrences": 27939,
+          "maximum_occurrences": 19625,
+          "repeated_literal_hashes": 48,
+          "row_observations": 27989
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "absent": 28198
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 212,
+            "admitted_literal_string": 27986
+          },
+          "distinct_literal_hashes": 6,
+          "excess_occurrences": 27980,
+          "maximum_occurrences": 20741,
+          "repeated_literal_hashes": 6,
+          "row_observations": 27986
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "absent": 28198
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 28198
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 28198
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 28198
+        },
+        "syntax_rows": {
+          "yyyy_mm": 28198
+        },
+        "distinct_literal_hashes": 33,
+        "excess_occurrences": 28165,
+        "maximum_occurrences": 12045,
+        "repeated_literal_hashes": 33,
+        "row_observations": 28198
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 336,
+          "excess_pair_occurrences": 27653,
+          "maximum_pair_occurrences": 11103,
+          "repeated_pairs": 334,
+          "row_observations": 27989
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 336,
+          "excess_pair_occurrences": 27653,
+          "maximum_pair_occurrences": 11103,
+          "repeated_pairs": 334,
+          "row_observations": 27989
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 38,
+          "excess_pair_occurrences": 27948,
+          "maximum_pair_occurrences": 11318,
+          "repeated_pairs": 38,
+          "row_observations": 27986
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 2573,
+          "other_nonempty_string": 25625
+        },
+        "account_fraud_user": {
+          "absent": 3193,
+          "empty_string": 21330,
+          "other_nonempty_string": 3675
+        },
+        "billing_status": {
+          "other_nonempty_string": 28198
+        },
+        "cluster_status": {
+          "absent": 28198
+        },
+        "tenant_in_salesforce": {
+          "absent": 209,
+          "boolean_true": 27989
+        },
+        "tenant_internal_user": {
+          "absent": 209,
+          "boolean_false": 27975,
+          "boolean_true": 14
+        },
+        "tenant_status": {
+          "absent": 209,
+          "empty_string": 26434,
+          "other_nonempty_string": 1555
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "absent": 28198
+        },
+        "billing_cost_price": {
+          "integer": 885,
+          "json_fractional_or_exponent_string": 27313
+        },
+        "billing_cost_unit_num": {
+          "json_integer_string": 28198
+        },
+        "billing_raw_price": {
+          "integer": 879,
+          "json_fractional_or_exponent_string": 27319
+        },
+        "credit_usage": {
+          "absent": 12090,
+          "other_nonempty_string": 16108
+        },
+        "monthly_cost": {
+          "absent": 28198
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 28198
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 28198
+        },
+        "tenant_created_at": {
+          "absent": 209,
+          "other_nonempty_string": 27989
+        }
+      }
+    },
+    "BQMSPM006": {
+      "batch": "group",
+      "namespace": "model_tidbcloud",
+      "distinct_raw_lines": 4178,
+      "distinct_typed_full_record_versions": 4178,
+      "duplicate_raw_line_occurrences": 0,
+      "duplicate_typed_record_occurrences": 0,
+      "repeated_typed_full_record_versions": 0,
+      "rows": 4178,
+      "numeric_leaf_counts": {
+        "integer_leaves": 516,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 1148,
+          "nonempty_string": 3030
+        },
+        "account_current_order_type": {
+          "absent": 4178
+        },
+        "account_fraud_user": {
+          "absent": 1917,
+          "nonempty_string": 2261
+        },
+        "arr": {
+          "absent": 4178
+        },
+        "billing_binded_package_id": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_cluster_id": {
+          "absent": 4178
+        },
+        "billing_cluster_name": {
+          "absent": 4178
+        },
+        "billing_config_tenant_id": {
+          "absent": 4178
+        },
+        "billing_consumed_source": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_cost_price": {
+          "absent": 0,
+          "integer": 261,
+          "nonempty_string": 3917
+        },
+        "billing_cost_unit_num": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_internal_tag": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_labels": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_project_id": {
+          "absent": 4178
+        },
+        "billing_project_name": {
+          "absent": 4178
+        },
+        "billing_raw_price": {
+          "absent": 0,
+          "integer": 255,
+          "nonempty_string": 3923
+        },
+        "billing_sales_chanel": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_status": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "billing_tenant_id": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "billing_unit": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "binded_billing_config_id": {
+          "absent": 4178
+        },
+        "cluster_created_at": {
+          "absent": 4178
+        },
+        "cluster_deploy_type": {
+          "absent": 4178
+        },
+        "cluster_provider_name": {
+          "absent": 4178
+        },
+        "cluster_status": {
+          "absent": 4178
+        },
+        "credit_closed_reason": {
+          "absent": 3908,
+          "nonempty_string": 270
+        },
+        "credit_type": {
+          "absent": 3908,
+          "empty_string": 270
+        },
+        "credit_usage": {
+          "absent": 3908,
+          "nonempty_string": 270
+        },
+        "monthly_cost": {
+          "absent": 4178
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 4178
+        },
+        "msp_parent_tenant_id": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "msp_parent_tenant_region": {
+          "absent": 4178
+        },
+        "tenant_created_at": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_customer_id": {
+          "absent": 1148,
+          "nonempty_string": 3030
+        },
+        "tenant_email": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_id": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_in_salesforce": {
+          "absent": 147,
+          "boolean": 4031
+        },
+        "tenant_internal_user": {
+          "absent": 147,
+          "boolean": 4031
+        },
+        "tenant_lead_id": {
+          "absent": 206,
+          "nonempty_string": 3972
+        },
+        "tenant_name": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_name_origin": {
+          "absent": 4178
+        },
+        "tenant_plan": {
+          "absent": 206,
+          "nonempty_string": 3972
+        },
+        "tenant_region": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_segmentation": {
+          "absent": 1148,
+          "nonempty_string": 3030
+        },
+        "tenant_status": {
+          "absent": 147,
+          "nonempty_string": 4031
+        },
+        "tenant_third_party_account_code": {
+          "absent": 4178
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 4178
+        },
+        "unit_category": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "unit_category_business_type": {
+          "absent": 6,
+          "nonempty_string": 4172
+        },
+        "unit_description": {
+          "absent": 0,
+          "empty_string": 216,
+          "nonempty_string": 3962
+        },
+        "unit_provider": {
+          "absent": 0,
+          "nonempty_string": 4178
+        },
+        "unit_region": {
+          "absent": 0,
+          "empty_string": 495,
+          "nonempty_string": 3683
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 0,
+        "present_field_row_observations": 0,
+        "presence_state_field_row_counts": {
+          "absent": 0,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 0,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 147,
+            "admitted_literal_string": 4031
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 4009,
+          "maximum_occurrences": 1011,
+          "repeated_literal_hashes": 20,
+          "row_observations": 4031
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 147,
+            "admitted_literal_string": 4031
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 4009,
+          "maximum_occurrences": 1011,
+          "repeated_literal_hashes": 20,
+          "row_observations": 4031
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 147,
+            "admitted_literal_string": 4031
+          },
+          "distinct_literal_hashes": 3,
+          "excess_occurrences": 4028,
+          "maximum_occurrences": 4016,
+          "repeated_literal_hashes": 3,
+          "row_observations": 4031
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 4178
+          },
+          "distinct_literal_hashes": 0,
+          "excess_occurrences": 0,
+          "maximum_occurrences": 0,
+          "repeated_literal_hashes": 0,
+          "row_observations": 0
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 4178
+        },
+        "syntax_rows": {
+          "yyyy_mm": 4178
+        },
+        "distinct_literal_hashes": 25,
+        "excess_occurrences": 4153,
+        "maximum_occurrences": 350,
+        "repeated_literal_hashes": 25,
+        "row_observations": 4178
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 3847,
+          "maximum_pair_occurrences": 98,
+          "repeated_pairs": 182,
+          "row_observations": 4031
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 3847,
+          "maximum_pair_occurrences": 98,
+          "repeated_pairs": 182,
+          "row_observations": 4031
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 24,
+          "excess_pair_occurrences": 4007,
+          "maximum_pair_occurrences": 342,
+          "repeated_pairs": 24,
+          "row_observations": 4031
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        },
+        "billing_project_id": {
+          "distinct_pairs": 0,
+          "excess_pair_occurrences": 0,
+          "maximum_pair_occurrences": 0,
+          "repeated_pairs": 0,
+          "row_observations": 0
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 1148,
+          "other_nonempty_string": 3030
+        },
+        "account_fraud_user": {
+          "absent": 1917,
+          "other_nonempty_string": 2261
+        },
+        "billing_status": {
+          "other_nonempty_string": 4178
+        },
+        "cluster_status": {
+          "absent": 4178
+        },
+        "tenant_in_salesforce": {
+          "absent": 147,
+          "boolean_true": 4031
+        },
+        "tenant_internal_user": {
+          "absent": 147,
+          "boolean_false": 4017,
+          "boolean_true": 14
+        },
+        "tenant_status": {
+          "absent": 147,
+          "other_nonempty_string": 4031
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "absent": 4178
+        },
+        "billing_cost_price": {
+          "integer": 261,
+          "json_fractional_or_exponent_string": 3917
+        },
+        "billing_cost_unit_num": {
+          "json_integer_string": 4178
+        },
+        "billing_raw_price": {
+          "integer": 255,
+          "json_fractional_or_exponent_string": 3923
+        },
+        "credit_usage": {
+          "absent": 3908,
+          "other_nonempty_string": 270
+        },
+        "monthly_cost": {
+          "absent": 4178
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 4178
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 4178
+        },
+        "tenant_created_at": {
+          "absent": 147,
+          "other_nonempty_string": 4031
+        }
+      }
+    },
+    "BQMSPM007": {
+      "batch": "distribution",
+      "namespace": "model_dbaas_billing",
+      "distinct_raw_lines": 28764,
+      "distinct_typed_full_record_versions": 28764,
+      "duplicate_raw_line_occurrences": 42796,
+      "duplicate_typed_record_occurrences": 42796,
+      "repeated_typed_full_record_versions": 4196,
+      "rows": 71560,
+      "numeric_leaf_counts": {
+        "integer_leaves": 3899,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 16713,
+          "nonempty_string": 54847
+        },
+        "account_current_order_type": {
+          "absent": 71560
+        },
+        "account_fraud_user": {
+          "absent": 31227,
+          "nonempty_string": 40333
+        },
+        "arr": {
+          "absent": 71560
+        },
+        "billing_binded_package_id": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_cluster_id": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "billing_cluster_name": {
+          "absent": 50729,
+          "nonempty_string": 20831
+        },
+        "billing_config_tenant_id": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_consumed_source": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_cost_price": {
+          "absent": 0,
+          "integer": 1967,
+          "nonempty_string": 69593
+        },
+        "billing_cost_unit_num": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_internal_tag": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_labels": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_project_id": {
+          "absent": 782,
+          "nonempty_string": 70778
+        },
+        "billing_project_name": {
+          "absent": 35719,
+          "nonempty_string": 35841
+        },
+        "billing_raw_price": {
+          "absent": 0,
+          "integer": 1932,
+          "nonempty_string": 69628
+        },
+        "billing_sales_chanel": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_status": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_tenant_id": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "billing_unit": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "binded_billing_config_id": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "cluster_created_at": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "cluster_deploy_type": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "cluster_provider_name": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "cluster_status": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "credit_closed_reason": {
+          "absent": 69691,
+          "nonempty_string": 1869
+        },
+        "credit_type": {
+          "absent": 69691,
+          "empty_string": 1869
+        },
+        "credit_usage": {
+          "absent": 69691,
+          "nonempty_string": 1869
+        },
+        "monthly_cost": {
+          "absent": 71560
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 71560
+        },
+        "msp_parent_tenant_id": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "msp_parent_tenant_region": {
+          "absent": 71560
+        },
+        "tenant_created_at": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_customer_id": {
+          "absent": 16713,
+          "nonempty_string": 54847
+        },
+        "tenant_email": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_id": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_in_salesforce": {
+          "absent": 779,
+          "boolean": 70781
+        },
+        "tenant_internal_user": {
+          "absent": 779,
+          "boolean": 70781
+        },
+        "tenant_lead_id": {
+          "absent": 1379,
+          "nonempty_string": 70181
+        },
+        "tenant_name": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_name_origin": {
+          "absent": 71560
+        },
+        "tenant_plan": {
+          "absent": 1379,
+          "nonempty_string": 70181
+        },
+        "tenant_region": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_segmentation": {
+          "absent": 16713,
+          "nonempty_string": 54847
+        },
+        "tenant_status": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_third_party_account_code": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "unit_category": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "unit_category_business_type": {
+          "absent": 35,
+          "nonempty_string": 71525
+        },
+        "unit_description": {
+          "absent": 0,
+          "empty_string": 2448,
+          "nonempty_string": 69112
+        },
+        "unit_provider": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "unit_region": {
+          "absent": 0,
+          "empty_string": 8510,
+          "nonempty_string": 63050
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 3,
+        "present_field_row_observations": 17391,
+        "presence_state_field_row_counts": {
+          "absent": 197289,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 17391,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 779,
+            "admitted_literal_string": 70781
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 70759,
+          "maximum_occurrences": 20036,
+          "repeated_literal_hashes": 21,
+          "row_observations": 70781
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 779,
+            "admitted_literal_string": 70781
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 70759,
+          "maximum_occurrences": 20036,
+          "repeated_literal_hashes": 21,
+          "row_observations": 70781
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "admitted_literal_string": 71560
+          },
+          "distinct_literal_hashes": 7,
+          "excess_occurrences": 71553,
+          "maximum_occurrences": 71421,
+          "repeated_literal_hashes": 7,
+          "row_observations": 71560
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 779,
+            "admitted_literal_string": 70781
+          },
+          "distinct_literal_hashes": 3,
+          "excess_occurrences": 70778,
+          "maximum_occurrences": 70765,
+          "repeated_literal_hashes": 3,
+          "row_observations": 70781
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "admitted_literal_string": 71560
+          },
+          "distinct_literal_hashes": 7,
+          "excess_occurrences": 71553,
+          "maximum_occurrences": 71421,
+          "repeated_literal_hashes": 7,
+          "row_observations": 71560
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 8493,
+            "admitted_literal_string": 63067
+          },
+          "distinct_literal_hashes": 107,
+          "excess_occurrences": 62960,
+          "maximum_occurrences": 4731,
+          "repeated_literal_hashes": 90,
+          "row_observations": 63067
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 782,
+            "admitted_literal_string": 70778
+          },
+          "distinct_literal_hashes": 32,
+          "excess_occurrences": 70746,
+          "maximum_occurrences": 17426,
+          "repeated_literal_hashes": 32,
+          "row_observations": 70778
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 71560
+        },
+        "syntax_rows": {
+          "yyyy_mm": 71560
+        },
+        "distinct_literal_hashes": 25,
+        "excess_occurrences": 71535,
+        "maximum_occurrences": 5159,
+        "repeated_literal_hashes": 25,
+        "row_observations": 71560
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 70597,
+          "maximum_pair_occurrences": 1462,
+          "repeated_pairs": 183,
+          "row_observations": 70781
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 70597,
+          "maximum_pair_occurrences": 1462,
+          "repeated_pairs": 183,
+          "row_observations": 70781
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 143,
+          "excess_pair_occurrences": 71417,
+          "maximum_pair_occurrences": 5153,
+          "repeated_pairs": 24,
+          "row_observations": 71560
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 24,
+          "excess_pair_occurrences": 70757,
+          "maximum_pair_occurrences": 5122,
+          "repeated_pairs": 24,
+          "row_observations": 70781
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 143,
+          "excess_pair_occurrences": 71417,
+          "maximum_pair_occurrences": 5153,
+          "repeated_pairs": 24,
+          "row_observations": 71560
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 559,
+          "excess_pair_occurrences": 62508,
+          "maximum_pair_occurrences": 427,
+          "repeated_pairs": 542,
+          "row_observations": 63067
+        },
+        "billing_project_id": {
+          "distinct_pairs": 267,
+          "excess_pair_occurrences": 70511,
+          "maximum_pair_occurrences": 1307,
+          "repeated_pairs": 266,
+          "row_observations": 70778
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 16713,
+          "other_nonempty_string": 54847
+        },
+        "account_fraud_user": {
+          "absent": 31227,
+          "other_nonempty_string": 40333
+        },
+        "billing_status": {
+          "other_nonempty_string": 71560
+        },
+        "cluster_status": {
+          "absent": 8493,
+          "other_nonempty_string": 63067
+        },
+        "tenant_in_salesforce": {
+          "absent": 779,
+          "boolean_true": 70781
+        },
+        "tenant_internal_user": {
+          "absent": 779,
+          "boolean_false": 70766,
+          "boolean_true": 15
+        },
+        "tenant_status": {
+          "absent": 779,
+          "other_nonempty_string": 70781
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "absent": 71560
+        },
+        "billing_cost_price": {
+          "integer": 1967,
+          "json_fractional_or_exponent_string": 69593
+        },
+        "billing_cost_unit_num": {
+          "json_integer_string": 71560
+        },
+        "billing_raw_price": {
+          "integer": 1932,
+          "json_fractional_or_exponent_string": 69628
+        },
+        "credit_usage": {
+          "absent": 69691,
+          "other_nonempty_string": 1869
+        },
+        "monthly_cost": {
+          "absent": 71560
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 71560
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 8493,
+          "other_nonempty_string": 63067
+        },
+        "tenant_created_at": {
+          "absent": 779,
+          "other_nonempty_string": 70781
+        }
+      }
+    },
+    "BQMSPM008": {
+      "batch": "distribution",
+      "namespace": "model_msp_subclient_billing",
+      "distinct_raw_lines": 85040,
+      "distinct_typed_full_record_versions": 85040,
+      "duplicate_raw_line_occurrences": 89953,
+      "duplicate_typed_record_occurrences": 89953,
+      "repeated_typed_full_record_versions": 16041,
+      "rows": 174993,
+      "numeric_leaf_counts": {
+        "integer_leaves": 11911,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 29190,
+          "nonempty_string": 145803
+        },
+        "account_current_order_type": {
+          "absent": 31732,
+          "empty_string": 142951,
+          "nonempty_string": 310
+        },
+        "account_fraud_user": {
+          "absent": 31732,
+          "empty_string": 73443,
+          "nonempty_string": 69818
+        },
+        "arr": {
+          "absent": 174993
+        },
+        "billing_binded_package_id": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_cluster_id": {
+          "absent": 10532,
+          "nonempty_string": 164461
+        },
+        "billing_cluster_name": {
+          "absent": 147454,
+          "nonempty_string": 27539
+        },
+        "billing_config_tenant_id": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_consumed_source": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_cost_price": {
+          "absent": 0,
+          "integer": 5973,
+          "nonempty_string": 169020
+        },
+        "billing_cost_unit_num": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_internal_tag": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_labels": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_project_id": {
+          "absent": 53855,
+          "nonempty_string": 121138
+        },
+        "billing_project_name": {
+          "absent": 132594,
+          "nonempty_string": 42399
+        },
+        "billing_raw_price": {
+          "absent": 0,
+          "integer": 5938,
+          "nonempty_string": 169055
+        },
+        "billing_sales_chanel": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_status": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "billing_tenant_id": {
+          "absent": 1207,
+          "nonempty_string": 173786
+        },
+        "billing_unit": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "binded_billing_config_id": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "cluster_created_at": {
+          "absent": 62952,
+          "nonempty_string": 112041
+        },
+        "cluster_deploy_type": {
+          "absent": 62952,
+          "nonempty_string": 112041
+        },
+        "cluster_provider_name": {
+          "absent": 62952,
+          "nonempty_string": 112041
+        },
+        "cluster_status": {
+          "absent": 62952,
+          "nonempty_string": 112041
+        },
+        "credit_closed_reason": {
+          "absent": 133431,
+          "empty_string": 38634,
+          "nonempty_string": 2928
+        },
+        "credit_type": {
+          "absent": 133431,
+          "empty_string": 41562
+        },
+        "credit_usage": {
+          "absent": 133431,
+          "nonempty_string": 41562
+        },
+        "monthly_cost": {
+          "absent": 174993
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 174993
+        },
+        "msp_parent_tenant_id": {
+          "absent": 1213,
+          "nonempty_string": 173780
+        },
+        "msp_parent_tenant_region": {
+          "absent": 174993
+        },
+        "tenant_created_at": {
+          "absent": 1207,
+          "nonempty_string": 173786
+        },
+        "tenant_customer_id": {
+          "absent": 29190,
+          "nonempty_string": 145803
+        },
+        "tenant_email": {
+          "absent": 1207,
+          "empty_string": 1719,
+          "nonempty_string": 172067
+        },
+        "tenant_id": {
+          "absent": 1207,
+          "nonempty_string": 173786
+        },
+        "tenant_in_salesforce": {
+          "absent": 1207,
+          "boolean": 173786
+        },
+        "tenant_internal_user": {
+          "absent": 1207,
+          "boolean": 173786
+        },
+        "tenant_lead_id": {
+          "absent": 1207,
+          "empty_string": 1719,
+          "nonempty_string": 172067
+        },
+        "tenant_name": {
+          "absent": 1207,
+          "nonempty_string": 173786
+        },
+        "tenant_name_origin": {
+          "absent": 174993
+        },
+        "tenant_plan": {
+          "absent": 174993
+        },
+        "tenant_region": {
+          "absent": 1207,
+          "nonempty_string": 173786
+        },
+        "tenant_segmentation": {
+          "absent": 29190,
+          "nonempty_string": 145803
+        },
+        "tenant_status": {
+          "absent": 1207,
+          "empty_string": 159243,
+          "nonempty_string": 14543
+        },
+        "tenant_third_party_account_code": {
+          "absent": 1213,
+          "nonempty_string": 173780
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 1213,
+          "empty_string": 6711,
+          "nonempty_string": 167069
+        },
+        "unit_category": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "unit_category_business_type": {
+          "absent": 1929,
+          "nonempty_string": 173064
+        },
+        "unit_description": {
+          "absent": 0,
+          "empty_string": 3665,
+          "nonempty_string": 171328
+        },
+        "unit_provider": {
+          "absent": 0,
+          "nonempty_string": 174993
+        },
+        "unit_region": {
+          "absent": 0,
+          "empty_string": 8938,
+          "nonempty_string": 166055
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 3,
+        "present_field_row_observations": 28398,
+        "presence_state_field_row_counts": {
+          "absent": 496581,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 28398,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 1207,
+            "admitted_literal_string": 173786
+          },
+          "distinct_literal_hashes": 50,
+          "excess_occurrences": 173736,
+          "maximum_occurrences": 51256,
+          "repeated_literal_hashes": 49,
+          "row_observations": 173786
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 1207,
+            "admitted_literal_string": 173786
+          },
+          "distinct_literal_hashes": 50,
+          "excess_occurrences": 173736,
+          "maximum_occurrences": 51256,
+          "repeated_literal_hashes": 49,
+          "row_observations": 173786
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "admitted_literal_string": 174993
+          },
+          "distinct_literal_hashes": 10,
+          "excess_occurrences": 174983,
+          "maximum_occurrences": 119407,
+          "repeated_literal_hashes": 10,
+          "row_observations": 174993
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 1213,
+            "admitted_literal_string": 173780
+          },
+          "distinct_literal_hashes": 6,
+          "excess_occurrences": 173774,
+          "maximum_occurrences": 118504,
+          "repeated_literal_hashes": 6,
+          "row_observations": 173780
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "admitted_literal_string": 174993
+          },
+          "distinct_literal_hashes": 10,
+          "excess_occurrences": 174983,
+          "maximum_occurrences": 119407,
+          "repeated_literal_hashes": 10,
+          "row_observations": 174993
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 10532,
+            "admitted_literal_string": 164461
+          },
+          "distinct_literal_hashes": 314,
+          "excess_occurrences": 164147,
+          "maximum_occurrences": 48151,
+          "repeated_literal_hashes": 284,
+          "row_observations": 164461
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 53855,
+            "admitted_literal_string": 121138
+          },
+          "distinct_literal_hashes": 74,
+          "excess_occurrences": 121064,
+          "maximum_occurrences": 28007,
+          "repeated_literal_hashes": 73,
+          "row_observations": 121138
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 174993
+        },
+        "syntax_rows": {
+          "yyyy_mm": 174993
+        },
+        "distinct_literal_hashes": 33,
+        "excess_occurrences": 174960,
+        "maximum_occurrences": 32431,
+        "repeated_literal_hashes": 33,
+        "row_observations": 174993
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 336,
+          "excess_pair_occurrences": 173450,
+          "maximum_pair_occurrences": 25656,
+          "repeated_pairs": 335,
+          "row_observations": 173786
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 336,
+          "excess_pair_occurrences": 173450,
+          "maximum_pair_occurrences": 25656,
+          "repeated_pairs": 335,
+          "row_observations": 173786
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 206,
+          "excess_pair_occurrences": 174787,
+          "maximum_pair_occurrences": 26651,
+          "repeated_pairs": 38,
+          "row_observations": 174993
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 38,
+          "excess_pair_occurrences": 173742,
+          "maximum_pair_occurrences": 26625,
+          "repeated_pairs": 38,
+          "row_observations": 173780
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 206,
+          "excess_pair_occurrences": 174787,
+          "maximum_pair_occurrences": 26651,
+          "repeated_pairs": 38,
+          "row_observations": 174993
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 1086,
+          "excess_pair_occurrences": 163375,
+          "maximum_pair_occurrences": 22748,
+          "repeated_pairs": 1053,
+          "row_observations": 164461
+        },
+        "billing_project_id": {
+          "distinct_pairs": 475,
+          "excess_pair_occurrences": 120663,
+          "maximum_pair_occurrences": 1389,
+          "repeated_pairs": 471,
+          "row_observations": 121138
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 29190,
+          "other_nonempty_string": 145803
+        },
+        "account_fraud_user": {
+          "absent": 31732,
+          "empty_string": 73443,
+          "other_nonempty_string": 69818
+        },
+        "billing_status": {
+          "other_nonempty_string": 174993
+        },
+        "cluster_status": {
+          "absent": 62952,
+          "other_nonempty_string": 112041
+        },
+        "tenant_in_salesforce": {
+          "absent": 1207,
+          "boolean_true": 173786
+        },
+        "tenant_internal_user": {
+          "absent": 1207,
+          "boolean_false": 173771,
+          "boolean_true": 15
+        },
+        "tenant_status": {
+          "absent": 1207,
+          "empty_string": 159243,
+          "other_nonempty_string": 14543
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "absent": 174993
+        },
+        "billing_cost_price": {
+          "integer": 5973,
+          "json_fractional_or_exponent_string": 169020
+        },
+        "billing_cost_unit_num": {
+          "json_integer_string": 174993
+        },
+        "billing_raw_price": {
+          "integer": 5938,
+          "json_fractional_or_exponent_string": 169055
+        },
+        "credit_usage": {
+          "absent": 133431,
+          "other_nonempty_string": 41562
+        },
+        "monthly_cost": {
+          "absent": 174993
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 174993
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 62952,
+          "other_nonempty_string": 112041
+        },
+        "tenant_created_at": {
+          "absent": 1207,
+          "other_nonempty_string": 173786
+        }
+      }
+    },
+    "BQMSPM009": {
+      "batch": "distribution",
+      "namespace": "model_tidbcloud",
+      "distinct_raw_lines": 28764,
+      "distinct_typed_full_record_versions": 28764,
+      "duplicate_raw_line_occurrences": 42796,
+      "duplicate_typed_record_occurrences": 42796,
+      "repeated_typed_full_record_versions": 4196,
+      "rows": 71560,
+      "numeric_leaf_counts": {
+        "integer_leaves": 3899,
+        "fractional_or_exponent_leaves": 0
+      },
+      "known_field_presence": {
+        "account_cloud_production_customer": {
+          "absent": 16713,
+          "nonempty_string": 54847
+        },
+        "account_current_order_type": {
+          "absent": 71560
+        },
+        "account_fraud_user": {
+          "absent": 31227,
+          "nonempty_string": 40333
+        },
+        "arr": {
+          "absent": 71560
+        },
+        "billing_binded_package_id": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_cluster_id": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "billing_cluster_name": {
+          "absent": 50729,
+          "nonempty_string": 20831
+        },
+        "billing_config_tenant_id": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_consumed_source": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_cost_price": {
+          "absent": 0,
+          "integer": 1967,
+          "nonempty_string": 69593
+        },
+        "billing_cost_unit_num": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_internal_tag": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_invoice_month": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_labels": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_project_id": {
+          "absent": 782,
+          "nonempty_string": 70778
+        },
+        "billing_project_name": {
+          "absent": 35719,
+          "nonempty_string": 35841
+        },
+        "billing_raw_price": {
+          "absent": 0,
+          "integer": 1932,
+          "nonempty_string": 69628
+        },
+        "billing_sales_chanel": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_status": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "billing_tenant_id": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "billing_unit": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "binded_billing_config_id": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "cluster_created_at": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "cluster_deploy_type": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "cluster_provider_name": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "cluster_status": {
+          "absent": 8493,
+          "nonempty_string": 63067
+        },
+        "credit_closed_reason": {
+          "absent": 69691,
+          "nonempty_string": 1869
+        },
+        "credit_type": {
+          "absent": 69691,
+          "empty_string": 1869
+        },
+        "credit_usage": {
+          "absent": 69691,
+          "nonempty_string": 1869
+        },
+        "monthly_cost": {
+          "absent": 71560
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 71560
+        },
+        "msp_parent_tenant_id": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "msp_parent_tenant_region": {
+          "absent": 71560
+        },
+        "tenant_created_at": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_customer_id": {
+          "absent": 16713,
+          "nonempty_string": 54847
+        },
+        "tenant_email": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_id": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_in_salesforce": {
+          "absent": 779,
+          "boolean": 70781
+        },
+        "tenant_internal_user": {
+          "absent": 779,
+          "boolean": 70781
+        },
+        "tenant_lead_id": {
+          "absent": 1379,
+          "nonempty_string": 70181
+        },
+        "tenant_name": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_name_origin": {
+          "absent": 71560
+        },
+        "tenant_plan": {
+          "absent": 1379,
+          "nonempty_string": 70181
+        },
+        "tenant_region": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_segmentation": {
+          "absent": 16713,
+          "nonempty_string": 54847
+        },
+        "tenant_status": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_third_party_account_code": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "tenant_third_party_account_provider": {
+          "absent": 779,
+          "nonempty_string": 70781
+        },
+        "unit_category": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "unit_category_business_type": {
+          "absent": 35,
+          "nonempty_string": 71525
+        },
+        "unit_description": {
+          "absent": 0,
+          "empty_string": 2448,
+          "nonempty_string": 69112
+        },
+        "unit_provider": {
+          "absent": 0,
+          "nonempty_string": 71560
+        },
+        "unit_region": {
+          "absent": 0,
+          "empty_string": 8510,
+          "nonempty_string": 63050
+        }
+      },
+      "unknown_fields": {
+        "source_qualified_field_count": 3,
+        "present_field_row_observations": 17391,
+        "presence_state_field_row_counts": {
+          "absent": 197289,
+          "boolean": 0,
+          "empty_array": 0,
+          "empty_object": 0,
+          "empty_string": 0,
+          "fractional_or_exponent_number": 0,
+          "integer": 0,
+          "nonempty_array": 0,
+          "nonempty_object": 0,
+          "nonempty_string": 17391,
+          "null": 0,
+          "whitespace_only_string": 0
+        }
+      },
+      "candidate_identifier_literals": {
+        "tenant_id": {
+          "state_rows": {
+            "absent": 779,
+            "admitted_literal_string": 70781
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 70759,
+          "maximum_occurrences": 20036,
+          "repeated_literal_hashes": 21,
+          "row_observations": 70781
+        },
+        "billing_tenant_id": {
+          "state_rows": {
+            "absent": 779,
+            "admitted_literal_string": 70781
+          },
+          "distinct_literal_hashes": 22,
+          "excess_occurrences": 70759,
+          "maximum_occurrences": 20036,
+          "repeated_literal_hashes": 21,
+          "row_observations": 70781
+        },
+        "billing_config_tenant_id": {
+          "state_rows": {
+            "admitted_literal_string": 71560
+          },
+          "distinct_literal_hashes": 7,
+          "excess_occurrences": 71553,
+          "maximum_occurrences": 71421,
+          "repeated_literal_hashes": 7,
+          "row_observations": 71560
+        },
+        "msp_parent_tenant_id": {
+          "state_rows": {
+            "absent": 779,
+            "admitted_literal_string": 70781
+          },
+          "distinct_literal_hashes": 3,
+          "excess_occurrences": 70778,
+          "maximum_occurrences": 70765,
+          "repeated_literal_hashes": 3,
+          "row_observations": 70781
+        },
+        "binded_billing_config_id": {
+          "state_rows": {
+            "admitted_literal_string": 71560
+          },
+          "distinct_literal_hashes": 7,
+          "excess_occurrences": 71553,
+          "maximum_occurrences": 71421,
+          "repeated_literal_hashes": 7,
+          "row_observations": 71560
+        },
+        "billing_cluster_id": {
+          "state_rows": {
+            "absent": 8493,
+            "admitted_literal_string": 63067
+          },
+          "distinct_literal_hashes": 107,
+          "excess_occurrences": 62960,
+          "maximum_occurrences": 4731,
+          "repeated_literal_hashes": 90,
+          "row_observations": 63067
+        },
+        "billing_project_id": {
+          "state_rows": {
+            "absent": 782,
+            "admitted_literal_string": 70778
+          },
+          "distinct_literal_hashes": 32,
+          "excess_occurrences": 70746,
+          "maximum_occurrences": 17426,
+          "repeated_literal_hashes": 32,
+          "row_observations": 70778
+        }
+      },
+      "candidate_month_literals": {
+        "state_rows": {
+          "admitted_literal_string": 71560
+        },
+        "syntax_rows": {
+          "yyyy_mm": 71560
+        },
+        "distinct_literal_hashes": 25,
+        "excess_occurrences": 71535,
+        "maximum_occurrences": 5159,
+        "repeated_literal_hashes": 25,
+        "row_observations": 71560
+      },
+      "exploratory_id_month_literal_pairs": {
+        "tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 70597,
+          "maximum_pair_occurrences": 1462,
+          "repeated_pairs": 183,
+          "row_observations": 70781
+        },
+        "billing_tenant_id": {
+          "distinct_pairs": 184,
+          "excess_pair_occurrences": 70597,
+          "maximum_pair_occurrences": 1462,
+          "repeated_pairs": 183,
+          "row_observations": 70781
+        },
+        "billing_config_tenant_id": {
+          "distinct_pairs": 143,
+          "excess_pair_occurrences": 71417,
+          "maximum_pair_occurrences": 5153,
+          "repeated_pairs": 24,
+          "row_observations": 71560
+        },
+        "msp_parent_tenant_id": {
+          "distinct_pairs": 24,
+          "excess_pair_occurrences": 70757,
+          "maximum_pair_occurrences": 5122,
+          "repeated_pairs": 24,
+          "row_observations": 70781
+        },
+        "binded_billing_config_id": {
+          "distinct_pairs": 143,
+          "excess_pair_occurrences": 71417,
+          "maximum_pair_occurrences": 5153,
+          "repeated_pairs": 24,
+          "row_observations": 71560
+        },
+        "billing_cluster_id": {
+          "distinct_pairs": 559,
+          "excess_pair_occurrences": 62508,
+          "maximum_pair_occurrences": 427,
+          "repeated_pairs": 542,
+          "row_observations": 63067
+        },
+        "billing_project_id": {
+          "distinct_pairs": 267,
+          "excess_pair_occurrences": 70511,
+          "maximum_pair_occurrences": 1307,
+          "repeated_pairs": 266,
+          "row_observations": 70778
+        }
+      },
+      "literal_categories": {
+        "account_cloud_production_customer": {
+          "absent": 16713,
+          "other_nonempty_string": 54847
+        },
+        "account_fraud_user": {
+          "absent": 31227,
+          "other_nonempty_string": 40333
+        },
+        "billing_status": {
+          "other_nonempty_string": 71560
+        },
+        "cluster_status": {
+          "absent": 8493,
+          "other_nonempty_string": 63067
+        },
+        "tenant_in_salesforce": {
+          "absent": 779,
+          "boolean_true": 70781
+        },
+        "tenant_internal_user": {
+          "absent": 779,
+          "boolean_false": 70766,
+          "boolean_true": 15
+        },
+        "tenant_status": {
+          "absent": 779,
+          "other_nonempty_string": 70781
+        }
+      },
+      "monetary_syntax": {
+        "arr": {
+          "absent": 71560
+        },
+        "billing_cost_price": {
+          "integer": 1967,
+          "json_fractional_or_exponent_string": 69593
+        },
+        "billing_cost_unit_num": {
+          "json_integer_string": 71560
+        },
+        "billing_raw_price": {
+          "integer": 1932,
+          "json_fractional_or_exponent_string": 69628
+        },
+        "credit_usage": {
+          "absent": 69691,
+          "other_nonempty_string": 1869
+        },
+        "monthly_cost": {
+          "absent": 71560
+        },
+        "moving_3_month_avg_cost": {
+          "absent": 71560
+        }
+      },
+      "timestamp_syntax": {
+        "cluster_created_at": {
+          "absent": 8493,
+          "other_nonempty_string": 63067
+        },
+        "tenant_created_at": {
+          "absent": 779,
+          "other_nonempty_string": 70781
+        }
+      }
+    }
+  },
+  "assumed_primary_key": false,
+  "cross_source_identity_join": false,
+  "source_namespaces_deduplicated": false,
+  "monetary_aggregation": false,
+  "customer_or_incident_count": false,
+  "limitations": [
+    "Nine new physical sources were reviewed in three separate admitted groups: ARR, monthly group and monthly distribution. Source-row observations are not unique customers, charges, monthly billing items or incidents. No source namespace is merged or deduplicated.",
+    "Every source row and repeated occurrence remains in the private census. Distinct typed whole-record versions and repeated occurrences are source-local diagnostics. Equal records, row counts or model names do not establish duplicate charges or transformation lineage.",
+    "All 53 declared fields have all-row presence partitions, including absence. Additional unknown top-level fields contribute source-local aggregate field and field-row counts only. Their names, hashes and values are excluded, and unknown fields are not matched across namespaces.",
+    "Identifier and month-literal cardinalities are exploratory source-and-field-qualified hash counts. Only strict unpadded nonempty strings without control characters enter them; other types and states remain explicit exclusions. Repeated candidate pairs are preserved and no primary key is assumed.",
+    "Month syntax categories do not define effective dates or monthly grain. Literal month strings are not normalized; valid YYYY-MM, calendar-valid YYYY-MM-DD and other nonempty strings remain distinct syntax categories. Timestamp syntax is not historical ownership.",
+    "Names, regions, emails, descriptions, billing labels, financial labels and package/invoice values are presence/type only. Monetary fields add fixed syntax categories without amounts, totals, ranges, distributions, currency interpretation or calculated ARR.",
+    "Typed whole-record hashing preserves exact integer and fractional values, scalar JSON type distinctions and signed zero. Decimal normalization is context independent. Numeric strings remain strings. JSON whitespace and object order affect raw-line hashes but not typed record versions.",
+    "Source identifiers, per-record and field-name hashes, raw names, amounts, text, URLs, paths and credentials are excluded from this artifact. There is no native-resource or account/tenant join, geography inheritance, billing-role attribution, customer-status determination or incident-impact claim."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshots": true,
+    "all_nine_source_receipts_reconciled": true,
+    "all_database_assessments_recomputed": true,
+    "selected_nested_gzip_eof_receipts_valid": true,
+    "frozen_inputs_rechecked_after_export": true
+  }
+}

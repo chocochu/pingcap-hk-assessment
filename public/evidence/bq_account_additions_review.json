@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "scope": "Separate exact-label supplement for core account/company source groups and namespace-specific commercial records; original eligibility catalogs are unchanged.",
+  "counts": {
+    "supplementary_labels": 4,
+    "new_exact_labels_vs_all_source_index": 3,
+    "already_in_all_source_index": 1,
+    "baseline_business_directory_labels": 421,
+    "baseline_all_source_index_labels": 516,
+    "baseline_commercial_eligible_labels": 423,
+    "source_groups": 11,
+    "source_row_observations": 85
+  },
+  "labels": [
+    {
+      "organization_label": "BitMEX",
+      "in_existing_business_directory": false,
+      "in_existing_all_source_index": false,
+      "new_exact_label_vs_all_source_index": true,
+      "source_group_count": 2,
+      "source_row_observations": 2,
+      "raw_finance_snapshot_row_observations": 0,
+      "source_evidence": [
+        {
+          "source_alias": "BQ018",
+          "label_field": "Name",
+          "hk_signal_fields": [
+            "BillingCity"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            1374
+          ]
+        },
+        {
+          "source_alias": "BQ021",
+          "label_field": "name",
+          "hk_signal_fields": [
+            "billing_city"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            718
+          ]
+        }
+      ],
+      "account_qualification": {
+        "nexus_account_status": "prospecting",
+        "country_by_namespace": {
+          "nexuscrm": "CN",
+          "salesforce": "CN"
+        },
+        "country_signal_disagreement": true,
+        "hk_signal_basis": "city_or_state_fields"
+      },
+      "accounts": {
+        "nexuscrm": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        },
+        "salesforce": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        }
+      },
+      "commercial_records": {}
+    },
+    {
+      "organization_label": "HANG SENG BANK LTD",
+      "in_existing_business_directory": false,
+      "in_existing_all_source_index": true,
+      "new_exact_label_vs_all_source_index": false,
+      "source_group_count": 2,
+      "source_row_observations": 2,
+      "raw_finance_snapshot_row_observations": 0,
+      "source_evidence": [
+        {
+          "source_alias": "BQ018",
+          "label_field": "Name",
+          "hk_signal_fields": [
+            "BillingCity"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            3046
+          ]
+        },
+        {
+          "source_alias": "BQ021",
+          "label_field": "name",
+          "hk_signal_fields": [
+            "billing_city"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            914
+          ]
+        }
+      ],
+      "account_qualification": {
+        "nexus_account_status": "prospecting",
+        "country_by_namespace": {
+          "nexuscrm": "CN",
+          "salesforce": "CN"
+        },
+        "country_signal_disagreement": true,
+        "hk_signal_basis": "city_or_state_fields"
+      },
+      "accounts": {
+        "nexuscrm": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        },
+        "salesforce": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        }
+      },
+      "commercial_records": {}
+    },
+    {
+      "organization_label": "XGD Group",
+      "in_existing_business_directory": false,
+      "in_existing_all_source_index": false,
+      "new_exact_label_vs_all_source_index": true,
+      "source_group_count": 5,
+      "source_row_observations": 79,
+      "raw_finance_snapshot_row_observations": 75,
+      "source_evidence": [
+        {
+          "source_alias": "BQ003",
+          "label_field": "Name",
+          "hk_signal_fields": [
+            "Country"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            2975
+          ]
+        },
+        {
+          "source_alias": "BQ005",
+          "label_field": "name",
+          "hk_signal_fields": [
+            "country"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            2032
+          ]
+        },
+        {
+          "source_alias": "BQ007",
+          "label_field": "name",
+          "hk_signal_fields": [
+            "country"
+          ],
+          "row_observations": 75,
+          "first_line_references": [
+            1374,
+            5504,
+            9775,
+            13481,
+            17453,
+            21341,
+            24952,
+            28816,
+            32934,
+            36799
+          ]
+        },
+        {
+          "source_alias": "BQ018",
+          "label_field": "Name",
+          "hk_signal_fields": [
+            "BillingCountry",
+            "BillingCountryCode",
+            "Country__c"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            1603
+          ]
+        },
+        {
+          "source_alias": "BQ021",
+          "label_field": "name",
+          "hk_signal_fields": [
+            "billing_country",
+            "billing_country_code",
+            "country_c"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            1642
+          ]
+        }
+      ],
+      "account_qualification": {
+        "nexus_account_status": "qualified",
+        "country_by_namespace": {
+          "nexuscrm": "HK",
+          "salesforce": "HK"
+        },
+        "country_signal_disagreement": false,
+        "hk_signal_basis": "country_fields"
+      },
+      "accounts": {
+        "nexuscrm": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        },
+        "salesforce": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        }
+      },
+      "commercial_records": {
+        "nexuscrm_opportunity": {
+          "all_rows_explicitly_not_deleted": 1,
+          "closed_flag_true_in_any_row": 0,
+          "closed_won_stage_in_any_row": 0,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_records": 1,
+          "won_flag_true_in_any_row": 0,
+          "won_flag_collected": false
+        },
+        "salesforce_opportunity": {
+          "all_rows_explicitly_not_deleted": 1,
+          "closed_flag_true_in_any_row": 0,
+          "closed_won_stage_in_any_row": 0,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_records": 1,
+          "won_flag_true_in_any_row": 0,
+          "won_flag_collected": true
+        }
+      }
+    },
+    {
+      "organization_label": "中信银行（国际）",
+      "in_existing_business_directory": false,
+      "in_existing_all_source_index": false,
+      "new_exact_label_vs_all_source_index": true,
+      "source_group_count": 2,
+      "source_row_observations": 2,
+      "raw_finance_snapshot_row_observations": 0,
+      "source_evidence": [
+        {
+          "source_alias": "BQ018",
+          "label_field": "Name",
+          "hk_signal_fields": [
+            "BillingCity",
+            "BillingState"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            96
+          ]
+        },
+        {
+          "source_alias": "BQ021",
+          "label_field": "name",
+          "hk_signal_fields": [
+            "billing_city",
+            "billing_state"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            1479
+          ]
+        }
+      ],
+      "account_qualification": {
+        "nexus_account_status": "prospecting",
+        "country_by_namespace": {
+          "nexuscrm": "CN",
+          "salesforce": "CN"
+        },
+        "country_signal_disagreement": true,
+        "hk_signal_basis": "city_or_state_fields"
+      },
+      "accounts": {
+        "nexuscrm": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        },
+        "salesforce": {
+          "all_rows_explicitly_not_deleted": 1,
+          "deleted_in_any_row": 0,
+          "deletion_flag_or_row_disagreement": 0,
+          "deletion_unknown_or_unsupported": 0,
+          "row_observations": 1,
+          "unique_native_accounts": 1
+        }
+      },
+      "commercial_records": {}
+    }
+  ],
+  "limitations": [
+    "This is a separate supplement for four exact business or brand labels. It does not expand the frozen 421-label business directory or the earlier 423-label commercial eligibility catalog.",
+    "Discovery observations here are restricted to the triage rule for core account/company source members. Lead observations and other source roles are outside this supplement, even when the exact label occurs there.",
+    "HANG SENG BANK LTD already appears in the 516-label all-source index. The other three are new exact strings relative to that index; strings are not independently verified unique legal entities.",
+    "Source geography is a record-level signal. XGD Group has HK corporate-country classifications in both account exports. The other three have CN country classifications despite HK city or state signals; those signals must not be presented as consistent HK-country evidence.",
+    "The Nexus account status is Qualified for XGD Group and Prospecting for the other three. These source CRM states do not establish an active, paying or production customer.",
+    "XGD Group has 79 source-row observations across five groups, including 75 repeated raw-finance observations. Snapshot copies are not independent accounts. Stored line references are samples and do not enumerate all 75 observations.",
+    "Native account and opportunity counts remain separate by CRM namespace. Salesforce and NexusCRM may contain copies of the same underlying records; do not add them as unique companies or opportunities.",
+    "Only XGD Group has a linked opportunity in each reviewed CRM namespace. No positive won flag or closed-won stage was observed. The Nexus opportunity projection does not collect a won flag; absence of a positive observation is not proof of a lost or cancelled opportunity.",
+    "Account and opportunity observations do not establish gateway ownership, current service use, customer-database compromise or downstream impact. Missing linked records do not prove absence of exposure.",
+    "Only the four approved labels, fixed classifications, source aliases, source-field names, sampled line references and aggregate counts are disclosed. Other candidate labels, native IDs, private paths, raw geography and arbitrary metadata remain excluded."
+  ],
+  "source_integrity": {
+    "archive_sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+    "discovery_generator_sha256": "43908175c3984d1ce18a76fe5d516712c165cf75e63eda886c0b0296446f4033",
+    "commercial_generator_sha256": "f97e70e6cee148bcf1bb0e4bc780902195661f96609c05aacbc9a628429748a5",
+    "reviewed_triage_sha256": "9528ba99d4307dca1d94d9b20206109a625e8063a5167af603631ca6d5b030bb",
+    "reviewed_commercial_supplement_sha256": "d586727c3ba34ffaf34a7bd421bbb2a48db5d1d05968aa05bd7c3778b0259b27",
+    "frozen_reviewed_snapshot": true,
+    "candidate_group_receipts_reconciled": true,
+    "native_account_row_references_reconciled": true,
+    "commercial_assessment_recomputed": true
+  }
+}

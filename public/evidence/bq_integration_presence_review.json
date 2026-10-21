@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 6,
+    "rows_parsed": 451,
+    "parse_errors": 0,
+    "unsupported_field_or_flag_values": 0
+  },
+  "sources": {
+    "BQI001": {
+      "native_unit": "record IDs",
+      "record_family": "named_credential_secret_field",
+      "counts": {
+        "distinct_full_record_versions": 1,
+        "distinct_native_identifiers": 1,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 1,
+        "unique_nonconflicting_identifiers": 1
+      },
+      "target_fields": {
+        "SecretValue": {
+          "row_classifications": {
+            "nonempty": 1
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 1
+        }
+      },
+      "stored_flag_row_classifications": {}
+    },
+    "BQI002": {
+      "native_unit": "principal identifiers",
+      "record_family": "connected_principal_ciphertext_fields",
+      "counts": {
+        "distinct_full_record_versions": 6,
+        "distinct_native_identifiers": 6,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 6,
+        "unique_nonconflicting_identifiers": 6
+      },
+      "target_fields": {
+        "AccessTokenCiphertext": {
+          "row_classifications": {
+            "nonempty": 6
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 6
+        },
+        "RefreshTokenCiphertext": {
+          "row_classifications": {
+            "nonempty": 6
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 6
+        }
+      },
+      "stored_flag_row_classifications": {}
+    },
+    "BQI003": {
+      "native_unit": "record IDs",
+      "record_family": "api_token_hash_field",
+      "counts": {
+        "distinct_full_record_versions": 5,
+        "distinct_native_identifiers": 5,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 5,
+        "unique_nonconflicting_identifiers": 5
+      },
+      "target_fields": {
+        "TokenHash": {
+          "row_classifications": {
+            "nonempty": 5
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 5
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsRevoked": {
+          "literal_one": 2,
+          "literal_zero": 3
+        }
+      }
+    },
+    "BQI004": {
+      "native_unit": "record IDs",
+      "record_family": "oauth_refresh_token_hash_field",
+      "counts": {
+        "distinct_full_record_versions": 436,
+        "distinct_native_identifiers": 436,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 436,
+        "unique_nonconflicting_identifiers": 436
+      },
+      "target_fields": {
+        "TokenHash": {
+          "row_classifications": {
+            "nonempty": 436
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 436
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsRevoked": {
+          "literal_one": 242,
+          "literal_zero": 194
+        }
+      }
+    },
+    "BQI005": {
+      "native_unit": "record IDs",
+      "record_family": "webhook_secret_field",
+      "counts": {
+        "distinct_full_record_versions": 2,
+        "distinct_native_identifiers": 2,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 2,
+        "unique_nonconflicting_identifiers": 2
+      },
+      "target_fields": {
+        "SecretValue": {
+          "row_classifications": {
+            "nonempty": 2
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 2
+        }
+      },
+      "stored_flag_row_classifications": {
+        "IsActive": {
+          "literal_one": 2
+        }
+      }
+    },
+    "BQI006": {
+      "native_unit": "record IDs",
+      "record_family": "named_credential_endpoint_field",
+      "counts": {
+        "distinct_full_record_versions": 1,
+        "distinct_native_identifiers": 1,
+        "exact_duplicate_rows": 0,
+        "identifiers_with_conflicting_full_record_versions": 0,
+        "rows_stored": 1,
+        "unique_nonconflicting_identifiers": 1
+      },
+      "target_fields": {
+        "Endpoint": {
+          "row_classifications": {
+            "nonempty": 1
+          },
+          "unique_nonconflicting_ids_with_nonempty_field": 1
+        }
+      },
+      "stored_flag_row_classifications": {}
+    }
+  },
+  "limitations": [
+    "This review covers six selected internal CRM integration tables. It is separate from the TiDB Cloud API-record review and makes no company, customer or Hong Kong attribution.",
+    "Counts remain separate by source. Native record IDs, principal identifiers and distinct full-record versions are different units; counts across sources must not be added as unique credentials or principals.",
+    "ConnectedPrincipalId counts principals with stored ciphertext fields, not unique access or refresh tokens. A single principal can have multiple versions or credentials.",
+    "SecretValue, TokenHash, ciphertext and Endpoint are source field names. Nonempty values do not establish plaintext storage, effective encryption or hashing, decryptability, unique credential values or present usability. Endpoint presence does not prove a working connection. No credential or endpoint is tested.",
+    "Exact full-record duplicates collapse in version diagnostics. Identifiers with conflicting full-record versions are excluded from unique nonconflicting field-presence counts; no latest version is selected and no rotation history is inferred.",
+    "Stored IsRevoked and IsActive classifications count rows, including duplicates and conflicting versions. String zero and one remain literal_zero and literal_one without being interpreted as false or true. Stored flags do not establish current validity; expiry and rotation timelines are not resolved.",
+    "Only fixed aliases, record-family descriptions, approved field names, aggregate counts and fixed flag categories are published. Native IDs, per-record digests, private paths, credential values, token prefixes, endpoint values, personal fields and timestamps are excluded.",
+    "The export is a frozen reviewed snapshot. Changed source, code or results require another review; missing or empty fields do not establish absence of exposure."
+  ],
+  "source_integrity": {
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true,
+    "database_assessment_recomputed": true,
+    "selected_sources_gzip_eof_validated": true
+  }
+}

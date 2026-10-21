@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_complete": 3,
+    "rows_parsed": 668506,
+    "parse_errors": 0,
+    "reviewed_candidate_clusters": 305
+  },
+  "sources": {
+    "BQM001": {
+      "kind": "sql_editor_messages",
+      "rows_parsed": 399215,
+      "rows_with_nonempty_sql_field": 398092,
+      "message_counts": {
+        "candidate_cluster_matches": 1,
+        "candidate_message_matches": 1,
+        "candidate_messages_with_sql_text": 1,
+        "cluster_id_only_candidate_clusters": 1,
+        "cluster_id_only_candidate_messages": 1,
+        "conflicting_message_ids_excluded": 0,
+        "distinct_message_ids": 203171,
+        "exact_duplicate_rows": 196044,
+        "unique_nonconflicting_messages": 203171,
+        "unique_nonconflicting_messages_with_sql_text": 202543
+      },
+      "candidate_dispositions": {
+        "cluster_not_in_reviewed_map": 203170,
+        "corroborated_candidate": 1
+      },
+      "labels": [
+        {
+          "organization_label": "OceanBase Hong Kong Limited",
+          "candidate_clusters": 1,
+          "candidate_messages": 1,
+          "candidate_messages_with_sql_text": 1
+        }
+      ]
+    },
+    "BQM002": {
+      "kind": "sql_editor_messages",
+      "rows_parsed": 154159,
+      "rows_with_nonempty_sql_field": 153582,
+      "message_counts": {
+        "candidate_cluster_matches": 0,
+        "candidate_message_matches": 0,
+        "candidate_messages_with_sql_text": 0,
+        "cluster_id_only_candidate_clusters": 0,
+        "cluster_id_only_candidate_messages": 0,
+        "conflicting_message_ids_excluded": 0,
+        "distinct_message_ids": 150725,
+        "exact_duplicate_rows": 3434,
+        "unique_nonconflicting_messages": 150725,
+        "unique_nonconflicting_messages_with_sql_text": 150149
+      },
+      "candidate_dispositions": {
+        "cluster_not_in_reviewed_map": 150725
+      },
+      "labels": []
+    },
+    "BQM003": {
+      "kind": "api_record_field_presence",
+      "rows_parsed": 115132,
+      "rows_with_nonempty_access_field": 115132,
+      "rows_with_nonempty_secret_field": 115132,
+      "rows_with_both_nonempty_fields": 115132,
+      "native_record_counts": {
+        "conflicting_native_ids_excluded": 0,
+        "distinct_native_ids": 115132,
+        "exact_duplicate_rows": 0,
+        "unique_nonconflicting_ids_with_access_field": 115132,
+        "unique_nonconflicting_ids_with_both_fields": 115132,
+        "unique_nonconflicting_ids_with_secret_field": 115132,
+        "unique_nonconflicting_native_ids": 115132
+      }
+    }
+  },
+  "limitations": [
+    "This selected-table review measures field presence. A nonempty SQL field is not validated SQL, a successful query, query results or proof that customer databases were exposed.",
+    "SQL message IDs are deduplicated within each source only. Identical full-record versions collapse; IDs with conflicting full-record versions are excluded from candidate associations. Cross-source totals are not unique message counts.",
+    "Company-labelled SQL candidates require exact cluster and unique reviewed project concordance, parseable creation dates in every retained cluster version, and a message creation time no earlier than the earliest recorded cluster creation. These checks do not prove a shared namespace, historical ownership, current production use or affected-company status.",
+    "Organisation IDs are not treated as tenant IDs. The candidate map is the separately reviewed financial route; it does not assert Hong Kong geography.",
+    "Company labels remain limited to the existing reviewed 421-label catalog, including its aliases, prospects and identity caveats. Missing candidate matches do not establish absence of exposure.",
+    "API counts describe rows and distinct native API-record IDs containing nonempty access_key and secret_key fields. They do not establish unique credential values, usability, active status, plaintext storage or decryptability. No credential values are published or retained by this analyzer.",
+    "The two SQL sources and API source remain separate. API records are not attributed to companies by this review.",
+    "Only fixed source aliases, approved company labels and aggregate counts are published. SQL text, credential values, raw IDs, timestamps and private paths are excluded. Changed source, code or results require another review."
+  ],
+  "source_integrity": {
+    "archive_sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+    "material_generator_sha256": "c12021674bf4db3fd94558054794ff6355ec6866656f62515157e385c6f032ff",
+    "reviewed_status_sha256": "f9c02041e30437ae589021d1c8643a3cf11913f7ab0d04d48e2c96e8f592e8d5",
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true,
+    "database_assessment_recomputed": true
+  }
+}

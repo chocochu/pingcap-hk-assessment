@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "assessment_date": "2026-10-21",
+  "counts": {
+    "tables_requested": 11,
+    "tables_complete": 11,
+    "rows_parsed": 4454818,
+    "parse_errors": 0,
+    "unsupported_identifier_rows": 0,
+    "exported_labels": 23,
+    "labels_with_gateway_matches": 7
+  },
+  "route_counts": {
+    "billing": {
+      "admitted_existing_label_tenants": 0,
+      "admitted_existing_labels": 0,
+      "ambiguous_label_tenants": 0,
+      "candidate_clusters_without_parseable_creation": 0,
+      "candidate_distinct_clusters": 0,
+      "candidate_tenants_without_cluster_mapping": 0,
+      "clusters_excluded_for_incomplete_owner_mapping": 0,
+      "clusters_excluded_for_label_ambiguity": 0,
+      "clusters_excluded_for_unsupported_identifier_types": 0,
+      "conflicting_cluster_tenant_mappings": 0,
+      "exploratory_org_hk_existing_label_identifiers": 18,
+      "exploratory_rest_namespace_label_collisions": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records_on_candidate_clusters": 0,
+      "gateway_matched_candidate_tenants": 0,
+      "gateway_matched_cluster_candidates": 0,
+      "gateway_unmatched_cluster_candidates": 0,
+      "unambiguous_cluster_candidates": 0,
+      "unlisted_label_rows_in_route": 1
+    },
+    "native": {
+      "admitted_existing_label_tenants": 0,
+      "admitted_existing_labels": 0,
+      "ambiguous_label_tenants": 0,
+      "candidate_clusters_without_parseable_creation": 0,
+      "candidate_distinct_clusters": 0,
+      "candidate_tenants_without_cluster_mapping": 0,
+      "clusters_excluded_for_incomplete_owner_mapping": 0,
+      "clusters_excluded_for_label_ambiguity": 0,
+      "clusters_excluded_for_unsupported_identifier_types": 0,
+      "conflicting_cluster_tenant_mappings": 0,
+      "exploratory_org_hk_existing_label_identifiers": 18,
+      "exploratory_rest_namespace_label_collisions": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records_on_candidate_clusters": 0,
+      "gateway_matched_candidate_tenants": 0,
+      "gateway_matched_cluster_candidates": 0,
+      "gateway_unmatched_cluster_candidates": 0,
+      "unambiguous_cluster_candidates": 0,
+      "unlisted_label_rows_in_route": 3
+    },
+    "financial": {
+      "admitted_existing_label_tenants": 39,
+      "admitted_existing_labels": 27,
+      "ambiguous_label_tenants": 12,
+      "candidate_clusters_without_parseable_creation": 0,
+      "candidate_distinct_clusters": 340,
+      "candidate_tenants_without_cluster_mapping": 11,
+      "clusters_excluded_for_incomplete_owner_mapping": 0,
+      "clusters_excluded_for_label_ambiguity": 35,
+      "clusters_excluded_for_unsupported_identifier_types": 0,
+      "conflicting_cluster_tenant_mappings": 0,
+      "exploratory_org_hk_existing_label_identifiers": 18,
+      "exploratory_rest_namespace_label_collisions": 13,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records_on_candidate_clusters": 124052,
+      "gateway_matched_candidate_tenants": 9,
+      "gateway_matched_cluster_candidates": 30,
+      "gateway_unmatched_cluster_candidates": 275,
+      "unambiguous_cluster_candidates": 305,
+      "unlisted_label_rows_in_route": 415008
+    }
+  },
+  "labels": [
+    {
+      "organization_label": "ADVANCE INTELLIGENCE PTE. LTD.",
+      "candidate_clusters": 5,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Amber AI Limited",
+      "candidate_clusters": 3,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "AsiaPac Net Media Limited",
+      "candidate_clusters": 8,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 2
+    },
+    {
+      "organization_label": "Baidu (HONG KONG) Limited",
+      "candidate_clusters": 3,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Bit.com",
+      "candidate_clusters": 2,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "CHAINBASE TECHNOLOGY HOLDINGS PTE. LTD.",
+      "candidate_clusters": 15,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 23390,
+      "gateway_matched_clusters": 7,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "CLOUDMOTION TECH LIMITED",
+      "candidate_clusters": 0,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "COIHUB TECHNOLOGY LIMITED",
+      "candidate_clusters": 1,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Eats365",
+      "candidate_clusters": 1,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "HK FUTURE INIGHT TECH LIMITED",
+      "candidate_clusters": 2,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 16,
+      "gateway_matched_clusters": 1,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "HONG KONG BOSICLOUD TECHNOLOGY LIMITED",
+      "candidate_clusters": 0,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "HONG KONG QINEASY TECHNOLOGY LIMITED",
+      "candidate_clusters": 0,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Hytto Limited",
+      "candidate_clusters": 14,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 24,
+      "gateway_matched_clusters": 2,
+      "unambiguous_candidate_tenants": 2
+    },
+    {
+      "organization_label": "MEGAHARD LIMITED",
+      "candidate_clusters": 15,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 99465,
+      "gateway_matched_clusters": 14,
+      "unambiguous_candidate_tenants": 2
+    },
+    {
+      "organization_label": "Matrixport Technologies Ltd.",
+      "candidate_clusters": 4,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Metaverse Cloud Solution Limited",
+      "candidate_clusters": 2,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 55,
+      "gateway_matched_clusters": 1,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "NODE REAL PTE LTD.",
+      "candidate_clusters": 2,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "OceanBase Hong Kong Limited",
+      "candidate_clusters": 35,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 5,
+      "gateway_matched_clusters": 1,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "SHOPLINE COMMERCE PTE. LTD.",
+      "candidate_clusters": 9,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Shoplazza Hongkong Limited",
+      "candidate_clusters": 18,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "Wetech Trading Limited",
+      "candidate_clusters": 166,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 1097,
+      "gateway_matched_clusters": 4,
+      "unambiguous_candidate_tenants": 2
+    },
+    {
+      "organization_label": "YZ INTELLIGENCE(HONG KONG) CO., LIMITED",
+      "candidate_clusters": 0,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    },
+    {
+      "organization_label": "[CPPO] Hong Kong Cloud Pilot Technology Co., Limited",
+      "candidate_clusters": 0,
+      "clusters_without_parseable_creation": 0,
+      "gateway_intervals_predating_recorded_creation": 0,
+      "gateway_log_records": 0,
+      "gateway_matched_clusters": 0,
+      "unambiguous_candidate_tenants": 1
+    }
+  ],
+  "source_integrity": {
+    "archive_sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+    "linkage_generator_sha256": "4bde119c26904a66292e2b6045b5ff6a0061f021f81a23118db8c03bc1efea1b",
+    "reviewed_aggregate_sha256": "3205796a936d999e138623c46355b17c0205b15765a9c58002e315e35c754934",
+    "frozen_reviewed_snapshot": true,
+    "source_receipts_reconciled": true
+  },
+  "limitations": [
+    "Billing and native-tenant routes require an explicit Hong Kong country field and an exact existing label. The financial route is an explicit tenant-to-account-name model association without a Hong Kong geography filter.",
+    "Labels are restricted to the previously published 421-label catalog, which includes aliases, prospects and identities excluded from Hong Kong attribution. These are historical candidate associations, not confirmed affected Hong Kong companies.",
+    "Conflicting labels on explicit tenant records, unsupported identifier types, incomplete owner mappings and conflicting tenant/project mappings are excluded from unambiguous candidates.",
+    "Organisation and portal identifiers from other source namespaces neither admit tenants nor exclude explicit tenant-label links; namespace collisions remain exploratory.",
+    "Gateway counts refer to historical records on candidate clusters. Snapshot associations and creation-time checks do not establish ownership throughout the log interval, current production use, downstream customers or exposure of customer databases.",
+    "Do not add route counts, alias counts or these gateway totals to earlier contextual-support totals without checking unique records. Missing gateway matches do not establish absence of exposure.",
+    "This export freezes one independently reviewed selected-table analysis. Later input, code, database or result changes require another review before export."
+  ]
+}
