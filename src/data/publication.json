@@ -1,15 +1,15 @@
 {
   "version": "0.2.1",
-  "preparedAt": "2026-10-21T01:46:21Z",
-  "sourceReportSha256": "dfe60777b8afd02ac788d7176242ea37c337448427dbdefbe7fe594f7641d735",
-  "contentSha256": "8219abce90c9a5c554e57e457542895bbaedb6494ab6253988a13e4fd43341a4",
+  "preparedAt": "2026-10-21T01:49:46Z",
+  "sourceReportSha256": "bab01fc27a194406650d41f94af5e838facc7da673f1b7c72ad46c64b7f5cff7",
+  "contentSha256": "9f9a702cd50d3a0efb649613e25020431e737d03989b2727e8742ec0b9a011aa",
   "history": [
     {
       "version": "0.2.1",
-      "preparedAt": "2026-10-21T01:46:21Z",
+      "preparedAt": "2026-10-21T01:49:46Z",
       "summary": {
-        "en": "Added precise release times and integrated the latest validated BigQuery coverage. Company findings remain unchanged.",
-        "zh-Hant": "新增精確版本時間，並整合最新通過驗證的 BigQuery 涵蓋範圍。公司調查結果維持不變。"
+        "en": "Added precise release timestamps and integrated validated BigQuery coverage and two reviewed corporate labels, preserving the limits on identity and incident attribution.",
+        "zh-Hant": "新增精確版本時間，並整合已通過驗證的 BigQuery 涵蓋範圍及兩個經檢視的公司名稱，同時保留身分核實與事件歸屬的限制。"
       }
     }
   ]
