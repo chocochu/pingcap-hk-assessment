@@ -60,7 +60,34 @@ Version 0.2 retains the two previously reviewed archives and adds a scoped local
 
 The separate local analysis workflow may refresh these files as more material is reviewed. Its scheduling and private processing scripts are not part of this repository. Each content update must pass analysis validation and site checks before publication.
 
+## Progressive BigQuery workflow
+
+From the parent workspace, `python3 analysis/scripts/bq_refresh_outputs.py` runs
+the BQ regression tests, creates an aggregate snapshot, generates a staged
+bilingual report, performs browser and report validation, then syncs, checks and
+builds this site. Failed updates restore the prior local outputs and retain logs
+under `analysis/private/bq_releases/`. Runtime paths are recorded in
+`analysis/private/bq_runtime.json`; browser checks use the bundled Playwright
+package. The refresh command does not start scans or deploy the site.
+
+The inventory streams the archive, validates every nested gzip and the outer
+archive, and checks duplicate member names and file identity. Its schema sampling
+is separate from full-row discovery, which uses an explicit table plan. Raw
+identifiers, candidate labels and source-member mappings stay private.
+
+Resume from `analysis/private/bq_work_state.json`, the inventory/discovery/linkage
+status files and `bq_latest_refresh.json`. Check for live processes before starting
+scans. Changed input or analysis fingerprints require a reviewed fresh run; do
+not rewrite receipts to reuse stale evidence. Hourly follow-ups are configured in
+the Codex chat and are separate from this site's scripts.
+
 ## Commands
+
+An hourly Codex publishing chat integrates validated BQ snapshots, adds precise
+HKT release timestamps, runs the checks and pushes reviewed changes to `main`.
+See [the publishing workflow](docs/publishing.md) for snapshot validation,
+version history and deployment verification. Scheduling is local to Codex; the
+website itself does not run analysis or scheduled jobs.
 
 | Command             | Purpose                                                   |
 | ------------------- | --------------------------------------------------------- |

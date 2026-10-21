@@ -37,6 +37,7 @@ export interface Business {
 }
 
 export interface Report {
+  source: { path: string; sha256: string };
   locales: Record<Language, Locale>;
   businesses: Business[];
 }

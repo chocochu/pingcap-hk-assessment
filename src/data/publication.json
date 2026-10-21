@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "preparedAt": "2026-10-21T01:46:21Z",
+  "sourceReportSha256": "dfe60777b8afd02ac788d7176242ea37c337448427dbdefbe7fe594f7641d735",
+  "contentSha256": "8219abce90c9a5c554e57e457542895bbaedb6494ab6253988a13e4fd43341a4",
+  "history": [
+    {
+      "version": "0.2.1",
+      "preparedAt": "2026-10-21T01:46:21Z",
+      "summary": {
+        "en": "Added precise release times and integrated the latest validated BigQuery coverage. Company findings remain unchanged.",
+        "zh-Hant": "新增精確版本時間，並整合最新通過驗證的 BigQuery 涵蓋範圍。公司調查結果維持不變。"
+      }
+    }
+  ]
+}

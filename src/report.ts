@@ -1,7 +1,9 @@
 import rawReport from "./data/report.json";
+import publication from "./data/publication.json";
+import { withPublication } from "./lib/releases";
 import type { Business, Language, Report } from "./types";
 
-export const report = rawReport as Report;
+export const report = withPublication(rawReport as Report, publication);
 export const languages: Language[] = ["en", "zh-Hant"];
 
 export function languageFromPath(path: string): Language {
