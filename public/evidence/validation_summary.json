@@ -2,6 +2,11 @@
   "assessment_date": "2026-10-21",
   "result": "PASS",
   "csv_checks": {
+    "bq_company_candidates.csv": {
+      "rows": 5,
+      "consistent_width": true,
+      "formula_prefixes_safe": true
+    },
     "business_labels.csv": {
       "rows": 421,
       "consistent_width": true,
@@ -58,7 +63,7 @@
   },
   "browser_checks": {
     "result": "PASS",
-    "report_sha256": "68089587376781b2d72db3e67080746391a12b92358cd969d11d73be12f4cb48",
+    "report_sha256": "bab01fc27a194406650d41f94af5e838facc7da673f1b7c72ad46c64b7f5cff7",
     "checks": [
       "English is visible by default",
       "Both editions retain all 421 business labels",
@@ -91,7 +96,7 @@
   },
   "translation_checks": {
     "language": "zh-Hant",
-    "translated_segments": 206,
+    "translated_segments": 225,
     "complete_key_coverage": true,
     "empty_values": 0,
     "review": "Independent Traditional Chinese review covered numerals, legal names, uncertainty wording and inline fragments."
@@ -106,7 +111,7 @@
   "bq_coverage_checks": {
     "source_snapshot_matches": true,
     "nonnegative_integer_counters": true,
-    "completed_inventory_hash_valid": false,
+    "completed_inventory_hash_valid": true,
     "existing_label_and_finding_counts_preserved": true
   },
   "redaction_audit": {
@@ -115,7 +120,9 @@
       "all_source_label_index.csv",
       "archive_integrity.json",
       "billing_evidence.csv",
+      "bq_company_candidates.csv",
       "bq_coverage.json",
+      "bq_discovery_review.json",
       "business_label_sources.csv",
       "business_labels.csv",
       "gateway_company_context.json",
@@ -234,8 +241,8 @@
     }
   },
   "schema_caveat_resolution": "Opaque scanner has a broader synthetic schema contract; actual input parity and all reconciliation assertions passed before aggregation.",
-  "generator_sha256": "a10cf32f279b828f50e53ed4a0c162ee1f84150e05c059e068d52bdff84af04e",
-  "validator_sha256": "90141d18e602b79d376a97a331421f6c432923381b3e67cfb45b904c11ded3c7",
+  "generator_sha256": "4ed34262626668f6d899999d1faa8b1537c2b1db9b7eea332163fee64f68533b",
+  "validator_sha256": "f0739f881157281da3b7f2c2b2893323664d39121d35a51775c43d8e0d8b35ea",
   "localization_renderer_sha256": "a90fae0c84c1698e39cb5cc706acf31e04e0058fa9b641f2d201774881e6c512",
-  "translation_sha256": "66d292aba1db53edef59be06ff5086e8ed3a37db34c0b8122b27f62a4cd74ae9"
+  "translation_sha256": "f269debd692149ee4622e8ecf99a33fd6c453c2431eda65fc97b72f3acfc846f"
 }

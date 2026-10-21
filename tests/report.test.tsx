@@ -37,7 +37,7 @@ describe("reviewed report content", () => {
           .flatMap((section) => section.blocks)
           .filter((block) => block.type === "downloads")
           .flatMap((block) => block.items),
-      ).toHaveLength(14);
+      ).toHaveLength(16);
     }
     expect(report.locales.en.release.paragraphs.map(text).join(" ")).toContain(
       "two previously reviewed archives",
@@ -99,6 +99,30 @@ describe("reviewed report content", () => {
     const first = report.businesses[0];
     expect(filterBusinesses(report.businesses, first.categories["zh-Hant"])).toContain(first);
     expect(filterBusinesses(report.businesses, "no-matching-business-489321")).toHaveLength(0);
+  });
+
+  test("reviewed BQ additions retain corporate identity limits in both editions", async () => {
+    const review = await Bun.file(
+      new URL("../public/evidence/bq_discovery_review.json", import.meta.url),
+    ).json();
+    expect(
+      review.reviewed_labels.map((row: { organization_label: string }) => row.organization_label),
+    ).toEqual(["FWD GROUP MANAGEMENT HOLDINGS LIMITED", "Swire Properties Inc."]);
+    for (const locale of Object.values(report.locales)) {
+      const section = locale.sections.find((value) => value.id === "bq-additions");
+      expect(section).toBeDefined();
+      const table = section!.blocks.find((value) => value.type === "table");
+      expect(table?.type).toBe("table");
+      if (table?.type === "table") {
+        expect(table.rows.map((row) => row[0])).toEqual(
+          review.reviewed_labels.map(
+            (row: { organization_label: string }) => row.organization_label,
+          ),
+        );
+      }
+    }
+    expect(review.reviewed_labels[1].limit).toContain("Do not classify");
+    expect(review.reviewed_labels[0].limit).toContain("policyholder-data");
   });
 
   test("language URLs work at a nested static-host path", () => {

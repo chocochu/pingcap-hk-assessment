@@ -12,5 +12,12 @@
     "exit_code": 0,
     "elapsed_seconds": 5.92,
     "diagnostic": ""
+  },
+  {
+    "file": "04_bigquery.tar.gz",
+    "result": "PASS",
+    "validation": "Outer and nested gzip EOF checks; unique member names; archive identity unchanged before and after reading.",
+    "sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210",
+    "archive_bytes": 33830461373
   }
 ]

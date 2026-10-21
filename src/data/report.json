@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "path": "analysis/output/report/hong_kong_exposure_assessment.html",
-    "sha256": "68089587376781b2d72db3e67080746391a12b92358cd969d11d73be12f4cb48"
+    "sha256": "bab01fc27a194406650d41f94af5e838facc7da673f1b7c72ad46c64b7f5cff7"
   },
   "locales": {
     "en": {
@@ -1303,7 +1303,7 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "The counters below describe a scoped scan of 04_bigquery.tar.gz for explicit Hong Kong country/location signals. Candidate company rows are screening candidates, not confirmed organisations or affected customers. No new company findings have been added from this scan; the existing 421 labels and nine findings remain unchanged."
+                  "text": "The counters below describe a scoped scan of 04_bigquery.tar.gz for explicit Hong Kong country/location signals. Candidate company rows are screening candidates, not confirmed organisations or affected customers. The existing directory of 421 labels and nine detailed findings remains unchanged. Two reviewed corporate-label additions are discussed separately below."
                 }
               ]
             },
@@ -1336,8 +1336,8 @@
                 [
                   "Archive inventory",
                   "—",
-                  "✓",
                   "—",
+                  "✓",
                   "—"
                 ],
                 [
@@ -1358,11 +1358,11 @@
               "rows": [
                 [
                   "Inventoried tables",
-                  "4659"
+                  "6458"
                 ],
                 [
                   "Inventoried datasets",
-                  "52"
+                  "83"
                 ],
                 [
                   "Archive bytes",
@@ -1370,11 +1370,11 @@
                 ],
                 [
                   "Tables scanned",
-                  "11"
+                  "26"
                 ],
                 [
                   "Rows parsed",
-                  "773449"
+                  "2698670"
                 ],
                 [
                   "Parse errors",
@@ -1382,11 +1382,11 @@
                 ],
                 [
                   "Rows with Hong Kong location signals",
-                  "17136"
+                  "55253"
                 ],
                 [
                   "Candidate company rows (unconfirmed)",
-                  "11802"
+                  "20513"
                 ]
               ]
             },
@@ -1396,6 +1396,95 @@
                 {
                   "type": "text",
                   "text": "Location signals do not establish residence, nationality, employer identity or compromise. Candidate and location counts can overlap and must not be added. No raw BigQuery records or personal identifiers are included in these progress outputs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bq-additions",
+          "title": "Reviewed BigQuery additions and identity qualifications",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "These exact corporate-name observations are additional business-record evidence. They do not establish production use or a customer-system breach. The broader unreviewed candidate pool remains private."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Exact source label",
+                "BigQuery observation",
+                "Public identity assessment",
+                "Interpretation limit"
+              ],
+              "rows": [
+                [
+                  "FWD GROUP MANAGEMENT HOLDINGS LIMITED",
+                  "One observation in each of two CRM/account exports with Hong Kong country fields. The exports may duplicate one account.",
+                  "Exact corporate name corroborated as incorporated in Hong Kong by a listed-company announcement.",
+                  "Business-record exposure only. This does not establish production use, an affected insurance system, or policyholder-data exposure."
+                ],
+                [
+                  "Swire Properties Inc.",
+                  "One observation in each of two account exports with Hong Kong billing-city signals, plus two lead observations. These records may overlap.",
+                  "Official group sources identify this name with the US/Miami business, separately from Swire Properties Ltd. in Hong Kong.",
+                  "Do not classify the exact source label as an HK legal entity or substitute the Hong Kong-listed company. Source-to-entity attribution remains unresolved."
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Identity sources: "
+                },
+                {
+                  "type": "link",
+                  "href": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100561.pdf",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FWD corporate identity (page 12)"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "; "
+                },
+                {
+                  "type": "link",
+                  "href": "https://www.swireproperties.com/en/media/press-releases/2023/20230124_henry-bott-named-president-of-swire-properties-inc/",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Swire US business"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "; "
+                },
+                {
+                  "type": "link",
+                  "href": "https://www.swirepacific.com/en/contact-us/company-address",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Swire entity distinction"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ". Public identity sources do not confirm the authenticity of the supplied dump or incident impact."
                 }
               ]
             }
@@ -1513,6 +1602,14 @@
                 {
                   "href": "gateway_context.csv",
                   "label": "Gateway association summary"
+                },
+                {
+                  "href": "bq_company_candidates.csv",
+                  "label": "Reviewed BigQuery corporate-label evidence"
+                },
+                {
+                  "href": "bq_discovery_review.json",
+                  "label": "BigQuery candidate review and identity sources"
                 },
                 {
                   "href": "bq_coverage.json",
@@ -3015,7 +3112,7 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "以下計數記錄對 04_bigquery.tar.gz 進行限定範圍掃描的進度，目的是尋找明確的香港國家／地點訊號。候選公司資料列僅為篩選候選，並非已確認的機構或受影響客戶。本次掃描尚未新增公司調查結果；現有 421 個名稱及九項調查結果維持不變。"
+                  "text": "下列數字反映對 04_bigquery.tar.gz 的指定範圍掃描，目的是尋找明確的香港國家或地點訊號。候選公司資料列只是篩選線索，並非已確認的機構或受影響客戶。原有的 421 個名稱目錄及九項詳細發現維持不變。下文另列兩個經覆核的新增企業名稱。"
                 }
               ]
             },
@@ -3048,8 +3145,8 @@
                 [
                   "壓縮檔清點",
                   "—",
-                  "✓",
                   "—",
+                  "✓",
                   "—"
                 ],
                 [
@@ -3070,11 +3167,11 @@
               "rows": [
                 [
                   "已清點資料表",
-                  "4659"
+                  "6458"
                 ],
                 [
                   "已清點資料集",
-                  "52"
+                  "83"
                 ],
                 [
                   "壓縮檔位元組數",
@@ -3082,11 +3179,11 @@
                 ],
                 [
                   "已掃描資料表",
-                  "11"
+                  "26"
                 ],
                 [
                   "已解析資料列",
-                  "773449"
+                  "2698670"
                 ],
                 [
                   "解析錯誤",
@@ -3094,11 +3191,11 @@
                 ],
                 [
                   "包含香港地點訊號的資料列",
-                  "17136"
+                  "55253"
                 ],
                 [
                   "候選公司資料列（未確認）",
-                  "11802"
+                  "20513"
                 ]
               ]
             },
@@ -3108,6 +3205,95 @@
                 {
                   "type": "text",
                   "text": "地點訊號不能證明居住地、國籍、僱主身分或遭入侵。候選及地點計數可能重疊，不應相加。這些進度輸出不包含原始 BigQuery 紀錄或個人識別資料。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bq-additions",
+          "title": "經覆核的 BigQuery 新增紀錄與身分限定",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "以下完整企業名稱紀錄補充了商業資料證據，並不代表正式營運用途或客戶系統遭入侵。其餘未經覆核的候選名稱保留於私人分析區。"
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "原始資料中的完整名稱",
+                "BigQuery 紀錄",
+                "公開身分核實",
+                "解讀限制"
+              ],
+              "rows": [
+                [
+                  "FWD GROUP MANAGEMENT HOLDINGS LIMITED",
+                  "兩份 CRM／帳戶匯出資料各有一筆紀錄，國家欄位指向香港。兩份匯出可能重複記錄同一帳戶。",
+                  "上市公司公告確認此完整企業名稱屬於香港註冊公司。",
+                  "僅顯示商業紀錄出現在資料中，不代表正式營運用途、保險系統受影響或保單持有人資料外洩。"
+                ],
+                [
+                  "Swire Properties Inc.",
+                  "兩份帳戶匯出資料各有一筆帳單城市指向香港的紀錄，另有兩筆潛在客戶紀錄。這些紀錄可能重疊。",
+                  "集團官方資料將此名稱對應至美國邁阿密業務，並與香港的 Swire Properties Ltd. 分別列出。",
+                  "不可將此原始名稱直接歸類為香港法人，或替換成香港上市公司。原始紀錄與具體實體的對應仍未確定。"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "身分核實來源： "
+                },
+                {
+                  "type": "link",
+                  "href": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100561.pdf",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FWD 企業身分（第 12 頁）"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "; "
+                },
+                {
+                  "type": "link",
+                  "href": "https://www.swireproperties.com/en/media/press-releases/2023/20230124_henry-bott-named-president-of-swire-properties-inc/",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Swire 美國業務"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "; "
+                },
+                {
+                  "type": "link",
+                  "href": "https://www.swirepacific.com/en/contact-us/company-address",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Swire 實體區分"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "。公開身分來源並不確認所提供資料包的真實性或事件影響。"
                 }
               ]
             }
@@ -3225,6 +3411,14 @@
                 {
                   "href": "gateway_context.csv",
                   "label": "網關關聯摘要"
+                },
+                {
+                  "href": "bq_company_candidates.csv",
+                  "label": "經覆核的 BigQuery 企業名稱證據"
+                },
+                {
+                  "href": "bq_discovery_review.json",
+                  "label": "BigQuery 候選名稱覆核與身分來源"
                 },
                 {
                   "href": "bq_coverage.json",

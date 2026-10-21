@@ -1,0 +1,6 @@
+﻿organization_label,source_alias,record_role,label_field,location_fields,row_observations,first_line_references
+FWD GROUP MANAGEMENT HOLDINGS LIMITED,BQ002,"CRM/account, including snapshots",account_name,"[""account_country""]",1,[281]
+Swire Properties Inc.,BQ018,"CRM/account, including snapshots",Name,"[""BillingCity""]",1,[2106]
+Swire Properties Inc.,BQ021,"CRM/account, including snapshots",name,"[""billing_city""]",1,[723]
+FWD GROUP MANAGEMENT HOLDINGS LIMITED,BQ024,"CRM/account, including snapshots",Name,"[""Country""]",1,[48]
+Swire Properties Inc.,BQ025,Leads,company,"[""hq_state_province_c""]",2,"[270543, 331033]"

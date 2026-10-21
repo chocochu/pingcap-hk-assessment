@@ -1,27 +1,263 @@
 {
   "archive": "04_bigquery.tar.gz",
   "status": "in_progress",
-  "updated_at": "2026-10-21T01:35:26.649565+00:00",
+  "updated_at": "2026-10-21T01:48:42.525825+00:00",
   "inventory": {
-    "status": "in_progress",
-    "table_count": 4659,
-    "dataset_count": 52,
+    "status": "complete",
+    "table_count": 6458,
+    "dataset_count": 83,
     "archive_bytes": 33830461373,
-    "sha256": null
+    "sha256": "0cef7d7f6c134e28b28ae0aa041eda33c24d2c57d3ec42a70c56ca96164ae210"
   },
   "scan": {
     "status": "complete",
-    "tables_complete": 11,
-    "rows_parsed": 773449,
+    "tables_complete": 26,
+    "rows_parsed": 2698670,
     "parse_errors": 0,
-    "hk_location_rows": 17136,
-    "candidate_company_rows": 11802,
-    "tables_selected": 11,
-    "scope": "Full-row geography discovery in explicitly selected profile, account, organization and billing tables."
+    "hk_location_rows": 55253,
+    "candidate_company_rows": 20513,
+    "tables_selected": 26,
+    "scope": "Full-row geography discovery in selected core profile, CRM/account, organization, billing, marketplace and marketing tables."
   },
+  "table_coverage": [
+    {
+      "source_alias": "BQ001",
+      "category": "Marketplace records",
+      "status": "complete",
+      "rows_parsed": 862,
+      "parse_errors": 0,
+      "hk_location_rows": 110,
+      "candidate_company_rows": 89
+    },
+    {
+      "source_alias": "BQ002",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 2100,
+      "parse_errors": 0,
+      "hk_location_rows": 67,
+      "candidate_company_rows": 67
+    },
+    {
+      "source_alias": "BQ003",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 3362,
+      "parse_errors": 0,
+      "hk_location_rows": 102,
+      "candidate_company_rows": 101
+    },
+    {
+      "source_alias": "BQ004",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 142512,
+      "parse_errors": 0,
+      "hk_location_rows": 3728,
+      "candidate_company_rows": 3705
+    },
+    {
+      "source_alias": "BQ005",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 4366,
+      "parse_errors": 0,
+      "hk_location_rows": 108,
+      "candidate_company_rows": 107
+    },
+    {
+      "source_alias": "BQ006",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 1856,
+      "parse_errors": 0,
+      "hk_location_rows": 87,
+      "candidate_company_rows": 85
+    },
+    {
+      "source_alias": "BQ007",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 446885,
+      "parse_errors": 0,
+      "hk_location_rows": 7849,
+      "candidate_company_rows": 7774
+    },
+    {
+      "source_alias": "BQ008",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 3260,
+      "parse_errors": 0,
+      "hk_location_rows": 96,
+      "candidate_company_rows": 95
+    },
+    {
+      "source_alias": "BQ009",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 1138,
+      "parse_errors": 0,
+      "hk_location_rows": 60,
+      "candidate_company_rows": 59
+    },
+    {
+      "source_alias": "BQ010",
+      "category": "Marketing/contact records",
+      "status": "complete",
+      "rows_parsed": 245830,
+      "parse_errors": 0,
+      "hk_location_rows": 5332,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ011",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 17,
+      "parse_errors": 0,
+      "hk_location_rows": 0,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ012",
+      "category": "Billing information",
+      "status": "complete",
+      "rows_parsed": 1836,
+      "parse_errors": 0,
+      "hk_location_rows": 32,
+      "candidate_company_rows": 1
+    },
+    {
+      "source_alias": "BQ013",
+      "category": "Billing information",
+      "status": "complete",
+      "rows_parsed": 1362,
+      "parse_errors": 0,
+      "hk_location_rows": 51,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ014",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 178309,
+      "parse_errors": 0,
+      "hk_location_rows": 4218,
+      "candidate_company_rows": 3
+    },
+    {
+      "source_alias": "BQ015",
+      "category": "Profile metadata",
+      "status": "complete",
+      "rows_parsed": 102999,
+      "parse_errors": 0,
+      "hk_location_rows": 1004,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ016",
+      "category": "Profile metadata",
+      "status": "complete",
+      "rows_parsed": 51353,
+      "parse_errors": 0,
+      "hk_location_rows": 2632,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ017",
+      "category": "Profile metadata",
+      "status": "complete",
+      "rows_parsed": 16642,
+      "parse_errors": 0,
+      "hk_location_rows": 1515,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ018",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 3618,
+      "parse_errors": 0,
+      "hk_location_rows": 126,
+      "candidate_company_rows": 125
+    },
+    {
+      "source_alias": "BQ019",
+      "category": "Marketing/contact records",
+      "status": "complete",
+      "rows_parsed": 7220,
+      "parse_errors": 0,
+      "hk_location_rows": 170,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ020",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 166794,
+      "parse_errors": 0,
+      "hk_location_rows": 3944,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ021",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 3480,
+      "parse_errors": 0,
+      "hk_location_rows": 122,
+      "candidate_company_rows": 121
+    },
+    {
+      "source_alias": "BQ022",
+      "category": "Marketing/contact records",
+      "status": "complete",
+      "rows_parsed": 733658,
+      "parse_errors": 0,
+      "hk_location_rows": 11612,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ023",
+      "category": "Marketing/contact records",
+      "status": "complete",
+      "rows_parsed": 7099,
+      "parse_errors": 0,
+      "hk_location_rows": 166,
+      "candidate_company_rows": 0
+    },
+    {
+      "source_alias": "BQ024",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 2034,
+      "parse_errors": 0,
+      "hk_location_rows": 58,
+      "candidate_company_rows": 58
+    },
+    {
+      "source_alias": "BQ025",
+      "category": "Marketing/contact records",
+      "status": "complete",
+      "rows_parsed": 413725,
+      "parse_errors": 0,
+      "hk_location_rows": 8205,
+      "candidate_company_rows": 8123
+    },
+    {
+      "source_alias": "BQ026",
+      "category": "Account and organization records",
+      "status": "complete",
+      "rows_parsed": 156353,
+      "parse_errors": 0,
+      "hk_location_rows": 3859,
+      "candidate_company_rows": 0
+    }
+  ],
   "limitations": [
     "Inventory samples the first nonblank row schema per nested table; gzip integrity is not full JSON validation or source authentication.",
-    "This discovery batch selects 11 tables. Other tables, historical snapshots, free text and embedded arrays are outside its row analysis.",
+    "This discovery batch selects 26 tables. Other tables, historical backups, employee records, bulk analytics events, free text and embedded arrays are outside its row analysis.",
     "Hong Kong country or city/region fields are row-level geography signals, not verified residence, headquarters, employer identity or compromise.",
     "Candidate company rows contain company/account labels and geography in the same record; semantic roles and ownership still require review.",
     "Observations overlap across profiles, snapshots and tables and are not unique people, companies, customers or incidents.",

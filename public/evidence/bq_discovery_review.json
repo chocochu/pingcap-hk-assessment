@@ -1,0 +1,122 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Manual corporate-label review following the selected-table geography scan; only the two approved exact labels are disclosed.",
+  "candidate_string_counts": {
+    "distinct_strings": 4842,
+    "exact_existing_directory_matches": 377,
+    "new_vs_directory": 4465,
+    "new_lead_only": 2302
+  },
+  "hk_signal_rows_by_record_role": {
+    "Billing": 83,
+    "CRM/account, including snapshots": 8528,
+    "CRM/organisation, including snapshots": 11678,
+    "Campaign members": 11612,
+    "Contacts": 5668,
+    "Leads": 8205,
+    "Marketplace payer/account": 110,
+    "Native tenants": 4218,
+    "Profiles": 5151
+  },
+  "reviewed_labels": [
+    {
+      "organization_label": "FWD GROUP MANAGEMENT HOLDINGS LIMITED",
+      "identity_assessment": "Exact corporate name corroborated as incorporated in Hong Kong by a listed-company announcement.",
+      "observation": "One observation in each of two CRM/account exports with Hong Kong country fields. The exports may duplicate one account.",
+      "limit": "Business-record exposure only. This does not establish production use, an affected insurance system, or policyholder-data exposure.",
+      "public_sources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100561.pdf"
+      ],
+      "source_reference": "PCCW/HKT announcement, 31 December 2025, page 12, definition of FWD Group Management.",
+      "hk_classification": "Publicly corroborated HK legal entity; source relationship remains a CRM/account observation.",
+      "source_evidence": [
+        {
+          "organization_label": "FWD GROUP MANAGEMENT HOLDINGS LIMITED",
+          "source_alias": "BQ002",
+          "record_role": "CRM/account, including snapshots",
+          "label_field": "account_name",
+          "location_fields": [
+            "account_country"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            281
+          ]
+        },
+        {
+          "organization_label": "FWD GROUP MANAGEMENT HOLDINGS LIMITED",
+          "source_alias": "BQ024",
+          "record_role": "CRM/account, including snapshots",
+          "label_field": "Name",
+          "location_fields": [
+            "Country"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "organization_label": "Swire Properties Inc.",
+      "identity_assessment": "Official group sources identify this name with the US/Miami business, separately from Swire Properties Ltd. in Hong Kong.",
+      "observation": "One observation in each of two account exports with Hong Kong billing-city signals, plus two lead observations. These records may overlap.",
+      "limit": "Do not classify the exact source label as an HK legal entity or substitute the Hong Kong-listed company. Source-to-entity attribution remains unresolved.",
+      "public_sources": [
+        "https://www.swireproperties.com/en/media/press-releases/2023/20230124_henry-bott-named-president-of-swire-properties-inc/",
+        "https://www.swirepacific.com/en/contact-us/company-address"
+      ],
+      "source_reference": "Official Swire Properties release, 24 January 2023; Swire Pacific company-address directory, checked 21 October 2026.",
+      "hk_classification": "Group connection and source geography only; direct HK entity attribution withheld.",
+      "source_evidence": [
+        {
+          "organization_label": "Swire Properties Inc.",
+          "source_alias": "BQ018",
+          "record_role": "CRM/account, including snapshots",
+          "label_field": "Name",
+          "location_fields": [
+            "BillingCity"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            2106
+          ]
+        },
+        {
+          "organization_label": "Swire Properties Inc.",
+          "source_alias": "BQ021",
+          "record_role": "CRM/account, including snapshots",
+          "label_field": "name",
+          "location_fields": [
+            "billing_city"
+          ],
+          "row_observations": 1,
+          "first_line_references": [
+            723
+          ]
+        },
+        {
+          "organization_label": "Swire Properties Inc.",
+          "source_alias": "BQ025",
+          "record_role": "Leads",
+          "label_field": "company",
+          "location_fields": [
+            "hq_state_province_c"
+          ],
+          "row_observations": 2,
+          "first_line_references": [
+            270543,
+            331033
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Strings are not unique companies. Snapshots and copied exports overlap.",
+    "Unreviewed contact, lead and self-entered organisation labels remain private.",
+    "Public sources corroborate corporate identity or an identity conflict, not the authenticity of this dump or an incident impact.",
+    "An exact name in a CRM/account export does not establish a production customer, customer-system breach, or downstream-data exposure."
+  ]
+}
