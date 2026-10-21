@@ -1,0 +1,422 @@
+﻿label_ref,organization_label,category_codes,category_en,category_zh,confidence,basis
+L0001,2Fi Business Solutions Limited/智傑科技有限公司,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0002,2Fi Business Solutions（智傑科技有限公司）,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0003,365 Technologies Holding Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0004,AAC Technologies Holdings Inc.,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0005,ADV Partners Holdings Ltd,SEC;PRO,Securities & Asset Management; Professional Services,證券及資產管理; 專業服務,M,Inferred from name keywords or general knowledge; verify
+L0006,ADVANCE INTELLIGENCE PTE. LTD.,TEC;PAY,"Technology, Software & Cloud; Payments & Fintech",科技、軟件及雲端; 支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0007,"AEON Credit Service (Asia) Co., Ltd.",BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0008,AIA,INS,Insurance,保險,H,Name or domain states the sector
+L0009,"About Us Shenzhen Kaifa Technology Co., Ltd.",HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0010,AdTech Innovation Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0011,Airpath Pte,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0012,Airstar Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0013,Amara Technologies limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0014,Amber AI Limited,CRY;SEC,Crypto & Web3; Securities & Asset Management,加密資產及 Web3; 證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0015,Anchorpoint Financial / Animoca Brands,CRY;SEC;MED,"Crypto & Web3; Securities & Asset Management; Media, Gaming & Entertainment",加密資產及 Web3; 證券及資產管理; 傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0016,Animoca,CRY;MED,"Crypto & Web3; Media, Gaming & Entertainment",加密資產及 Web3; 傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0017,Animoca Brands,CRY;MED,"Crypto & Web3; Media, Gaming & Entertainment",加密資產及 Web3; 傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0018,Animoca Brands/ Moca Network,CRY;MED,"Crypto & Web3; Media, Gaming & Entertainment",加密資產及 Web3; 傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0019,Anticipate Exchange,CRY,Crypto & Web3,加密資產及 Web3,M,Inferred from name keywords or general knowledge; verify
+L0020,Antoson International (Hong Kong) Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0021,Aopify Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0022,Arrow Asia Pac Ltd,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0023,AsiaPac Net Media Ltd,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0024,AsiaPac Net Media Ltd.,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0025,Asurion Hongkong Ltd-rohq,INS;TEC,"Insurance; Technology, Software & Cloud",保險; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0026,Atlantic Partners Asia PS Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0027,Axial Partners Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0028,BANK MANDIRI,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0029,BE Reinsurance Ltd,INS,Insurance,保險,H,Name or domain states the sector
+L0030,BEA Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0031,BESTSHARE INTERNET MEDIA LIMITED,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0032,BIT.com (Fka Matrixport) - Director,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0033,BS Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0034,Bain & Co.,PRO,Professional Services,專業服務,H,Name or domain states the sector
+L0035,Bank HSBC,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0036,Bank of America,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0037,Bank of China,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0038,"Bank of China, Homg Kong",BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0039,Bank of Communications （交通银行）,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0040,Bank of east Asia,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0041,Beecon Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0042,Beijing University of Posts and Telecommunications,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0043,Bison Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0044,Bit.com,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0045,Boardroom Limited,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0046,Boci Prudential Asset Management Limited,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0047,Bond Connect Company Limited,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0048,Boom Securities,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0049,Bp Advisory HK Limited,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0050,Bright Smart Securities and Commodities Group,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0051,Brown University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0052,CHAINBASE TECHNOLOGY HOLDINGS PTE. LTD.,CRY;TEC,"Crypto & Web3; Technology, Software & Cloud",加密資產及 Web3; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0053,CLP,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0054,CM Career Limited,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0055,CMB Wing Lung Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0056,COD Payment Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0057,CUS00116 Baidu (HONG KONG) Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0058,"CUS54185 HONG KONG CLOUD Y TECHNOLOGY CO., LTD",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0059,"Café de Coral Holdings,",RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0060,Cathay Pacific,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0061,Cecloud Ltd.,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0062,"Center for Entrepreneurship, The Chinese University of Hong Kong",EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0063,Centranum Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0064,Century Tech System PTE. LTD.,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0065,Certizen Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0066,ChainBase,CRY;TEC,"Crypto & Web3; Technology, Software & Cloud",加密資產及 Web3; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0067,Changchun university,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0068,China Construction Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0069,China Everbright Bank HK branch,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0070,Chong Hing Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0071,Chong Hing Bank Limited,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0072,City University of Hong Kong,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0073,Cointree ltd,CRY,Crypto & Web3,加密資產及 Web3,M,Inferred from name keywords or general knowledge; verify
+L0074,Contempo Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0075,Contra G C Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0076,Contra Group Corporate limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0077,Convoy Global Holdings Limited,INS;SEC,Insurance; Securities & Asset Management,保險; 證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0078,Core Pacific - Yamaichi International (H.K.) Ltd.,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0079,CtrlC & CtrlV Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0080,Cyber Age Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0081,Cyberage Systems Ltd（盈卓投资）,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0082,Cyberport Management Company Limited,GOV;TEC,"Government & Public Bodies; Technology, Software & Cloud",政府及公營機構; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0083,D-Engraver Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0084,Dah Chong Hong Holdings Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0085,Dah Sing Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0086,Data Solutions Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0087,Daytech HK Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0088,Delos Financial Limited,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0089,Descamps Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0090,Donghwa Telecom Ltd,TEL,Telecom,電訊,H,Name or domain states the sector
+L0091,Dreams AI Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0092,Duke University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0093,Dumplings technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0094,EXIO Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0095,"Electrical and Mechanical Services Department (EMSD), HKSAR Government",GOV,Government & Public Bodies,政府及公營機構,H,Name or domain states the sector
+L0096,Emerson (Taiwan) Limited,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0097,Everbright Securities International,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0098,Evertas Insurance,INS,Insurance,保險,H,Name or domain states the sector
+L0099,FV Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0100,FWD Insurance,INS,Insurance,保險,H,Name or domain states the sector
+L0101,"FanRuan Software Co., LId.",TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0102,Fubon Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0103,"Fubon Financial Holding Co., Ltd.",BNK;INS;SEC,Banking & Lending; Insurance; Securities & Asset Management,銀行及借貸; 保險; 證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0104,Fubon Life Insurance Co Ltd,INS,Insurance,保險,H,Name or domain states the sector
+L0105,Functioneight Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0106,Functioneight Ltd.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0107,Future Proofing Co ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0108,Future Wing Financial Company Limited,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0109,GG.COM Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0110,"GUAN YI XIN TRADING AND CONSULTING CO., LIMITED",UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0111,George M HK Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0112,Gleneagles Hospital Hong Kong,HLT,Healthcare & Pharma,醫療及製藥,H,Name or domain states the sector
+L0113,Glorious Sun Enterprises Ltd,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0114,Golden News Enterprises Ltd.,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0115,Guangzhou University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0116,H&amp;W Technology Service Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0117,HAINAN ZONGHE PHARMACEUTICALS CO.LTD.,HLT,Healthcare & Pharma,醫療及製藥,H,Name or domain states the sector
+L0118,HGC Global Communications Limited,TEL,Telecom,電訊,H,Name or domain states the sector
+L0119,HKEx,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0120,HKT Limited,TEL,Telecom,電訊,H,Name or domain states the sector
+L0121,HONG KONG FTL CLOUD INFORMATION TECHNOLOGY LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0122,Hang Seng Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0123,HashData Technology (Hong Kong) Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0124,Hashkey Group,CRY;SEC,Crypto & Web3; Securities & Asset Management,加密資產及 Web3; 證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0125,Hi Sun Fintech Global Limited,PAY;TEC,"Payments & Fintech; Technology, Software & Cloud",支付及金融科技; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0126,Hkbn,TEL,Telecom,電訊,H,Name or domain states the sector
+L0127,Hong Kong Baptist University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0128,Hong Kong Exchanges and Clearing Limited (Hkex),SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0129,Hong Kong Hospital Authority,HLT;GOV,Healthcare & Pharma; Government & Public Bodies,醫療及製藥; 政府及公營機構,M,Inferred from name keywords or general knowledge; verify
+L0130,Hong Kong Interbank Clearing Limited (HKICL),PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0131,Hong Kong Monetary Authority (HKMA),GOV;BNK,Government & Public Bodies; Banking & Lending,政府及公營機構; 銀行及借貸,M,Inferred from name keywords or general knowledge; verify
+L0132,Hong Kong Polytechnic University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0133,Hong Kong Virtual Asset Exchange (HKVAX),CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0134,HongKong GMS Group Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0135,Hospital Authority,HLT;GOV,Healthcare & Pharma; Government & Public Bodies,醫療及製藥; 政府及公營機構,M,Inferred from name keywords or general knowledge; verify
+L0136,Hsbc,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0137,Huatai Financial Holdings (Hong Kong) Limited,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0138,"Huawei Technologies Co., Ltd",HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0139,HustleFlow Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0140,Hypergem Corporation,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0141,Hytto Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0142,ICICI Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0143,International treasures limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0144,J&T Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0145,K11 Concepts Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0146,KCL LTD,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0147,Kanga Exchange,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0148,Kanga exchange - crypto exchange with starter and otc physical points ( 1200 ),CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0149,Kanga starter launchpad and kanga exchange,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0150,"Keenon Robotics Co,. Ltd",HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0151,Kepro Solutions LTD(基寶系統有限公司),TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0152,Kepro solutions limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0153,Kwkun Chou（HONG KONG）Investment Co.Ltd,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0154,"Kwun Chou (Hong Kong) Investment Co.,Limited",SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0155,LAB Co-founder,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0156,LBank Exchange,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0157,Leanne Jewellery Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0158,Li & Fung Limited,RET;UTL,"Retail, Consumer & Agriculture; Utilities, Transport & Logistics",零售、消費及農業; 公用事業、交通及物流,M,Inferred from name keywords or general knowledge; verify
+L0159,Lululemon Athletica Australia Holding Pty Ltd,RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0160,Luminary Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0161,META MATRIX PED. LTD.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0162,META MATRIX PTE. LTD,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0163,META MATRIX PTE. LTD.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0164,MEXC SINGAPORE PTE. LTD.,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0165,ML Investment Ltd,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0166,MTR,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0167,MTR Corporation Limited 香港鐵路有限公司,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0168,MaBelle Jewellery Company Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0169,Macro Kiosk (HK) Limited,TEL,Telecom,電訊,M,Inferred from name keywords or general knowledge; verify
+L0170,Macroview Telecom Ltd.,TEL,Telecom,電訊,H,Name or domain states the sector
+L0171,Mainland Headwear Holdings Ltd,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0172,Mandatory Provident Fund Schemes Authority (MPFA),GOV,Government & Public Bodies,政府及公營機構,H,Name or domain states the sector
+L0173,Master Concept (Hong Kong) Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0174,Matrixport,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0175,Matrixport Technologies Ltd.,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0176,"MeiG Smart Technology Co., Ltd",HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0177,Meichintrading trading company ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0178,Merrill Lynch Asia Pacific Ltd,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0179,NODE REAL PTE LTD.,CRY;TEC,"Crypto & Web3; Technology, Software & Cloud",加密資產及 Web3; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0180,Nanyang Commercial Bank Ltd.,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0181,Nebula Agency,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0182,"NetCraft Information Technology (Macau) Co.,  Ltd.",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0183,New York Stock Exchange,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0184,Nextgen Solutions Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0185,Nodeworthy Pte Ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0186,North China University of Technology,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0187,Ocbc Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0188,Octopus Holdings Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0189,One Ledger Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0190,OneConnect Financial Technology,PAY;TEC,"Payments & Fintech; Technology, Software & Cloud",支付及金融科技; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0191,OneConnect Financial Technology Co Ltd,PAY;TEC,"Payments & Fintech; Technology, Software & Cloud",支付及金融科技; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0192,"OneConnect Financial Technology Co., Ltd.",PAY;TEC,"Payments & Fintech; Technology, Software & Cloud",支付及金融科技; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0193,OnePro Cloud Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0194,Organisation for Economic Co-operation and Development,GOV,Government & Public Bodies,政府及公營機構,H,Name or domain states the sector
+L0195,PAX,HW;PAY,Hardware & Manufacturing; Payments & Fintech,硬件及製造; 支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0196,PINGCAP PTE. LTD.,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0197,Pan Asian Mortgage Company Limited,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0198,Pccw Solutions Limited,TEC;TEL,"Technology, Software & Cloud; Telecom",科技、軟件及雲端; 電訊,M,Inferred from name keywords or general knowledge; verify
+L0199,Peking University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0200,Perki consultancy ltd,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0201,Plangora Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0202,Plotio Financial Group Limited,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0203,Polestar Studios Ltd.,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0204,PrimeCredit Limited,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0205,Pyxis Pay PTE LTD,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0206,Quality HealthCare Medical Services Limited,HLT,Healthcare & Pharma,醫療及製藥,H,Name or domain states the sector
+L0207,Qube Research & Technologies HK Limited,SEC;TEC,"Securities & Asset Management; Technology, Software & Cloud",證券及資產管理; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0208,Qube Research & Technologies Limited,SEC;TEC,"Securities & Asset Management; Technology, Software & Cloud",證券及資產管理; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0209,Rapidmile business solution limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0210,Right Station Ltd.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0211,"Rihanna Co, . Limited",UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0212,S.F. Express Co.,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0213,"SUNMI Technology Co., Ltd.",HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0214,SUNeVision Holdings Ltd.,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0215,Sabetech Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0216,Sanfield Management Ltd（新輝（建築管理）有限公司）,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0217,Securities and Futures Commission,GOV,Government & Public Bodies,政府及公營機構,H,Name or domain states the sector
+L0218,Securities and Futures Commission (SFC),GOV,Government & Public Bodies,政府及公營機構,H,Name or domain states the sector
+L0219,Selangor Information Technology & Digital Economy Corporation (Sidec),GOV;TEC,"Government & Public Bodies; Technology, Software & Cloud",政府及公營機構; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0220,ShangHai JingDuo Ltd.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0221,Shanghai Commercial Bank Ltd,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0222,Shenzhen University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0223,Sichuan University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0224,"Sieger (Hong Kong) Technology Co., Limited",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0225,SigmaLayer Company Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0226,Sinnet Cloud Hong Kong Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0227,Spark Fintech Limited/Bybit,CRY;PAY,Crypto & Web3; Payments & Fintech,加密資產及 Web3; 支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0228,Sport Förg GmbH & CO. KG,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0229,Standard Chartered Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0230,Starknet Holdings,CRY;TEC,"Crypto & Web3; Technology, Software & Cloud",加密資產及 Web3; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0231,Sunline Holding (HK) Limited,PAY;TEC,"Payments & Fintech; Technology, Software & Cloud",支付及金融科技; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0232,Swire Resources Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0233,Systex Information (H.K) Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0234,Systex Information (HK) LTD,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0235,Systex Information (HK)Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0236,TAL Apparel Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0237,TCC Consulting Limited,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0238,TRANSSION HOLDINGS,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0239,Tahoe Life Insurance Company Limited,INS,Insurance,保險,H,Name or domain states the sector
+L0240,Tai United Holdings Limited/太和控股有限公司,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0241,Tech-Trans Telecom (China) Ltd.,TEL,Telecom,電訊,M,Inferred from name keywords or general knowledge; verify
+L0242,Techware Computing Services Co,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0243,Tectonic Technology Innovation Company Limited,CRY;TEC,"Crypto & Web3; Technology, Software & Cloud",加密資產及 Web3; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0244,The Bank of East Asia  Limited,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0245,"The Bank of East Asia,  Limited",BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0246,"The Bank of East Asia, Limited (BEA)",BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0247,The Chinese University of Hong Kong,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0248,"The Chinese University of Hong Kong, Shenzhen",EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0249,The HK and China Gas Co. Ltd.,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0250,The Hong Kong Mortgage Corporation Limited,BNK;GOV,Banking & Lending; Government & Public Bodies,銀行及借貸; 政府及公營機構,M,Inferred from name keywords or general knowledge; verify
+L0251,The Hong Kong University of Science and Technology,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0252,The Hong Kong and China Gas Company Limited (Towngas),UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0253,"The Hongkong Electric Co., Ltd. (HK Electric)",UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0254,The Payment Cards Group Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0255,The Pill Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0256,The University of Hong Kong,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0257,Tvameva Business solutions ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0258,UCL CAPITAL LIMITED,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0259,UR bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0260,Underground Agency,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0261,University of Hong Kong,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0262,VF Corporation,RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0263,VIA Exchange,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0264,Vanguard limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0265,Victory Securities Company Limited,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0266,Vivo （维沃移动通信有限公司）,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0267,Want Want China Holdings,RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0268,Whale Cloud technology pvt ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0269,Wing Fung Financial Group Limited,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0270,Witti Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0271,Wonder ventures limited,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0272,Wuhan University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0273,XTransfer Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0274,YBB Foundation LTD.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0275,Yunnan University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0276,ZPMC/上海振华重工（集团）股份有限公司,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0277,ZTE CORPORATION,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0278,Zaraffa & Datagateway Pte. Ltd.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0279,Zhejiang University,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0280,Zima Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0281,aamra technologies limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0282,"bitqik Sole CO.,LTD",CRY,Crypto & Web3,加密資產及 Web3,M,Inferred from name keywords or general knowledge; verify
+L0283,crescent management limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0284,digital bank,BNK,Banking & Lending,銀行及借貸,M,Inferred from name keywords or general knowledge; verify
+L0285,eft Payments (Asia) Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0286,hsi ltd,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0287,hunan university,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0288,iCloser Ltd.,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0289,jc limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0290,kucoin exchange,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0291,"miHoYo Co., Ltd.",MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,H,Name or domain states the sector
+L0292,moon holdings,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0293,people bank agency,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0294,shing fai it consult Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0295,shoplazza,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0296,wuhan university of technology,EDU,Education & Research,教育及研究,H,Name or domain states the sector
+L0297,万库标杆科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0298,三亚京网法融投资有限公司,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0299,上海绘庆网络科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0300,上海道奥网络科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0301,东北证券股份有限公司,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0302,东莞市原始人网络科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0303,中亿丰数字信息科技集团有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0304,中山华定科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0305,信銀(香港)投資有限公司,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0306,光彩国际信息科技（深圳）有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0307,北京华夏乐游科技股份有限公司,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0308,北京平凯星辰科技发展有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0309,北京零一万物科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0310,华印工业(香港)有限公司,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0311,帆软软件有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0312,帷幄智能科技（天津）有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0313,广州朗桥维视通信技术有限公司,TEL,Telecom,電訊,M,Inferred from name keywords or general knowledge; verify
+L0314,广州视源电子科技股份有限公司,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0315,成都鑫融汇农业科技有限公司,RET,"Retail, Consumer & Agriculture",零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0316,日新軟體股份有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0317,时代上汽动力电池有限公司,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0318,杭州有赞科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0319,杭州零界演化科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0320,株式会社HashKey DX,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0321,永裕達有限公司,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0322,河床投资管理有限公司,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0323,深圳华科云动力科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0324,深圳圣格灵科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0325,深圳市中宇能科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0326,深圳市港聯信科技技術有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0327,深圳融顺科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0328,深圳马克投资有限公司,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0329,衡哲信息科技（上海）有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0330,西安泰佳建筑规划设计有限公司,PRO,Professional Services,專業服務,M,Inferred from name keywords or general knowledge; verify
+L0331,链熵科技（苏州）有限公司,CRY;TEC,"Crypto & Web3; Technology, Software & Cloud",加密資產及 Web3; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0332,长风药业股份有限公司,HLT,Healthcare & Pharma,醫療及製藥,H,Name or domain states the sector
+L0333,香港商嬴核數位有限公司台灣分公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0334,香港推客科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0335,香港瑞德传媒有限公司,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,H,Name or domain states the sector
+L0336,香港畅联有限公司,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0337,香港白泽科技有限公司,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0338,香港盈科证券有限公司,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0339,龙门信息有限公司,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0340,AGILEWING TECHNOLOGY CO. LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0341,Admazes Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0342,AmberGroup,CRY;SEC,Crypto & Web3; Securities & Asset Management,加密資產及 Web3; 證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0343,Animoca Brands Corporation Ltd,CRY;MED,"Crypto & Web3; Media, Gaming & Entertainment",加密資產及 Web3; 傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0344,AsiaPac Net Media Limited,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0345,AsiaPac Net Media Limited*,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0346,Autotoll Limited,UTL;PAY,"Utilities, Transport & Logistics; Payments & Fintech",公用事業、交通及物流; 支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0347,Baidu (HONG KONG) Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0348,Bytebase (HongKong) Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0349,CLINK LAB LIMITED,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0350,CLOUDMOTION TECH LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0351,CLP Power Hong Kong Limited,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0352,COCLOUD HK Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0353,COIHUB TECHNOLOGY LIMITED,CRY,Crypto & Web3,加密資產及 Web3,M,Inferred from name keywords or general knowledge; verify
+L0354,"Cloud Steps Technology (HK) Co., Limited",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0355,Dimennet (Hong Kong) Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0356,ECR (HK) Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0357,EDNS Domains PTE Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0358,Eats365,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0359,EcloudValley Techonology (HK) Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0360,Elasticsearch HK Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0361,FUNTECH TECHNOLOGY LIMITED,TEC;MED,"Technology, Software & Cloud; Media, Gaming & Entertainment",科技、軟件及雲端; 傳媒、遊戲及娛樂,M,Inferred from name keywords or general knowledge; verify
+L0362,Funplus Interactive (Hong Kong) Limited,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,H,Name or domain states the sector
+L0363,"Futurecloud Technology Co.,Limited",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0364,"GOCLOUDS DATA (HONGKONG) CO., LIMITED",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0365,Geely Automobile Holdings Ltd,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0366,HK FUTURE INIGHT TECH LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0367,HONG KONG BAIDAODATA TECHNOLOGY LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0368,HONG KONG BOSICLOUD TECHNOLOGY LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0369,"HONG KONG CLOUD Y TECHNOLOGY CO., LTD",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0370,HONG KONG QINEASY TECHNOLOGY LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0371,HONG KONG WONDERCLOUD LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0372,"HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0373,HONG KONG YUSHENDATA TECHNOLOGY LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0374,Hashkey,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0375,"Hong Kong Cloud Pilot Technology Co., Limited",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0376,Hong Kong Exchanges and Clearing Limited,SEC,Securities & Asset Management,證券及資產管理,H,Name or domain states the sector
+L0377,Hong Kong Interbank Clearing Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0378,Hong Kong Science & Technology Parks Corporation,GOV;TEC,"Government & Public Bodies; Technology, Software & Cloud",政府及公營機構; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0379,Hong Kong ZhongAn Technology Limited,INS;TEC,"Insurance; Technology, Software & Cloud",保險; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0380,Igears Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0381,Instance Cloud Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0382,Jing Mei Automotive Limited,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0383,KBQuest Hong Kong Limtied,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0384,Kinetix Systems Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0385,Klook,RET;TEC,"Retail, Consumer & Agriculture; Technology, Software & Cloud",零售、消費及農業; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0386,Lazy Panda Technology Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0387,Livi Bank,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0388,MEGA SURPLUS CLOUD TECH LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0389,MEGAHARD LIMITED,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0390,MEGAHARD LIMITED ( No ),UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0391,Mai Xun Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0392,Metaverse Cloud Solution Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0393,Metaversedb Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0394,NewBX Limited,CRY,Crypto & Web3,加密資產及 Web3,M,Inferred from name keywords or general knowledge; verify
+L0395,OSL,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0396,OceanBase Hong Kong Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0397,Octopus Cards Limited,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0398,Orient Overseas Container Line Limited,UTL,"Utilities, Transport & Logistics",公用事業、交通及物流,H,Name or domain states the sector
+L0399,"Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd",PAY,Payments & Fintech,支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0400,RIVER GAME HK LIMITED,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,H,Name or domain states the sector
+L0401,Ricoh Hong Kong Limited,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0402,SHOPLINE COMMERCE PTE. LTD.,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0403,STARLING LABS LIMITED,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0404,Shoplazza Hongkong Limited,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0405,SiS International Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0406,Silvermine Ocean Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0407,Solusfutura Limited,TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0408,Systex Information (H.K.) Ltd,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0409,TEAR GAMES LIMITED,MED,"Media, Gaming & Entertainment",傳媒、遊戲及娛樂,H,Name or domain states the sector
+L0410,Wati,TEC,"Technology, Software & Cloud",科技、軟件及雲端,H,Name or domain states the sector
+L0411,Wetech Trading Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0412,XJCP limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0413,"YZ INTELLIGENCE(HONG KONG) CO., LIMITED",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0414,"ZHONGJUXIN CO., LIMITED",UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0415,"Zhuo Fanl Industrial Co., Limited",UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0416,"[CPPO] Hong Kong Cloud Pilot Technology Co., Limited",TEC,"Technology, Software & Cloud",科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0417,"iRainbow Hong Kong Limited.,",UNK,Unclassified,未能分類,L,No usable signal; left unclassified
+L0418,paxglobal,HW;PAY,Hardware & Manufacturing; Payments & Fintech,硬件及製造; 支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0419,shopline,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
+L0420,好易聯支付網絡（香港）有限公司,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
+L0421,联洲国际技术有限公司,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector

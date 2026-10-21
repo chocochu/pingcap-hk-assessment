@@ -1,0 +1,1399 @@
+{
+  "industries": [
+    {
+      "code": "BNK",
+      "en": "Banking & Lending",
+      "zh-Hant": "銀行及借貸"
+    },
+    {
+      "code": "CRY",
+      "en": "Crypto & Web3",
+      "zh-Hant": "加密資產及 Web3"
+    },
+    {
+      "code": "EDU",
+      "en": "Education & Research",
+      "zh-Hant": "教育及研究"
+    },
+    {
+      "code": "GOV",
+      "en": "Government & Public Bodies",
+      "zh-Hant": "政府及公營機構"
+    },
+    {
+      "code": "HLT",
+      "en": "Healthcare & Pharma",
+      "zh-Hant": "醫療及製藥"
+    },
+    {
+      "code": "HW",
+      "en": "Hardware & Manufacturing",
+      "zh-Hant": "硬件及製造"
+    },
+    {
+      "code": "INS",
+      "en": "Insurance",
+      "zh-Hant": "保險"
+    },
+    {
+      "code": "MED",
+      "en": "Media, Gaming & Entertainment",
+      "zh-Hant": "傳媒、遊戲及娛樂"
+    },
+    {
+      "code": "PAY",
+      "en": "Payments & Fintech",
+      "zh-Hant": "支付及金融科技"
+    },
+    {
+      "code": "PRO",
+      "en": "Professional Services",
+      "zh-Hant": "專業服務"
+    },
+    {
+      "code": "RET",
+      "en": "Retail, Consumer & Agriculture",
+      "zh-Hant": "零售、消費及農業"
+    },
+    {
+      "code": "SEC",
+      "en": "Securities & Asset Management",
+      "zh-Hant": "證券及資產管理"
+    },
+    {
+      "code": "TEC",
+      "en": "Technology, Software & Cloud",
+      "zh-Hant": "科技、軟件及雲端"
+    },
+    {
+      "code": "TEL",
+      "en": "Telecom",
+      "zh-Hant": "電訊"
+    },
+    {
+      "code": "UNK",
+      "en": "Unclassified",
+      "zh-Hant": "未能分類"
+    },
+    {
+      "code": "UTL",
+      "en": "Utilities, Transport & Logistics",
+      "zh-Hant": "公用事業、交通及物流"
+    }
+  ],
+  "labels": {
+    "2Fi Business Solutions Limited/智傑科技有限公司": [
+      "UNK"
+    ],
+    "2Fi Business Solutions（智傑科技有限公司）": [
+      "UNK"
+    ],
+    "365 Technologies Holding Limited": [
+      "TEC"
+    ],
+    "AAC Technologies Holdings Inc.": [
+      "HW"
+    ],
+    "ADV Partners Holdings Ltd": [
+      "SEC",
+      "PRO"
+    ],
+    "ADVANCE INTELLIGENCE PTE. LTD.": [
+      "TEC",
+      "PAY"
+    ],
+    "AEON Credit Service (Asia) Co., Ltd.": [
+      "BNK"
+    ],
+    "AIA": [
+      "INS"
+    ],
+    "About Us Shenzhen Kaifa Technology Co., Ltd.": [
+      "HW"
+    ],
+    "AdTech Innovation Limited": [
+      "TEC"
+    ],
+    "Airpath Pte": [
+      "UNK"
+    ],
+    "Airstar Bank": [
+      "BNK"
+    ],
+    "Amara Technologies limited": [
+      "TEC"
+    ],
+    "Amber AI Limited": [
+      "CRY",
+      "SEC"
+    ],
+    "Anchorpoint Financial / Animoca Brands": [
+      "CRY",
+      "SEC",
+      "MED"
+    ],
+    "Animoca": [
+      "CRY",
+      "MED"
+    ],
+    "Animoca Brands": [
+      "CRY",
+      "MED"
+    ],
+    "Animoca Brands/ Moca Network": [
+      "CRY",
+      "MED"
+    ],
+    "Anticipate Exchange": [
+      "CRY"
+    ],
+    "Antoson International (Hong Kong) Limited": [
+      "UNK"
+    ],
+    "Aopify Ltd": [
+      "UNK"
+    ],
+    "Arrow Asia Pac Ltd": [
+      "HW"
+    ],
+    "AsiaPac Net Media Ltd": [
+      "MED"
+    ],
+    "AsiaPac Net Media Ltd.": [
+      "MED"
+    ],
+    "Asurion Hongkong Ltd-rohq": [
+      "INS",
+      "TEC"
+    ],
+    "Atlantic Partners Asia PS Limited": [
+      "UNK"
+    ],
+    "Axial Partners Limited": [
+      "UNK"
+    ],
+    "BANK MANDIRI": [
+      "BNK"
+    ],
+    "BE Reinsurance Ltd": [
+      "INS"
+    ],
+    "BEA Bank": [
+      "BNK"
+    ],
+    "BESTSHARE INTERNET MEDIA LIMITED": [
+      "MED"
+    ],
+    "BIT.com (Fka Matrixport) - Director": [
+      "CRY"
+    ],
+    "BS Limited": [
+      "UNK"
+    ],
+    "Bain & Co.": [
+      "PRO"
+    ],
+    "Bank HSBC": [
+      "BNK"
+    ],
+    "Bank of America": [
+      "BNK"
+    ],
+    "Bank of China": [
+      "BNK"
+    ],
+    "Bank of China, Homg Kong": [
+      "BNK"
+    ],
+    "Bank of Communications （交通银行）": [
+      "BNK"
+    ],
+    "Bank of east Asia": [
+      "BNK"
+    ],
+    "Beecon Technology Limited": [
+      "TEC"
+    ],
+    "Beijing University of Posts and Telecommunications": [
+      "EDU"
+    ],
+    "Bison Bank": [
+      "BNK"
+    ],
+    "Bit.com": [
+      "CRY"
+    ],
+    "Boardroom Limited": [
+      "PRO"
+    ],
+    "Boci Prudential Asset Management Limited": [
+      "SEC"
+    ],
+    "Bond Connect Company Limited": [
+      "SEC"
+    ],
+    "Boom Securities": [
+      "SEC"
+    ],
+    "Bp Advisory HK Limited": [
+      "PRO"
+    ],
+    "Bright Smart Securities and Commodities Group": [
+      "SEC"
+    ],
+    "Brown University": [
+      "EDU"
+    ],
+    "CHAINBASE TECHNOLOGY HOLDINGS PTE. LTD.": [
+      "CRY",
+      "TEC"
+    ],
+    "CLP": [
+      "UTL"
+    ],
+    "CM Career Limited": [
+      "PRO"
+    ],
+    "CMB Wing Lung Bank": [
+      "BNK"
+    ],
+    "COD Payment Limited": [
+      "PAY"
+    ],
+    "CUS00116 Baidu (HONG KONG) Limited": [
+      "TEC"
+    ],
+    "CUS54185 HONG KONG CLOUD Y TECHNOLOGY CO., LTD": [
+      "TEC"
+    ],
+    "Café de Coral Holdings,": [
+      "RET"
+    ],
+    "Cathay Pacific": [
+      "UTL"
+    ],
+    "Cecloud Ltd.": [
+      "TEC"
+    ],
+    "Center for Entrepreneurship, The Chinese University of Hong Kong": [
+      "EDU"
+    ],
+    "Centranum Ltd": [
+      "UNK"
+    ],
+    "Century Tech System PTE. LTD.": [
+      "TEC"
+    ],
+    "Certizen Limited": [
+      "UNK"
+    ],
+    "ChainBase": [
+      "CRY",
+      "TEC"
+    ],
+    "Changchun university": [
+      "EDU"
+    ],
+    "China Construction Bank": [
+      "BNK"
+    ],
+    "China Everbright Bank HK branch": [
+      "BNK"
+    ],
+    "Chong Hing Bank": [
+      "BNK"
+    ],
+    "Chong Hing Bank Limited": [
+      "BNK"
+    ],
+    "City University of Hong Kong": [
+      "EDU"
+    ],
+    "Cointree ltd": [
+      "CRY"
+    ],
+    "Contempo Limited": [
+      "UNK"
+    ],
+    "Contra G C Ltd": [
+      "UNK"
+    ],
+    "Contra Group Corporate limited": [
+      "UNK"
+    ],
+    "Convoy Global Holdings Limited": [
+      "INS",
+      "SEC"
+    ],
+    "Core Pacific - Yamaichi International (H.K.) Ltd.": [
+      "SEC"
+    ],
+    "CtrlC & CtrlV Limited": [
+      "UNK"
+    ],
+    "Cyber Age Ltd": [
+      "UNK"
+    ],
+    "Cyberage Systems Ltd（盈卓投资）": [
+      "UNK"
+    ],
+    "Cyberport Management Company Limited": [
+      "GOV",
+      "TEC"
+    ],
+    "D-Engraver Limited": [
+      "UNK"
+    ],
+    "Dah Chong Hong Holdings Limited": [
+      "RET"
+    ],
+    "Dah Sing Bank": [
+      "BNK"
+    ],
+    "Data Solutions Limited": [
+      "TEC"
+    ],
+    "Daytech HK Limited": [
+      "TEC"
+    ],
+    "Delos Financial Limited": [
+      "SEC"
+    ],
+    "Descamps Technology Limited": [
+      "TEC"
+    ],
+    "Donghwa Telecom Ltd": [
+      "TEL"
+    ],
+    "Dreams AI Limited": [
+      "TEC"
+    ],
+    "Duke University": [
+      "EDU"
+    ],
+    "Dumplings technology Limited": [
+      "TEC"
+    ],
+    "EXIO Limited": [
+      "UNK"
+    ],
+    "Electrical and Mechanical Services Department (EMSD), HKSAR Government": [
+      "GOV"
+    ],
+    "Emerson (Taiwan) Limited": [
+      "HW"
+    ],
+    "Everbright Securities International": [
+      "SEC"
+    ],
+    "Evertas Insurance": [
+      "INS"
+    ],
+    "FV Bank": [
+      "BNK"
+    ],
+    "FWD Insurance": [
+      "INS"
+    ],
+    "FanRuan Software Co., LId.": [
+      "TEC"
+    ],
+    "Fubon Bank": [
+      "BNK"
+    ],
+    "Fubon Financial Holding Co., Ltd.": [
+      "BNK",
+      "INS",
+      "SEC"
+    ],
+    "Fubon Life Insurance Co Ltd": [
+      "INS"
+    ],
+    "Functioneight Ltd": [
+      "UNK"
+    ],
+    "Functioneight Ltd.": [
+      "UNK"
+    ],
+    "Future Proofing Co ltd": [
+      "UNK"
+    ],
+    "Future Wing Financial Company Limited": [
+      "SEC"
+    ],
+    "GG.COM Limited": [
+      "UNK"
+    ],
+    "GUAN YI XIN TRADING AND CONSULTING CO., LIMITED": [
+      "UNK"
+    ],
+    "George M HK Ltd": [
+      "UNK"
+    ],
+    "Gleneagles Hospital Hong Kong": [
+      "HLT"
+    ],
+    "Glorious Sun Enterprises Ltd": [
+      "RET"
+    ],
+    "Golden News Enterprises Ltd.": [
+      "MED"
+    ],
+    "Guangzhou University": [
+      "EDU"
+    ],
+    "H&amp;W Technology Service Limited": [
+      "TEC"
+    ],
+    "HAINAN ZONGHE PHARMACEUTICALS CO.LTD.": [
+      "HLT"
+    ],
+    "HGC Global Communications Limited": [
+      "TEL"
+    ],
+    "HKEx": [
+      "SEC"
+    ],
+    "HKT Limited": [
+      "TEL"
+    ],
+    "HONG KONG FTL CLOUD INFORMATION TECHNOLOGY LIMITED": [
+      "TEC"
+    ],
+    "Hang Seng Bank": [
+      "BNK"
+    ],
+    "HashData Technology (Hong Kong) Limited": [
+      "TEC"
+    ],
+    "Hashkey Group": [
+      "CRY",
+      "SEC"
+    ],
+    "Hi Sun Fintech Global Limited": [
+      "PAY",
+      "TEC"
+    ],
+    "Hkbn": [
+      "TEL"
+    ],
+    "Hong Kong Baptist University": [
+      "EDU"
+    ],
+    "Hong Kong Exchanges and Clearing Limited (Hkex)": [
+      "SEC"
+    ],
+    "Hong Kong Hospital Authority": [
+      "HLT",
+      "GOV"
+    ],
+    "Hong Kong Interbank Clearing Limited (HKICL)": [
+      "PAY"
+    ],
+    "Hong Kong Monetary Authority (HKMA)": [
+      "GOV",
+      "BNK"
+    ],
+    "Hong Kong Polytechnic University": [
+      "EDU"
+    ],
+    "Hong Kong Virtual Asset Exchange (HKVAX)": [
+      "CRY"
+    ],
+    "HongKong GMS Group Limited": [
+      "UNK"
+    ],
+    "Hospital Authority": [
+      "HLT",
+      "GOV"
+    ],
+    "Hsbc": [
+      "BNK"
+    ],
+    "Huatai Financial Holdings (Hong Kong) Limited": [
+      "SEC"
+    ],
+    "Huawei Technologies Co., Ltd": [
+      "HW"
+    ],
+    "HustleFlow Limited": [
+      "UNK"
+    ],
+    "Hypergem Corporation": [
+      "UNK"
+    ],
+    "Hytto Limited": [
+      "UNK"
+    ],
+    "ICICI Bank": [
+      "BNK"
+    ],
+    "International treasures limited": [
+      "UNK"
+    ],
+    "J&T Technology Limited": [
+      "TEC"
+    ],
+    "K11 Concepts Limited": [
+      "RET"
+    ],
+    "KCL LTD": [
+      "UNK"
+    ],
+    "Kanga Exchange": [
+      "CRY"
+    ],
+    "Kanga exchange - crypto exchange with starter and otc physical points ( 1200 )": [
+      "CRY"
+    ],
+    "Kanga starter launchpad and kanga exchange": [
+      "CRY"
+    ],
+    "Keenon Robotics Co,. Ltd": [
+      "HW"
+    ],
+    "Kepro Solutions LTD(基寶系統有限公司)": [
+      "TEC"
+    ],
+    "Kepro solutions limited": [
+      "TEC"
+    ],
+    "Kwkun Chou（HONG KONG）Investment Co.Ltd": [
+      "SEC"
+    ],
+    "Kwun Chou (Hong Kong) Investment Co.,Limited": [
+      "SEC"
+    ],
+    "LAB Co-founder": [
+      "UNK"
+    ],
+    "LBank Exchange": [
+      "CRY"
+    ],
+    "Leanne Jewellery Limited": [
+      "RET"
+    ],
+    "Li & Fung Limited": [
+      "RET",
+      "UTL"
+    ],
+    "Lululemon Athletica Australia Holding Pty Ltd": [
+      "RET"
+    ],
+    "Luminary Bank": [
+      "BNK"
+    ],
+    "META MATRIX PED. LTD.": [
+      "UNK"
+    ],
+    "META MATRIX PTE. LTD": [
+      "UNK"
+    ],
+    "META MATRIX PTE. LTD.": [
+      "UNK"
+    ],
+    "MEXC SINGAPORE PTE. LTD.": [
+      "CRY"
+    ],
+    "ML Investment Ltd": [
+      "SEC"
+    ],
+    "MTR": [
+      "UTL"
+    ],
+    "MTR Corporation Limited 香港鐵路有限公司": [
+      "UTL"
+    ],
+    "MaBelle Jewellery Company Limited": [
+      "RET"
+    ],
+    "Macro Kiosk (HK) Limited": [
+      "TEL"
+    ],
+    "Macroview Telecom Ltd.": [
+      "TEL"
+    ],
+    "Mainland Headwear Holdings Ltd": [
+      "RET"
+    ],
+    "Mandatory Provident Fund Schemes Authority (MPFA)": [
+      "GOV"
+    ],
+    "Master Concept (Hong Kong) Limited": [
+      "UNK"
+    ],
+    "Matrixport": [
+      "CRY"
+    ],
+    "Matrixport Technologies Ltd.": [
+      "CRY"
+    ],
+    "MeiG Smart Technology Co., Ltd": [
+      "HW"
+    ],
+    "Meichintrading trading company ltd": [
+      "UNK"
+    ],
+    "Merrill Lynch Asia Pacific Ltd": [
+      "SEC"
+    ],
+    "NODE REAL PTE LTD.": [
+      "CRY",
+      "TEC"
+    ],
+    "Nanyang Commercial Bank Ltd.": [
+      "BNK"
+    ],
+    "Nebula Agency": [
+      "UNK"
+    ],
+    "NetCraft Information Technology (Macau) Co.,  Ltd.": [
+      "TEC"
+    ],
+    "New York Stock Exchange": [
+      "SEC"
+    ],
+    "Nextgen Solutions Limited": [
+      "TEC"
+    ],
+    "Nodeworthy Pte Ltd": [
+      "UNK"
+    ],
+    "North China University of Technology": [
+      "EDU"
+    ],
+    "Ocbc Bank": [
+      "BNK"
+    ],
+    "Octopus Holdings Limited": [
+      "PAY"
+    ],
+    "One Ledger Limited": [
+      "UNK"
+    ],
+    "OneConnect Financial Technology": [
+      "PAY",
+      "TEC"
+    ],
+    "OneConnect Financial Technology Co Ltd": [
+      "PAY",
+      "TEC"
+    ],
+    "OneConnect Financial Technology Co., Ltd.": [
+      "PAY",
+      "TEC"
+    ],
+    "OnePro Cloud Limited": [
+      "TEC"
+    ],
+    "Organisation for Economic Co-operation and Development": [
+      "GOV"
+    ],
+    "PAX": [
+      "HW",
+      "PAY"
+    ],
+    "PINGCAP PTE. LTD.": [
+      "TEC"
+    ],
+    "Pan Asian Mortgage Company Limited": [
+      "BNK"
+    ],
+    "Pccw Solutions Limited": [
+      "TEC",
+      "TEL"
+    ],
+    "Peking University": [
+      "EDU"
+    ],
+    "Perki consultancy ltd": [
+      "PRO"
+    ],
+    "Plangora Limited": [
+      "UNK"
+    ],
+    "Plotio Financial Group Limited": [
+      "SEC"
+    ],
+    "Polestar Studios Ltd.": [
+      "MED"
+    ],
+    "PrimeCredit Limited": [
+      "BNK"
+    ],
+    "Pyxis Pay PTE LTD": [
+      "PAY"
+    ],
+    "Quality HealthCare Medical Services Limited": [
+      "HLT"
+    ],
+    "Qube Research & Technologies HK Limited": [
+      "SEC",
+      "TEC"
+    ],
+    "Qube Research & Technologies Limited": [
+      "SEC",
+      "TEC"
+    ],
+    "Rapidmile business solution limited": [
+      "UNK"
+    ],
+    "Right Station Ltd.": [
+      "UNK"
+    ],
+    "Rihanna Co, . Limited": [
+      "UNK"
+    ],
+    "S.F. Express Co.": [
+      "UTL"
+    ],
+    "SUNMI Technology Co., Ltd.": [
+      "HW"
+    ],
+    "SUNeVision Holdings Ltd.": [
+      "TEC"
+    ],
+    "Sabetech Technology Limited": [
+      "TEC"
+    ],
+    "Sanfield Management Ltd（新輝（建築管理）有限公司）": [
+      "PRO"
+    ],
+    "Securities and Futures Commission": [
+      "GOV"
+    ],
+    "Securities and Futures Commission (SFC)": [
+      "GOV"
+    ],
+    "Selangor Information Technology & Digital Economy Corporation (Sidec)": [
+      "GOV",
+      "TEC"
+    ],
+    "ShangHai JingDuo Ltd.": [
+      "UNK"
+    ],
+    "Shanghai Commercial Bank Ltd": [
+      "BNK"
+    ],
+    "Shenzhen University": [
+      "EDU"
+    ],
+    "Sichuan University": [
+      "EDU"
+    ],
+    "Sieger (Hong Kong) Technology Co., Limited": [
+      "TEC"
+    ],
+    "SigmaLayer Company Limited": [
+      "UNK"
+    ],
+    "Sinnet Cloud Hong Kong Ltd": [
+      "TEC"
+    ],
+    "Spark Fintech Limited/Bybit": [
+      "CRY",
+      "PAY"
+    ],
+    "Sport Förg GmbH & CO. KG": [
+      "RET"
+    ],
+    "Standard Chartered Bank": [
+      "BNK"
+    ],
+    "Starknet Holdings": [
+      "CRY",
+      "TEC"
+    ],
+    "Sunline Holding (HK) Limited": [
+      "PAY",
+      "TEC"
+    ],
+    "Swire Resources Limited": [
+      "RET"
+    ],
+    "Systex Information (H.K) Ltd": [
+      "TEC"
+    ],
+    "Systex Information (HK) LTD": [
+      "TEC"
+    ],
+    "Systex Information (HK)Ltd": [
+      "TEC"
+    ],
+    "TAL Apparel Limited": [
+      "RET"
+    ],
+    "TCC Consulting Limited": [
+      "PRO"
+    ],
+    "TRANSSION HOLDINGS": [
+      "HW"
+    ],
+    "Tahoe Life Insurance Company Limited": [
+      "INS"
+    ],
+    "Tai United Holdings Limited/太和控股有限公司": [
+      "UNK"
+    ],
+    "Tech-Trans Telecom (China) Ltd.": [
+      "TEL"
+    ],
+    "Techware Computing Services Co": [
+      "TEC"
+    ],
+    "Tectonic Technology Innovation Company Limited": [
+      "CRY",
+      "TEC"
+    ],
+    "The Bank of East Asia  Limited": [
+      "BNK"
+    ],
+    "The Bank of East Asia,  Limited": [
+      "BNK"
+    ],
+    "The Bank of East Asia, Limited (BEA)": [
+      "BNK"
+    ],
+    "The Chinese University of Hong Kong": [
+      "EDU"
+    ],
+    "The Chinese University of Hong Kong, Shenzhen": [
+      "EDU"
+    ],
+    "The HK and China Gas Co. Ltd.": [
+      "UTL"
+    ],
+    "The Hong Kong Mortgage Corporation Limited": [
+      "BNK",
+      "GOV"
+    ],
+    "The Hong Kong University of Science and Technology": [
+      "EDU"
+    ],
+    "The Hong Kong and China Gas Company Limited (Towngas)": [
+      "UTL"
+    ],
+    "The Hongkong Electric Co., Ltd. (HK Electric)": [
+      "UTL"
+    ],
+    "The Payment Cards Group Limited": [
+      "PAY"
+    ],
+    "The Pill Limited": [
+      "UNK"
+    ],
+    "The University of Hong Kong": [
+      "EDU"
+    ],
+    "Tvameva Business solutions ltd": [
+      "UNK"
+    ],
+    "UCL CAPITAL LIMITED": [
+      "SEC"
+    ],
+    "UR bank": [
+      "BNK"
+    ],
+    "Underground Agency": [
+      "UNK"
+    ],
+    "University of Hong Kong": [
+      "EDU"
+    ],
+    "VF Corporation": [
+      "RET"
+    ],
+    "VIA Exchange": [
+      "UNK"
+    ],
+    "Vanguard limited": [
+      "UNK"
+    ],
+    "Victory Securities Company Limited": [
+      "SEC"
+    ],
+    "Vivo （维沃移动通信有限公司）": [
+      "HW"
+    ],
+    "Want Want China Holdings": [
+      "RET"
+    ],
+    "Whale Cloud technology pvt ltd": [
+      "TEC"
+    ],
+    "Wing Fung Financial Group Limited": [
+      "SEC"
+    ],
+    "Witti Technology Limited": [
+      "TEC"
+    ],
+    "Wonder ventures limited": [
+      "TEC",
+      "RET"
+    ],
+    "Wuhan University": [
+      "EDU"
+    ],
+    "XTransfer Limited": [
+      "PAY"
+    ],
+    "YBB Foundation LTD.": [
+      "UNK"
+    ],
+    "Yunnan University": [
+      "EDU"
+    ],
+    "ZPMC/上海振华重工（集团）股份有限公司": [
+      "HW"
+    ],
+    "ZTE CORPORATION": [
+      "HW"
+    ],
+    "Zaraffa & Datagateway Pte. Ltd.": [
+      "UNK"
+    ],
+    "Zhejiang University": [
+      "EDU"
+    ],
+    "Zima Bank": [
+      "BNK"
+    ],
+    "aamra technologies limited": [
+      "UNK"
+    ],
+    "bitqik Sole CO.,LTD": [
+      "CRY"
+    ],
+    "crescent management limited": [
+      "UNK"
+    ],
+    "digital bank": [
+      "BNK"
+    ],
+    "eft Payments (Asia) Limited": [
+      "PAY"
+    ],
+    "hsi ltd": [
+      "UNK"
+    ],
+    "hunan university": [
+      "EDU"
+    ],
+    "iCloser Ltd.": [
+      "UNK"
+    ],
+    "jc limited": [
+      "UNK"
+    ],
+    "kucoin exchange": [
+      "CRY"
+    ],
+    "miHoYo Co., Ltd.": [
+      "MED"
+    ],
+    "moon holdings": [
+      "UNK"
+    ],
+    "people bank agency": [
+      "UNK"
+    ],
+    "shing fai it consult Ltd": [
+      "TEC"
+    ],
+    "shoplazza": [
+      "TEC",
+      "RET"
+    ],
+    "wuhan university of technology": [
+      "EDU"
+    ],
+    "万库标杆科技有限公司": [
+      "TEC"
+    ],
+    "三亚京网法融投资有限公司": [
+      "SEC"
+    ],
+    "上海绘庆网络科技有限公司": [
+      "TEC"
+    ],
+    "上海道奥网络科技有限公司": [
+      "TEC"
+    ],
+    "东北证券股份有限公司": [
+      "SEC"
+    ],
+    "东莞市原始人网络科技有限公司": [
+      "TEC"
+    ],
+    "中亿丰数字信息科技集团有限公司": [
+      "TEC"
+    ],
+    "中山华定科技有限公司": [
+      "TEC"
+    ],
+    "信銀(香港)投資有限公司": [
+      "SEC"
+    ],
+    "光彩国际信息科技（深圳）有限公司": [
+      "TEC"
+    ],
+    "北京华夏乐游科技股份有限公司": [
+      "MED"
+    ],
+    "北京平凯星辰科技发展有限公司": [
+      "TEC"
+    ],
+    "北京零一万物科技有限公司": [
+      "TEC"
+    ],
+    "华印工业(香港)有限公司": [
+      "HW"
+    ],
+    "帆软软件有限公司": [
+      "TEC"
+    ],
+    "帷幄智能科技（天津）有限公司": [
+      "TEC"
+    ],
+    "广州朗桥维视通信技术有限公司": [
+      "TEL"
+    ],
+    "广州视源电子科技股份有限公司": [
+      "HW"
+    ],
+    "成都鑫融汇农业科技有限公司": [
+      "RET"
+    ],
+    "日新軟體股份有限公司": [
+      "TEC"
+    ],
+    "时代上汽动力电池有限公司": [
+      "HW"
+    ],
+    "杭州有赞科技有限公司": [
+      "TEC"
+    ],
+    "杭州零界演化科技有限公司": [
+      "TEC"
+    ],
+    "株式会社HashKey DX": [
+      "CRY"
+    ],
+    "永裕達有限公司": [
+      "UNK"
+    ],
+    "河床投资管理有限公司": [
+      "SEC"
+    ],
+    "深圳华科云动力科技有限公司": [
+      "TEC"
+    ],
+    "深圳圣格灵科技有限公司": [
+      "TEC"
+    ],
+    "深圳市中宇能科技有限公司": [
+      "TEC"
+    ],
+    "深圳市港聯信科技技術有限公司": [
+      "TEC"
+    ],
+    "深圳融顺科技有限公司": [
+      "TEC"
+    ],
+    "深圳马克投资有限公司": [
+      "SEC"
+    ],
+    "衡哲信息科技（上海）有限公司": [
+      "TEC"
+    ],
+    "西安泰佳建筑规划设计有限公司": [
+      "PRO"
+    ],
+    "链熵科技（苏州）有限公司": [
+      "CRY",
+      "TEC"
+    ],
+    "长风药业股份有限公司": [
+      "HLT"
+    ],
+    "香港商嬴核數位有限公司台灣分公司": [
+      "TEC"
+    ],
+    "香港推客科技有限公司": [
+      "TEC"
+    ],
+    "香港瑞德传媒有限公司": [
+      "MED"
+    ],
+    "香港畅联有限公司": [
+      "UNK"
+    ],
+    "香港白泽科技有限公司": [
+      "TEC"
+    ],
+    "香港盈科证券有限公司": [
+      "SEC"
+    ],
+    "龙门信息有限公司": [
+      "UNK"
+    ],
+    "AGILEWING TECHNOLOGY CO. LIMITED": [
+      "TEC"
+    ],
+    "Admazes Limited": [
+      "TEC"
+    ],
+    "AmberGroup": [
+      "CRY",
+      "SEC"
+    ],
+    "Animoca Brands Corporation Ltd": [
+      "CRY",
+      "MED"
+    ],
+    "AsiaPac Net Media Limited": [
+      "MED"
+    ],
+    "AsiaPac Net Media Limited*": [
+      "MED"
+    ],
+    "Autotoll Limited": [
+      "UTL",
+      "PAY"
+    ],
+    "Baidu (HONG KONG) Limited": [
+      "TEC"
+    ],
+    "Bytebase (HongKong) Limited": [
+      "TEC"
+    ],
+    "CLINK LAB LIMITED": [
+      "UNK"
+    ],
+    "CLOUDMOTION TECH LIMITED": [
+      "TEC"
+    ],
+    "CLP Power Hong Kong Limited": [
+      "UTL"
+    ],
+    "COCLOUD HK Limited": [
+      "TEC"
+    ],
+    "COIHUB TECHNOLOGY LIMITED": [
+      "CRY"
+    ],
+    "Cloud Steps Technology (HK) Co., Limited": [
+      "TEC"
+    ],
+    "Dimennet (Hong Kong) Limited": [
+      "TEC"
+    ],
+    "ECR (HK) Technology Limited": [
+      "TEC"
+    ],
+    "EDNS Domains PTE Ltd": [
+      "TEC"
+    ],
+    "Eats365": [
+      "TEC",
+      "RET"
+    ],
+    "EcloudValley Techonology (HK) Limited": [
+      "TEC"
+    ],
+    "Elasticsearch HK Ltd": [
+      "TEC"
+    ],
+    "FUNTECH TECHNOLOGY LIMITED": [
+      "TEC",
+      "MED"
+    ],
+    "Funplus Interactive (Hong Kong) Limited": [
+      "MED"
+    ],
+    "Futurecloud Technology Co.,Limited": [
+      "TEC"
+    ],
+    "GOCLOUDS DATA (HONGKONG) CO., LIMITED": [
+      "TEC"
+    ],
+    "Geely Automobile Holdings Ltd": [
+      "HW"
+    ],
+    "HK FUTURE INIGHT TECH LIMITED": [
+      "TEC"
+    ],
+    "HONG KONG BAIDAODATA TECHNOLOGY LIMITED": [
+      "TEC"
+    ],
+    "HONG KONG BOSICLOUD TECHNOLOGY LIMITED": [
+      "TEC"
+    ],
+    "HONG KONG CLOUD Y TECHNOLOGY CO., LTD": [
+      "TEC"
+    ],
+    "HONG KONG QINEASY TECHNOLOGY LIMITED": [
+      "TEC"
+    ],
+    "HONG KONG WONDERCLOUD LIMITED": [
+      "TEC"
+    ],
+    "HONG KONG YUNQIAO TECHNOLOGY CO., LIMITED": [
+      "TEC"
+    ],
+    "HONG KONG YUSHENDATA TECHNOLOGY LIMITED": [
+      "TEC"
+    ],
+    "Hashkey": [
+      "CRY"
+    ],
+    "Hong Kong Cloud Pilot Technology Co., Limited": [
+      "TEC"
+    ],
+    "Hong Kong Exchanges and Clearing Limited": [
+      "SEC"
+    ],
+    "Hong Kong Interbank Clearing Limited": [
+      "PAY"
+    ],
+    "Hong Kong Science & Technology Parks Corporation": [
+      "GOV",
+      "TEC"
+    ],
+    "Hong Kong ZhongAn Technology Limited": [
+      "INS",
+      "TEC"
+    ],
+    "Igears Technology Limited": [
+      "TEC"
+    ],
+    "Instance Cloud Technology Limited": [
+      "TEC"
+    ],
+    "Jing Mei Automotive Limited": [
+      "HW"
+    ],
+    "KBQuest Hong Kong Limtied": [
+      "UNK"
+    ],
+    "Kinetix Systems Limited": [
+      "TEC"
+    ],
+    "Klook": [
+      "RET",
+      "TEC"
+    ],
+    "Lazy Panda Technology Limited": [
+      "TEC"
+    ],
+    "Livi Bank": [
+      "BNK"
+    ],
+    "MEGA SURPLUS CLOUD TECH LIMITED": [
+      "TEC"
+    ],
+    "MEGAHARD LIMITED": [
+      "UNK"
+    ],
+    "MEGAHARD LIMITED ( No )": [
+      "UNK"
+    ],
+    "Mai Xun Limited": [
+      "UNK"
+    ],
+    "Metaverse Cloud Solution Limited": [
+      "TEC"
+    ],
+    "Metaversedb Limited": [
+      "TEC"
+    ],
+    "NewBX Limited": [
+      "CRY"
+    ],
+    "OSL": [
+      "CRY"
+    ],
+    "OceanBase Hong Kong Limited": [
+      "TEC"
+    ],
+    "Octopus Cards Limited": [
+      "PAY"
+    ],
+    "Orient Overseas Container Line Limited": [
+      "UTL"
+    ],
+    "Ping An One Connect Credit Reporting Service (Hong Kong) Co., Ltd": [
+      "PAY"
+    ],
+    "RIVER GAME HK LIMITED": [
+      "MED"
+    ],
+    "Ricoh Hong Kong Limited": [
+      "HW"
+    ],
+    "SHOPLINE COMMERCE PTE. LTD.": [
+      "TEC",
+      "RET"
+    ],
+    "STARLING LABS LIMITED": [
+      "TEC"
+    ],
+    "Shoplazza Hongkong Limited": [
+      "TEC",
+      "RET"
+    ],
+    "SiS International Limited": [
+      "TEC"
+    ],
+    "Silvermine Ocean Limited": [
+      "UNK"
+    ],
+    "Solusfutura Limited": [
+      "TEC"
+    ],
+    "Systex Information (H.K.) Ltd": [
+      "TEC"
+    ],
+    "TEAR GAMES LIMITED": [
+      "MED"
+    ],
+    "Wati": [
+      "TEC"
+    ],
+    "Wetech Trading Limited": [
+      "UNK"
+    ],
+    "XJCP limited": [
+      "UNK"
+    ],
+    "YZ INTELLIGENCE(HONG KONG) CO., LIMITED": [
+      "TEC"
+    ],
+    "ZHONGJUXIN CO., LIMITED": [
+      "UNK"
+    ],
+    "Zhuo Fanl Industrial Co., Limited": [
+      "UNK"
+    ],
+    "[CPPO] Hong Kong Cloud Pilot Technology Co., Limited": [
+      "TEC"
+    ],
+    "iRainbow Hong Kong Limited.,": [
+      "UNK"
+    ],
+    "paxglobal": [
+      "HW",
+      "PAY"
+    ],
+    "shopline": [
+      "TEC",
+      "RET"
+    ],
+    "好易聯支付網絡（香港）有限公司": [
+      "PAY"
+    ],
+    "联洲国际技术有限公司": [
+      "HW"
+    ]
+  }
+}

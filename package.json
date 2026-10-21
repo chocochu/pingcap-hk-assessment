@@ -14,6 +14,7 @@
     "fmt:check": "oxfmt --check",
     "test": "bun test",
     "check": "bun run fmt:check && bun run lint && bun run typecheck && bun test",
+    "sync:industries": "bun run scripts/sync-industries.ts",
     "sync:evidence": "bun run scripts/sync-evidence.ts"
   },
   "dependencies": {
