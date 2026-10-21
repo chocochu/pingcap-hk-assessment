@@ -1,0 +1,2 @@
+# Preserve reviewed evidence bytes so checksums match on every platform.
+public/evidence/** -text whitespace=cr-at-eol
