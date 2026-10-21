@@ -1,4 +1,4 @@
-import type { PageId, Rich, Strength, Verdict } from "../types";
+import type { HkLink, PageId, Rich, Strength, Verdict } from "../types";
 
 export interface Card {
   title: string;
@@ -112,6 +112,8 @@ export interface Copy {
       refs: string;
     };
     tags: { billing: string; support: string; logs: string; repo: string };
+    /** Short label for each kind of Hong Kong connection. */
+    hkLinks: Record<HkLink, string>;
     related: {
       title: string;
       intro: string;

@@ -8,7 +8,7 @@ The site content is edited by hand in this repository. The analysis workspace pr
 2. Add any new evidence file to `scripts/evidence-files.json`, then run `bun run sync:evidence`. It refuses files that aren't on the allowlist or whose checksum differs from the analysis manifest.
 3. Update `src/content/facts.ts` for any changed headline figure.
 4. Update copy in **both** `src/content/en.ts` and `src/content/zh-Hant.ts`:
-   - a new company finding goes in `src/content/companies.ts` and in `facts.examinedCompanies`;
+   - a new label in `billing_evidence.csv` needs a profile in `src/content/companies.ts` (or an `otherLabels` entry on an existing one), and `facts.examinedCompanies` updated;
    - a new name found in a later review goes in `src/content/later-names.ts`;
    - a new technical review goes in the matching group under `technical.groups`, and its file under `technical.downloads`.
 5. Add an entry to the top of `history` in `src/data/publication.json`: increment `version`, set `preparedAt` to an ISO 8601 instant with seconds and a timezone, and give a short English and Traditional Chinese summary. Also update the top-level `version` and `preparedAt`.

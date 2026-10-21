@@ -3,8 +3,8 @@
  * analysis moves on; tests cross-check them against the evidence downloads.
  */
 export const facts = {
-  /** Companies described one by one on the company findings page. */
-  examinedCompanies: 9,
+  /** Companies with a profile: every account matched to billing records by exact ID. */
+  examinedCompanies: 18,
   /** Business labels screened and listed in business_labels.csv. */
   namesScreened: 421,
   /** Of those, labels that appear only in marketing, lead or campaign lists. */

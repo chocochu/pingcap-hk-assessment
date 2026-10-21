@@ -10,6 +10,9 @@ export type Rich = string;
 
 export type Strength = "strong" | "medium" | "clue";
 
+/** The kind of Hong Kong connection public sources show for a company. */
+export type HkLink = "registered" | "based" | "group";
+
 export type Verdict = "examined" | "account" | "sales" | "marketing" | "later";
 
 export type Localized<T = string> = Record<Language, T>;

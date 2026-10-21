@@ -8,13 +8,13 @@ This project is not affiliated with PingCAP. A company's name appearing in the l
 
 ## The site
 
-| Page             | File             | What it's for                                                   |
-| ---------------- | ---------------- | --------------------------------------------------------------- |
-| Overview         | `index.html`     | Short answers, key numbers in context, "what you can do"        |
-| Find a company   | `search.html`    | Search 436 names; each result has a plain label                 |
-| Company findings | `companies.html` | The nine companies examined closely, one card each              |
-| What we checked  | `coverage.html`  | Coverage, confidence levels, what we didn't do, glossary        |
-| Technical notes  | `technical.html` | Key figures per review, two tables, updates, redacted downloads |
+| Page             | File             | What it's for                                                     |
+| ---------------- | ---------------- | ----------------------------------------------------------------- |
+| Overview         | `index.html`     | Short answers, key numbers in context, "what you can do"          |
+| Find a company   | `search.html`    | Search 436 names; each result has a plain label                   |
+| Company findings | `companies.html` | A profile for every company linked to billing records by exact ID |
+| What we checked  | `coverage.html`  | Coverage, confidence levels, what we didn't do, glossary          |
+| Technical notes  | `technical.html` | Key figures per review, two tables, updates, redacted downloads   |
 
 Traditional Chinese pages live in `zh-Hant/` with the same file names. The old `/zh-Hant.html` URL redirects there (see `vercel.json`).
 
@@ -24,7 +24,7 @@ The site is the source of truth: there is no importer and no generated report fi
 
 - `src/content/en.ts` and `src/content/zh-Hant.ts`: all page copy. Both implement the `Copy` type in `src/content/types.ts`, so a missing string is a type error.
 - `src/content/facts.ts`: every headline figure quoted in more than one place. Tests check these against the evidence downloads.
-- `src/content/companies.ts`: the nine company findings (both languages, billing evidence references, public sources).
+- `src/content/companies.ts`: one profile for every company whose account matches billing records by exact ID (both languages, billing evidence references, kind of Hong Kong connection, public sources). A test checks that every label in `billing_evidence.csv` is covered.
 - `src/content/later-names.ts`: names from the later BigQuery reviews, with notes in both languages.
 - `src/data/businesses.json`: the 421 screened business labels.
 - `src/data/publication.json`: version, release time and update history. Bump it for each content release.

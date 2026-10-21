@@ -103,7 +103,7 @@ describe("site copy", () => {
 });
 
 describe("company findings", () => {
-  test("nine companies, each present in the directory with matching billing evidence", async () => {
+  test("every profile is in the directory with matching billing evidence", async () => {
     expect(companies).toHaveLength(facts.examinedCompanies);
     const labels = new Set(businesses.map((b) => b.label.toLowerCase()));
     const billing = csv(await read("billing_evidence.csv"));
@@ -152,10 +152,23 @@ describe("company findings", () => {
     expect(tagged).toEqual(withRows);
   });
 
-  test("priority_findings.csv names the same nine companies", async () => {
-    const rows = csv(await read("priority_findings.csv"));
-    expect(rows.map((r) => r.organization_label).sort()).toEqual(
-      companies.map((c) => c.name).sort(),
+  test("every billing-linked label has a profile, and nothing else does", async () => {
+    const billing = csv(await read("billing_evidence.csv"));
+    const covered = new Set(companies.flatMap((c) => [c.name, ...(c.otherLabels ?? [])]));
+    for (const row of billing) expect(covered.has(row.organization_label)).toBe(true);
+    const billed = new Set(billing.map((r) => r.organization_label));
+    for (const label of covered) expect(billed.has(label)).toBe(true);
+    // every reference belongs to exactly one profile, except those kept apart as other labels
+    const refs = companies.flatMap((c) => c.refs);
+    expect(new Set(refs).size).toBe(refs.length);
+    const apart = new Set(companies.flatMap((c) => c.otherLabels ?? []));
+    expect(refs.length).toBe(billing.filter((r) => !apart.has(r.organization_label)).length);
+  });
+
+  test("profiles are in alphabetical order", () => {
+    const names = companies.map((c) => c.name);
+    expect(names).toEqual(
+      [...names].sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" })),
     );
   });
 });
@@ -166,7 +179,6 @@ describe("headline figures", () => {
     expect(counts.screened_business_labels).toBe(facts.namesScreened);
     expect(counts.contextual_support_records).toBe(facts.supportRecords);
     expect(counts.gateway_context_labels).toBe(facts.supportCompanies);
-    expect(counts.priority_findings).toBe(facts.examinedCompanies);
     expect(businesses).toHaveLength(facts.namesScreened);
 
     const bq = JSON.parse(await read("bq_coverage.json"));

@@ -1,4 +1,5 @@
 import { describe, expect, test } from "bun:test";
+import { facts } from "../src/content/facts";
 import { countByVerdict, entries, searchEntries, verdictOf } from "../src/lib/search";
 import type { Business } from "../src/types";
 
@@ -26,9 +27,10 @@ describe("verdicts", () => {
     expect(verdictOf(business("financial/business records"))).toBe("account");
   });
 
-  test("the nine examined companies come first and link to their finding", () => {
-    expect(entries.slice(0, 9).every((e) => e.verdict === "examined" && e.findingId)).toBe(true);
-    expect(countByVerdict(entries).examined).toBe(9);
+  test("companies with a profile come first and link to it", () => {
+    const n = facts.examinedCompanies;
+    expect(entries.slice(0, n).every((e) => e.verdict === "examined" && e.findingId)).toBe(true);
+    expect(countByVerdict(entries).examined).toBe(n);
   });
 });
 
