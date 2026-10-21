@@ -31,9 +31,9 @@ export const zhHant: Copy = {
         "搜尋公司名稱、品牌或網站，查看是否出現在 PingCAP 外洩檔案中，以及屬於哪一類紀錄。",
     },
     companies: {
-      title: `我們仔細檢視的九家公司 · ${site}`,
+      title: `與帳單紀錄相連的公司 · ${site}`,
       description:
-        "九家與香港有關的公司，其帳戶及帳單紀錄出現在 PingCAP 外洩檔案中：發現了甚麼、把握有多大，以及哪些事情不能由此推斷。",
+        "所有帳戶與 PingCAP 外洩檔案中的帳單紀錄相配、且與香港有關的公司：發現了甚麼、與香港有何種關聯，以及哪些事情不能由此推斷。",
     },
     coverage: {
       title: `我們檢查了甚麼，又沒有檢查甚麼 · ${site}`,
@@ -96,7 +96,7 @@ export const zhHant: Copy = {
         },
         {
           title: "我們發現了甚麼",
-          body: "檔案中有與香港公司有關的商業紀錄，主要是帳戶、帳單及銷售紀錄。其中九家公司的證據足夠，我們可以逐一說明它們的紀錄。",
+          body: `檔案中有與香港公司有關的商業紀錄，主要是帳戶、帳單及銷售紀錄。其中 ${facts.examinedCompanies} 家公司的帳戶能連到帳單紀錄，我們逐一說明。`,
         },
         {
           title: "這不代表甚麼",
@@ -109,8 +109,8 @@ export const zhHant: Copy = {
       tiles: [
         {
           value: String(facts.examinedCompanies),
-          label: "家公司逐一檢視",
-          note: "它們的帳戶與帳單紀錄以完全吻合的編號配對，並由公開資料確認了與香港的關聯。",
+          label: "家公司有個別簡介",
+          note: "凡帳戶能以完全吻合的編號與帳單紀錄配對的公司都有簡介，並說明公開資料顯示它與香港有何種關聯。",
         },
         {
           value: String(facts.namesScreened),
@@ -133,9 +133,9 @@ export const zhHant: Copy = {
         {
           icon: "receipt",
           title: "帳戶及帳單紀錄",
-          body: "與香港有關的公司的帳戶及發票紀錄。這是我們最有把握的證據：我們以完全吻合的編號，把帳戶與帳單紀錄配對。有九家公司特別明顯，其帳單紀錄的日期介乎 2022 年至 2026 年。",
+          body: "與香港有關的公司的帳戶及發票紀錄。這是我們最有把握的證據：我們以完全吻合的編號，把帳戶與帳單紀錄配對。凡能以此方式配對的公司，我們都逐一說明，其帳單紀錄的日期介乎 2022 年至 2026 年。",
           page: "companies",
-          cta: "查看這九家公司",
+          cta: "查看公司簡介",
         },
         {
           icon: "support",
@@ -172,7 +172,7 @@ export const zhHant: Copy = {
         {
           icon: "code",
           title: "原始碼儲存庫",
-          body: `較新的壓縮檔載有 ${facts.repoDirectories} 個儲存庫的程式碼及設定。它為九家公司中的四家補充了細節，說明了較早匯出資料是如何產生的、為何資料列會重複，並載有儲存的財務及個人檔案資料。它沒有增加任何新的受影響公司，也沒有任何內容顯示客戶的資料庫曾被取走。`,
+          body: `較新的壓縮檔載有 ${facts.repoDirectories} 個儲存庫的程式碼及設定。它為其中四家公司的簡介補充了細節，說明了較早匯出資料是如何產生的、為何資料列會重複，並載有儲存的財務及個人檔案資料。它沒有增加任何新的受影響公司，也沒有任何內容顯示客戶的資料庫曾被取走。`,
           page: "technical",
           hash: "repos",
           cta: "查看原始碼壓縮檔補充了甚麼",
@@ -239,7 +239,7 @@ export const zhHant: Copy = {
         },
         {
           title: "公司個案",
-          body: "證據足夠、可以逐一說明的九家公司。",
+          body: "每一家能連到帳單紀錄的公司都有個別簡介。",
           page: "companies",
         },
         {
@@ -266,7 +266,7 @@ export const zhHant: Copy = {
     filterLabel: "顯示",
     filters: {
       all: "全部",
-      examined: "已仔細檢視",
+      examined: "公司簡介",
       account: "帳戶或財務紀錄",
       sales: "銷售紀錄",
       marketing: "僅市場推廣名單",
@@ -282,8 +282,8 @@ export const zhHant: Copy = {
     legendTitle: "標籤的意思",
     verdicts: {
       examined: {
-        label: "已仔細檢視",
-        text: "我們以完全吻合的編號，把這家公司的帳戶與帳單紀錄配對，並確認了與香港的關聯。請閱讀完整個案。",
+        label: "公司簡介",
+        text: "我們以完全吻合的編號，把這家公司的帳戶與帳單紀錄配對。其簡介說明我們的發現，以及它與香港有何種關聯。",
       },
       account: {
         label: "帳戶或財務紀錄",
@@ -325,15 +325,16 @@ export const zhHant: Copy = {
       noneRecorded: "沒有紀錄",
     },
     later: "來自較後的檢視",
-    readFinding: "閱讀完整個案",
+    readFinding: "閱讀簡介",
     noscript: `搜尋功能需要 JavaScript。你可以改為[下載 ${facts.namesScreened} 個篩選名稱的完整名單](evidence:business_labels.csv)。`,
   },
 
   companies: {
-    title: "我們仔細檢視的九家公司",
+    title: "與帳單紀錄相連的公司",
     intro: [
-      "對於這九家公司，我們做到了兩件事：以完全吻合的編號，把它們在外洩檔案中的帳戶與帳單紀錄配對；並透過官方條款、公司網站和政府公告等公開資料，確認了與香港的關聯。",
-      "「與香港有關」有不同的形式：有些是在香港註冊的公司，有些則聲明總部在香港。每張卡片都會說明我們確認了甚麼。",
+      `**凡在外洩檔案中的帳戶能以完全吻合的編號與帳單紀錄配對的公司**，這裏都有一份簡介，共 ${facts.examinedCompanies} 家。我們不是因為它們特別或受影響較深而挑選它們；每家公司都採用同一準則，並按字母順序排列。`,
+      "每份簡介都會說明公司註冊紀錄、官方條款及公司網站等公開資料顯示它與香港有何種關聯：在香港註冊的公司、自稱以香港為基地的公司，或帳戶由其他地方的公司持有的香港品牌或集團。",
+      "其他所有名稱都可在[搜尋公司](page:search)找到，並標示其出現於哪類紀錄。",
     ],
     caution:
       "這一切都不顯示公司自己的系統曾被入侵，或其客戶的資料曾外洩。它只顯示該公司出現在 PingCAP 的帳戶及帳單紀錄中。",
@@ -347,18 +348,16 @@ export const zhHant: Copy = {
       refs: "帳單證據編號",
     },
     tags: { billing: "帳單", support: "支援", logs: "閘道日誌", repo: "原始碼" },
+    hkLinks: {
+      registered: "香港註冊公司",
+      based: "自稱以香港為基地",
+      group: "香港品牌或集團",
+    },
     related: {
       title: "你可能在找的其他名稱",
-      intro: "這些名稱經常被搜尋。它們都不屬於那九家，而且各有各的限制。",
+      intro:
+        "這些名稱經常被搜尋，但我們未能以完全吻合的編號把它們連到帳單紀錄，所以沒有簡介。它們各有各的限制。",
       items: [
-        {
-          name: "SHOPLINE COMMERCE PTE. LTD.、Amber AI Limited、Matrixport Technologies Ltd.",
-          body: "這是新加坡實體，帳單紀錄分別有 867、390 及 809 筆，支援紀錄分別有 9、9 及 2 筆。它們的品牌與香港有關，但這不代表這些帳戶屬於香港公司，也不能把它們的資料歸給香港的關聯公司。",
-        },
-        {
-          name: "Eats365",
-          body: "48 筆帳單紀錄連到其帳戶名稱。銷售系統內記錄的網站（pos-nz.com）未能與 Eats365 的官方網域互相印證，因此我們無法確定它究竟是哪家公司。",
-        },
         {
           name: "Longbridge Financial LLC",
           body: "已排除。其網域屬於一家美國按揭貸款機構，與香港的 Longport／Longbridge 不同。地理欄位互相矛盾，不足以把兩者視為同一家。",
@@ -812,7 +811,7 @@ export const zhHant: Copy = {
         {
           title: "由此開始",
           files: [
-            { file: "priority_findings.csv", label: "九家公司個案（表格）" },
+            { file: "priority_findings.csv", label: "分析團隊最初的九家公司表格" },
             { file: "business_labels.csv", label: `全部 ${facts.namesScreened} 個篩選名稱` },
             { file: "public_context.json", label: "用來確認身分的公開資料來源" },
             { file: "methodology.json", label: "分析方法" },

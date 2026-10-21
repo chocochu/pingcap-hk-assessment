@@ -31,9 +31,9 @@ export const en: Copy = {
         "Search company names, brands and websites to see whether they appear in the PingCAP leak, and what kind of record they appear in.",
     },
     companies: {
-      title: `The nine companies we examined closely · ${site}`,
+      title: `Companies linked to billing records · ${site}`,
       description:
-        "Nine Hong Kong-linked companies whose account and billing records appear in the PingCAP leak: what was found, how sure we are, and what it doesn’t show.",
+        "Every Hong Kong-linked company whose account matches billing records in the PingCAP leak: what was found, what kind of Hong Kong connection it has, and what it doesn’t show.",
     },
     coverage: {
       title: `What we checked, and what we didn’t · ${site}`,
@@ -98,7 +98,7 @@ export const en: Copy = {
         },
         {
           title: "What we found",
-          body: "Business records linked to Hong Kong companies are in the files, mostly account, billing and sales records. For nine companies we have enough evidence to describe their records one by one.",
+          body: `Business records linked to Hong Kong companies are in the files, mostly account, billing and sales records. For ${facts.examinedCompanies} companies we could link the account to billing records, and we describe each one.`,
         },
         {
           title: "What it doesn’t mean",
@@ -111,8 +111,8 @@ export const en: Copy = {
       tiles: [
         {
           value: String(facts.examinedCompanies),
-          label: "companies examined one by one",
-          note: "Their accounts match billing records by exact ID, and we confirmed a Hong Kong connection from public sources.",
+          label: "companies with a profile",
+          note: "Every company whose account matches billing records by exact ID. Each profile says what kind of Hong Kong connection public sources show.",
         },
         {
           value: String(facts.namesScreened),
@@ -136,9 +136,9 @@ export const en: Copy = {
         {
           icon: "receipt",
           title: "Account and billing records",
-          body: "Account and invoice history tied to companies with Hong Kong connections. This is our strongest evidence: we matched accounts to billing records using exact ID numbers. Nine companies stand out, with billing records dated between 2022 and 2026.",
+          body: "Account and invoice history tied to companies with Hong Kong connections. This is our strongest evidence: we matched accounts to billing records using exact ID numbers. We describe every company we could match this way, with billing records dated between 2022 and 2026.",
           page: "companies",
-          cta: "See the nine companies",
+          cta: "See the company profiles",
         },
         {
           icon: "support",
@@ -175,7 +175,7 @@ export const en: Copy = {
         {
           icon: "code",
           title: "Source-code repositories",
-          body: `A newer archive holds code and configuration from ${facts.repoDirectories} repositories. It adds detail to four of the nine companies, shows how earlier exports were built and why their rows repeat, and holds stored finance and profile data. It doesn’t add any new affected companies, and nothing in it shows a customer database was taken.`,
+          body: `A newer archive holds code and configuration from ${facts.repoDirectories} repositories. It adds detail to four of the company profiles, shows how earlier exports were built and why their rows repeat, and holds stored finance and profile data. It doesn’t add any new affected companies, and nothing in it shows a customer database was taken.`,
           page: "technical",
           hash: "repos",
           cta: "See what the code archive adds",
@@ -243,7 +243,7 @@ export const en: Copy = {
         },
         {
           title: "Company findings",
-          body: "The nine companies where the evidence is strong enough to describe one by one.",
+          body: "A profile for every company we could link to billing records.",
           page: "companies",
         },
         {
@@ -270,7 +270,7 @@ export const en: Copy = {
     filterLabel: "Show",
     filters: {
       all: "Everything",
-      examined: "Examined closely",
+      examined: "Company profile",
       account: "Account or finance records",
       sales: "Sales records",
       marketing: "Marketing lists only",
@@ -286,8 +286,8 @@ export const en: Copy = {
     legendTitle: "What the labels mean",
     verdicts: {
       examined: {
-        label: "Examined closely",
-        text: "We matched this company’s account to billing records by exact ID, and confirmed a Hong Kong connection. Read the full finding.",
+        label: "Company profile",
+        text: "We matched this company’s account to billing records by exact ID. Its profile says what we found and what kind of Hong Kong connection it has.",
       },
       account: {
         label: "Account or finance records",
@@ -330,15 +330,16 @@ export const en: Copy = {
       noneRecorded: "None recorded",
     },
     later: "From a later review",
-    readFinding: "Read the full finding",
+    readFinding: "Read the profile",
     noscript: `Search needs JavaScript. You can [download the full list of ${facts.namesScreened} screened names](evidence:business_labels.csv) instead.`,
   },
 
   companies: {
-    title: "The nine companies we examined closely",
+    title: "Companies linked to billing records",
     intro: [
-      "For these nine companies we could do two things: link their account in the leaked files to billing records using exact ID numbers, and confirm a Hong Kong connection from public sources such as official terms, company websites and government notices.",
-      "“Hong Kong connection” takes different forms. Some are Hong Kong-registered companies, others state a Hong Kong headquarters. Each card says exactly what we confirmed.",
+      `There is a profile here for **every company whose account in the leaked files matches billing records by exact ID number**: ${facts.examinedCompanies} in all. We didn’t pick them for being unusual or worse affected. The same rule applies to each, and they’re listed alphabetically.`,
+      "Each profile says what kind of Hong Kong connection public sources show, such as company registries, official terms and company websites: a Hong Kong-registered company, a company that says it is based in Hong Kong, or a Hong Kong brand or group whose account is held by a company elsewhere.",
+      "Every other name is in [Find a company](page:search), labelled with the kind of record it appears in.",
     ],
     caution:
       "None of this shows that a company’s own systems were breached or that its customers’ data was exposed. It shows that the company appears in PingCAP’s account and billing records.",
@@ -352,19 +353,16 @@ export const en: Copy = {
       refs: "Billing evidence",
     },
     tags: { billing: "Billing", support: "Support", logs: "Gateway logs", repo: "Source code" },
+    hkLinks: {
+      registered: "Hong Kong-registered company",
+      based: "Says it is based in Hong Kong",
+      group: "Hong Kong brand or group",
+    },
     related: {
       title: "Other names you might be looking for",
       intro:
-        "These names come up often in searches. None of them is one of the nine, and each has its own limits.",
+        "These names come up often in searches, but we couldn’t link them to billing records by exact ID, so they have no profile. Each has its own limits.",
       items: [
-        {
-          name: "SHOPLINE COMMERCE PTE. LTD., Amber AI Limited, Matrixport Technologies Ltd.",
-          body: "Singapore entities with 867, 390 and 809 billing records, and 9, 9 and 2 support records. Their brands have Hong Kong connections, but that doesn’t make these accounts Hong Kong companies or tie their material to Hong Kong affiliates.",
-        },
-        {
-          name: "Eats365",
-          body: "48 billing records link to its account label. The website in the sales system (pos-nz.com) wasn’t corroborated against Eats365’s official domains, so we can’t say exactly which company this is.",
-        },
         {
           name: "Longbridge Financial LLC",
           body: "Excluded. Its domain identifies a US mortgage lender, which is different from Longport/Longbridge in Hong Kong. Inconsistent geography fields don’t justify merging them.",
@@ -836,7 +834,10 @@ export const en: Copy = {
         {
           title: "Start here",
           files: [
-            { file: "priority_findings.csv", label: "The nine company findings (table)" },
+            {
+              file: "priority_findings.csv",
+              label: "The analysis team’s original nine-company table",
+            },
             { file: "business_labels.csv", label: `All ${facts.namesScreened} screened names` },
             { file: "public_context.json", label: "Public sources used to confirm identities" },
             { file: "methodology.json", label: "How the analysis was done" },

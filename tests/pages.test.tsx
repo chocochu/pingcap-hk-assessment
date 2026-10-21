@@ -30,7 +30,7 @@ describe("every page renders real HTML in both languages", () => {
     expect(html).toContain("Company name, brand or website");
     expect(html).toContain("<noscript>");
     expect(html).toContain("business_labels.csv");
-    expect(html).toContain("Examined closely");
+    expect(html).toContain("Company profile");
   });
 
   test("search page offers industry filters in both languages", () => {

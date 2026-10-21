@@ -1,4 +1,4 @@
-import type { Localized, Rich, Strength } from "../types";
+import type { HkLink, Localized, Rich, Strength } from "../types";
 
 export interface CompanyText {
   /** What we confirmed about the Hong Kong connection. */
@@ -13,8 +13,12 @@ export interface Company {
   id: string;
   /** Exactly as written in the source files; never translated. */
   name: string;
+  /** What kind of Hong Kong connection public sources show. */
+  hkLink: HkLink;
   /** Evidence reference IDs in billing_evidence.csv. */
   refs: string[];
+  /** Other billing labels described in this profile but kept apart from its counts. */
+  otherLabels?: string[];
   /** Billing record count for each reference, in the same order. */
   billingRecords: number[];
   records: { support: boolean; logs: boolean; repo: boolean };
@@ -24,10 +28,11 @@ export interface Company {
   text: Localized<CompanyText>;
 }
 
-export const companies: Company[] = [
+const profiles: Company[] = [
   {
     id: "shoplazza",
     name: "Shoplazza Hongkong Limited",
+    hkLink: "registered",
     refs: ["B003"],
     billingRecords: [800],
     records: { support: true, logs: false, repo: true },
@@ -67,6 +72,7 @@ export const companies: Company[] = [
   {
     id: "starling-labs",
     name: "STARLING LABS LIMITED",
+    hkLink: "registered",
     refs: ["B012"],
     billingRecords: [1150],
     records: { support: true, logs: false, repo: false },
@@ -102,6 +108,7 @@ export const companies: Company[] = [
   {
     id: "wetech",
     name: "Wetech Trading Limited",
+    hkLink: "based",
     refs: ["B013", "B029", "B030"],
     billingRecords: [18200, 329, 31],
     records: { support: true, logs: true, repo: true },
@@ -135,6 +142,7 @@ export const companies: Company[] = [
   {
     id: "megahard",
     name: "MEGAHARD LIMITED",
+    hkLink: "registered",
     refs: ["B019", "B021", "B022", "B023", "B024", "B025", "B026", "B027"],
     billingRecords: [76, 76, 18, 5, 5, 22, 4630, 127],
     records: { support: true, logs: true, repo: true },
@@ -172,7 +180,9 @@ export const companies: Company[] = [
   {
     id: "asiapac",
     name: "AsiaPac Net Media Limited",
+    hkLink: "based",
     refs: ["B005", "B028"],
+    otherLabels: ["AsiaPac Net Media Limited*"],
     billingRecords: [642, 6],
     records: { support: false, logs: false, repo: true },
     strength: { billing: "strong", repo: "medium" },
@@ -203,6 +213,7 @@ export const companies: Company[] = [
   {
     id: "river-game",
     name: "RIVER GAME HK LIMITED",
+    hkLink: "based",
     refs: ["B002"],
     billingRecords: [402],
     records: { support: false, logs: false, repo: false },
@@ -227,7 +238,9 @@ export const companies: Company[] = [
   {
     id: "oceanbase",
     name: "OceanBase Hong Kong Limited",
+    hkLink: "registered",
     refs: ["B011"],
+    otherLabels: ["Oceanbase"],
     billingRecords: [192],
     records: { support: false, logs: true, repo: false },
     strength: { billing: "strong", logs: "clue" },
@@ -262,6 +275,7 @@ export const companies: Company[] = [
   {
     id: "klook",
     name: "KLOOK",
+    hkLink: "group",
     refs: ["B004"],
     billingRecords: [7],
     records: { support: false, logs: false, repo: false },
@@ -290,6 +304,7 @@ export const companies: Company[] = [
   {
     id: "coihub",
     name: "COIHUB TECHNOLOGY LIMITED",
+    hkLink: "registered",
     refs: ["B001"],
     billingRecords: [20],
     records: { support: false, logs: false, repo: false },
@@ -313,4 +328,311 @@ export const companies: Company[] = [
       },
     },
   },
+  {
+    id: "amber-ai",
+    name: "Amber AI Limited",
+    hkLink: "group",
+    refs: ["B008"],
+    billingRecords: [390],
+    records: { support: true, logs: false, repo: false },
+    strength: { billing: "strong", support: "medium" },
+    sources: [
+      "https://www.hkstp.org/en/directory/information-communications-technology/amber-ai-services-limited",
+      "https://www.cr.gov.hk/docs/wrpt/RNC063_2022.12.12-2022.12.18.pdf",
+    ],
+    text: {
+      en: {
+        hk: "Amber Group’s Hong Kong company, Amber AI Services Limited, is on the Hong Kong Companies Registry and in the Hong Kong Science Park directory. The account name in the files, “Amber AI Limited”, isn’t an exact match, and the records list Singapore as well as Hong Kong.",
+        found: [
+          "**390 billing records**, dated August 2022 to August 2024.",
+          "**9 technical support records** are linked to the company.",
+          "**Sales-call transcripts:** 2 recorded calls, with 184 transcribed lines, are linked to the account. We haven’t published any of their content.",
+        ],
+        careful:
+          "We can’t tell which Amber Group company held this account. Don’t read it as covering every Amber company, or as a sign that its customers’ assets were affected.",
+      },
+      "zh-Hant": {
+        hk: "Amber Group 的香港公司 Amber AI Services Limited 載於香港公司註冊處紀錄及香港科學園的公司名錄。檔案中的帳戶名稱「Amber AI Limited」並非完全吻合，紀錄中的地區除香港外亦有新加坡。",
+        found: [
+          "**390 筆帳單紀錄**，日期為 2022 年 8 月至 2024 年 8 月。",
+          "**9 筆技術支援紀錄**與該公司有關。",
+          "**銷售通話文字紀錄：**有 2 次錄音通話、共 184 行轉錄文字與該帳戶有關。我們沒有公開任何內容。",
+        ],
+        careful:
+          "我們無法判斷持有這個帳戶的是 Amber Group 旗下哪一家公司。請勿把它理解為涵蓋所有 Amber 公司，或視為其客戶資產受影響的跡象。",
+      },
+    },
+  },
+  {
+    id: "baidu-hk",
+    name: "Baidu (HONG KONG) Limited",
+    hkLink: "registered",
+    refs: ["B007"],
+    billingRecords: [20],
+    records: { support: true, logs: false, repo: false },
+    strength: { billing: "strong", support: "clue" },
+    sources: ["https://www.sec.gov/Archives/edgar/data/1329099/000114554908001006/h02175e20vf.htm"],
+    text: {
+      en: {
+        hk: "Baidu’s annual filing with the US Securities and Exchange Commission names Baidu (Hong Kong) Limited as its Hong Kong subsidiary, set up in November 2007.",
+        found: [
+          "**20 billing records**, dated April 2022 to April 2025.",
+          "The sales system labels it “Customer”, with a first order in June 2022, while other status fields say “Prospecting” and “POC” (proof of concept).",
+          "**6 support tickets**, with 64 comments and 13 attachments, belong to a support-system organisation with exactly the same name. That match is by name only.",
+        ],
+        careful:
+          "Baidu is a large group. This is one account under its Hong Kong subsidiary’s name. It doesn’t tell us which Baidu business used it, and nothing here shows that Baidu’s own systems or users were affected.",
+      },
+      "zh-Hant": {
+        hk: "百度向美國證券交易委員會提交的年報，列明 Baidu (Hong Kong) Limited 為其香港附屬公司，於 2007 年 11 月成立。",
+        found: [
+          "**20 筆帳單紀錄**，日期為 2022 年 4 月至 2025 年 4 月。",
+          "銷售系統把它標示為「Customer」（客戶），首張訂單在 2022 年 6 月，但其他狀態欄位卻是「Prospecting」（洽談中）及「POC」（概念驗證）。",
+          "支援系統中一個名稱完全相同的機構有 **6 張支援工單**，連同 64 則留言及 13 個附件。這只是名稱配對。",
+        ],
+        careful:
+          "百度是大型集團，這只是以其香港附屬公司名義開設的一個帳戶。它不能說明是百度哪一項業務在使用，也沒有任何跡象顯示百度自己的系統或用戶受影響。",
+      },
+    },
+  },
+  {
+    id: "bit-com",
+    name: "Bit.com",
+    hkLink: "group",
+    refs: ["B009"],
+    billingRecords: [95],
+    records: { support: false, logs: false, repo: false },
+    strength: { billing: "strong" },
+    sources: [
+      "https://www.bit.com/bit-formerly-matrixport",
+      "https://images.bitexch.co/legal/240819/01.pdf",
+    ],
+    text: {
+      en: {
+        hk: "Bit.com is a brand of the Matrixport group (renamed BIT in March 2026), which says it is headquartered in Singapore and has Hong Kong companies. Bit.com isn’t a Hong Kong company in its own right.",
+        found: [
+          "**95 billing records**, dated September 2022 to July 2023.",
+          "This is a separate account from Matrixport Technologies Ltd., so don’t add the two billing counts together.",
+        ],
+        careful:
+          "Bit.com is a website and brand, not a single company, so we can’t say which legal entity held this account. Nothing here shows that customers’ assets were affected.",
+      },
+      "zh-Hant": {
+        hk: "Bit.com 是 Matrixport 集團（2026 年 3 月改名為 BIT）的品牌。該集團表示總部設於新加坡，並設有香港公司。Bit.com 本身並不是一家香港公司。",
+        found: [
+          "**95 筆帳單紀錄**，日期為 2022 年 9 月至 2023 年 7 月。",
+          "這是與 Matrixport Technologies Ltd. 分開的帳戶，兩者的帳單紀錄數目不應相加。",
+        ],
+        careful:
+          "Bit.com 是網站及品牌，而非單一公司，因此我們無法說明持有這個帳戶的是哪一個法律實體。沒有任何跡象顯示客戶資產受影響。",
+      },
+    },
+  },
+  {
+    id: "clink-lab",
+    name: "CLINK LAB LIMITED",
+    hkLink: "registered",
+    refs: ["B020"],
+    billingRecords: [48],
+    records: { support: false, logs: false, repo: false },
+    strength: { billing: "strong" },
+    sources: [
+      "https://www.cr.gov.hk/docs/wrpt/wk_new&changednamecoys_20251117.pdf",
+      "https://ezenhancer.ai/agreement/terms-and-conditions/",
+    ],
+    text: {
+      en: {
+        hk: "The Hong Kong Companies Registry lists Clink Lab Limited as incorporated in November 2025. App terms of service name it as a Hong Kong company that takes payments on the app’s behalf.",
+        found: [
+          "**48 billing records**, dated April to August 2026.",
+          "The sales system labels it “Customer” with a Hong Kong billing country, but its production flag is “No”.",
+        ],
+        careful:
+          "Clink handles payments for other apps, so this account may relate to its platform rather than to a single business. Nothing here shows that its merchants, their customers or any payment details were exposed.",
+      },
+      "zh-Hant": {
+        hk: "香港公司註冊處紀錄顯示 Clink Lab Limited 於 2025 年 11 月註冊成立。有應用程式的服務條款列明它是代該程式收款的香港公司。",
+        found: [
+          "**48 筆帳單紀錄**，日期為 2026 年 4 月至 8 月。",
+          "銷售系統把它標示為「Customer」（客戶），帳單國家為香港，但正式使用欄位是「No」。",
+        ],
+        careful:
+          "Clink 為其他應用程式處理付款，因此這個帳戶可能與其平台有關，而非屬於單一企業。沒有任何跡象顯示其商戶、商戶的客戶或任何付款資料外洩。",
+      },
+    },
+  },
+  {
+    id: "eats365",
+    name: "Eats365",
+    hkLink: "group",
+    refs: ["B015"],
+    billingRecords: [48],
+    records: { support: false, logs: false, repo: false },
+    strength: { billing: "strong" },
+    sources: [
+      "https://www.hkstp.org/en/directory/information-communications-technology/eats365-solutions-limited",
+      "https://www.hkstp.org/media/x1ta5fjs/smart-city-iot-directory-2020-web.pdf",
+      "https://www.eats365pos.com/hk/blog/post/2023-hofex-eats365-limited-offer",
+    ],
+    text: {
+      en: {
+        hk: "Eats365 is a restaurant-software group headquartered in Hong Kong, listed in the Hong Kong Science Park directory. Several Eats365 companies exist, and the account name doesn’t tell us which one this is.",
+        found: [
+          "**48 billing records**, dated March to September 2024.",
+          "The sales system gives a Hong Kong billing country and labels it “Customer”, with its production flag set to “No”.",
+          "The website recorded in the sales system (pos-nz.com) doesn’t match Eats365’s official websites.",
+        ],
+        careful:
+          "Because the website doesn’t match, we can’t be sure this account belongs to Eats365 at all. Nothing here shows that restaurant or diner data was exposed.",
+      },
+      "zh-Hant": {
+        hk: "Eats365 是總部設於香港的餐飲軟件集團，載於香港科學園的公司名錄。Eats365 旗下有多家公司，帳戶名稱無法讓我們判斷是哪一家。",
+        found: [
+          "**48 筆帳單紀錄**，日期為 2024 年 3 月至 9 月。",
+          "銷售系統記錄的帳單國家為香港，並標示為「Customer」（客戶），但正式使用欄位是「No」。",
+          "銷售系統內記錄的網站（pos-nz.com）與 Eats365 的官方網站不符。",
+        ],
+        careful:
+          "由於網站不符，我們甚至無法確定這個帳戶屬於 Eats365。沒有任何跡象顯示餐廳或食客的資料外洩。",
+      },
+    },
+  },
+  {
+    id: "hk-future-insight",
+    name: "HK FUTURE INIGHT TECH LIMITED",
+    hkLink: "registered",
+    refs: ["B017"],
+    billingRecords: [64],
+    records: { support: false, logs: true, repo: false },
+    strength: { billing: "strong", logs: "clue" },
+    sources: ["https://www.cr.gov.hk/docs/wrpt/RNC063_2024.04.08-2024.04.14.pdf"],
+    text: {
+      en: {
+        hk: "The Hong Kong Companies Registry lists HK Future **Insight** Tech Limited, incorporated in April 2024. The name in the files is spelled “INIGHT”, so this is very likely the same company, but we can’t be certain.",
+        found: [
+          "**64 billing records**, dated May 2025 to May 2026.",
+          "The sales system labels it a “Partner” with a Hong Kong billing country and a first order in June 2025. Its production flag is “No”.",
+          "A later BigQuery review links one server cluster to the company’s account, with 16 gateway log records. This is a candidate match, not proof.",
+        ],
+        careful:
+          "A “Partner” may resell the service to others, so this account could have served other businesses. We can’t tell whose data, if any, sat behind it.",
+      },
+      "zh-Hant": {
+        hk: "香港公司註冊處紀錄列有 HK Future **Insight** Tech Limited，於 2024 年 4 月註冊成立。檔案中的名稱拼寫為「INIGHT」，所以很可能是同一家公司，但我們無法確定。",
+        found: [
+          "**64 筆帳單紀錄**，日期為 2025 年 5 月至 2026 年 5 月。",
+          "銷售系統把它標示為「Partner」（合作夥伴），帳單國家為香港，首張訂單在 2025 年 6 月。其正式使用欄位是「No」。",
+          "較後的 BigQuery 檢視把一個伺服器叢集連到該公司的帳戶，涉及 16 筆閘道日誌紀錄。這只是候選配對，並非證明。",
+        ],
+        careful:
+          "「Partner」可能會把服務轉售給其他人，所以這個帳戶可能曾服務其他企業。我們無法得知其背後是誰的資料，甚至是否有任何資料。",
+      },
+    },
+  },
+  {
+    id: "matrixport",
+    name: "Matrixport Technologies Ltd.",
+    hkLink: "group",
+    refs: ["B010"],
+    billingRecords: [809],
+    records: { support: true, logs: false, repo: false },
+    strength: { billing: "strong", support: "medium" },
+    sources: [
+      "https://www.bit.com/bit-formerly-matrixport",
+      "https://images.bitexch.co/legal/240819/01.pdf",
+    ],
+    text: {
+      en: {
+        hk: "Matrixport (renamed BIT in March 2026) says it is headquartered in Singapore and has Hong Kong companies. The records for this account name Singapore and China, not Hong Kong.",
+        found: [
+          "**809 billing records**, dated September 2022 to March 2026.",
+          "**2 technical support records** are linked to the company. Both contain database-style code (SQL).",
+          "Bit.com, a Matrixport brand, has its own separate account.",
+        ],
+        careful:
+          "This is a group-level Hong Kong link. Don’t assign this account to the group’s Hong Kong companies, or read it as a sign that customers’ assets were affected.",
+      },
+      "zh-Hant": {
+        hk: "Matrixport（2026 年 3 月改名為 BIT）表示總部設於新加坡，並設有香港公司。這個帳戶的紀錄列出的地區是新加坡及中國，而不是香港。",
+        found: [
+          "**809 筆帳單紀錄**，日期為 2022 年 9 月至 2026 年 3 月。",
+          "**2 筆技術支援紀錄**與該公司有關，兩筆都含有類似資料庫指令（SQL）的程式碼。",
+          "Matrixport 旗下品牌 Bit.com 另有獨立帳戶。",
+        ],
+        careful:
+          "這只是集團層面與香港的關聯。請勿把這個帳戶歸到集團的香港公司，也不要視為客戶資產受影響的跡象。",
+      },
+    },
+  },
+  {
+    id: "metaverse-cloud",
+    name: "Metaverse Cloud Solution Limited",
+    hkLink: "based",
+    refs: ["B016"],
+    billingRecords: [31],
+    records: { support: false, logs: true, repo: false },
+    strength: { billing: "strong", logs: "clue" },
+    sources: ["https://metaverse-hk.cloud/"],
+    text: {
+      en: {
+        hk: "The company’s own website (metaverse-hk.cloud) gives a Hong Kong office address in Tsim Sha Tsui. The sales system records a different website, metaverse-sg.cloud, which we haven’t verified.",
+        found: [
+          "**31 billing records**, all in July 2024.",
+          "The sales system labels it “Customer” with a Hong Kong billing country, but its status is “POC” (proof of concept) and its production flag is “No”.",
+          "A later BigQuery review links one server cluster to the company’s account, with 55 gateway log records. This is a candidate match, not proof.",
+        ],
+        careful:
+          "The records point to a short proof of concept. They don’t show production use, or that the company’s own clients were affected.",
+      },
+      "zh-Hant": {
+        hk: "該公司自家網站（metaverse-hk.cloud）列出位於尖沙咀的香港辦公室地址。銷售系統記錄的卻是另一個網站 metaverse-sg.cloud，我們未有核實。",
+        found: [
+          "**31 筆帳單紀錄**，全部在 2024 年 7 月。",
+          "銷售系統把它標示為「Customer」（客戶），帳單國家為香港，但狀態是「POC」（概念驗證），正式使用欄位是「No」。",
+          "較後的 BigQuery 檢視把一個伺服器叢集連到該公司的帳戶，涉及 55 筆閘道日誌紀錄。這只是候選配對，並非證明。",
+        ],
+        careful: "紀錄顯示這是短期的概念驗證，並不顯示正式使用，也不顯示該公司自己的客戶受影響。",
+      },
+    },
+  },
+  {
+    id: "shopline-commerce",
+    name: "SHOPLINE COMMERCE PTE. LTD.",
+    hkLink: "group",
+    refs: ["B014"],
+    billingRecords: [867],
+    records: { support: true, logs: false, repo: false },
+    strength: { billing: "strong", support: "medium" },
+    sources: [
+      "https://shopline.hk/en/faq/about",
+      "https://www.pingcap.com/case-study/shopline-slash-cluster-cost-with-tidb/",
+    ],
+    text: {
+      en: {
+        hk: "SHOPLINE says it was founded in Hong Kong in 2013. This account belongs to its Singapore company (“PTE. LTD.”), and the sales system gives Singapore as its billing country.",
+        found: [
+          "**867 billing records**, dated June 2022 to August 2025.",
+          "**9 technical support records** are linked to the company. 5 contain database-style code (SQL).",
+          "The sales system labels it “Customer”, but its production flag is “No”.",
+        ],
+        careful:
+          "Don’t combine this with STARLING LABS LIMITED, SHOPLINE’s Hong Kong contracting company, which has its own profile. Nothing here shows that SHOPLINE merchants or their shoppers were affected.",
+      },
+      "zh-Hant": {
+        hk: "SHOPLINE 表示於 2013 年在香港創立。這個帳戶屬於其新加坡公司（「PTE. LTD.」），銷售系統記錄的帳單國家亦為新加坡。",
+        found: [
+          "**867 筆帳單紀錄**，日期為 2022 年 6 月至 2025 年 8 月。",
+          "**9 筆技術支援紀錄**與該公司有關，其中 5 筆含有類似資料庫指令（SQL）的程式碼。",
+          "銷售系統把它標示為「Customer」（客戶），但正式使用欄位是「No」。",
+        ],
+        careful:
+          "請勿把它與 STARLING LABS LIMITED（SHOPLINE 的香港簽約公司，另有個別簡介）混為一談。沒有任何跡象顯示 SHOPLINE 商戶或其顧客受影響。",
+      },
+    },
+  },
 ];
+
+/** Every company whose account matches billing records by exact ID, in alphabetical order. */
+export const companies: Company[] = profiles.sort((a, b) =>
+  a.name.localeCompare(b.name, "en", { sensitivity: "base" }),
+);

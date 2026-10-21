@@ -1,7 +1,15 @@
 {
-  "version": "0.5.0",
-  "preparedAt": "2026-10-21T14:45:52Z",
+  "version": "0.6.0",
+  "preparedAt": "2026-10-21T15:30:07Z",
   "history": [
+    {
+      "version": "0.6.0",
+      "preparedAt": "2026-10-21T15:30:07Z",
+      "summary": {
+        "en": "Reworked the company findings page. Instead of nine selected companies, it now has a profile for every company whose account matches billing records by exact ID: 18 in all, listed alphabetically. Each profile says what kind of Hong Kong connection public sources show (a Hong Kong-registered company, a company that says it is based in Hong Kong, or a Hong Kong brand or group). The nine new profiles use evidence that was already in the downloads, and public sources for four of them were checked for this release. A profile doesn’t show that a company’s systems or customers were affected.",
+        "zh-Hant": "重整公司個案頁面。頁面不再只列出九家選定的公司，而是為每一家帳戶能以完全吻合的編號與帳單紀錄配對的公司提供簡介，共 18 家，按字母順序排列。每份簡介都說明公開資料顯示它與香港有何種關聯（香港註冊公司、自稱以香港為基地的公司，或香港品牌或集團）。九份新簡介所用的證據原已載於下載檔案，其中四家的公開資料是為這次發布而查核的。有簡介並不表示該公司的系統或客戶受影響。"
+      }
+    },
     {
       "version": "0.5.0",
       "preparedAt": "2026-10-21T14:45:52Z",

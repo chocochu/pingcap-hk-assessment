@@ -35,9 +35,12 @@ function CompanyCard({ company }: { company: Company }) {
       className="scroll-mt-6 rounded-2xl border border-line bg-surface p-6 sm:p-8"
     >
       <div className="flex flex-wrap items-start justify-between gap-3">
-        <h3 id={`${company.id}-name`} className="text-2xl font-bold break-words">
-          {company.name}
-        </h3>
+        <div className="space-y-2">
+          <h3 id={`${company.id}-name`} className="text-2xl font-bold break-words">
+            {company.name}
+          </h3>
+          <Pill tone="info">{copy.companies.hkLinks[company.hkLink]}</Pill>
+        </div>
         <ul aria-label={labels.records} className="flex flex-wrap gap-2">
           {kinds.map(([key, label]) => (
             <li key={key}>
