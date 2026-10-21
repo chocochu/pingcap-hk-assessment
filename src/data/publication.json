@@ -1,9 +1,15 @@
 {
-  "version": "0.2.4",
-  "preparedAt": "2026-10-21T08:07:21Z",
-  "sourceReportSha256": "d1436aeee35f5513325d7377bd2544407786ee3e14df6add9d388a1e6e09ec24",
-  "contentSha256": "617c1042103ea9730d4b2beef7230611cb774648576797a29605735c78da6ffd",
+  "version": "0.3.0",
+  "preparedAt": "2026-10-21T09:23:55Z",
   "history": [
+    {
+      "version": "0.3.0",
+      "preparedAt": "2026-10-21T09:23:55Z",
+      "summary": {
+        "en": "Rewrote the whole site for general readers: a plain-language overview with a “what you can do” section, a company search with plain labels, one card per closely examined company, a clear account of what was and wasn’t checked, and a shorter technical section. Evidence downloads are unchanged.",
+        "zh-Hant": "為一般讀者重寫整個網站：淺白的總覽及「你可以怎麼做」、用語簡單的公司搜尋、每家仔細檢視公司一張卡片、清楚交代檢查範圍，以及精簡的技術附註。證據下載檔案維持不變。"
+      }
+    },
     {
       "version": "0.2.4",
       "preparedAt": "2026-10-21T08:07:21Z",

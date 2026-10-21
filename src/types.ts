@@ -1,43 +1,23 @@
 export type Language = "en" | "zh-Hant";
 
-export type Inline =
-  | { type: "text"; text: string }
-  | { type: "link"; href: string; children: Inline[] }
-  | { type: "strong"; children: Inline[] };
+export type PageId = "home" | "search" | "companies" | "coverage" | "technical";
 
-export type Block =
-  | { type: "paragraph"; content: Inline[] }
-  | { type: "table"; headers: string[]; rows: string[][] }
-  | {
-      type: "findings";
-      items: { label: string; tag: string; paragraphs: Inline[][]; sources: Inline[] }[];
-    }
-  | { type: "directory" }
-  | { type: "downloads"; items: { href: string; label: string }[] };
+/**
+ * Plain text with two inline marks: **bold** and [label](href).
+ * Hrefs are https://, #anchor, page:<id>[#anchor] or evidence:<file>.
+ */
+export type Rich = string;
 
-export interface Locale {
-  eyebrow: string;
-  title: string;
-  lead: Inline[];
-  caution: Inline[];
-  release: { title: string; label: string; paragraphs: Inline[][] };
-  nav: { id: string; label: string }[];
-  metrics: { value: string; label: string }[];
-  sections: { id: string; title: string; blocks: Block[] }[];
-  directory: { label: string; placeholder: string; headers: string[]; initialCountLabel: string };
-  footer: Inline[];
-}
+export type Strength = "strong" | "medium" | "clue";
+
+export type Verdict = "examined" | "account" | "sales" | "marketing" | "later";
+
+export type Localized<T = string> = Record<Language, T>;
 
 export interface Business {
   label: string;
   observations: string | number;
-  categories: Record<Language, string>;
+  categories: Localized;
   countries: string;
   domains: string;
-}
-
-export interface Report {
-  source: { path: string; sha256: string };
-  locales: Record<Language, Locale>;
-  businesses: Business[];
 }
