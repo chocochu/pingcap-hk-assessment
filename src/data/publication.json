@@ -1,7 +1,15 @@
 {
-  "version": "0.4.0",
-  "preparedAt": "2026-10-21T10:01:37Z",
+  "version": "0.4.1",
+  "preparedAt": "2026-10-21T11:22:24Z",
   "history": [
+    {
+      "version": "0.4.1",
+      "preparedAt": "2026-10-21T11:22:24Z",
+      "summary": {
+        "en": "Added a review of the BigQuery analytics user export (875 sources, 3,068,700 rows) and updated the headline Hong Kong figures. 38,546 rows in that export list Hong Kong as their country, next to the 416 Mixpanel profile rows already reported. These are separate row counts, not people, they weren’t de-duplicated, they may overlap, and they shouldn’t be added together. It adds no new affected company and doesn’t show that any Hong Kong business was affected.",
+        "zh-Hant": "新增對 BigQuery 分析使用者匯出資料（875 個來源、3,068,700 列）的檢視，並更新香港的主要數字。該匯出資料中有 38,546 列的國家欄位為香港，與先前已報告的 416 筆 Mixpanel 設定檔資料列並列。這些是各自獨立的資料列數，不是人數，亦未作去重，可能互相重疊，不應相加。它沒有增加任何新的受影響公司，也沒有顯示任何香港企業受到影響。"
+      }
+    },
     {
       "version": "0.4.0",
       "preparedAt": "2026-10-21T10:01:37Z",

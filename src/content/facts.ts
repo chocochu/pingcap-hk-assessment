@@ -31,6 +31,10 @@ export const facts = {
   repoGitRepositories: 13,
   /** Individuals, reported only as totals. */
   hkProfileRows: 416,
+  /** Analytics user export (BigQuery users_*): row observations, not people. */
+  analyticsExportSources: 875,
+  analyticsExportRows: 3_068_700,
+  analyticsExportHkCountryRows: 38_546,
   hkEmailContacts: 255,
   hkEmailDomains: 116,
   /** Credential-related fields. */

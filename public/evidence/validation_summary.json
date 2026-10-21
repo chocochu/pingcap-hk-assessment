@@ -59,11 +59,11 @@
     "remote_assets": 0,
     "external_links_https_only": true,
     "static_host_index_matches_report": true,
-    "rendering_note": "84 headless browser checks passed for both languages; screenshots retained in the private browser-review directory."
+    "rendering_note": "92 headless browser checks passed for both languages; screenshots retained in the private browser-review directory."
   },
   "browser_checks": {
     "result": "PASS",
-    "report_sha256": "d1436aeee35f5513325d7377bd2544407786ee3e14df6add9d388a1e6e09ec24",
+    "report_sha256": "1f7642a9beb86136c7bca1847aa4c2ab80f9349a36f80dc3297d533657b1c27b",
     "checks": [
       "English is visible by default",
       "Both editions retain all 421 business labels",
@@ -103,7 +103,15 @@
       "English relationship table bq-hubspot-identity-context preserves rows",
       "English relationship table bq-nexus-line-items preserves rows",
       "English relationship table bq-hubspot-dated-identity preserves rows",
+      "Analytics English row counts and deduplication limits render",
+      "Analytics English geography has three separate fields",
+      "Analytics English metadata retains all 28 fixed paths",
+      "Analytics English unknown schema retains seven containers",
       "Traditional Chinese switch updates visibility and document language",
+      "Analytics Chinese row counts and deduplication limits render",
+      "Analytics Chinese geography preserves rows",
+      "Analytics Chinese metadata preserves rows",
+      "Analytics Chinese unknown-schema preserves rows",
       "Traditional Chinese release quantities are rendered",
       "Traditional Chinese BigQuery progress and qualifications are rendered",
       "Traditional Chinese BigQuery aggregate download is available",
@@ -155,7 +163,7 @@
   },
   "translation_checks": {
     "language": "zh-Hant",
-    "translated_segments": 656,
+    "translated_segments": 713,
     "complete_key_coverage": true,
     "empty_values": 0,
     "review": "Independent Traditional Chinese review covered numerals, legal names, uncertainty wording and inline fragments."
@@ -180,6 +188,7 @@
       "archive_integrity.json",
       "billing_evidence.csv",
       "bq_account_additions_review.json",
+      "bq_analytics_users_review.json",
       "bq_auth_presence_review.json",
       "bq_commercial_links_review.json",
       "bq_commercial_review.json",
@@ -326,8 +335,8 @@
     }
   },
   "schema_caveat_resolution": "Opaque scanner has a broader synthetic schema contract; actual input parity and all reconciliation assertions passed before aggregation.",
-  "generator_sha256": "cd0f5ce538f508545b3d7c59f3e357f030a6dc3bd37d31d65ff300c8853160cb",
-  "validator_sha256": "9cf2c09def6bce0656010efeb58d34eb1c36024a9dd242c27aa08a2301f7c920",
+  "generator_sha256": "ae54219256fc3f991edab5ee02ac1347ce8028c0c3d011452730c34e3b9b6c26",
+  "validator_sha256": "215224b887a24b670b34378e43307e9fa53ce4dd7e994a9aee9c5374fe7ad8ed",
   "localization_renderer_sha256": "a90fae0c84c1698e39cb5cc706acf31e04e0058fa9b641f2d201774881e6c512",
-  "translation_sha256": "e60f5c8894d4f48892bd4c82e2b061ac1f72e0019ad3de9ad67108d0cd5251ab"
+  "translation_sha256": "bf2c0975ef00ed603ef57d8460202a658ae7c20a0f1bd99a43f007947d83d2bf"
 }

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "family": "analytics_users",
+  "status": "validated_family_complete",
+  "coverage": {
+    "planned_sources": 875,
+    "completed_sources": 875
+  },
+  "integrity": {
+    "physical_lines": "3068700",
+    "blank_lines": "0",
+    "parsed_rows": "3068700",
+    "parse_errors": "0",
+    "oversized_lines": "0",
+    "depth_limit_errors": "0",
+    "token_limit_errors": "0",
+    "unknown_cap_errors": "0",
+    "root_shape_errors": "0",
+    "duplicate_key_errors": "0",
+    "compressed_bytes": "213533393",
+    "uncompressed_bytes": "3122456763"
+  },
+  "geography": {
+    "country": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "absent": "0",
+      "null": "0",
+      "empty_string": "2048479",
+      "hk_literal": "38546",
+      "other_nonempty_string": "981675",
+      "unsupported_string": "0",
+      "nonstring": "0"
+    },
+    "city": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "absent": "0",
+      "null": "0",
+      "empty_string": "2199758",
+      "hk_literal": "14180",
+      "other_nonempty_string": "854739",
+      "unsupported_string": "23",
+      "nonstring": "0"
+    },
+    "region": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "absent": "0",
+      "null": "0",
+      "empty_string": "2172404",
+      "hk_literal": "0",
+      "other_nonempty_string": "896296",
+      "unsupported_string": "0",
+      "nonstring": "0"
+    }
+  },
+  "metadata_presence": {
+    "user_info": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "geo": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "device": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "privacy_info": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "user_ltv": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "predictions": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "last_updated_date": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "occurrence_date": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "audiences": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "user_properties": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "user_info.last_active_timestamp_micros": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2184808",
+      "null": "0",
+      "present_nonnull": "883892"
+    },
+    "user_info.user_first_touch_timestamp_micros": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "geo.city": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "geo.continent": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "geo.country": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "geo.region": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "device.category": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "device.mobile_brand_name": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2193311",
+      "null": "0",
+      "present_nonnull": "875389"
+    },
+    "device.mobile_model_name": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "3032760",
+      "null": "0",
+      "present_nonnull": "35940"
+    },
+    "device.operating_system": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "device.unified_screen_name": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2657569",
+      "null": "0",
+      "present_nonnull": "411131"
+    },
+    "privacy_info.is_ads_personalization_allowed": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "privacy_info.is_limited_ad_tracking": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "0",
+      "null": "0",
+      "present_nonnull": "3068700"
+    },
+    "user_ltv.engaged_sessions": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2220357",
+      "null": "0",
+      "present_nonnull": "848343"
+    },
+    "user_ltv.engagement_time_millis": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2200445",
+      "null": "0",
+      "present_nonnull": "868255"
+    },
+    "user_ltv.revenue_in_usd": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2894285",
+      "null": "0",
+      "present_nonnull": "174415"
+    },
+    "user_ltv.session_duration_micros": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2200491",
+      "null": "0",
+      "present_nonnull": "868209"
+    },
+    "user_ltv.sessions": {
+      "parent_absent": "0",
+      "parent_null": "0",
+      "parent_nonobject": "0",
+      "field_absent": "2203390",
+      "null": "0",
+      "present_nonnull": "865310"
+    }
+  },
+  "unknown_schema": {
+    "root": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    },
+    "user_info": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    },
+    "geo": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    },
+    "device": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    },
+    "privacy_info": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    },
+    "user_ltv": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    },
+    "predictions": {
+      "rows_with_unknown_direct_fields": "0",
+      "unknown_direct_field_occurrences": "0",
+      "rows_with_more_than_256_unknown_direct_fields": "0"
+    }
+  },
+  "interpretation": {
+    "count_unit": "row_observation",
+    "cross_source_deduplication": false,
+    "country_inferred_from_city_or_region": false,
+    "unique_people_established": false,
+    "customer_or_exposure_status_established": false,
+    "unknown_field_names_published": false,
+    "unknown_descendants_semantically_profiled": false,
+    "shared_parser_independently_verified": false
+  }
+}

@@ -167,7 +167,7 @@ export const en: Copy = {
         {
           icon: "people",
           title: "People, as totals only",
-          body: `${facts.hkProfileRows} analytics profile rows list Hong Kong as their country, and ${facts.hkEmailContacts} sales-contact records use a .hk email address (across ${facts.hkEmailDomains} domains). These aren’t counts of affected people: they may overlap, and a country field doesn’t show where someone lives.`,
+          body: `Two analytics exports list Hong Kong as a country: ${n(facts.analyticsExportHkCountryRows)} of about ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} million rows in the BigQuery user export, and ${facts.hkProfileRows} Mixpanel profile rows. Separately, ${facts.hkEmailContacts} sales-contact records use a .hk email address (across ${facts.hkEmailDomains} domains). Rows aren’t people and weren’t de-duplicated, the two exports may overlap, and a country field doesn’t show where someone lives, so none of these numbers should be added together or read as affected people.`,
           page: "technical",
           hash: "location",
           cta: "See how we counted",
@@ -587,7 +587,7 @@ export const en: Copy = {
         points: [
           "**Location scan:** 26 tables scanned in full, 2,698,670 rows parsed with no errors. 55,253 rows carry a Hong Kong location signal, and 20,513 look like company records (unconfirmed candidates). Signals don’t show residence, nationality or compromise.",
           "**Linkage:** starting from explicit tenant IDs in financial account records, across 11 tables (4,454,818 rows), we found 39 candidate tenants under 27 exact labels. 12 tenants and 35 clusters were excluded for conflicting labels. See the linkage table below.",
-          "**People, as totals:** 416 analytics (Mixpanel) profile rows list Hong Kong as their country, and 255 sales-contact (HubSpot) records use .hk email addresses across 116 domains. They may overlap, and neither shows residence or a count of affected people.",
+          "**People, as totals:** two analytics exports list Hong Kong as a country. In the BigQuery analytics user export, 38,546 of 3,068,700 row observations do (about 1.3%). In the Mixpanel profile rows, 416 do. 255 sales-contact (HubSpot) records use .hk email addresses across 116 domains. These counts may overlap, none is de-duplicated, and none shows residence or a count of affected people. Don’t add them together.",
         ],
         files: [
           "bq_coverage.json",
@@ -671,6 +671,19 @@ export const en: Copy = {
           "Ticket counts aren’t unique incidents, because tickets can be merged. A “production down” flag on an old ticket doesn’t show an outage caused by this incident.",
         ],
         files: ["bq_support_review.json", "bq_support_content_review.json"],
+      },
+      {
+        id: "analytics-export",
+        title: "Analytics user export",
+        summary:
+          "A large family of analytics user exports in the BigQuery archive. We counted rows and checked three location fields and which profile fields are filled in. Every count is a row observation: it is not a person, a customer or a confirmed exposure.",
+        points: [
+          `**Coverage:** all ${facts.analyticsExportSources} export sources were read in two separate passes, 3,068,700 rows with no parse errors. Rows weren’t de-duplicated within or across sources, so the same person or device could appear more than once.`,
+          `**Hong Kong signals:** the country field is a Hong Kong value in ${n(facts.analyticsExportHkCountryRows)} rows, the city field in 14,180 rows and the region field in none. Most rows have an empty country (2,048,479) or another country (981,675). We didn’t add the three counts, because one row can match several fields, and we never inferred a country from a city or region.`,
+          "**What is filled in:** every row has the profile, location, device, privacy, lifetime-value, prediction, audience and user-property containers. Some fields inside them are often empty: for example a lifetime-revenue value is present in 174,415 rows and a mobile model in 35,940. “Present” includes empty strings, lists and objects, so it doesn’t show a value is usable or accurate. No unexpected extra fields turned up directly inside those containers. We published no identifiers, timestamps or financial values.",
+          "**Limits:** this doesn’t show how many people are involved, who the customers are, or that any Hong Kong business was affected. We also didn’t check whether these rows overlap with the Mixpanel profile rows or the other Hong Kong counts on this page, so don’t add them.",
+        ],
+        files: ["bq_analytics_users_review.json"],
       },
       {
         id: "billing-models",
@@ -779,7 +792,7 @@ export const en: Copy = {
       intro: "The assessment is ongoing. Dates and times are in Hong Kong time (HKT).",
       earlier: {
         title: "Earlier assessment releases",
-        body: "Releases up to 0.13 (21 October 2026) added the gateway-log and general-archive reviews, then successive BigQuery review batches. The detailed release notes are in the project’s history on [GitHub](https://github.com/chocochu/pingcap-hk-assessment).",
+        body: "Releases up to 0.14 (21 October 2026) added the gateway-log and general-archive reviews, then successive BigQuery review batches. The detailed release notes are in the project’s history on [GitHub](https://github.com/chocochu/pingcap-hk-assessment).",
       },
     },
     downloads: {
@@ -856,6 +869,10 @@ export const en: Copy = {
             { file: "bq_msp_namespace_comparison_review.json", label: "Billing-model comparison" },
             { file: "bq_msp_monthly_census_review.json", label: "Monthly billing models" },
             { file: "bq_identity_census_review.json", label: "Identity models" },
+            {
+              file: "bq_analytics_users_review.json",
+              label: "Analytics user export: location and field presence",
+            },
           ],
         },
         {

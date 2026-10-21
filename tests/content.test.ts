@@ -179,6 +179,11 @@ describe("headline figures", () => {
     expect(repos.source_text_member_files_searched).toBe(facts.repoTextFiles);
     expect(repos.git_repositories_reviewed).toBe(facts.repoGitRepositories);
 
+    const analytics = JSON.parse(await read("bq_analytics_users_review.json"));
+    expect(analytics.coverage.completed_sources).toBe(facts.analyticsExportSources);
+    expect(Number(analytics.integrity.parsed_rows)).toBe(facts.analyticsExportRows);
+    expect(Number(analytics.geography.country.hk_literal)).toBe(facts.analyticsExportHkCountryRows);
+
     const gateway = JSON.parse(await read("gateway_final_coverage.json"));
     expect(gateway.valid_log_records).toBe(facts.gatewayRecords);
     expect(gateway.csv_files).toBe(facts.gatewayFiles);

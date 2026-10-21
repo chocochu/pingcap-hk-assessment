@@ -164,7 +164,7 @@ export const zhHant: Copy = {
         {
           icon: "people",
           title: "個人：只有總數",
-          body: `${facts.hkProfileRows} 筆分析設定檔的國家欄位為香港，${facts.hkEmailContacts} 筆銷售聯絡人紀錄使用 .hk 電郵地址（涉及 ${facts.hkEmailDomains} 個網域）。這些不是受影響人數：它們可能重疊，而國家欄位也不能說明某人居住在哪裏。`,
+          body: `有兩份分析匯出資料把香港列為國家：BigQuery 使用者匯出資料約 ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.analyticsExportHkCountryRows)} 列，以及 ${facts.hkProfileRows} 筆 Mixpanel 設定檔資料列。另外，${facts.hkEmailContacts} 筆銷售聯絡人紀錄使用 .hk 電郵地址（涉及 ${facts.hkEmailDomains} 個網域）。資料列不等於人，亦未作去重；兩份匯出資料也可能重疊，而國家欄位不能說明某人居住在哪裏，所以這些數字不應相加，也不應當作受影響人數。`,
           page: "technical",
           hash: "location",
           cta: "查看計算方式",
@@ -571,7 +571,7 @@ export const zhHant: Copy = {
         points: [
           "**地點掃描：** 完整掃描了 26 個資料表，解析 2,698,670 列，沒有錯誤。55,253 列帶有香港地點跡象，20,513 列看似公司紀錄（未經確認的候選紀錄）。這些跡象不能說明居住地、國籍或是否受到入侵。",
           "**連結：** 我們從財務帳戶紀錄中明確的租戶編號出發，涵蓋 11 個資料表（4,454,818 列），找到 27 個完全吻合名稱下的 39 個候選租戶。12 個租戶和 35 個叢集因名稱互相矛盾而被排除。請見下方的連結表。",
-          "**個人：只有總數：** 416 筆分析（Mixpanel）設定檔的國家欄位為香港，255 筆銷售聯絡人（HubSpot）紀錄使用 .hk 電郵地址，涉及 116 個網域。這些紀錄可能重疊，亦不能說明居住地或受影響人數。",
+          "**個人：只有總數：** 有兩份分析匯出資料把香港列為國家。BigQuery 分析使用者匯出資料的 3,068,700 項資料列觀察中有 38,546 項如此（約 1.3%）；Mixpanel 設定檔資料列則有 416 筆。另有 255 筆銷售聯絡人（HubSpot）紀錄使用 .hk 電郵地址，涉及 116 個網域。這些數字可能重疊，全部未作去重，亦不能說明居住地或受影響人數。請勿相加。",
         ],
         files: [
           "bq_coverage.json",
@@ -655,6 +655,19 @@ export const zhHant: Copy = {
           "工單數目不代表獨立事件，因為工單可以被合併。舊工單上的「生產環境停擺」標示，並不顯示是這次事件引致的故障。",
         ],
         files: ["bq_support_review.json", "bq_support_content_review.json"],
+      },
+      {
+        id: "analytics-export",
+        title: "分析使用者匯出資料",
+        summary:
+          "BigQuery 壓縮檔內一大批分析使用者匯出資料。我們計算了資料列數，檢查三個地點欄位，以及哪些個人檔案欄位有填寫。所有數字都是資料列觀察數，不是人數、客戶數，也不是已確認的外洩。",
+        points: [
+          `**涵蓋範圍：** 全部 ${facts.analyticsExportSources} 個匯出來源均經兩輪分別解析，共 3,068,700 列，沒有解析錯誤。來源內及跨來源的資料列均未作去重，所以同一個人或裝置可能出現多於一次。`,
+          `**香港跡象：** 國家欄位為香港的有 ${n(facts.analyticsExportHkCountryRows)} 列，城市欄位為香港的有 14,180 列，地區欄位則沒有。大部分資料列的國家欄位為空（2,048,479 列）或為其他國家（981,675 列）。我們沒有把三個數字相加，因為同一列可能符合多個欄位；我們也從不憑城市或地區推斷國家。`,
+          "**哪些欄位有填寫：** 每一列都有個人檔案、地點、裝置、私隱、終身價值、預測、受眾及使用者屬性等容器。其中部分欄位經常是空的：例如終身收益數值出現在 174,415 列，手機型號出現在 35,940 列。「存在」包括空字串、清單及物件，所以不能說明數值可用或準確。這些容器之內沒有發現預期以外的額外欄位。我們沒有發布識別碼、時間戳或財務數值。",
+          "**限制：** 這不能說明涉及多少人、客戶是誰，或任何香港企業是否受到影響。我們亦沒有核對這些資料列與 Mixpanel 設定檔資料列或本頁其他香港數字是否重疊，所以請勿相加。",
+        ],
+        files: ["bq_analytics_users_review.json"],
       },
       {
         id: "billing-models",
@@ -755,7 +768,7 @@ export const zhHant: Copy = {
       intro: "評估仍在進行。日期及時間為香港時間（HKT）。",
       earlier: {
         title: "較早的評估版本",
-        body: "直至 0.13 版（2026 年 10 月 21 日）的版本，加入了閘道日誌及一般壓縮檔的檢視，其後陸續加入多批 BigQuery 檢視。詳細的版本說明載於專案在 [GitHub](https://github.com/chocochu/pingcap-hk-assessment) 的歷史紀錄中。",
+        body: "直至 0.14 版（2026 年 10 月 21 日）的版本，加入了閘道日誌及一般壓縮檔的檢視，其後陸續加入多批 BigQuery 檢視。詳細的版本說明載於專案在 [GitHub](https://github.com/chocochu/pingcap-hk-assessment) 的歷史紀錄中。",
       },
     },
     downloads: {
@@ -820,6 +833,10 @@ export const zhHant: Copy = {
             { file: "bq_msp_namespace_comparison_review.json", label: "收費模型比較" },
             { file: "bq_msp_monthly_census_review.json", label: "每月收費模型" },
             { file: "bq_identity_census_review.json", label: "身分模型" },
+            {
+              file: "bq_analytics_users_review.json",
+              label: "分析使用者匯出資料：地點及欄位存在情況",
+            },
           ],
         },
         {
