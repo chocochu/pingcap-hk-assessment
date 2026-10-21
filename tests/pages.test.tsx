@@ -1,6 +1,8 @@
 import { describe, expect, test } from "bun:test";
 import { renderToString } from "react-dom/server";
 import { App } from "../src/App";
+import { IndustryIcon } from "../src/components/icons";
+import industries from "../src/data/industries.json";
 import { releaseDate, releaseTime } from "../src/lib/releases";
 import { languages, locate, outputPath, pageHref, pages, resolveHref } from "../src/site";
 
@@ -38,6 +40,16 @@ describe("every page renders real HTML in both languages", () => {
     const zh = renderToString(<App language="zh-Hant" page="search" />);
     expect(zh).toContain("銀行及借貸");
     expect(zh).toContain("並非已核實的公司資料");
+  });
+
+  test("every industry has its own icon and icons are decorative", () => {
+    const html = (code: string) => renderToString(<IndustryIcon code={code} />);
+    expect(html("BNK")).toContain('aria-hidden="true"');
+    const fallback = html("UNK");
+    for (const { code } of industries.industries) {
+      if (code !== "UNK") expect(html(code)).not.toBe(fallback);
+    }
+    expect(html("NOT-A-CODE")).toBe(fallback);
   });
 
   test("company page lists every company with an anchor", () => {

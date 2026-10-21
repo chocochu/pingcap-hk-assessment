@@ -5,6 +5,7 @@ import { releaseTime } from "../lib/releases";
 import { cn } from "../lib/utils";
 import { pageHref, pages } from "../site";
 import type { PageId } from "../types";
+import { PageIcon } from "./icons";
 import { Container } from "./ui";
 import { Rich, SmartLink } from "./rich";
 import { useSite } from "./site-context";
@@ -39,10 +40,11 @@ export function SiteHeader({ page }: { page: PageId }) {
               href={pageHref(language, id)}
               aria-current={id === page ? "page" : undefined}
               className={cn(
-                "shrink-0 rounded-full px-4 py-2 text-base font-semibold no-underline",
+                "inline-flex shrink-0 items-center gap-2 rounded-full px-4 py-2 text-base font-semibold no-underline",
                 id === page ? "bg-accent text-accent-ink" : "text-ink hover:bg-tint",
               )}
             >
+              <PageIcon page={id} />
               {copy.nav[id]}
             </a>
           ))}

@@ -1,6 +1,7 @@
 import { Search as SearchIcon, X } from "lucide-react";
 import { useId, useMemo, useState } from "react";
 import { PageFrame } from "../components/layout";
+import { IndustryIcon, VerdictIcon } from "../components/icons";
 import { Rich } from "../components/rich";
 import { useSite } from "../components/site-context";
 import { Callout, PageHeader, PageLink, VerdictPill } from "../components/ui";
@@ -23,7 +24,14 @@ function ResultCard({ entry }: { entry: Entry }) {
         <h3 className="min-w-0 text-lg font-bold break-words">{entry.label}</h3>
         <VerdictPill verdict={entry.verdict} />
       </div>
-      <p className="mt-1 text-base text-muted">{industryNames(entry.industries, language)}</p>
+      <ul className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-base text-muted">
+        {entry.industries.map((code) => (
+          <li key={code} className="inline-flex items-center gap-1.5">
+            <IndustryIcon code={code} />
+            {industryName(code, language)}
+          </li>
+        ))}
+      </ul>
       {entry.verdict === "examined" && (
         <p className="mt-2 text-base text-muted">{text.verdicts.examined.text}</p>
       )}
@@ -157,14 +165,17 @@ export function SearchPage() {
                 aria-pressed={filter === value}
                 onClick={() => update({ filter: value })}
                 className={cn(
-                  "rounded-full border-2 px-4 py-1.5 text-base font-semibold",
+                  "inline-flex items-center gap-2 rounded-full border-2 px-4 py-1.5 text-base font-semibold",
                   filter === value
                     ? "border-accent bg-accent text-accent-ink"
                     : "border-transparent bg-surface text-ink hover:border-accent/40",
                 )}
               >
-                {text.filters[value]}{" "}
-                <span className="tabular-nums opacity-75">{total(value)}</span>
+                <VerdictIcon verdict={value} />
+                <span>
+                  {text.filters[value]}{" "}
+                  <span className="tabular-nums opacity-75">{total(value)}</span>
+                </span>
               </button>
             ))}
           </div>
@@ -198,14 +209,17 @@ export function SearchPage() {
                   disabled={count === 0 && !selected}
                   onClick={() => toggleIndustry(code)}
                   className={cn(
-                    "rounded-full border-2 px-4 py-1.5 text-base font-semibold disabled:opacity-40",
+                    "inline-flex items-center gap-2 rounded-full border-2 px-4 py-1.5 text-base font-semibold disabled:opacity-40",
                     selected
                       ? "border-accent bg-accent text-accent-ink"
                       : "border-transparent bg-surface text-ink enabled:hover:border-accent/40",
                   )}
                 >
-                  {industryName(code, language)}{" "}
-                  <span className="tabular-nums opacity-75">{count}</span>
+                  <IndustryIcon code={code} />
+                  <span>
+                    {industryName(code, language)}{" "}
+                    <span className="tabular-nums opacity-75">{count}</span>
+                  </span>
                 </button>
               );
             })}
