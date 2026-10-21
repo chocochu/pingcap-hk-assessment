@@ -50,6 +50,8 @@ export interface Copy {
     deck: string;
     ctaSearch: string;
     ctaAction: string;
+    /** The question most readers come with, answered before anything else. */
+    answer: { title: string; body: Rich; cta: string };
     brief: { title: string; items: Card[] };
     numbers: { title: string; tiles: Tile[]; caveat: Rich };
     found: {

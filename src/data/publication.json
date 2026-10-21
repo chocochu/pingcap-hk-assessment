@@ -1,7 +1,15 @@
 {
-  "version": "0.6.0",
-  "preparedAt": "2026-10-21T15:30:07Z",
+  "version": "0.6.1",
+  "preparedAt": "2026-10-21T16:54:27Z",
   "history": [
+    {
+      "version": "0.6.1",
+      "preparedAt": "2026-10-21T16:54:27Z",
+      "summary": {
+        "en": "Put the question most readers have first on the overview page: was the customer data of Hong Kong companies leaked? We found no evidence of it. The files hold PingCAP’s own records about these companies (accounts, billing, sales leads, support tickets), and we found no sign of the companies’ own customer or user records. This is “no evidence found”, not “proven safe”: only part of the files has been checked, and their authenticity and completeness are not established. Some Hong Kong-linked personal details, mostly sales contacts and analytics profiles, are in the files and are still counted only as totals. No figures changed.",
+        "zh-Hant": "在總覽頁最前面回答大多數讀者最關心的問題：香港公司客戶的資料有被外洩嗎？我們沒有發現這方面的證據。檔案裏是 PingCAP 自己與這些公司往來的紀錄（帳戶、帳單、銷售線索、支援工單），我們沒有發現這些公司自己的客戶或用戶紀錄。這是「未發現證據」，而不是「證實安全」：我們只檢視了檔案的一部分，也未能確立檔案是否真確或完整。檔案裏確有一些與香港有關的個人資料，主要是銷售聯絡人和分析設定檔，仍然只計算總數。所有數字沒有變動。"
+      }
+    },
     {
       "version": "0.6.0",
       "preparedAt": "2026-10-21T15:30:07Z",
