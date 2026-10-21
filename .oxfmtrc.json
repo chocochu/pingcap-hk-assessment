@@ -1,5 +1,5 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "printWidth": 100,
-  "ignorePatterns": ["public/**", "src/data/report.json", "dist/**"]
+  "ignorePatterns": ["public/**", "src/data/report.json", "dist/**", ".vercel/**"]
 }

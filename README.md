@@ -34,6 +34,8 @@ Deploy only `dist/` to a static host. It contains pre-rendered `index.html` and 
 
 Import this GitHub repository into Vercel with the repository root as the project root. `vercel.json` selects Vite, installs the locked Bun dependencies, runs all checks, and builds `dist/`. No environment variables or private source archives are needed.
 
+The deployment format check excludes Vercel's rewritten `vercel.json` and generated `.vercel/` files. Local `bun run check` still checks the original deployment configuration.
+
 The connected production branch is `main`. Pushing a reviewed commit to `main` triggers a production deployment; other branches receive preview deployments. Local content updates do not publish until committed and pushed.
 
 ## Directory
