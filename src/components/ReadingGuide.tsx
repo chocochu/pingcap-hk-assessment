@@ -38,6 +38,11 @@ const guide = {
         label: "See what has been checked",
         detail: "Coverage, gaps and uncertainty",
       },
+      {
+        id: "report-contents",
+        label: "Browse all report topics",
+        detail: "Company connections, record types and review limits",
+      },
     ],
     glossary: "Technical terms, in plain language",
     terms: [
@@ -91,6 +96,7 @@ const guide = {
       { id: "findings", label: "閱讀各公司的發現", detail: "逐一查看證據及解讀限制" },
       { id: "catalog", label: "搜尋公司名稱", detail: "較廣的名稱目錄，並非已確認受害者名單" },
       { id: "coverage", label: "查看已檢查的範圍", detail: "涵蓋範圍、缺口及不確定之處" },
+      { id: "report-contents", label: "瀏覽所有報告主題", detail: "公司關聯、資料類型及檢視限制" },
     ],
     glossary: "用白話理解技術用語",
     terms: [

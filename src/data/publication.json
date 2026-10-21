@@ -1,9 +1,17 @@
 {
-  "version": "0.2.3",
-  "preparedAt": "2026-10-21T08:05:20+00:00",
+  "version": "0.2.4",
+  "preparedAt": "2026-10-21T08:07:21Z",
   "sourceReportSha256": "d1436aeee35f5513325d7377bd2544407786ee3e14df6add9d388a1e6e09ec24",
   "contentSha256": "617c1042103ea9730d4b2beef7230611cb774648576797a29605735c78da6ffd",
   "history": [
+    {
+      "version": "0.2.4",
+      "preparedAt": "2026-10-21T08:07:21Z",
+      "summary": {
+        "en": "Added complete, expandable report contents and return links so readers can find every company observation, record type and review limit. Evidence and findings are unchanged from the preceding release.",
+        "zh-Hant": "新增可展開的完整章節目錄及返回連結，方便讀者找到各項公司觀察、資料類型及檢視限制。證據與發現沿用上一版本，沒有改動。"
+      }
+    },
     {
       "version": "0.2.3",
       "preparedAt": "2026-10-21T08:05:20+00:00",

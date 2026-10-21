@@ -4,6 +4,7 @@ import type { MouseEvent } from "react";
 import { ReportSection } from "./components/ReportSection";
 import { ReportText } from "./components/ReportText";
 import { CountsGuide, ReadingGuide } from "./components/ReadingGuide";
+import { ReportContents } from "./components/ReportContents";
 import { languageFromPath, languagePath, languages, report } from "./report";
 import type { Language } from "./types";
 
@@ -76,16 +77,7 @@ export function App({ initialLanguage = "en" }: { initialLanguage?: Language }) 
           ))}
         </AlertDescription>
       </Alert>
-      <nav
-        className="section-nav"
-        aria-label={language === "zh-Hant" ? "報告章節" : "Report sections"}
-      >
-        {copy.nav.map((item) => (
-          <a key={item.id} href={`#${item.id}`}>
-            {item.label}
-          </a>
-        ))}
-      </nav>
+      <ReportContents language={language} sections={copy.sections} />
       <CountsGuide language={language} />
       <dl className="metrics" aria-labelledby="counts-title" aria-describedby="counts-explanation">
         {copy.metrics.map((metric) => (

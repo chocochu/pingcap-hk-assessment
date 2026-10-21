@@ -177,12 +177,58 @@
     max-width: 920px;
     font-size: 22px;
   }
-  .section-nav {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 14px 0;
+  .report-contents {
     border-block: 1px solid var(--line);
+  }
+  .report-contents summary {
+    padding: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .report-contents summary:focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 4px;
+  }
+  .contents-count {
+    display: inline-block;
+    margin-inline-start: 16px;
+    color: var(--report-muted);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .contents-intro {
+    margin: 0 0 18px;
+    max-width: 75ch;
+  }
+  .report-contents ol {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+  }
+  .report-contents li {
+    border-top: 1px solid var(--line);
+  }
+  .report-contents li a {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 12px 0;
+  }
+  .contents-number {
+    min-width: 2ch;
+    color: var(--report-muted);
+    font-variant-numeric: tabular-nums;
+    text-decoration: none;
+  }
+  .back-to-contents {
+    display: inline-block;
+    padding: 10px 0;
+    margin-top: 12px;
+    font-size: 14px;
   }
   .reading-guide {
     margin: 36px 0;
@@ -369,8 +415,8 @@
     .lead {
       font-size: 19px;
     }
-    .section-nav {
-      gap: 14px;
+    .report-contents ol {
+      grid-template-columns: 1fr;
     }
     .guide-layout {
       grid-template-columns: 1fr;
@@ -391,7 +437,8 @@
       padding: 0;
     }
     .site-header,
-    .section-nav,
+    .report-contents,
+    .back-to-contents,
     .directory-controls,
     .directory-pagination,
     .skip-link {

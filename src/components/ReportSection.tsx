@@ -118,6 +118,10 @@ export function ReportSection({ section, language, directory, query, onQueryChan
             );
         }
       })}
+      <a className="back-to-contents" href="#report-contents">
+        <span aria-hidden="true">↑ </span>
+        {language === "zh-Hant" ? "返回章節目錄" : "Back to contents"}
+      </a>
     </section>
   );
 }
