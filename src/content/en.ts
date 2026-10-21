@@ -89,20 +89,29 @@ export const en: Copy = {
     deck: "In October 2026, a group calling itself FulcrumSec began publishing files it says were taken from PingCAP, the company behind the TiDB database. We searched those files for businesses with Hong Kong connections. This site explains what we found and, just as important, what it doesn’t mean.",
     ctaSearch: "Is my company listed?",
     ctaAction: "What you can do",
+    answer: {
+      title: "Was the customer data of Hong Kong companies leaked?",
+      body: "**We found no evidence of it.** The files hold PingCAP’s own records about these companies, such as accounts, invoices, sales leads and support tickets. We found no sign of the companies’ own customer or user records. That means “no evidence found”, not “proven safe”: we have checked only part of the files, and we can’t confirm they are genuine or complete.",
+      cta: "See exactly what is in the files",
+    },
     brief: {
       title: "The short version",
       items: [
+        {
+          title: "Their customers’ data?",
+          body: "**No evidence found.** What we did see is PingCAP’s side of the relationship: these companies’ account, billing, sales and support records. Nothing we found shows that a company’s own shoppers, travellers, players or other users were in the files. Two things to know: some personal details linked to Hong Kong, mostly sales contacts and analytics profiles, are in the files (we count them only as totals), and we have so far checked only part of the files.",
+        },
         {
           title: "What happened",
           body: "PingCAP reports that stolen service credentials were used to get into its internal systems between 9 September and 7 October 2026. It says account, project, billing, SQL-editor and (encrypted) API-key information was exported. FulcrumSec says the collection totals 10.6 TB and that more is coming. We can’t verify that.",
         },
         {
           title: "What we found",
-          body: `Business records linked to Hong Kong companies are in the files, mostly account, billing and sales records. For ${facts.examinedCompanies} companies we could link the account to billing records, and we describe each one.`,
+          body: `Business records linked to Hong Kong companies are in the files, mostly account, billing and sales records. These are the companies’ records with PingCAP, not their customers’ data. For ${facts.examinedCompanies} companies we could link the account to billing records, and we describe each one.`,
         },
         {
           title: "What it doesn’t mean",
-          body: "A company’s name appearing here doesn’t mean its own systems were hacked or its customers’ data was taken. Often it just means the company is in PingCAP’s records, sometimes only as a sales lead. And we can’t tell you whether you personally are affected.",
+          body: "A company’s name appearing here doesn’t mean its own systems were hacked, or that its customers’ data is in the files. We found no evidence of that. Often it just means the company is in PingCAP’s records, sometimes only as a sales lead. And we can’t tell you whether you personally are affected.",
         },
       ],
     },

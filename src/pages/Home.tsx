@@ -57,11 +57,25 @@ export function Home() {
         </div>
       </PageHeader>
 
+      <section aria-label={home.answer.title} className="pt-6">
+        <Callout tone="info">
+          <h2 className="font-serif text-2xl font-bold">{home.answer.title}</h2>
+          <p className="mt-2 max-w-3xl text-lg leading-relaxed">
+            <Rich text={home.answer.body} />
+          </p>
+          <p className="mt-2">
+            <a href="#found" className="font-semibold underline">
+              {home.answer.cta}
+            </a>
+          </p>
+        </Callout>
+      </section>
+
       <section aria-labelledby="brief-title" className="py-6">
         <h2 id="brief-title" className="sr-only">
           {home.brief.title}
         </h2>
-        <ol className="grid gap-4 md:grid-cols-3">
+        <ol className="grid gap-4 md:grid-cols-2">
           {home.brief.items.map((item, index) => (
             <li key={item.title} className="rounded-2xl border border-line bg-surface p-6">
               <span
