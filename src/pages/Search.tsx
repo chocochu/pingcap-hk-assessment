@@ -4,6 +4,7 @@ import { PageFrame } from "../components/layout";
 import { Rich } from "../components/rich";
 import { useSite } from "../components/site-context";
 import { Callout, PageHeader, PageLink, VerdictPill } from "../components/ui";
+import { countIndustries, industryName, industryNames } from "../lib/industries";
 import { cn } from "../lib/utils";
 import { countByVerdict, entries, noteFor, searchEntries } from "../lib/search";
 import type { Entry, Filter } from "../lib/search";
@@ -22,6 +23,7 @@ function ResultCard({ entry }: { entry: Entry }) {
         <h3 className="min-w-0 text-lg font-bold break-words">{entry.label}</h3>
         <VerdictPill verdict={entry.verdict} />
       </div>
+      <p className="mt-1 text-base text-muted">{industryNames(entry.industries, language)}</p>
       {entry.verdict === "examined" && (
         <p className="mt-2 text-base text-muted">{text.verdicts.examined.text}</p>
       )}
@@ -43,6 +45,9 @@ function ResultCard({ entry }: { entry: Entry }) {
         <div className="mt-2 space-y-2 text-muted">
           <p>{text.verdicts[entry.verdict].text}</p>
           {entry.observations !== undefined && <p>{text.details.seen(entry.observations)}</p>}
+          <p>
+            <strong>{text.industry.detail}:</strong> {industryNames(entry.industries, language)}
+          </p>
           {entry.category && (
             <p>
               <strong>{text.details.category}:</strong> {entry.category[language]}
@@ -67,23 +72,41 @@ function ResultCard({ entry }: { entry: Entry }) {
 }
 
 export function SearchPage() {
-  const { copy } = useSite();
+  const { copy, language } = useSite();
   const text = copy.search;
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
+  const [industries, setIndustries] = useState<string[]>([]);
   const [limit, setLimit] = useState(PAGE_SIZE);
   const inputId = useId();
   const countId = useId();
 
   const counts = useMemo(() => countByVerdict(entries), []);
-  const matched = useMemo(() => searchEntries(entries, query, filter), [query, filter]);
+  const matched = useMemo(
+    () => searchEntries(entries, query, filter, industries),
+    [query, filter, industries],
+  );
+  // Counts follow the search and record-type filter, so a chip never promises rows they exclude.
+  const industryCounts = useMemo(
+    () => countIndustries(searchEntries(entries, query, filter)),
+    [query, filter],
+  );
   const shown = matched.slice(0, limit);
   const remaining = matched.length - shown.length;
 
-  function update(next: { query?: string; filter?: Filter }) {
+  function update(next: { query?: string; filter?: Filter; industries?: string[] }) {
     if (next.query !== undefined) setQuery(next.query);
     if (next.filter !== undefined) setFilter(next.filter);
+    if (next.industries !== undefined) setIndustries(next.industries);
     setLimit(PAGE_SIZE);
+  }
+
+  function toggleIndustry(code: string) {
+    update({
+      industries: industries.includes(code)
+        ? industries.filter((item) => item !== code)
+        : [...industries, code],
+    });
   }
 
   const total = (value: Filter) => (value === "all" ? entries.length : counts[value as Verdict]);
@@ -145,6 +168,49 @@ export function SearchPage() {
               </button>
             ))}
           </div>
+        </fieldset>
+        <fieldset className="mt-4">
+          <legend className="sr-only">{text.industry.label}</legend>
+          <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+            <p aria-hidden="true" className="text-base font-semibold">
+              {text.industry.label}
+              <span className="ml-2 font-normal text-muted">{text.industry.hint}</span>
+            </p>
+            {industries.length > 0 && (
+              <button
+                type="button"
+                onClick={() => update({ industries: [] })}
+                className="inline-flex items-center gap-1 text-base font-semibold text-link hover:underline"
+              >
+                <X aria-hidden="true" className="size-4" />
+                {text.industry.clear}
+              </button>
+            )}
+          </div>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {industryCounts.map(({ code, count }) => {
+              const selected = industries.includes(code);
+              return (
+                <button
+                  key={code}
+                  type="button"
+                  aria-pressed={selected}
+                  disabled={count === 0 && !selected}
+                  onClick={() => toggleIndustry(code)}
+                  className={cn(
+                    "rounded-full border-2 px-4 py-1.5 text-base font-semibold disabled:opacity-40",
+                    selected
+                      ? "border-accent bg-accent text-accent-ink"
+                      : "border-transparent bg-surface text-ink enabled:hover:border-accent/40",
+                  )}
+                >
+                  {industryName(code, language)}{" "}
+                  <span className="tabular-nums opacity-75">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-3 text-base text-muted">{text.industry.note}</p>
         </fieldset>
       </div>
 

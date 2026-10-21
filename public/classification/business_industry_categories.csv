@@ -420,3 +420,18 @@ L0418,paxglobal,HW;PAY,Hardware & Manufacturing; Payments & Fintech,硬件及製
 L0419,shopline,TEC;RET,"Technology, Software & Cloud; Retail, Consumer & Agriculture",科技、軟件及雲端; 零售、消費及農業,M,Inferred from name keywords or general knowledge; verify
 L0420,好易聯支付網絡（香港）有限公司,PAY,Payments & Fintech,支付及金融科技,H,Name or domain states the sector
 L0421,联洲国际技术有限公司,HW,Hardware & Manufacturing,硬件及製造,H,Name or domain states the sector
+L0422,FWD GROUP MANAGEMENT HOLDINGS LIMITED,INS,Insurance,保險,H,Name or domain states the sector
+L0423,Swire Properties Inc.,REP,Real Estate & Property,房地產及物業,H,Name or domain states the sector
+L0424,BitMEX,CRY,Crypto & Web3,加密資產及 Web3,H,Name or domain states the sector
+L0425,HANG SENG BANK LTD,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0426,XGD Group,HW;PAY,Hardware & Manufacturing; Payments & Fintech,硬件及製造; 支付及金融科技,M,Inferred from name keywords or general knowledge; verify
+L0427,中信银行（国际）,BNK,Banking & Lending,銀行及借貸,H,Name or domain states the sector
+L0428,China Mobile International Limited,TEL,Telecom,電訊,H,Name or domain states the sector
+L0429,China Telecom Global Limited,TEL,Telecom,電訊,H,Name or domain states the sector
+L0430,Sun Hung Kai Properties Limited,REP,Real Estate & Property,房地產及物業,H,Name or domain states the sector
+L0431,VTech Holdings Ltd.,HW,Hardware & Manufacturing,硬件及製造,M,Inferred from name keywords or general knowledge; verify
+L0432,Sa Sa International Holdings Limited,RET,"Retail, Consumer & Agriculture",零售、消費及農業,H,Name or domain states the sector
+L0433,CargoSmart Limited,UTL;TEC,"Utilities, Transport & Logistics; Technology, Software & Cloud",公用事業、交通及物流; 科技、軟件及雲端,M,Inferred from name keywords or general knowledge; verify
+L0434,PCCW-HKT DataCom Services Limited,TEL,Telecom,電訊,H,Name or domain states the sector
+L0435,Everbright Sun Hung Kai Company Limited,SEC,Securities & Asset Management,證券及資產管理,M,Inferred from name keywords or general knowledge; verify
+L0436,Neat Limited,UNK,Unclassified,未能分類,L,No usable signal; left unclassified

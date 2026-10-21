@@ -31,6 +31,15 @@ describe("every page renders real HTML in both languages", () => {
     expect(html).toContain("Examined closely");
   });
 
+  test("search page offers industry filters in both languages", () => {
+    const en = renderToString(<App language="en" page="search" />);
+    expect(en).toContain("Banking &amp; Lending");
+    expect(en).toContain("not verified company information");
+    const zh = renderToString(<App language="zh-Hant" page="search" />);
+    expect(zh).toContain("銀行及借貸");
+    expect(zh).toContain("並非已核實的公司資料");
+  });
+
   test("company page lists every company with an anchor", () => {
     const html = renderToString(<App language="zh-Hant" page="companies" />);
     for (const id of [

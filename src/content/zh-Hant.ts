@@ -272,6 +272,13 @@ export const zhHant: Copy = {
       marketing: "僅市場推廣名單",
       later: "較後檢視中提及",
     },
+    industry: {
+      label: "行業",
+      hint: "可選擇一個或多個。",
+      clear: "清除行業",
+      note: "行業是我們根據公司名稱作出的淺白分類，並非已核實的公司資料。一個名稱可屬於多個類別，所以各類別數目相加會超過總數。",
+      detail: "行業（我們的分類）",
+    },
     legendTitle: "標籤的意思",
     verdicts: {
       examined: {

@@ -1,5 +1,5 @@
 import data from "../data/industries.json";
-import type { Business, Industry, IndustryData, Language } from "../types";
+import type { Industry, IndustryData, Language } from "../types";
 
 export const UNCLASSIFIED = "UNK";
 const { industries, labels } = data as IndustryData;
@@ -23,10 +23,10 @@ export interface IndustryCount extends Industry {
 }
 
 // Most common first, Unclassified last, so the filter chips read in a stable order.
-export function countIndustries(businesses: Business[]): IndustryCount[] {
+export function countIndustries(list: { industries: string[] }[]): IndustryCount[] {
   const counts = new Map<string, number>();
-  for (const business of businesses)
-    for (const code of industryCodes(business.label)) counts.set(code, (counts.get(code) ?? 0) + 1);
+  for (const item of list)
+    for (const code of item.industries) counts.set(code, (counts.get(code) ?? 0) + 1);
   return industries
     .map((industry) => ({ ...industry, count: counts.get(industry.code) ?? 0 }))
     .sort(

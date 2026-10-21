@@ -78,6 +78,7 @@ export interface Copy {
     clear: string;
     filterLabel: string;
     filters: Record<"all" | Verdict, string>;
+    industry: { label: string; hint: string; clear: string; note: string; detail: string };
     legendTitle: string;
     verdicts: Record<Verdict, { label: string; text: string }>;
     household: { title: string; body: Rich };

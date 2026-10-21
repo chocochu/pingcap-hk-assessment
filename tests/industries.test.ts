@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { buildIndustries, parseCsv } from "../scripts/industries";
 import data from "../src/data/industries.json";
 import { countIndustries, industryCodes, industryName } from "../src/lib/industries";
-import { businesses } from "../src/lib/search";
+import { entries } from "../src/lib/search";
 
 const csv = await readFile(
   new URL("../public/classification/business_industry_categories.csv", import.meta.url),
@@ -15,8 +15,8 @@ describe("industry classification data", () => {
     expect(buildIndustries(csv)).toEqual(data);
   });
 
-  test("every directory label is classified and no classification refers to a missing label", () => {
-    const labels = businesses.map((business) => business.label);
+  test("every searchable name is classified and no classification refers to a missing label", () => {
+    const labels = entries.map((entry) => entry.label);
     expect(Object.keys(data.labels).sort()).toEqual([...labels].sort());
     const known = new Set(data.industries.map((industry) => industry.code));
     for (const codes of Object.values(data.labels)) {
@@ -29,10 +29,10 @@ describe("industry classification data", () => {
     expect(industryCodes("Fubon Financial Holding Co., Ltd.")).toEqual(["BNK", "INS", "SEC"]);
     expect(industryCodes("A label added by a later release")).toEqual(["UNK"]);
     expect(industryName("BNK", "zh-Hant")).toBe("銀行及借貸");
-    const counts = countIndustries(businesses);
+    const counts = countIndustries(entries);
     expect(counts.at(-1)?.code).toBe("UNK");
     expect(counts.reduce((sum, industry) => sum + industry.count, 0)).toBeGreaterThan(
-      businesses.length,
+      entries.length,
     );
   });
 });
