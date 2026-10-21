@@ -1,9 +1,17 @@
 {
-  "version": "0.2.1",
-  "preparedAt": "2026-10-21T01:49:46Z",
+  "version": "0.2.2",
+  "preparedAt": "2026-10-21T02:23:10Z",
   "sourceReportSha256": "bab01fc27a194406650d41f94af5e838facc7da673f1b7c72ad46c64b7f5cff7",
   "contentSha256": "9f9a702cd50d3a0efb649613e25020431e737d03989b2727e8742ec0b9a011aa",
   "history": [
+    {
+      "version": "0.2.2",
+      "preparedAt": "2026-10-21T02:23:10Z",
+      "summary": {
+        "en": "Added a plain-language reading guide, clearer count explanations and a glossary for readers without a technical background. Evidence and company findings are unchanged.",
+        "zh-Hant": "新增白話閱讀指南、數字解說及用語解釋，方便沒有技術背景的讀者理解。證據與公司相關發現維持不變。"
+      }
+    },
     {
       "version": "0.2.1",
       "preparedAt": "2026-10-21T01:49:46Z",

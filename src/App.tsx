@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import type { MouseEvent } from "react";
 import { ReportSection } from "./components/ReportSection";
 import { ReportText } from "./components/ReportText";
+import { CountsGuide, ReadingGuide } from "./components/ReadingGuide";
 import { languageFromPath, languagePath, languages, report } from "./report";
 import type { Language } from "./types";
 
@@ -64,6 +65,7 @@ export function App({ initialLanguage = "en" }: { initialLanguage?: Language }) 
           <ReportText content={copy.caution} />
         </AlertDescription>
       </Alert>
+      <ReadingGuide language={language} />
       <Alert role="note" className="my-8" aria-label={copy.release.label}>
         <AlertTitle>{copy.release.title}</AlertTitle>
         <AlertDescription>
@@ -84,7 +86,8 @@ export function App({ initialLanguage = "en" }: { initialLanguage?: Language }) 
           </a>
         ))}
       </nav>
-      <dl className="metrics">
+      <CountsGuide language={language} />
+      <dl className="metrics" aria-labelledby="counts-title" aria-describedby="counts-explanation">
         {copy.metrics.map((metric) => (
           <div key={metric.label}>
             <dt>{metric.label}</dt>
