@@ -6,5 +6,5 @@
     "react/rules-of-hooks": "error",
     "react/exhaustive-deps": "error"
   },
-  "ignorePatterns": ["dist/**", "public/**"]
+  "ignorePatterns": ["dist/**", "public/**", "node_modules/**", ".vercel/**"]
 }

@@ -1,5 +1,7 @@
 # PingCAP incident: Hong Kong exposure assessment
 
+**Live report:** [English](https://pingcap-hk-assessment.vercel.app/) · [繁體中文](https://pingcap-hk-assessment.vercel.app/zh-Hant.html)
+
 An independent, bilingual assessment of Hong Kong-related business records in material attributed to the PingCAP incident. The site presents evidence, coverage limits and a searchable directory in English and Traditional Chinese.
 
 This repository contains the website and reviewed, redacted evidence downloads. A business label appearing in the material does not establish that the business's own systems were breached. Source-release claims, archive observations and public business context are distinguished in the report; the material's authenticity and completeness are not independently established. This project is not affiliated with PingCAP.
