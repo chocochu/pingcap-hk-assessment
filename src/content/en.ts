@@ -276,6 +276,13 @@ export const en: Copy = {
       marketing: "Marketing lists only",
       later: "Named in a later review",
     },
+    industry: {
+      label: "Industry",
+      hint: "Pick one or more.",
+      clear: "Clear industries",
+      note: "Industries are our own plain-language grouping, based on the company name. They are not verified company information. A name can fit several groups, so the numbers add up to more than the total.",
+      detail: "Industry (our grouping)",
+    },
     legendTitle: "What the labels mean",
     verdicts: {
       examined: {

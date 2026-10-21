@@ -1,6 +1,7 @@
 import businessData from "../data/businesses.json";
 import { companies } from "../content/companies";
 import { laterNames } from "../content/later-names";
+import { industryCodes } from "./industries";
 import type { Business, Language, Localized, Verdict } from "../types";
 
 export interface Entry {
@@ -17,6 +18,8 @@ export interface Entry {
   later?: Localized;
   /** Anchor on the company findings page, for closely examined companies. */
   findingId?: string;
+  /** Industry codes from our editorial classification; a name can have several. */
+  industries: string[];
 }
 
 export const businesses = businessData as Business[];
@@ -53,6 +56,7 @@ function buildEntries(): Entry[] {
       domains: business.domains,
       later: note?.note,
       findingId,
+      industries: industryCodes(business.label),
     };
   });
 
@@ -63,6 +67,7 @@ function buildEntries(): Entry[] {
       label: item.label,
       verdict: "later",
       later: item.note,
+      industries: industryCodes(item.label),
     }));
 
   return [...fromDirectory, ...extras].sort(
@@ -95,10 +100,23 @@ function matchesFilter(entry: Entry, filter: Filter): boolean {
   return entry.verdict === filter;
 }
 
-export function searchEntries(list: Entry[], query: string, filter: Filter): Entry[] {
+/** No industries selected means every industry; otherwise any selected industry matches. */
+function matchesIndustries(entry: Entry, industries: string[]): boolean {
+  return industries.length === 0 || entry.industries.some((code) => industries.includes(code));
+}
+
+export function searchEntries(
+  list: Entry[],
+  query: string,
+  filter: Filter,
+  industries: string[] = [],
+): Entry[] {
   const term = fold(query.trim());
   const matched = list.filter(
-    (entry) => matchesFilter(entry, filter) && (!term || haystack(entry).includes(term)),
+    (entry) =>
+      matchesFilter(entry, filter) &&
+      matchesIndustries(entry, industries) &&
+      (!term || haystack(entry).includes(term)),
   );
   if (!term) return matched;
   // Names that start with the search text come first, then the usual order.

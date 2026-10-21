@@ -14,6 +14,15 @@ export type Verdict = "examined" | "account" | "sales" | "marketing" | "later";
 
 export type Localized<T = string> = Record<Language, T>;
 
+export interface Industry extends Localized {
+  code: string;
+}
+
+export interface IndustryData {
+  industries: Industry[];
+  labels: Record<string, string[]>;
+}
+
 export interface Business {
   label: string;
   observations: string | number;

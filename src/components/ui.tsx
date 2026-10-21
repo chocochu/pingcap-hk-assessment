@@ -10,6 +10,7 @@ import type { ReactNode } from "react";
 import { cn } from "../lib/utils";
 import { pageHref } from "../site";
 import type { PageId, Strength, Verdict } from "../types";
+import { VerdictIcon } from "./icons";
 import { Rich } from "./rich";
 import { useSite } from "./site-context";
 
@@ -167,7 +168,11 @@ const verdictTone: Record<Verdict, Tone> = {
 
 export function VerdictPill({ verdict }: { verdict: Verdict }) {
   const { copy } = useSite();
-  return <Pill tone={verdictTone[verdict]}>{copy.search.verdicts[verdict].label}</Pill>;
+  return (
+    <Pill tone={verdictTone[verdict]} icon={<VerdictIcon verdict={verdict} />}>
+      {copy.search.verdicts[verdict].label}
+    </Pill>
+  );
 }
 
 export function PageLink({
