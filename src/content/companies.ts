@@ -17,8 +17,8 @@ export interface Company {
   refs: string[];
   /** Billing record count for each reference, in the same order. */
   billingRecords: number[];
-  records: { support: boolean; logs: boolean };
-  strength: { billing: Strength; support?: Strength; logs?: Strength };
+  records: { support: boolean; logs: boolean; repo: boolean };
+  strength: { billing: Strength; support?: Strength; logs?: Strength; repo?: Strength };
   /** Public pages used to confirm the Hong Kong connection. */
   sources: string[];
   text: Localized<CompanyText>;
@@ -30,8 +30,8 @@ export const companies: Company[] = [
     name: "Shoplazza Hongkong Limited",
     refs: ["B003"],
     billingRecords: [800],
-    records: { support: true, logs: false },
-    strength: { billing: "strong", support: "medium" },
+    records: { support: true, logs: false, repo: true },
+    strength: { billing: "strong", support: "medium", repo: "medium" },
     sources: [
       "https://www.shoplazza.com/privacy",
       "https://www.shoplazza.cn/pages/hk-shoplazza-payments-terms-and-service",
@@ -45,9 +45,10 @@ export const companies: Company[] = [
           "**19 technical support records** are linked to the company. 13 of them contain database-style code (SQL).",
           "The sales system contradicts itself: one field says the account is in production use, another says “Prospecting”.",
           "We found no link to the gateway logs we were given.",
+          "**A source-code archive** also lists the company’s exact account ID in a production-named delivery configuration and in alert-routing settings, and holds **33 finance rows** for it (billing months October 2023 to May 2026). Configuration files don’t prove the service was deployed or that alerts were sent.",
         ],
         careful:
-          "The conflicting labels in the sales system mean we can’t say how the company actually used the service.",
+          "The conflicting labels in the sales system mean we can’t say how the company actually used the service. The source-code archive links are historical. They don’t show current use, a customer-database compromise, or exposure of the company’s own customers.",
       },
       "zh-Hant": {
         hk: "官方條款確認 Shoplazza Hongkong Limited 為香港法律實體。",
@@ -56,8 +57,10 @@ export const companies: Company[] = [
           "**19 筆技術支援紀錄**與該公司有關，其中 13 筆含有類似資料庫指令（SQL）的程式碼。",
           "銷售系統的資料自相矛盾：一個欄位顯示帳戶已投入正式使用，另一個狀態卻是「Prospecting」（洽談中）。",
           "在我們取得的閘道日誌中，找不到相關連結。",
+          "**一個原始碼壓縮檔**亦在名稱含「production」（正式環境）的部署設定及警報轉送設定中，列出該公司完全吻合的帳戶編號，並存有 **33 列財務紀錄**（帳單月份為 2023 年 10 月至 2026 年 5 月）。設定檔不能證明服務曾經部署，或警報曾經發出。",
         ],
-        careful: "銷售系統內的標示互相衝突，因此我們無法判斷該公司實際上如何使用這項服務。",
+        careful:
+          "銷售系統內的標示互相衝突，因此我們無法判斷該公司實際上如何使用這項服務。原始碼壓縮檔中的關聯屬歷史資料，並不顯示目前仍在使用、客戶資料庫外洩，或該公司自己的客戶受影響。",
       },
     },
   },
@@ -66,7 +69,7 @@ export const companies: Company[] = [
     name: "STARLING LABS LIMITED",
     refs: ["B012"],
     billingRecords: [1150],
-    records: { support: true, logs: false },
+    records: { support: true, logs: false, repo: false },
     strength: { billing: "strong", support: "medium" },
     sources: [
       "https://shopline.sg/terms",
@@ -101,8 +104,8 @@ export const companies: Company[] = [
     name: "Wetech Trading Limited",
     refs: ["B013", "B029", "B030"],
     billingRecords: [18200, 329, 31],
-    records: { support: true, logs: true },
-    strength: { billing: "strong", support: "medium", logs: "clue" },
+    records: { support: true, logs: true, repo: true },
+    strength: { billing: "strong", support: "medium", logs: "clue", repo: "medium" },
     sources: ["https://wetechtl.cloud/contact/"],
     text: {
       en: {
@@ -111,9 +114,10 @@ export const companies: Company[] = [
           "**Three billing groups** (18,200, 329 and 31 records), covering July 2023 to August 2026.",
           "**232 technical support records**, 44 of which contain database-style code (SQL).",
           "A later BigQuery review links four server clusters to the company’s accounts, with 1,097 gateway log records. This is a candidate match, not proof.",
+          "**A source-code archive** also lists the company’s exact account ID in a production-named delivery configuration, with report settings for its organisation and clusters and stored diagnostic and evaluation samples. It holds **33 finance rows** for it (October 2023 to May 2026).",
         ],
         careful:
-          "Wetech is a hosting provider, so its resources can’t be assigned to its own customers. We can’t tell whose data sat behind these accounts.",
+          "Wetech is a hosting provider, so its resources can’t be assigned to its own customers. We can’t tell whose data sat behind these accounts. The source-code archive links are historical. They don’t show current use, a customer-database compromise, or exposure of the company’s own customers.",
       },
       "zh-Hant": {
         hk: "該公司自家網站聲明其位於香港。我們尚未獨立確認它在何處註冊成立。",
@@ -121,9 +125,10 @@ export const companies: Company[] = [
           "**三組帳單紀錄**（18,200、329 及 31 筆），涵蓋 2023 年 7 月至 2026 年 8 月。",
           "**232 筆技術支援紀錄**，其中 44 筆含有類似資料庫指令（SQL）的程式碼。",
           "較後的 BigQuery 檢視把四個伺服器叢集連到該公司的帳戶，涉及 1,097 筆閘道日誌紀錄。這只是候選配對，並非證明。",
+          "**一個原始碼壓縮檔**亦在名稱含「production」（正式環境）的部署設定中列出該公司完全吻合的帳戶編號，並附有其機構及叢集的報表設定，以及儲存的診斷和評估樣本。壓縮檔內另有 **33 列財務紀錄**（2023 年 10 月至 2026 年 5 月）。",
         ],
         careful:
-          "Wetech 是寄存服務供應商，因此其資源不能直接算作其客戶的資源。我們無法得知這些帳戶背後是誰的資料。",
+          "Wetech 是寄存服務供應商，因此其資源不能直接算作其客戶的資源。我們無法得知這些帳戶背後是誰的資料。原始碼壓縮檔中的關聯屬歷史資料，並不顯示目前仍在使用、客戶資料庫外洩，或該公司自己的客戶受影響。",
       },
     },
   },
@@ -132,8 +137,8 @@ export const companies: Company[] = [
     name: "MEGAHARD LIMITED",
     refs: ["B019", "B021", "B022", "B023", "B024", "B025", "B026", "B027"],
     billingRecords: [76, 76, 18, 5, 5, 22, 4630, 127],
-    records: { support: true, logs: true },
-    strength: { billing: "strong", support: "medium", logs: "medium" },
+    records: { support: true, logs: true, repo: true },
+    strength: { billing: "strong", support: "medium", logs: "medium", repo: "medium" },
     sources: [
       "https://www.cr.gov.hk/docs/wrpt/RNC063_2025.02.17-2025.02.23.pdf",
       "https://megahardlimited.com/contact/",
@@ -146,9 +151,10 @@ export const companies: Company[] = [
           "**Eight billing groups**, the largest with 4,630 records.",
           "**3 support records** mention two server clusters. One of them appears in the gateway logs, with **11,594 records** between 8 June and 3 October 2026. Almost all (11,591) were successful requests.",
           "A later BigQuery review links 14 clusters to the company’s accounts, with 99,465 gateway records. This overlaps with the match above, so the two counts shouldn’t be added.",
+          "**A source-code archive** holds **4 finance rows** (April to May 2026) that match two of the company’s historical account IDs. Other mentions of the company in that archive are only background.",
         ],
         careful:
-          "We can’t prove the company owned those servers for the whole period, or say who its own customers were. The link to the logs is medium-confidence.",
+          "We can’t prove the company owned those servers for the whole period, or say who its own customers were. The link to the logs is medium-confidence. The source-code archive links are historical. They don’t show current use, a customer-database compromise, or exposure of the company’s own customers.",
       },
       "zh-Hant": {
         hk: "該公司過去曾在香港註冊成立，並自稱總部設於香港。官方註冊記錄與其網站網域之間的連結，我們持較保留的態度。",
@@ -156,9 +162,10 @@ export const companies: Company[] = [
           "**八組帳單紀錄**，其中最大一組有 4,630 筆。",
           "**3 筆支援紀錄**提及兩個伺服器叢集，其中一個出現在閘道日誌中，在 2026 年 6 月 8 日至 10 月 3 日間有 **11,594 筆紀錄**，幾乎全部（11,591 筆）為成功的請求。",
           "較後的 BigQuery 檢視把 14 個叢集連到該公司的帳戶，涉及 99,465 筆閘道紀錄。這與上述配對互相重疊，兩組數字不應相加。",
+          "**一個原始碼壓縮檔**存有 **4 列財務紀錄**（2026 年 4 月至 5 月），與該公司兩個歷史帳戶編號吻合。該壓縮檔中對該公司的其他提及只屬背景資料。",
         ],
         careful:
-          "我們無法證明該公司在整段期間都擁有那些伺服器，也無法說明它自己的客戶是誰。與日誌的關聯屬中等把握。",
+          "我們無法證明該公司在整段期間都擁有那些伺服器，也無法說明它自己的客戶是誰。與日誌的關聯屬中等把握。原始碼壓縮檔中的關聯屬歷史資料，並不顯示目前仍在使用、客戶資料庫外洩，或該公司自己的客戶受影響。",
       },
     },
   },
@@ -167,8 +174,8 @@ export const companies: Company[] = [
     name: "AsiaPac Net Media Limited",
     refs: ["B005", "B028"],
     billingRecords: [642, 6],
-    records: { support: false, logs: false },
-    strength: { billing: "strong" },
+    records: { support: false, logs: false, repo: true },
+    strength: { billing: "strong", repo: "medium" },
     sources: ["https://www.asiapacdigital.com/about"],
     text: {
       en: {
@@ -176,18 +183,20 @@ export const companies: Company[] = [
         found: [
           "**642 billing records** on the main account match, dated March 2022 to August 2026.",
           "A separate match adds 6 records, and a starred alias is kept apart.",
+          "**A source-code archive** also lists the company’s exact account ID in a production-named delivery configuration, along with April 2023 resource and migration notes. It holds **32 finance rows** for it (October 2023 to May 2026), 29 of them with an invoice reference filled in.",
         ],
         careful:
-          "This is the company’s own account and commercial information. Don’t add the aliases together, and don’t assume its advertising clients were exposed.",
+          "This is the company’s own account and commercial information. Don’t add the aliases together, and don’t assume its advertising clients were exposed. The source-code archive links are historical. They don’t show current use, a customer-database compromise, or exposure of the company’s own customers.",
       },
       "zh-Hant": {
         hk: "該公司自家的歷史簡介指出，它在香港創立，總部也設於香港。",
         found: [
           "主要帳戶配對有 **642 筆帳單紀錄**，日期為 2022 年 3 月至 2026 年 8 月。",
           "另一組配對有 6 筆紀錄，而帶星號的別名則另行處理。",
+          "**一個原始碼壓縮檔**亦在名稱含「production」（正式環境）的部署設定中列出該公司完全吻合的帳戶編號，並附有 2023 年 4 月的資源及遷移備註。壓縮檔內另有 **32 列財務紀錄**（2023 年 10 月至 2026 年 5 月），其中 29 列的發票參考欄位有內容。",
         ],
         careful:
-          "這是該公司自己的帳戶及商業資料。請勿把各個別名相加，也不要假設它的廣告客戶已受影響。",
+          "這是該公司自己的帳戶及商業資料。請勿把各個別名相加，也不要假設它的廣告客戶已受影響。原始碼壓縮檔中的關聯屬歷史資料，並不顯示目前仍在使用、客戶資料庫外洩，或該公司自己的客戶受影響。",
       },
     },
   },
@@ -196,7 +205,7 @@ export const companies: Company[] = [
     name: "RIVER GAME HK LIMITED",
     refs: ["B002"],
     billingRecords: [402],
-    records: { support: false, logs: false },
+    records: { support: false, logs: false, repo: false },
     strength: { billing: "strong" },
     sources: [
       "https://www.topheroes.com/en/term_of_service.html",
@@ -220,7 +229,7 @@ export const companies: Company[] = [
     name: "OceanBase Hong Kong Limited",
     refs: ["B011"],
     billingRecords: [192],
-    records: { support: false, logs: true },
+    records: { support: false, logs: true, repo: false },
     strength: { billing: "strong", logs: "clue" },
     sources: [
       "https://en.oceanbase.com/legal/subcontractors-affiliates",
@@ -255,7 +264,7 @@ export const companies: Company[] = [
     name: "KLOOK",
     refs: ["B004"],
     billingRecords: [7],
-    records: { support: false, logs: false },
+    records: { support: false, logs: false, repo: false },
     strength: { billing: "strong" },
     sources: ["https://www.klook.com/en-AU/conditions/", "https://www.klook.com/en-US/policy/"],
     text: {
@@ -283,7 +292,7 @@ export const companies: Company[] = [
     name: "COIHUB TECHNOLOGY LIMITED",
     refs: ["B001"],
     billingRecords: [20],
-    records: { support: false, logs: false },
+    records: { support: false, logs: false, repo: false },
     strength: { billing: "strong" },
     sources: [
       "https://www.cr.gov.hk/docs/wrpt/RNC063_2020.08.17-2020.08.23.pdf",

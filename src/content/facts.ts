@@ -23,7 +23,12 @@ export const facts = {
   bqRowsReviewed: 18_154_882,
   /** Archives. */
   archivesClaimed: 5,
-  archivesAvailable: 3,
+  archivesAvailable: 4,
+  /** Source-code repository archive (10_repos). */
+  repoDirectories: 413,
+  repoMembers: 496_784,
+  repoTextFiles: 271_551,
+  repoGitRepositories: 13,
   /** Individuals, reported only as totals. */
   hkProfileRows: 416,
   hkEmailContacts: 255,

@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "title": "Repository archive: Hong Kong impact supplement",
+  "assessment_date": "2026-10-21",
+  "timezone": "Asia/Hong_Kong",
+  "prepared_at": "2026-10-21T17:50:43.037022+08:00",
+  "conclusion": "The archive adds retained historical finance/profile data and organization-linked operational material, and explains how earlier exports were derived. It strengthens several existing source associations without establishing additional affected-company totals or customer-database compromise.",
+  "findings": [
+    {
+      "id": "RF01",
+      "title": "Retained finance records add commercial detail",
+      "conclusion": "A committed finance CSV contains 5,709 row observations across 54 columns. Exact native tenant-field matches associate 102 observations with four previously reviewed company labels. This is retained tabular material in the repository archive.",
+      "material_categories": [
+        "billing periods",
+        "invoice/reference fields",
+        "payment-status and date arrays",
+        "financial amounts, credit and allocation fields"
+      ],
+      "evidence_refs": [
+        "REP231668",
+        "REP231619",
+        "REP231666"
+      ],
+      "attribution": "Exact full-field native tenant strings matched to historical reviewed candidates; Hong Kong identity remains inherited and qualified.",
+      "limits": [
+        "Rows can represent repeated tenant/month allocations and arrays, so 102 is not an invoice, customer or incident count.",
+        "Invoice-reference and paid-status fields are present for 29 and 28 AsiaPac-associated rows respectively; those fields are absent in the other three matched labels in this seed. Do not apply the global schema to every company.",
+        "Earlier BigQuery inventory contains corresponding base/snapshot table names. Row equality and incremental exposure have not been established; do not add these counts to earlier totals."
+      ]
+    },
+    {
+      "id": "RO01",
+      "title": "Operational configuration strengthens three historical associations",
+      "conclusion": "A production-named delivery configuration contains exact tenantId entries for Shoplazza, AsiaPac and Wetech. Wetech also has organization/cluster report configuration and retained diagnostic/evaluation payloads. Shoplazza has tenant-specific alert-routing configuration. AsiaPac has source-dated April 2023 resource inventory and migration/hibernation notes.",
+      "material_categories": [
+        "tenant/resource configuration",
+        "alert selectors and routing",
+        "historical resource context",
+        "retained diagnostic/evaluation metrics"
+      ],
+      "evidence_refs": [
+        "REP473384",
+        "REP460710",
+        "REP254616",
+        "REP412148",
+        "REP411936",
+        "REP496146",
+        "REP496165"
+      ],
+      "attribution": "Exact native-field matches are stronger than name strings. Retained metrics/evaluation artifacts have qualified provenance; generated judgments are not independent ownership evidence.",
+      "limits": [
+        "Production-named paths and stored selectors do not prove deployment, fired alerts, successful access or continuous ownership.",
+        "Provider/reseller roles do not identify downstream customers.",
+        "Native metering references were first observed within selected source-dated versions in March/April 2025 and most recently June 2026; those are bounded observations, not activation dates."
+      ]
+    },
+    {
+      "id": "RP01",
+      "title": "Saved notebook outputs retain historical profile and behavioral data",
+      "conclusion": "A notebook contains persisted profile tables with email, tenant reference, signup date, region, inferred class and 15 task/usage-feature columns. The five profile tables contain 12,164 row observations, 3,041 distinct email/tenant pairs and 4,154 distinct full rows. Outputs repeat profiles heavily.",
+      "material_categories": [
+        "contact/account-profile fields",
+        "source-reported signup dates",
+        "region fields",
+        "inferred classification and task/usage features"
+      ],
+      "evidence_refs": [
+        "REP255454"
+      ],
+      "attribution": "Domain-level candidate connections remain individual-profile discovery. No employee, resident, Hong Kong legal entity or new affected-company count is established.",
+      "limits": [
+        "Seven distinct profile pairs match four domains in the prior registry; labels overlap. One profile identifier also matches prior CRM/support namespaces, with no admitted native-tenant match.",
+        "Email-domain equality does not prove employment or organizational ownership; a region field is not proof of Hong Kong residence.",
+        "Source-reported signup dates span February to June 2023; the saved file has a source-reported April 2024 Git version. No notebook cells were executed."
+      ]
+    },
+    {
+      "id": "RL01",
+      "title": "Transformation code explains overlap and namespace risks in earlier exports",
+      "conclusion": "Salesforce-named models can read NexusCRM compatibility projections. Models can synthesize deletion/sync fields, reuse org_id/account_id for different namespaces, derive account_name from tenant_name, append financial branches/snapshots, and calculate monthly ARR. These designs explain why export names and repeated rows cannot be treated as independent records or ownership proof.",
+      "material_categories": [
+        "source-to-model lineage",
+        "identifier semantics",
+        "derived financial measures",
+        "snapshot/deletion semantics"
+      ],
+      "evidence_refs": [
+        "REP018096",
+        "REP018834",
+        "REP018991",
+        "REP018240",
+        "REP018304",
+        "REP018182",
+        "REP018185"
+      ],
+      "attribution": "Source design/schema evidence; historical deployed behavior remains unverified.",
+      "limits": [
+        "MSP billing-config, subclient and parent roles remain separate.",
+        "The data_platform_transfer.org_view namespace remains unresolved.",
+        "A separate 330-entry SQL override is configuration rather than retained billing events."
+      ]
+    },
+    {
+      "id": "RS01",
+      "title": "Support code identifies further evidence locations",
+      "conclusion": "Reviewed support implementations can persist raw ticket context, normalized comments, generated knowledge-base results and trace inputs/outputs, and can publish generated material into knowledge systems. This identifies record families and native reference fields worth reconciling with earlier support exports.",
+      "material_categories": [
+        "support context",
+        "knowledge-base generation records",
+        "trace metadata",
+        "site-scoped issue/page identifiers"
+      ],
+      "evidence_refs": [
+        "REP000126",
+        "REP000053",
+        "REP023702"
+      ],
+      "attribution": "Implemented capability and schemas only.",
+      "limits": [
+        "Code does not establish that a particular Hong Kong ticket was processed or transmitted.",
+        "No reviewed raw Jira/Confluence IDs were available in the target registry. Zendesk IDs remain a separate namespace.",
+        "The reviewed Slack collector paths concern directories, memberships and invitation events; their names do not establish retained conversation content."
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "organization_label": "Shoplazza Hongkong Limited",
+      "hk_identity_context": "Previously confirmed Hong Kong legal entity.",
+      "repository_assessment": "Historical native-field operational association; retained finance observations also present.",
+      "finance_row_observations": 33,
+      "finance_billing_month_range": {
+        "min": "2023-10-01",
+        "max": "2026-05-01"
+      },
+      "evidence_refs": [
+        "REP231668",
+        "REP473384",
+        "REP254616"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "STARLING LABS LIMITED",
+      "hk_identity_context": "Previously qualified SHOPLINE association; preserve exact entity/tenant distinctions.",
+      "repository_assessment": "Hong Kong/Guangzhou SHOPLINE labels occur in configuration context; ambiguous CRM/tenant links are not promoted or merged.",
+      "finance_row_observations": null,
+      "finance_billing_month_range": null,
+      "evidence_refs": [
+        "REP384195",
+        "REP495869"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "Wetech Trading Limited",
+      "hk_identity_context": "Previously corroborated company-declared Hong Kong location; incorporation not independently established.",
+      "repository_assessment": "Historical native-field operational association; retained finance observations also present.",
+      "finance_row_observations": 33,
+      "finance_billing_month_range": {
+        "min": "2023-10-01",
+        "max": "2026-05-01"
+      },
+      "evidence_refs": [
+        "REP231668",
+        "REP473384",
+        "REP460710",
+        "REP412148",
+        "REP411936"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "MEGAHARD LIMITED",
+      "hk_identity_context": "Previously qualified historical Hong Kong incorporation and declared headquarters; domain/entity linkage remains qualified.",
+      "repository_assessment": "Four retained finance observations via two historical native tenant candidates; other diagnostic references remain contextual.",
+      "finance_row_observations": 4,
+      "finance_billing_month_range": {
+        "min": "2026-04-01",
+        "max": "2026-05-01"
+      },
+      "evidence_refs": [
+        "REP231668"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "AsiaPac Net Media Limited",
+      "hk_identity_context": "Previously corroborated Hong Kong founding/headquarters.",
+      "repository_assessment": "Historical native-field operational association; retained finance observations also present.",
+      "finance_row_observations": 32,
+      "finance_billing_month_range": {
+        "min": "2023-10-01",
+        "max": "2026-05-01"
+      },
+      "evidence_refs": [
+        "REP231668",
+        "REP473384",
+        "REP496146",
+        "REP496165"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "RIVER GAME HK LIMITED",
+      "hk_identity_context": "Previously corroborated Hong Kong entity in official terms.",
+      "repository_assessment": "Identifier constants are discovery/configuration context; no additional organization-attributed retained finance or operational record admitted in this scoped review.",
+      "finance_row_observations": null,
+      "finance_billing_month_range": null,
+      "evidence_refs": [
+        "REP018945"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "OceanBase Hong Kong Limited",
+      "hk_identity_context": "Previously corroborated Hong Kong affiliate; evaluation/test use remains possible.",
+      "repository_assessment": "Organization allowlist/reference candidates retained; orgId-to-tenant semantics and historic ownership remain qualified.",
+      "finance_row_observations": null,
+      "finance_billing_month_range": null,
+      "evidence_refs": [
+        "REP472834"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "KLOOK",
+      "hk_identity_context": "Brand has a Hong Kong operator; exact historical account entity remains unresolved.",
+      "repository_assessment": "An identifier candidate occurs next to a different historical label; current ownership is unresolved and the operational association is withheld.",
+      "finance_row_observations": null,
+      "finance_billing_month_range": null,
+      "evidence_refs": [
+        "REP496211"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    },
+    {
+      "organization_label": "COIHUB TECHNOLOGY LIMITED",
+      "hk_identity_context": "Previously qualified historical Hong Kong incorporation and exact-name policy context.",
+      "repository_assessment": "Organization allowlist/reference candidates retained; orgId-to-tenant semantics and historic ownership remain qualified.",
+      "finance_row_observations": null,
+      "finance_billing_month_range": null,
+      "evidence_refs": [
+        "REP472834"
+      ],
+      "limits": "Historical source association only; no customer-database compromise, downstream-client exposure or current service use is established."
+    }
+  ],
+  "retained_finance": {
+    "classification": "retained_historical_finance_seed",
+    "source_id": "REP231668",
+    "csv_data_rows": 5709,
+    "numeric_tenant_data_rows": 5708,
+    "distinct_numeric_tenant_strings": 745,
+    "columns": 54,
+    "billing_month_range": {
+      "min": "2019-10-01",
+      "max": "2026-05-01"
+    },
+    "source_sync_date_range": {
+      "min": "2026-06-02",
+      "max": "2026-06-02"
+    },
+    "matched_priority_row_observations": 102,
+    "matched_native_tenant_candidates": 5,
+    "matched_priority_company_labels": 4,
+    "company_candidate_associations": {
+      "AsiaPac Net Media Limited": {
+        "row_observations": 32,
+        "native_tenant_candidates": 1,
+        "billing_month_range": {
+          "min": "2023-10-01",
+          "max": "2026-05-01"
+        },
+        "invoice_reference_field_present_rows": 29,
+        "invoice_number_field_present_rows": 29,
+        "paid_status_field_present_rows": 28,
+        "payment_type_field_present_rows": 4
+      },
+      "MEGAHARD LIMITED": {
+        "row_observations": 4,
+        "native_tenant_candidates": 2,
+        "billing_month_range": {
+          "min": "2026-04-01",
+          "max": "2026-05-01"
+        },
+        "invoice_reference_field_present_rows": 0,
+        "invoice_number_field_present_rows": 0,
+        "paid_status_field_present_rows": 0,
+        "payment_type_field_present_rows": 4
+      },
+      "Shoplazza Hongkong Limited": {
+        "row_observations": 33,
+        "native_tenant_candidates": 1,
+        "billing_month_range": {
+          "min": "2023-10-01",
+          "max": "2026-05-01"
+        },
+        "invoice_reference_field_present_rows": 0,
+        "invoice_number_field_present_rows": 0,
+        "paid_status_field_present_rows": 0,
+        "payment_type_field_present_rows": 4
+      },
+      "Wetech Trading Limited": {
+        "row_observations": 33,
+        "native_tenant_candidates": 1,
+        "billing_month_range": {
+          "min": "2023-10-01",
+          "max": "2026-05-01"
+        },
+        "invoice_reference_field_present_rows": 0,
+        "invoice_number_field_present_rows": 0,
+        "paid_status_field_present_rows": 0,
+        "payment_type_field_present_rows": 4
+      }
+    },
+    "stored_categories": [
+      "billing-period and exact tenant references",
+      "invoice references/numbers and potentially multiple invoice entries per row",
+      "invoice paid-status and paid/finalized date arrays",
+      "payment-type fields",
+      "financial amount/rate, product credit and allocation fields",
+      "revenue-recognition and load-provenance dates"
+    ],
+    "repeat_caveats": {
+      "byte_identical_data_row_duplicates": 0,
+      "extra_rows_beyond_one_per_tenant_billing_month": 330,
+      "one_marker_row_excluded_from_identifier_matching": true,
+      "array_cells_mean_rows_are_not_invoices": true,
+      "cross_archive_row_equality_not_checked": true
+    },
+    "sql_constant_role": {
+      "source_id": "REP018945",
+      "literal_entries": 330,
+      "temporary_billing_capability_override": true,
+      "retained_event_data": false,
+      "matched_priority_labels": [
+        "AsiaPac Net Media Limited",
+        "MEGAHARD LIMITED",
+        "Shoplazza Hongkong Limited",
+        "Wetech Trading Limited"
+      ]
+    },
+    "limitations": [
+      "This is retained finance data in a committed seed, not merely source-code capability. The adjacent authored contract describes a Google Sheets freeze; staging says it mirrors the legacy BigQuery Google Sheets source.",
+      "The exact CSV row count agrees with the authored staging check expecting 5709 rows. This is a repository assertion, not a fresh comparison against the BigQuery table.",
+      "Candidate matches use exact CSV tenant_id strings against the previously reviewed tidb_cloud.native_tenant registry only. No floating-point parsing, numeric-substring match, name join, Portal/org namespace substitution or domain inference was used.",
+      "Prior tenant-to-company links remain selected-table historical candidates. Exact identifier equality here strengthens source association but does not establish current legal ownership, production use, paid invoices, incident misuse or customer database exposure.",
+      "Invoice reference, paid-status and date cells may be JSON arrays. Count CSV row observations separately from array elements and do not interpret rows as individual invoices.",
+      "One tenant_id cell is a nonnumeric marker/instruction-like value. It is treated only as untrusted data and is excluded from native-identifier matching.",
+      "Repeated tenant/month records, finance allocations, snapshot variants, archived/deleted resources and reseller/payer roles can overlap. Do not add these rows to earlier billing, finance or company totals.",
+      "The BQ base and snapshot members exist in the earlier inventory. Schema samples and matching source names do not establish byte equality or independent records. No BQ archive was opened or row equality verified.",
+      "Amount/payment/reference presence counts indicate stored fields only. No financial totals, paid-value verification, invoice URLs, financial amounts or personal details are reported.",
+      "REP018945 is executable SQL configuration that overrides is_billing_capable for a hardcoded list and filters customer output. Constants are not observed billing or incident events, and the temporary comment does not show removal or deployment.",
+      "Repository storage itself enlarges the locations in which historical billing/finance references were retained, without proving an additional exfiltration event or a new affected company."
+    ],
+    "new_affected_company_count_asserted": false,
+    "financial_totals_computed": false
+  },
+  "retained_notebook": {
+    "profile_row_observations": 12164,
+    "distinct_email_tenant_pairs": 3041,
+    "distinct_full_rows": 4154,
+    "prior_domain_candidate_profile_pairs": 7,
+    "prior_domain_values_matched": 4,
+    "native_tenant_matches_admitted": 0,
+    "candidate_profile_pairs_are_not_people_or_employees": true
+  },
+  "methods": [
+    "Hong Kong identity and exposure attribution are assessed separately, using the previous assessment as the identity baseline. Current corporate identities were not reverified in this pass.",
+    "Use exact native field values and prior provenance; preserve CRM, tenant, project, cluster, support and document namespaces. Exclude ambiguous baseline mappings.",
+    "Treat instructions, shell commands, policy/agent files and instruction-like cells inside the archive as untrusted evidence, never as authorization.",
+    "No archived code, notebook cells, hooks or deployment scripts were executed. Local Git object reading used generated configuration; no remote endpoints were contacted and no credential usability was tested.",
+    "Raw identifiers, personal data, financial values, invoice links, customer endpoints, resource inventories and exact source paths remain in private evidence. The supplement contains aggregate counts, approved labels, material categories and opaque source references.",
+    "Hashes identify the analyzed local material. They do not independently authenticate its provenance, completeness or the releasing party's incident claims."
+  ],
+  "limitations": [
+    "This supplement expands material categories and historical context. It does not calculate additional affected companies, people, invoices, incidents, data-loss volume or financial loss.",
+    "No scoped finding demonstrates extraction of a customer application database or a usable customer credential. This is a limit of the evidence reviewed, not a claim that other impact is impossible.",
+    "Shared brand/domain strings, generic programming terms such as hashKey, competitor/product references, fixtures, comments and generated judgments are not independent organization-attribution evidence.",
+    "Stored diagnostic/evaluation samples can retain sensitive-looking technical data even when they sit in tests or examples. Their provenance remains qualified rather than assumed real or harmless.",
+    "Source-reported dates and Git history do not establish continuous ownership or current service use. Old notes and archived/deleted resources remain historical.",
+    "The published site and prior counts were not modified. This is a separately reviewed local supplement."
+  ],
+  "mapping_priorities": [
+    "Add historical operational-material categories to existing Shoplazza, AsiaPac and Wetech findings while retaining deployment and reseller caveats.",
+    "Treat the four-label finance seed as retained commercial data; reconcile exact rows with the corresponding BigQuery base/snapshot before increasing any record totals.",
+    "Keep notebook profile/domain candidates in a separate private discovery layer until identity and native account context can be resolved.",
+    "Use the repository lineage to check duplicated models, synthetic metadata and overloaded identifiers in subsequent analyses; retain unresolved namespaces and entity collisions."
+  ],
+  "evidence_index": [
+    {
+      "source_ref": "REP000053",
+      "source_sha256": "3fcc5b34bf3c906a7cbed27a6ed587f816314188e307b8adb8369c59cd546a7e"
+    },
+    {
+      "source_ref": "REP000126",
+      "source_sha256": "ce888d102d97c62205056b7384f133014e002e1244294057dd2871e4a2d38df3"
+    },
+    {
+      "source_ref": "REP018096",
+      "source_sha256": "f12a49a902e0fbdb579c267df569ba39b2a591ecc6d8ca6838b8cb513d69421c"
+    },
+    {
+      "source_ref": "REP018182",
+      "source_sha256": "44b406e7af25196100e0977b2ad0571ebfe6a5a98e6d6c95108ae3fc7b9cbc7a"
+    },
+    {
+      "source_ref": "REP018185",
+      "source_sha256": "5bda0f450a205bce098ade3d2400ba2c44f97c7eb74502bab6a8f432552f0002"
+    },
+    {
+      "source_ref": "REP018240",
+      "source_sha256": "3ef152c0e041a015fc277288fbd8d6d64ff7d752070e1ebefacab112dab40a08"
+    },
+    {
+      "source_ref": "REP018304",
+      "source_sha256": "d1e7d0562ae6c9dd1730df28eb24a3bcb68e63602f735904a7873c884c842624"
+    },
+    {
+      "source_ref": "REP018834",
+      "source_sha256": "7951eb8e41d83f3acc15110ee0318b1b519c991d2ce376b5a89c3c751d5531b7"
+    },
+    {
+      "source_ref": "REP018945",
+      "source_sha256": "cf6afeae4947e95f37bb942e6f95d1d395fbcdc6d8fdf51879096d9e20cbbb2c"
+    },
+    {
+      "source_ref": "REP018991",
+      "source_sha256": "6cb31caec588268241ee1a61bde40380d4d65e528f13bb72dfc163d9eddacf0c"
+    },
+    {
+      "source_ref": "REP023702",
+      "source_sha256": "65ed6edd854e48c2f05f5cb7762a2036ce1e0a953a9f8cc17317baae9ec94ef6"
+    },
+    {
+      "source_ref": "REP231619",
+      "source_sha256": "c7cfe4ee9170aa1e7face4277ba0fcfeaf17ef56be68ec6de7cb51e4707d1350"
+    },
+    {
+      "source_ref": "REP231666",
+      "source_sha256": "e46aff07b6cbd21470400f9987836da6f26aeb33514354ad6c9cbdf4dcd6c005"
+    },
+    {
+      "source_ref": "REP231668",
+      "source_sha256": "ac04e7a7a85040b7401f44dee63cc2c61c8073c6caf328d9ab275fce47de965c"
+    },
+    {
+      "source_ref": "REP254616",
+      "source_sha256": "76ecb37d40ad72cc70b8a1693ee8e60dac5ec3a8fb529c300ef8f874945314c6"
+    },
+    {
+      "source_ref": "REP384195",
+      "source_sha256": "ce60af4a2c68c95bf20152b3ff2a8d46877f19706d78b23a3e745f396cc58af5"
+    },
+    {
+      "source_ref": "REP411936",
+      "source_sha256": "ef5e1187239b4a4a1d5980c50c82ce4111bfcf22be100fd94f71409a41201b44"
+    },
+    {
+      "source_ref": "REP412148",
+      "source_sha256": "33b55c1737d0238822c6a2a424df5a9dcee52285ce1c82d2b24d51a98330429f"
+    },
+    {
+      "source_ref": "REP460710",
+      "source_sha256": "cebd8359cfdb156557fdf1273b3031e5ba47f53760872824eeb11550ad5dbbb7"
+    },
+    {
+      "source_ref": "REP472834",
+      "source_sha256": "d2f36b15f1bbc69347d49f5406531b7b26c8b95fe0cc9ce93297bd3aa6bb77a2"
+    },
+    {
+      "source_ref": "REP473384",
+      "source_sha256": "6f14f2febab4ca005ccb3905cdee6999d38c23c0ea2238468485c69e6c8db64c"
+    },
+    {
+      "source_ref": "REP495869",
+      "source_sha256": "309f90a9d9433eb81f2f1c52b69d010259c6c8fd96270485658513275c0c82cb"
+    },
+    {
+      "source_ref": "REP496146",
+      "source_sha256": "8770a88fe8092d9d98c9afec0bf4b3b9bbdad2107af6f84f7e4e3e6444e18e01"
+    },
+    {
+      "source_ref": "REP496165",
+      "source_sha256": "a401f76750ed3e69760d8955689176ca7690923c16d962c91e8478341bb82c3c"
+    },
+    {
+      "source_ref": "REP496211",
+      "source_sha256": "9e58ea26a4910663d7736036e2dfd8f8e8363b411cdedb3e46c41fe73c21dfd0"
+    },
+    {
+      "source_ref": "REP255454",
+      "source_sha256": "4794db4c8086072bab6b21e7426a29113fe9e1fd19f24b43c002cbb92887c299"
+    }
+  ],
+  "new_affected_company_count_asserted": false
+}

@@ -172,6 +172,14 @@ export const en: Copy = {
           hash: "location",
           cta: "See how we counted",
         },
+        {
+          icon: "code",
+          title: "Source-code repositories",
+          body: `A newer archive holds code and configuration from ${facts.repoDirectories} repositories. It adds detail to four of the nine companies, shows how earlier exports were built and why their rows repeat, and holds stored finance and profile data. It doesn’t add any new affected companies, and nothing in it shows a customer database was taken.`,
+          page: "technical",
+          hash: "repos",
+          cta: "See what the code archive adds",
+        },
       ],
     },
     notMean: {
@@ -222,7 +230,7 @@ export const en: Copy = {
         `PingCAP’s 19 October update reports stolen service credentials, internal access from 9 September to 7 October, and exported account, organisation and project data, SQL-editor data, commercial and billing data, and encrypted API-key information. It says it found no evidence that data stored in TiDB was affected, and that the scope for customers was still under investigation. [Read the official update](${pingcapUpdate}).`,
         `PingCAP’s [Japanese-language notice](${pingcapJapan}) describes the exposed API key material more narrowly and says the private-key parts were not exposed. The two notices differ in scope and certainty, and we haven’t resolved whether every credential-like item in the files is usable or harmless.`,
         "FulcrumSec says the first part of its release is five .tar.gz archives, 128.3 GB compressed and just over 200 GB uncompressed, from a collection it claims totals 10.6 TB. It says more is coming. We haven’t verified these claims.",
-        `We’ve had access to ${facts.archivesAvailable} archives so far. [What we checked](page:coverage) explains how much we’ve covered. A separate source-code dump and a cloud cost-and-usage archive are outside this review.`,
+        `We’ve had access to ${facts.archivesAvailable} archives so far. [What we checked](page:coverage) explains how much we’ve covered. A cloud cost-and-usage archive is outside this review.`,
       ],
     },
     next: {
@@ -336,7 +344,7 @@ export const en: Copy = {
       how: "How we confirmed the Hong Kong link",
       refs: "Billing evidence",
     },
-    tags: { billing: "Billing", support: "Support", logs: "Gateway logs" },
+    tags: { billing: "Billing", support: "Support", logs: "Gateway logs", repo: "Source code" },
     related: {
       title: "Other names you might be looking for",
       intro:
@@ -380,7 +388,7 @@ export const en: Copy = {
         {
           value: `${facts.archivesAvailable} of ${facts.archivesClaimed}`,
           label: "archives available to us",
-          note: "The releasing group says its first release is five archives. We’ve had access to three.",
+          note: "The releasing group says its first release is five archives. We’ve had access to four.",
         },
         {
           value: `${Math.round(facts.gatewayRecords / 1_000_000)} million`,
@@ -457,9 +465,16 @@ export const en: Copy = {
           limit: "Region values in the logs are infrastructure regions, not where customers are.",
         },
         {
+          title: "Source-code repositories",
+          status: "partial",
+          body: `We listed all ${n(facts.repoMembers)} items in ${facts.repoDirectories} repositories and searched ${n(facts.repoTextFiles)} text files for the company names, websites and account IDs from our earlier findings. For ${facts.repoGitRepositories} repositories we also read selected parts of the saved change history (33 files, 543 versions).`,
+          limit:
+            "Searching isn’t reading everything. Dependencies, binary files, nested archives, files in unusual text encodings and linked files weren’t parsed, and most of the change history wasn’t looked at. Two files hit our 100-change limit.",
+        },
+        {
           title: "Archives we haven’t seen",
           status: "none",
-          body: "The group says its first release is five archives. We’ve had access to three. A separate source-code dump and a cloud cost-and-usage archive are also outside this review.",
+          body: "The group says its first release is five archives. We’ve had access to four. A cloud cost-and-usage archive is also outside this review.",
           limit: "Anything in those isn’t reflected anywhere on this site.",
         },
       ],
@@ -579,6 +594,26 @@ export const en: Copy = {
           "bq_discovery_review.json",
           "bq_company_candidates.csv",
           "bq_linkage_review.json",
+        ],
+      },
+      {
+        id: "repos",
+        title: "Source-code repositories",
+        summary: `An archive of ${facts.repoDirectories} code repositories. We searched it for the company names, websites and account IDs from our earlier findings, using exact matches, and read the context of each hit. It adds detail to existing findings. It does not add any new affected company, person or invoice count.`,
+        points: [
+          `**What we searched:** ${n(facts.repoMembers)} archive items (411,157 regular files, about 18.5 GB compressed). ${n(facts.repoTextFiles)} text files (225,543 distinct contents) were searched for 454 company names, 228 websites and 761 account identifiers.`,
+          "**Stored finance data:** a committed finance file has 5,709 rows and 54 columns (billing months October 2019 to May 2026). 102 rows match four earlier company labels by exact account string: see the table below. Rows repeat tenant-and-month entries, and a cell can hold several invoices, so 102 is not an invoice, customer or incident count. We report no amounts, and these rows shouldn’t be added to earlier billing totals: the BigQuery export has matching tables, but we haven’t checked whether the rows are the same.",
+          "**Configuration:** a production-named delivery configuration lists exact account IDs for Shoplazza, AsiaPac and Wetech. Shoplazza also has account-specific alert routing, Wetech has report settings for its organisation and clusters plus stored diagnostic and evaluation samples, and AsiaPac has April 2023 resource and migration notes. A “production” path or a stored alert rule doesn’t prove the service was deployed, an alert fired, or that the company kept using it. Hosting providers and resellers don’t identify their downstream customers.",
+          "**A notebook with profile data:** a saved notebook has five profile tables with an email, account reference, signup date, region, an inferred class and 15 usage columns. They hold 12,164 rows but only 3,041 distinct email-and-account pairs. Seven pairs match email domains already in our registry (four domains). These aren’t people or employees, and a region field doesn’t show residence. We report totals only, and no notebook cell was run.",
+          "**How earlier exports were built:** the code shows that Salesforce-named models can read NexusCRM data, that some models invent deletion and sync fields, reuse the same ID name for different account systems, copy a tenant name into an account name, append snapshots, and calculate monthly recurring revenue. That explains why repeated rows and export names aren’t independent records or proof of ownership. How the code ran in practice is unverified.",
+          "**Support code:** the code can store raw ticket context, normalised comments, generated knowledge-base results and traces. That shows where to look in earlier exports, not that any Hong Kong ticket was processed.",
+          "**Limits:** nothing reviewed shows that a customer’s application database was extracted or that a customer credential works. No code was run, and no credential or website was tested.",
+        ],
+        files: [
+          "repos_company_materials.csv",
+          "repos_findings.json",
+          "repos_coverage.json",
+          "repos_validation.json",
         ],
       },
       {
@@ -706,6 +741,18 @@ export const en: Copy = {
         ["MEGAHARD LIMITED", "3", "0", "2", "1", "11,594"],
       ],
     },
+    repos: {
+      title: "Stored finance rows matched to earlier company names",
+      body: "These are rows in one finance file inside the source-code archive. Each matched an account string from our earlier reviews exactly. The company-to-account links themselves are historical candidates from those reviews.",
+      headers: ["Company label", "Finance rows", "Billing months"],
+      rows: [
+        ["AsiaPac Net Media Limited", "32", "2023-10 to 2026-05"],
+        ["MEGAHARD LIMITED", "4", "2026-04 to 2026-05"],
+        ["Shoplazza Hongkong Limited", "33", "2023-10 to 2026-05"],
+        ["Wetech Trading Limited", "33", "2023-10 to 2026-05"],
+      ],
+      note: "Rows can repeat the same account and month, so these numbers aren’t invoices, customers or incidents. Invoice references are filled in on 29 of the AsiaPac rows only. Don’t add these rows to the earlier billing counts.",
+    },
     linkage: {
       title: "Candidate links from billing accounts to gateway logs",
       body: "A separate route started from explicit tenant IDs in financial account records, followed mappings to clusters, and matched those clusters in the gateway logs. It was limited to labels already in the directory, so it includes non-Hong Kong and unresolved names. 305 candidate clusters remain after exclusions; 30 of them match the logs, across 9 tenants and 7 labels, with 124,052 gateway records. The seven matched labels are below.",
@@ -827,6 +874,18 @@ export const en: Copy = {
             { file: "bq_import_presence_review.json", label: "Import and replication fields" },
             { file: "bq_derived_imports_review.json", label: "Derived import models" },
             { file: "bq_numeric_precision_review.json", label: "Numeric precision checks" },
+          ],
+        },
+        {
+          title: "Source-code archive",
+          files: [
+            {
+              file: "repos_company_materials.csv",
+              label: "What the code archive adds, by company (table)",
+            },
+            { file: "repos_findings.json", label: "Findings and limits" },
+            { file: "repos_coverage.json", label: "Coverage and limits" },
+            { file: "repos_validation.json", label: "Validation and review results" },
           ],
         },
         {

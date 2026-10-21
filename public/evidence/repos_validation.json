@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-21T09:51:16.840723+00:00",
+  "reconciliation": {
+    "nine_prior_labels_preserved": true,
+    "finance_independently_reconciled": true,
+    "notebook_independently_reconciled": true,
+    "inventory_and_history_denominators_reconciled": true,
+    "source_references_and_hashes_verified": 26
+  },
+  "privacy": {
+    "pattern_and_known_identifier_matches": 0,
+    "known_identifier_check_minimum_characters": 8,
+    "constrained_export_schema": true,
+    "raw_sensitive_values_exported": false,
+    "limits": "Pattern checks cannot prove perfect redaction. Short identifiers and personal names are controlled through explicit aggregate-only export fields and independent human-style review."
+  },
+  "artifact_checks": {
+    "csv_rows": 9,
+    "csv_formula_prefixes_safe": true,
+    "html_scripts": 0,
+    "remote_resources": 0,
+    "links_local": true
+  },
+  "independent_review": {
+    "finance_and_coverage": "PASS",
+    "operations_history_and_privacy": "PASS",
+    "blocking_findings": 0,
+    "note": "Detailed reviews and scanner synthetic checks are retained privately. Final wording refinements and export integrity were checked by the primary analyst."
+  },
+  "site_published_or_modified": false
+}

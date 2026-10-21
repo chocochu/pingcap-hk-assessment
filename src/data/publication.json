@@ -1,7 +1,15 @@
 {
-  "version": "0.3.0",
-  "preparedAt": "2026-10-21T09:23:55Z",
+  "version": "0.4.0",
+  "preparedAt": "2026-10-21T10:01:37Z",
   "history": [
+    {
+      "version": "0.4.0",
+      "preparedAt": "2026-10-21T10:01:37Z",
+      "summary": {
+        "en": "Added a review of the source-code repository archive. It adds detail to four of the nine company findings (stored finance rows and configuration), explains how earlier exports were built and why their rows repeat, and notes saved profile data. It adds no new affected companies, and nothing reviewed shows a customer database was taken.",
+        "zh-Hant": "新增對原始碼儲存庫壓縮檔的檢視。它為九家公司個案中的四家補充了細節（儲存的財務資料列及設定），說明較早匯出資料是如何產生的、為何資料列會重複，並註明已儲存的個人檔案資料。它沒有增加任何新的受影響公司，所檢視的內容亦沒有顯示客戶資料庫曾被取走。"
+      }
+    },
     {
       "version": "0.3.0",
       "preparedAt": "2026-10-21T09:23:55Z",

@@ -26,6 +26,7 @@ export function TechnicalPage() {
           {[
             ...text.groups.map((group) => ({ id: group.id, title: group.title })),
             { id: "support", title: text.support.title },
+            { id: "repos-finance", title: text.repos.title },
             { id: "linkage", title: text.linkage.title },
             { id: "updates", title: text.updates.title },
             { id: "downloads", title: text.downloads.title },
@@ -89,6 +90,16 @@ export function TechnicalPage() {
           headers={text.support.headers}
           rows={text.support.rows}
         />
+      </Section>
+
+      <Section id="repos-finance" title={text.repos.title}>
+        <p className="mb-4 max-w-3xl">
+          <Rich text={text.repos.body} />
+        </p>
+        <DataTable caption={text.repos.title} headers={text.repos.headers} rows={text.repos.rows} />
+        <p className="mt-4 max-w-3xl text-base text-muted">
+          <Rich text={text.repos.note} />
+        </p>
       </Section>
 
       <Section id="linkage" title={text.linkage.title}>

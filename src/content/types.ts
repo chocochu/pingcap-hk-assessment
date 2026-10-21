@@ -56,7 +56,7 @@ export interface Copy {
       title: string;
       intro: string;
       cards: (LinkCard & {
-        icon: "receipt" | "support" | "logs" | "key" | "people";
+        icon: "receipt" | "support" | "logs" | "key" | "people" | "code";
         cta: string;
       })[];
     };
@@ -110,7 +110,7 @@ export interface Copy {
       how: string;
       refs: string;
     };
-    tags: { billing: string; support: string; logs: string };
+    tags: { billing: string; support: string; logs: string; repo: string };
     related: {
       title: string;
       intro: string;
@@ -149,6 +149,13 @@ export interface Copy {
       body: Rich;
       headers: string[];
       rows: string[][];
+    };
+    repos: {
+      title: string;
+      body: Rich;
+      headers: string[];
+      rows: string[][];
+      note: Rich;
     };
     linkage: {
       title: string;

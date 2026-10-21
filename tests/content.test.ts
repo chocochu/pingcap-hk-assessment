@@ -126,6 +126,32 @@ describe("company findings", () => {
     }
   });
 
+  test("code-archive additions match the repository review", async () => {
+    const review = JSON.parse(await read("repos_findings.json"));
+    expect(review.new_affected_company_count_asserted).toBe(false);
+    for (const org of review.organizations) {
+      const company = companies.find((c) => c.name === org.organization_label);
+      expect(company).toBeDefined();
+      for (const language of languages) {
+        const found = company!.text[language].found.join(" ");
+        if (org.finance_row_observations) {
+          expect(company!.records.repo).toBe(true);
+          expect(found).toContain(String(org.finance_row_observations));
+        }
+      }
+    }
+    // only companies the review says it strengthened carry a source-code tag
+    const tagged = companies
+      .filter((c) => c.records.repo)
+      .map((c) => c.name)
+      .sort();
+    const withRows = review.organizations
+      .filter((o: { finance_row_observations: number | null }) => o.finance_row_observations)
+      .map((o: { organization_label: string }) => o.organization_label)
+      .sort();
+    expect(tagged).toEqual(withRows);
+  });
+
   test("priority_findings.csv names the same nine companies", async () => {
     const rows = csv(await read("priority_findings.csv"));
     expect(rows.map((r) => r.organization_label).sort()).toEqual(
@@ -146,6 +172,12 @@ describe("headline figures", () => {
     const bq = JSON.parse(await read("bq_coverage.json"));
     expect(bq.inventory.table_count).toBe(facts.bqTables);
     expect(bq.inventory.dataset_count).toBe(facts.bqDatasets);
+
+    const repos = JSON.parse(await read("repos_coverage.json"));
+    expect(repos.archive_members_inventoried).toBe(facts.repoMembers);
+    expect(repos.repository_directories).toBe(facts.repoDirectories);
+    expect(repos.source_text_member_files_searched).toBe(facts.repoTextFiles);
+    expect(repos.git_repositories_reviewed).toBe(facts.repoGitRepositories);
 
     const gateway = JSON.parse(await read("gateway_final_coverage.json"));
     expect(gateway.valid_log_records).toBe(facts.gatewayRecords);

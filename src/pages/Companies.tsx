@@ -23,6 +23,9 @@ function CompanyCard({ company }: { company: Company }) {
     ...(company.records.logs && company.strength.logs
       ? [["logs", tags.logs, company.strength.logs] as const]
       : []),
+    ...(company.records.repo && company.strength.repo
+      ? [["repo", tags.repo, company.strength.repo] as const]
+      : []),
   ] as const;
 
   return (

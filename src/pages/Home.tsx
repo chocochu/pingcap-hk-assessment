@@ -1,6 +1,7 @@
 import {
   Activity,
   CircleX,
+  FileCode,
   KeyRound,
   LifeBuoy,
   Receipt,
@@ -23,6 +24,7 @@ const icons: Record<string, ReactNode> = {
   logs: <Activity aria-hidden="true" className="size-6" />,
   key: <KeyRound aria-hidden="true" className="size-6" />,
   people: <Users aria-hidden="true" className="size-6" />,
+  code: <FileCode aria-hidden="true" className="size-6" />,
 };
 
 const button =
