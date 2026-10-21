@@ -1,7 +1,15 @@
 {
-  "version": "0.4.1",
-  "preparedAt": "2026-10-21T11:22:24Z",
+  "version": "0.5.0",
+  "preparedAt": "2026-10-21T14:45:52Z",
   "history": [
+    {
+      "version": "0.5.0",
+      "preparedAt": "2026-10-21T14:45:52Z",
+      "summary": {
+        "en": "Added two more BigQuery reviews and updated the reviewed-table count to 1,876 of 6,458 (about 29%, up from the 117 shown before; it now also counts the analytics export added in 0.4.1). A pseudonymised analytics export (878 sources, 15,296,605 rows) lists Hong Kong as the country in 944,248 rows and as the city in 827,674; this is a separate row count from the 38,546 and 416 already reported, not a number of people, not de-duplicated, and it may overlap with them, so the counts shouldn’t be added. A review of how six marketplace tables link by identifier adds no location or company findings. It adds no new affected company and doesn’t show that any Hong Kong business was affected.",
+        "zh-Hant": "新增兩項 BigQuery 檢視，並把已檢視的資料表數目更新為 6,458 個中的 1,876 個（約 29%，先前顯示為 117 個；現已包括 0.4.1 加入的分析匯出資料）。一份假名化分析匯出資料（878 個來源、15,296,605 列）中，有 944,248 列的國家為香港、827,674 列的城市為香港；這與先前已報告的 38,546 及 416 是各自獨立的資料列數，不是人數，亦未作去重，可能互相重疊，所以不應相加。另一項檢視六個市集資料表如何以識別碼互相連結，沒有帶來地點或公司方面的發現。它沒有增加任何新的受影響公司，也沒有顯示任何香港企業受到影響。"
+      }
+    },
     {
       "version": "0.4.1",
       "preparedAt": "2026-10-21T11:22:24Z",

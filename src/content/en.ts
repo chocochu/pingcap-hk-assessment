@@ -120,9 +120,9 @@ export const en: Copy = {
           note: `About 8 in 10 (${facts.marketingOnly}) appear only in marketing or sales-lead lists. This is not a list of victims.`,
         },
         {
-          value: `${facts.bqTablesReviewed} of ${n(facts.bqTables)}`,
+          value: `${n(facts.bqTablesReviewed)} of ${n(facts.bqTables)}`,
           label: "BigQuery tables reviewed so far",
-          note: "BigQuery is one of the released archives. We’ve looked closely at under 2% of its tables, so expect this to grow.",
+          note: `BigQuery is one of the released archives. We’ve counted specific fields in about ${Math.round((facts.bqTablesReviewed / facts.bqTables) * 100)}% of its tables, so expect this to grow.`,
         },
       ],
       caveat:
@@ -167,7 +167,7 @@ export const en: Copy = {
         {
           icon: "people",
           title: "People, as totals only",
-          body: `Two analytics exports list Hong Kong as a country: ${n(facts.analyticsExportHkCountryRows)} of about ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} million rows in the BigQuery user export, and ${facts.hkProfileRows} Mixpanel profile rows. Separately, ${facts.hkEmailContacts} sales-contact records use a .hk email address (across ${facts.hkEmailDomains} domains). Rows aren’t people and weren’t de-duplicated, the two exports may overlap, and a country field doesn’t show where someone lives, so none of these numbers should be added together or read as affected people.`,
+          body: `Three analytics exports list Hong Kong as a country: ${n(facts.pseudonymousExportHkCountryRows)} of about ${(facts.pseudonymousExportRows / 1_000_000).toFixed(2)} million rows in a pseudonymised analytics export (users appear only as coded IDs), ${n(facts.analyticsExportHkCountryRows)} of about ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} million rows in the BigQuery user export, and ${facts.hkProfileRows} Mixpanel profile rows. Separately, ${facts.hkEmailContacts} sales-contact records use a .hk email address (across ${facts.hkEmailDomains} domains). Rows aren’t people and weren’t de-duplicated, the exports may overlap, and a country field doesn’t show where someone lives, so none of these numbers should be added together or read as affected people.`,
           page: "technical",
           hash: "location",
           cta: "See how we counted",
@@ -403,12 +403,12 @@ export const en: Copy = {
           note: "Every file was read. Logs show activity, not who it belongs to.",
         },
         {
-          value: `${facts.bqTablesReviewed} of ${n(facts.bqTables)}`,
+          value: `${n(facts.bqTablesReviewed)} of ${n(facts.bqTables)}`,
           label: "BigQuery tables reviewed",
-          note: "Under 2% so far. The rest have been listed but not reviewed.",
+          note: `About ${Math.round((facts.bqTablesReviewed / facts.bqTables) * 100)}% so far. The rest have been listed but not reviewed.`,
         },
       ],
-      barLabel: "BigQuery tables reviewed in detail",
+      barLabel: "BigQuery tables reviewed so far",
       barNote: `${n(facts.bqTablesReviewed)} of ${n(facts.bqTables)} tables (${n(facts.bqRowsReviewed)} rows). “Reviewed” means we counted specific fields, not that we understood everything in them.`,
     },
     looked: {
@@ -462,8 +462,8 @@ export const en: Copy = {
         {
           title: "BigQuery export",
           status: "partial",
-          body: `Inventory complete: ${n(facts.bqTables)} tables in ${facts.bqDatasets} datasets (an archive of about 33.8 GB). We reviewed ${facts.bqTablesReviewed} tables in detail. We also scanned 26 tables for Hong Kong location signals: 2,698,670 rows, 55,253 of them with a Hong Kong signal and 20,513 that look like company records (unconfirmed).`,
-          limit: "5,736 non-empty tables are still unreviewed. These counts overlap.",
+          body: `Inventory complete: ${n(facts.bqTables)} tables in ${facts.bqDatasets} datasets (an archive of about 33.8 GB). We counted specific fields in ${n(facts.bqTablesReviewed)} tables (${n(facts.bqRowsReviewed)} row observations, each table counted once). We also scanned 26 tables for Hong Kong location signals: 2,698,670 rows, 55,253 of them with a Hong Kong signal and 20,513 that look like company records (unconfirmed).`,
+          limit: `${n(facts.bqNonEmptyTablesRemaining)} non-empty tables (and ${facts.bqEmptyTablesRemaining} empty ones) are still unreviewed. Counting fields isn’t understanding everything in them. These counts overlap.`,
         },
         {
           title: "IP address locations",
@@ -594,7 +594,7 @@ export const en: Copy = {
         points: [
           "**Location scan:** 26 tables scanned in full, 2,698,670 rows parsed with no errors. 55,253 rows carry a Hong Kong location signal, and 20,513 look like company records (unconfirmed candidates). Signals don’t show residence, nationality or compromise.",
           "**Linkage:** starting from explicit tenant IDs in financial account records, across 11 tables (4,454,818 rows), we found 39 candidate tenants under 27 exact labels. 12 tenants and 35 clusters were excluded for conflicting labels. See the linkage table below.",
-          "**People, as totals:** two analytics exports list Hong Kong as a country. In the BigQuery analytics user export, 38,546 of 3,068,700 row observations do (about 1.3%). In the Mixpanel profile rows, 416 do. 255 sales-contact (HubSpot) records use .hk email addresses across 116 domains. These counts may overlap, none is de-duplicated, and none shows residence or a count of affected people. Don’t add them together.",
+          `**People, as totals:** three analytics exports list Hong Kong as a country. In the pseudonymised analytics export, ${n(facts.pseudonymousExportHkCountryRows)} of ${n(facts.pseudonymousExportRows)} row observations do (about ${((facts.pseudonymousExportHkCountryRows / facts.pseudonymousExportRows) * 100).toFixed(1)}%). In the BigQuery analytics user export, 38,546 of 3,068,700 do (about 1.3%). In the Mixpanel profile rows, 416 do. 255 sales-contact (HubSpot) records use .hk email addresses across 116 domains. These counts may overlap, none is de-duplicated, and none shows residence or a count of affected people. Don’t add them together.`,
         ],
         files: [
           "bq_coverage.json",
@@ -691,6 +691,32 @@ export const en: Copy = {
           "**Limits:** this doesn’t show how many people are involved, who the customers are, or that any Hong Kong business was affected. We also didn’t check whether these rows overlap with the Mixpanel profile rows or the other Hong Kong counts on this page, so don’t add them.",
         ],
         files: ["bq_analytics_users_review.json"],
+      },
+      {
+        id: "pseudonymised-export",
+        title: "Pseudonymised analytics export",
+        summary:
+          "A second, much larger family of analytics user exports in the BigQuery archive, where each row carries a coded user ID instead of a name. We counted rows and checked three location fields. Every count is a row observation: it is not a person, a customer or a confirmed exposure.",
+        points: [
+          `**Coverage:** all ${facts.pseudonymousExportSources} export sources, ${n(facts.pseudonymousExportRows)} rows, with no parse errors. Two separately written counters agreed on every source, though they share the same file reader. Rows weren’t de-duplicated within or across sources, so the same person or device could appear more than once.`,
+          `**Hong Kong signals:** the country field is a Hong Kong value in ${n(facts.pseudonymousExportHkCountryRows)} rows (about ${((facts.pseudonymousExportHkCountryRows / facts.pseudonymousExportRows) * 100).toFixed(1)}%), the city field in ${n(facts.pseudonymousExportHkCityRows)} rows and the region field in none. Most rows list another country (14,289,337); 63,020 have an empty country. We counted only eight fixed spellings (such as “HK”, “Hong Kong” and “香港”). We didn’t add the three counts, because one row can match several fields, and we never inferred a country from a city or region.`,
+          "**Coded IDs:** every row has a coded user ID and a stream ID. We published neither, nor any hash of them, and we didn’t link these rows to any other export. No unexpected extra fields turned up directly inside the seven record containers.",
+          "**Limits:** this doesn’t show how many people are involved, who the customers are, where anyone lives now, or that any Hong Kong business was affected. We didn’t check whether these rows overlap with the BigQuery user export above, the Mixpanel profile rows or the other Hong Kong counts on this page, so don’t add them. The download’s own status flags describe the moment it was built; the later reviews have passed.",
+        ],
+        files: ["analytics_pseudonymous.json"],
+      },
+      {
+        id: "marketplace-references",
+        title: "Marketplace records: how they link",
+        summary:
+          "Six marketplace tables (offers, products, accounts and agreements). We checked only whether the identifiers in one table literally appear in another. The results contain no names, prices or locations.",
+        points: [
+          `**Coverage:** ${facts.marketplaceSources} sources, ${n(facts.marketplaceRows)} rows, with no parse errors. Two separately written counters agreed on every figure, though they share the same file reader. 48,579 of the rows are agreements, but they hold only 605 distinct agreement IDs, so most are repeats of the same agreement.`,
+          "**What matched:** the seller on every one of the 817 offer rows and the maker on every one of the 54 product rows appears in the account table. 48,561 of the 48,579 agreement rows have a subscriber that appears in the account table’s cloud-account field, and all 48,579 have a vendor that does. 34,902 agreement rows point to an offer that is in the offer table; 13,677 don’t.",
+          "**What didn’t match:** none of the 48,579 agreement rows has a buyer ID that literally appears as any of the account table’s three ID forms. That doesn’t prove they are unrelated, only that the IDs aren’t written the same way. All 649 offer targets are of the “buyer accounts” kind; none targets countries or regions.",
+          "**Limits:** these are literal matches in the shape of the data. They don’t show who owns an account, who the customers are, where anyone is, what was paid, or that any company was affected. The separate matching figures describe different row groups and shouldn’t be added.",
+        ],
+        files: ["bq_marketplace_references_review.json"],
       },
       {
         id: "billing-models",
@@ -880,6 +906,15 @@ export const en: Copy = {
               file: "bq_analytics_users_review.json",
               label: "Analytics user export: location and field presence",
             },
+            {
+              file: "analytics_pseudonymous.json",
+              label: "Pseudonymised analytics export: location and field presence",
+            },
+            {
+              file: "bq_marketplace_references_review.json",
+              label: "Marketplace records: how identifiers link",
+            },
+            { file: "bq_scope_summary.json", label: "BigQuery review scope so far" },
           ],
         },
         {

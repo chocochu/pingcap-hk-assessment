@@ -4,13 +4,29 @@ import evidenceFiles from "./evidence-files.json";
 
 // Most files come from the main report. Files named repos_* come from the
 // repository-archive review, where the same file is stored without the prefix.
-const sources = [
-  { prefix: "", dir: new URL("../../analysis/output/report/", import.meta.url) },
-  { prefix: "repos_", dir: new URL("../../analysis/output/repos_review/", import.meta.url) },
-];
+// Files in `findings` come from the findings-only deliveries, which list their
+// hashes in manifest.json instead of SHA256SUMS.txt; they may be published
+// under a different public name.
+const report = new URL("../../analysis/output/report/", import.meta.url);
+const repos = new URL("../../analysis/output/repos_review/", import.meta.url);
 const destination = new URL("../public/evidence/", import.meta.url);
 
-async function manifest(dir: URL): Promise<Map<string, string>> {
+const findings: Record<string, { dir: URL; file: string }> = {
+  "analytics_pseudonymous.json": {
+    dir: new URL("../../analysis/output/findings_pseudonymous_v1/", import.meta.url),
+    file: "analytics_pseudonymous.json",
+  },
+  "bq_scope_summary.json": {
+    dir: new URL("../../analysis/output/findings_pseudonymous_v1/", import.meta.url),
+    file: "scope_summary.json",
+  },
+  "bq_marketplace_references_review.json": {
+    dir: new URL("../../analysis/output/findings_marketplace_v1/", import.meta.url),
+    file: "bq_marketplace_references_review.json",
+  },
+};
+
+async function sums(dir: URL): Promise<Map<string, string>> {
   const text = await Bun.file(new URL("SHA256SUMS.txt", dir)).text();
   return new Map(
     text
@@ -23,15 +39,25 @@ async function manifest(dir: URL): Promise<Map<string, string>> {
   );
 }
 
-const hashes = new Map(
-  await Promise.all(sources.map(async (s) => [s.dir.href, await manifest(s.dir)] as const)),
-);
+async function manifest(dir: URL): Promise<Map<string, string>> {
+  const data = await Bun.file(new URL("manifest.json", dir)).json();
+  const files = data.files ?? data.artifacts;
+  return new Map(
+    Object.entries(files).map(([name, v]) => [name, (v as { sha256: string }).sha256]),
+  );
+}
+
+const hashes = new Map<string, Map<string, string>>([
+  [report.href, await sums(report)],
+  [repos.href, await sums(repos)],
+]);
+for (const { dir } of Object.values(findings))
+  if (!hashes.has(dir.href)) hashes.set(dir.href, await manifest(dir));
 
 function locate(name: string): { dir: URL; file: string } {
-  const repos = sources[1];
-  if (name.startsWith(repos.prefix))
-    return { dir: repos.dir, file: name.slice(repos.prefix.length) };
-  return { dir: sources[0].dir, file: name };
+  if (findings[name]) return findings[name];
+  if (name.startsWith("repos_")) return { dir: repos, file: name.slice("repos_".length) };
+  return { dir: report, file: name };
 }
 
 await mkdir(destination, { recursive: true });

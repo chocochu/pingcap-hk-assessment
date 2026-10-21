@@ -1,0 +1,29 @@
+{
+  "admitted_scope_sha256": "bf0ad236e57f09526e702af2ff785e886bdec88233df4b3608bbd508d50f17a8",
+  "baseline_scope_sha256": "872b766f395120b1d48ecf63b1f1eea136d206732333e2087c93c37011bf2dc6",
+  "cumulative_table_row_observations": 36573990,
+  "cumulative_unique_tables": 1876,
+  "inventory_nonempty_table_count": 5852,
+  "inventory_table_count": 6458,
+  "inventory_validated_empty_table_count": 606,
+  "limitations": [
+    "Physical source paths counted once across declared field projections; not comprehensive semantic review.",
+    "Table-row observations are not deduplicated people, customers or confirmed exposures.",
+    "Second passes and recovery replays add zero duplicate physical-source/row coverage.",
+    "Membership rows repeat overlapping physical sources and must not replace physical row totals.",
+    "Remaining tables are outside selected scope, not necessarily wholly unread."
+  ],
+  "new_family_sources": 878,
+  "new_family_table_row_observations": 15296605,
+  "overlap_tables": 9,
+  "overlapping_scope_extra_row_observations": 373628,
+  "remaining_empty_tables_outside_selected_scope": 605,
+  "remaining_nonempty_tables_outside_selected_scope": 3977,
+  "schema_version": 1,
+  "scope_membership_row_observations": 36947618,
+  "scope_memberships": 1886,
+  "scope_version": 10,
+  "selected_empty_table_count": 1,
+  "selected_nonempty_table_count": 1875,
+  "status": "cumulative_selected_scope_only"
+}

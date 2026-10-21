@@ -118,9 +118,9 @@ export const zhHant: Copy = {
           note: `約十分之八（${facts.marketingOnly} 個）只出現在市場推廣或銷售線索名單中。這並非受害者名單。`,
         },
         {
-          value: `${facts.bqTablesReviewed} / ${n(facts.bqTables)}`,
+          value: `${n(facts.bqTablesReviewed)} / ${n(facts.bqTables)}`,
           label: "個 BigQuery 資料表已檢視",
-          note: "BigQuery 是已公開的壓縮檔之一。我們仔細檢視的資料表不到 2%，因此這個數字預計會增加。",
+          note: `BigQuery 是已公開的壓縮檔之一。我們已統計其中約 ${Math.round((facts.bqTablesReviewed / facts.bqTables) * 100)}% 資料表的特定欄位，因此這個數字預計會增加。`,
         },
       ],
       caveat:
@@ -164,7 +164,7 @@ export const zhHant: Copy = {
         {
           icon: "people",
           title: "個人：只有總數",
-          body: `有兩份分析匯出資料把香港列為國家：BigQuery 使用者匯出資料約 ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.analyticsExportHkCountryRows)} 列，以及 ${facts.hkProfileRows} 筆 Mixpanel 設定檔資料列。另外，${facts.hkEmailContacts} 筆銷售聯絡人紀錄使用 .hk 電郵地址（涉及 ${facts.hkEmailDomains} 個網域）。資料列不等於人，亦未作去重；兩份匯出資料也可能重疊，而國家欄位不能說明某人居住在哪裏，所以這些數字不應相加，也不應當作受影響人數。`,
+          body: `有三份分析匯出資料把香港列為國家：假名化分析匯出資料（使用者只以編碼 ID 出現）約 ${(facts.pseudonymousExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.pseudonymousExportHkCountryRows)} 列、BigQuery 使用者匯出資料約 ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.analyticsExportHkCountryRows)} 列，以及 ${facts.hkProfileRows} 筆 Mixpanel 設定檔資料列。另外，${facts.hkEmailContacts} 筆銷售聯絡人紀錄使用 .hk 電郵地址（涉及 ${facts.hkEmailDomains} 個網域）。資料列不等於人，亦未作去重；這些匯出資料也可能重疊，而國家欄位不能說明某人居住在哪裏，所以這些數字不應相加，也不應當作受影響人數。`,
           page: "technical",
           hash: "location",
           cta: "查看計算方式",
@@ -397,12 +397,12 @@ export const zhHant: Copy = {
           note: "每個檔案都已讀取。日誌顯示活動，不顯示活動屬於誰。",
         },
         {
-          value: `${facts.bqTablesReviewed} / ${n(facts.bqTables)}`,
+          value: `${n(facts.bqTablesReviewed)} / ${n(facts.bqTables)}`,
           label: "個 BigQuery 資料表已檢視",
-          note: "目前不到 2%。其餘只作列表，尚未檢視。",
+          note: `目前約 ${Math.round((facts.bqTablesReviewed / facts.bqTables) * 100)}%。其餘只作列表，尚未檢視。`,
         },
       ],
-      barLabel: "已詳細檢視的 BigQuery 資料表",
+      barLabel: "目前已檢視的 BigQuery 資料表",
       barNote: `${n(facts.bqTables)} 個資料表中的 ${n(facts.bqTablesReviewed)} 個（${n(facts.bqRowsReviewed)} 列）。「已檢視」是指我們統計了特定欄位，並不代表我們理解了其中的一切。`,
     },
     looked: {
@@ -451,8 +451,8 @@ export const zhHant: Copy = {
         {
           title: "BigQuery 匯出資料",
           status: "partial",
-          body: `清單已完成：${facts.bqDatasets} 個資料集內共 ${n(facts.bqTables)} 個資料表（壓縮檔約 33.8 GB）。我們詳細檢視了其中 ${facts.bqTablesReviewed} 個。我們亦掃描了 26 個資料表尋找香港地點的跡象：2,698,670 列，其中 55,253 列帶有香港跡象，20,513 列看似公司紀錄（未經確認）。`,
-          limit: "仍有 5,736 個非空資料表未檢視。這些數字互相重疊。",
+          body: `清單已完成：${facts.bqDatasets} 個資料集內共 ${n(facts.bqTables)} 個資料表（壓縮檔約 33.8 GB）。我們統計了其中 ${n(facts.bqTablesReviewed)} 個資料表的特定欄位（${n(facts.bqRowsReviewed)} 項資料列觀察，每個資料表只計一次）。我們亦掃描了 26 個資料表尋找香港地點的跡象：2,698,670 列，其中 55,253 列帶有香港跡象，20,513 列看似公司紀錄（未經確認）。`,
+          limit: `仍有 ${n(facts.bqNonEmptyTablesRemaining)} 個非空資料表（以及 ${facts.bqEmptyTablesRemaining} 個空資料表）未檢視。統計欄位不等於理解其中的一切。這些數字互相重疊。`,
         },
         {
           title: "IP 位址所在地",
@@ -578,7 +578,7 @@ export const zhHant: Copy = {
         points: [
           "**地點掃描：** 完整掃描了 26 個資料表，解析 2,698,670 列，沒有錯誤。55,253 列帶有香港地點跡象，20,513 列看似公司紀錄（未經確認的候選紀錄）。這些跡象不能說明居住地、國籍或是否受到入侵。",
           "**連結：** 我們從財務帳戶紀錄中明確的租戶編號出發，涵蓋 11 個資料表（4,454,818 列），找到 27 個完全吻合名稱下的 39 個候選租戶。12 個租戶和 35 個叢集因名稱互相矛盾而被排除。請見下方的連結表。",
-          "**個人：只有總數：** 有兩份分析匯出資料把香港列為國家。BigQuery 分析使用者匯出資料的 3,068,700 項資料列觀察中有 38,546 項如此（約 1.3%）；Mixpanel 設定檔資料列則有 416 筆。另有 255 筆銷售聯絡人（HubSpot）紀錄使用 .hk 電郵地址，涉及 116 個網域。這些數字可能重疊，全部未作去重，亦不能說明居住地或受影響人數。請勿相加。",
+          `**個人：只有總數：** 有三份分析匯出資料把香港列為國家。假名化分析匯出資料的 ${n(facts.pseudonymousExportRows)} 項資料列觀察中有 ${n(facts.pseudonymousExportHkCountryRows)} 項如此（約 ${((facts.pseudonymousExportHkCountryRows / facts.pseudonymousExportRows) * 100).toFixed(1)}%）；BigQuery 分析使用者匯出資料的 3,068,700 項中有 38,546 項（約 1.3%）；Mixpanel 設定檔資料列則有 416 筆。另有 255 筆銷售聯絡人（HubSpot）紀錄使用 .hk 電郵地址，涉及 116 個網域。這些數字可能重疊，全部未作去重，亦不能說明居住地或受影響人數。請勿相加。`,
         ],
         files: [
           "bq_coverage.json",
@@ -675,6 +675,32 @@ export const zhHant: Copy = {
           "**限制：** 這不能說明涉及多少人、客戶是誰，或任何香港企業是否受到影響。我們亦沒有核對這些資料列與 Mixpanel 設定檔資料列或本頁其他香港數字是否重疊，所以請勿相加。",
         ],
         files: ["bq_analytics_users_review.json"],
+      },
+      {
+        id: "pseudonymised-export",
+        title: "假名化分析匯出資料",
+        summary:
+          "BigQuery 壓縮檔內第二批、規模大得多的分析使用者匯出資料，每一列帶的是編碼用戶 ID，而不是姓名。我們計算了資料列數，並檢查三個地點欄位。所有數字都是資料列觀察數，不是人數、客戶數，也不是已確認的外洩。",
+        points: [
+          `**涵蓋範圍：** 全部 ${facts.pseudonymousExportSources} 個匯出來源，共 ${n(facts.pseudonymousExportRows)} 列，沒有解析錯誤。兩個分別編寫的計數程式在每個來源上結果一致，但它們使用同一個檔案讀取程式。來源內及跨來源的資料列均未作去重，所以同一個人或裝置可能出現多於一次。`,
+          `**香港跡象：** 國家欄位為香港的有 ${n(facts.pseudonymousExportHkCountryRows)} 列（約 ${((facts.pseudonymousExportHkCountryRows / facts.pseudonymousExportRows) * 100).toFixed(1)}%），城市欄位為香港的有 ${n(facts.pseudonymousExportHkCityRows)} 列，地區欄位則沒有。大部分資料列列出的是其他國家（14,289,337 列），另有 63,020 列的國家欄位為空。我們只計算八種固定寫法（例如「HK」、「Hong Kong」和「香港」）。我們沒有把三個數字相加，因為同一列可能符合多個欄位；我們也從不憑城市或地區推斷國家。`,
+          "**編碼 ID：** 每一列都有編碼用戶 ID 及串流 ID。我們沒有發布這兩者，也沒有發布它們的雜湊值，亦沒有把這些資料列與任何其他匯出資料連結。七個紀錄容器之內，沒有發現預期以外的額外欄位。",
+          "**限制：** 這不能說明涉及多少人、客戶是誰、任何人現時居住在哪裏，或任何香港企業是否受到影響。我們亦沒有核對這些資料列與上述 BigQuery 使用者匯出資料、Mixpanel 設定檔資料列或本頁其他香港數字是否重疊，所以請勿相加。下載檔案本身的狀態標示反映的是檔案產生當時的狀態；其後的檢視已經通過。",
+        ],
+        files: ["analytics_pseudonymous.json"],
+      },
+      {
+        id: "marketplace-references",
+        title: "市集紀錄：如何互相連結",
+        summary:
+          "六個市集資料表（報價方案、產品、帳戶及協議）。我們只檢查某個資料表內的識別碼，是否原樣出現在另一個資料表。結果內不含名稱、價格或地點。",
+        points: [
+          `**涵蓋範圍：** ${facts.marketplaceSources} 個來源，共 ${n(facts.marketplaceRows)} 列，沒有解析錯誤。兩個分別編寫的計數程式在每個數字上結果一致，但它們使用同一個檔案讀取程式。其中 48,579 列是協議，但只有 605 個不同的協議編號，所以大部分是同一協議的重複紀錄。`,
+          "**配對到的部分：** 817 列報價方案的賣方，以及 54 列產品的製造商，全部都出現在帳戶資料表內。48,579 列協議中有 48,561 列的訂閱方出現在帳戶資料表的雲端帳戶欄位，而全部 48,579 列的供應商都出現在該欄位。34,902 列協議指向的報價方案存在於報價方案資料表，13,677 列則沒有。",
+          "**配對不到的部分：** 48,579 列協議的買方編號，沒有一個原樣出現在帳戶資料表的三種編號欄位中。這不代表兩者無關，只表示編號的寫法不一樣。649 個報價方案對象全部屬於「買方帳戶」類別，沒有以國家或地區為對象。",
+          "**限制：** 這些是資料形態上的原樣配對。它們不能說明帳戶屬於誰、客戶是誰、任何人在哪裏、付了多少錢，或任何公司是否受到影響。各個配對數字描述的是不同的資料列組別，不應相加。",
+        ],
+        files: ["bq_marketplace_references_review.json"],
       },
       {
         id: "billing-models",
@@ -844,6 +870,15 @@ export const zhHant: Copy = {
               file: "bq_analytics_users_review.json",
               label: "分析使用者匯出資料：地點及欄位存在情況",
             },
+            {
+              file: "analytics_pseudonymous.json",
+              label: "假名化分析匯出資料：地點及欄位存在情況",
+            },
+            {
+              file: "bq_marketplace_references_review.json",
+              label: "市集紀錄：識別碼如何連結",
+            },
+            { file: "bq_scope_summary.json", label: "BigQuery 目前的檢視範圍" },
           ],
         },
         {

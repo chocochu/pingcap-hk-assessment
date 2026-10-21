@@ -1,6 +1,7 @@
 [
   "account_evidence.csv",
   "all_source_label_index.csv",
+  "analytics_pseudonymous.json",
   "archive_integrity.json",
   "billing_evidence.csv",
   "bq_account_additions_review.json",
@@ -23,6 +24,7 @@
   "bq_import_presence_review.json",
   "bq_integration_presence_review.json",
   "bq_linkage_review.json",
+  "bq_marketplace_references_review.json",
   "bq_material_review.json",
   "bq_msp_monthly_census_review.json",
   "bq_msp_namespace_comparison_review.json",
@@ -31,6 +33,7 @@
   "bq_nexus_line_items_review.json",
   "bq_numeric_precision_review.json",
   "bq_sales_content_review.json",
+  "bq_scope_summary.json",
   "bq_support_content_review.json",
   "bq_support_review.json",
   "business_label_sources.csv",

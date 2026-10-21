@@ -19,8 +19,12 @@ export const facts = {
   /** BigQuery export. */
   bqTables: 6_458,
   bqDatasets: 83,
-  bqTablesReviewed: 117,
-  bqRowsReviewed: 18_154_882,
+  /** Tables where we counted specific fields (cumulative selected scope), counted once. */
+  bqTablesReviewed: 1_876,
+  bqRowsReviewed: 36_573_990,
+  /** Tables outside that scope. */
+  bqNonEmptyTablesRemaining: 3_977,
+  bqEmptyTablesRemaining: 605,
   /** Archives. */
   archivesClaimed: 5,
   archivesAvailable: 4,
@@ -35,6 +39,14 @@ export const facts = {
   analyticsExportSources: 875,
   analyticsExportRows: 3_068_700,
   analyticsExportHkCountryRows: 38_546,
+  /** Pseudonymised analytics export (BigQuery): row observations, not people. */
+  pseudonymousExportSources: 878,
+  pseudonymousExportRows: 15_296_605,
+  pseudonymousExportHkCountryRows: 944_248,
+  pseudonymousExportHkCityRows: 827_674,
+  /** Marketplace structural references. */
+  marketplaceSources: 6,
+  marketplaceRows: 53_803,
   hkEmailContacts: 255,
   hkEmailDomains: 116,
   /** Credential-related fields. */

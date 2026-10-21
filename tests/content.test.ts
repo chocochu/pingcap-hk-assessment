@@ -184,6 +184,30 @@ describe("headline figures", () => {
     expect(Number(analytics.integrity.parsed_rows)).toBe(facts.analyticsExportRows);
     expect(Number(analytics.geography.country.hk_literal)).toBe(facts.analyticsExportHkCountryRows);
 
+    const pseudonymous = JSON.parse(await read("analytics_pseudonymous.json"));
+    expect(Number(pseudonymous.integrity.parsed_rows)).toBe(facts.pseudonymousExportRows);
+    expect(Number(pseudonymous.integrity.parse_errors)).toBe(0);
+    expect(Number(pseudonymous.geography["geo.country"].hk_literal)).toBe(
+      facts.pseudonymousExportHkCountryRows,
+    );
+    expect(Number(pseudonymous.geography["geo.city"].hk_literal)).toBe(
+      facts.pseudonymousExportHkCityRows,
+    );
+    expect(Number(pseudonymous.geography["geo.region"].hk_literal)).toBe(0);
+
+    const marketplace = JSON.parse(await read("bq_marketplace_references_review.json"));
+    expect(marketplace.selected_sources).toBe(facts.marketplaceSources);
+    expect(marketplace.row_observations).toBe(facts.marketplaceRows);
+
+    const scope = JSON.parse(await read("bq_scope_summary.json"));
+    expect(scope.cumulative_unique_tables).toBe(facts.bqTablesReviewed);
+    expect(scope.cumulative_table_row_observations).toBe(facts.bqRowsReviewed);
+    expect(scope.remaining_nonempty_tables_outside_selected_scope).toBe(
+      facts.bqNonEmptyTablesRemaining,
+    );
+    expect(scope.remaining_empty_tables_outside_selected_scope).toBe(facts.bqEmptyTablesRemaining);
+    expect(scope.inventory_table_count).toBe(facts.bqTables);
+
     const gateway = JSON.parse(await read("gateway_final_coverage.json"));
     expect(gateway.valid_log_records).toBe(facts.gatewayRecords);
     expect(gateway.csv_files).toBe(facts.gatewayFiles);
@@ -195,8 +219,10 @@ describe("headline figures", () => {
   });
 
   test("table review total adds up", () => {
-    // 117 reviewed + 5,736 non-empty + 605 empty tables remain
-    expect(facts.bqTablesReviewed + 5_736 + 605).toBe(facts.bqTables);
+    // 1,876 reviewed + 3,977 non-empty + 605 empty tables remain
+    expect(
+      facts.bqTablesReviewed + facts.bqNonEmptyTablesRemaining + facts.bqEmptyTablesRemaining,
+    ).toBe(facts.bqTables);
   });
 });
 
