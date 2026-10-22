@@ -62,5 +62,7 @@
   "rest_material_categories.json",
   "rest_organization_evidence.json",
   "support_material_evidence.csv",
-  "validation_summary.json"
+  "validation_summary.json",
+  "bq_user_account_links.json",
+  "bq_sales_conversations_chorus.json"
 ]

@@ -1,7 +1,15 @@
 {
-  "version": "0.6.1",
-  "preparedAt": "2026-10-21T16:54:27Z",
+  "version": "0.6.2",
+  "preparedAt": "2026-10-22T08:22:33Z",
   "history": [
+    {
+      "version": "0.6.2",
+      "preparedAt": "2026-10-22T08:22:33Z",
+      "summary": {
+        "en": "Added two newly reviewed BigQuery batches and changed the answer to “was customer data leaked?” to say what they show. The files do hold personal details linked to Hong Kong: 7,239 of 290,458 PingCAP cloud user records link to a customer account whose country is listed as Hong Kong, and 7,107 of them contain an email-shaped string. We don’t know who these users are, these are record counts rather than people, and we found no sign of the Hong Kong companies’ own customers’ records. The first batch also covers support-ticket text, sign-in (OAuth) records and Salesforce user records; the second covers Chorus sales-conversation tables (219,945 participant rows, 219,942 with an email-shaped string), where nothing links to Hong Kong. Reviewed BigQuery tables rise from 1,876 to 1,904 of 6,458 (40,771,064 row observations). Nothing here shows a company’s systems were breached or that any file’s contents are confidential, and the checks still cover only part of the archive.",
+        "zh-Hant": "新增兩批剛通過檢視的 BigQuery 資料，並修改「客戶資料有被外洩嗎？」的答案，如實反映它們顯示的內容。檔案裏確有與香港有關的個人資料：290,458 筆 PingCAP 雲端用戶紀錄中，有 7,239 筆連到國家欄位為香港的客戶帳戶，其中 7,107 筆含有看似電郵地址的字串。我們不知道這些用戶是誰，這些是紀錄數目而不是人數，而我們沒有發現香港公司自己客戶的紀錄。第一批還涵蓋支援工單文字、登入（OAuth）紀錄和 Salesforce 用戶紀錄；第二批涵蓋 Chorus 銷售對話資料表（219,945 列參與者，其中 219,942 列有看似電郵的字串），沒有任何內容連到香港。已檢視的 BigQuery 資料表由 6,458 個中的 1,876 個增至 1,904 個（40,771,064 項資料列觀察）。這些內容並不顯示任何公司的系統曾被入侵，也不顯示任何檔案內容屬機密，而我們的檢查仍然只涵蓋壓縮檔的一部分。"
+      }
+    },
     {
       "version": "0.6.1",
       "preparedAt": "2026-10-21T16:54:27Z",

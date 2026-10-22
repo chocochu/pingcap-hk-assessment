@@ -5,8 +5,8 @@ import evidenceFiles from "./evidence-files.json";
 // Most files come from the main report. Files named repos_* come from the
 // repository-archive review, where the same file is stored without the prefix.
 // Files in `findings` come from the findings-only deliveries, which list their
-// hashes in manifest.json instead of SHA256SUMS.txt; they may be published
-// under a different public name.
+// hashes in manifest.json (or handoff_manifest.json) instead of SHA256SUMS.txt;
+// they may be published under a different public name.
 const report = new URL("../../analysis/output/report/", import.meta.url);
 const repos = new URL("../../analysis/output/repos_review/", import.meta.url);
 const destination = new URL("../public/evidence/", import.meta.url);
@@ -17,12 +17,20 @@ const findings: Record<string, { dir: URL; file: string }> = {
     file: "analytics_pseudonymous.json",
   },
   "bq_scope_summary.json": {
-    dir: new URL("../../analysis/output/findings_pseudonymous_v1/", import.meta.url),
+    dir: new URL("../../analysis/output/findings_sales_chorus_v1/", import.meta.url),
     file: "scope_summary.json",
   },
   "bq_marketplace_references_review.json": {
     dir: new URL("../../analysis/output/findings_marketplace_v1/", import.meta.url),
     file: "bq_marketplace_references_review.json",
+  },
+  "bq_user_account_links.json": {
+    dir: new URL("../../analysis/output/findings_exposure_packet_v1/", import.meta.url),
+    file: "exposure_packet.json",
+  },
+  "bq_sales_conversations_chorus.json": {
+    dir: new URL("../../analysis/output/findings_sales_chorus_v1/", import.meta.url),
+    file: "candidate/exposure_packet.json",
   },
 };
 
@@ -40,11 +48,15 @@ async function sums(dir: URL): Promise<Map<string, string>> {
 }
 
 async function manifest(dir: URL): Promise<Map<string, string>> {
-  const data = await Bun.file(new URL("manifest.json", dir)).json();
+  const own = Bun.file(new URL("manifest.json", dir));
+  const data = await (
+    (await own.exists()) ? own : Bun.file(new URL("handoff_manifest.json", dir))
+  ).json();
   const files = data.files ?? data.artifacts;
-  return new Map(
-    Object.entries(files).map(([name, v]) => [name, (v as { sha256: string }).sha256]),
-  );
+  const entries: [string, { sha256: string }][] = Array.isArray(files)
+    ? files.map((v: { path: string; sha256: string }) => [v.path, v])
+    : Object.entries(files);
+  return new Map(entries.map(([name, v]) => [name, v.sha256]));
 }
 
 const hashes = new Map<string, Map<string, string>>([

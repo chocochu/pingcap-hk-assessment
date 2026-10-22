@@ -211,14 +211,71 @@ describe("headline figures", () => {
     expect(marketplace.selected_sources).toBe(facts.marketplaceSources);
     expect(marketplace.row_observations).toBe(facts.marketplaceRows);
 
-    const scope = JSON.parse(await read("bq_scope_summary.json"));
-    expect(scope.cumulative_unique_tables).toBe(facts.bqTablesReviewed);
-    expect(scope.cumulative_table_row_observations).toBe(facts.bqRowsReviewed);
-    expect(scope.remaining_nonempty_tables_outside_selected_scope).toBe(
-      facts.bqNonEmptyTablesRemaining,
+    const links = JSON.parse(await read("bq_user_account_links.json"));
+    expect(links.scope.source_reads).toBe(facts.userLinkSources);
+    expect(links.scope.new_physical_sources).toBe(facts.userLinkNewSources);
+    expect(links.scope.row_observations_per_pass).toBe(facts.userLinkRowsPerPass);
+    expect(links.scope.new_source_row_observations).toBe(facts.userLinkNewRows);
+    expect(links.scope.parse_errors_per_pass).toBe(0);
+    const cloudUsers = links.sources.find((s: { source: string }) =>
+      s.source.endsWith("cloud_users"),
     );
-    expect(scope.remaining_empty_tables_outside_selected_scope).toBe(facts.bqEmptyTablesRemaining);
-    expect(scope.inventory_table_count).toBe(facts.bqTables);
+    expect(cloudUsers.counters.rows).toBe(facts.cloudUserRows);
+    expect(cloudUsers.counters.fields.user_email.states.nonempty_string).toBe(
+      facts.userEmailNonEmptyRows,
+    );
+    expect(cloudUsers.counters.fields.user_email.email_shape).toBe(facts.userEmailShapedRows);
+    const tenantEdge = links.relationships.find((r: { alias: string }) => r.alias === "REL14")
+      .counts.country_attribution;
+    expect(tenantEdge.from_valid_key_rows).toBe(facts.cloudUserRows);
+    expect(tenantEdge.unique_hk_literal_target_rows).toBe(facts.cloudUserHkTenantRows);
+    expect(tenantEdge.email_shape_source_rows_with_unique_hk_target).toBe(
+      facts.cloudUserHkTenantEmailRows,
+    );
+    expect(tenantEdge.unique_non_hk_string_target_rows).toBe(facts.cloudUserOtherCountryRows);
+    expect(tenantEdge.unique_country_missing_null_or_empty_target_rows).toBe(
+      facts.cloudUserNoCountryRows,
+    );
+    expect(
+      tenantEdge.unique_hk_literal_target_rows +
+        tenantEdge.unique_non_hk_string_target_rows +
+        tenantEdge.unique_country_missing_null_or_empty_target_rows,
+    ).toBe(facts.cloudUserRows);
+    const rowsOf = (source: string): number =>
+      links.sources.find((s: { source: string }) => s.source === source).counters.rows;
+    expect(rowsOf("metadb_new.auth_server_oauth2_access_tokens")).toBe(facts.oauthRows);
+    expect(rowsOf("zendesk.suspended_ticket")).toBe(facts.suspendedTickets);
+    expect(rowsOf("zendesk.suspended_ticket_attachment")).toBe(facts.suspendedAttachments);
+    expect(rowsOf("salesforce.user")).toBe(facts.salesforceUserRows);
+    expect(
+      links.relationships.find((r: { alias: string }) => r.alias === "REL06").counts
+        .resolved_unique_distinct,
+    ).toBe(facts.oauthUsers);
+
+    const chorus = JSON.parse(await read("bq_sales_conversations_chorus.json"));
+    expect(chorus.scope.new_physical_sources).toBe(facts.chorusSources);
+    expect(chorus.scope.new_source_row_observations).toBe(facts.chorusRows);
+    expect(chorus.scope.row_observations_per_pass).toBe(facts.chorusRowsPerPass);
+    expect(chorus.scope.parse_errors_per_pass).toBe(0);
+    const participants = chorus.sources.find((s: { source: string }) =>
+      s.source.endsWith("engagement_participant"),
+    );
+    expect(participants.counters.rows).toBe(facts.chorusParticipantRows);
+    expect(participants.counters.fields.email.states.nonempty_string).toBe(
+      facts.chorusParticipantEmailRows,
+    );
+    expect(participants.counters.fields.email.email_shape).toBe(facts.chorusParticipantEmailRows);
+    expect(
+      chorus.sources.find((s: { source: string }) => s.source === "chorusai.engagement").counters
+        .rows,
+    ).toBe(facts.chorusEngagementRows);
+
+    const scope = JSON.parse(await read("bq_scope_summary.json"));
+    expect(scope.cumulative_selected_physical_tables).toBe(facts.bqTablesReviewed);
+    expect(scope.cumulative_selected_table_row_observations).toBe(facts.bqRowsReviewed);
+    expect(scope.remaining_nonempty_tables).toBe(facts.bqNonEmptyTablesRemaining);
+    expect(scope.remaining_empty_tables).toBe(facts.bqEmptyTablesRemaining);
+    expect(scope.inventory_tables).toBe(facts.bqTables);
 
     const gateway = JSON.parse(await read("gateway_final_coverage.json"));
     expect(gateway.valid_log_records).toBe(facts.gatewayRecords);
@@ -231,7 +288,7 @@ describe("headline figures", () => {
   });
 
   test("table review total adds up", () => {
-    // 1,876 reviewed + 3,977 non-empty + 605 empty tables remain
+    // 1,904 reviewed + 3,949 non-empty + 605 empty tables remain
     expect(
       facts.bqTablesReviewed + facts.bqNonEmptyTablesRemaining + facts.bqEmptyTablesRemaining,
     ).toBe(facts.bqTables);

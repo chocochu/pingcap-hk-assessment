@@ -89,7 +89,7 @@ export const zhHant: Copy = {
     ctaAction: "你可以怎麼做",
     answer: {
       title: "香港公司客戶的資料有被外洩嗎？",
-      body: "**我們沒有發現這方面的證據。** 檔案裏是 PingCAP 自己與這些公司往來的紀錄，例如帳戶、發票、銷售線索和支援工單。我們沒有發現這些公司自己的客戶或用戶紀錄。這是「未發現證據」，而不是「證實安全」：我們只檢視了檔案的一部分，也無法確認檔案是否真確或完整。",
+      body: `**我們沒有發現這方面的證據，但檔案裏確有與香港有關的個人資料。** 檔案裏大部分是 PingCAP 自己與這些公司往來的紀錄，例如帳戶、發票、銷售線索和支援工單，我們沒有發現這些公司自己客戶的紀錄。這是「未發現證據」，而不是「證實安全」：我們只檢視了檔案的一部分，也無法確認檔案是否真確或完整。檔案裏還有 PingCAP 的雲端用戶帳戶：其中 ${n(facts.cloudUserHkTenantRows)} 筆用戶紀錄連到一個國家欄位為香港的客戶帳戶，而當中 ${n(facts.cloudUserHkTenantEmailRows)} 筆含有看似電郵地址的字串。我們不知道這些用戶是誰（可能是公司職員、開發人員或個人），所以這些是紀錄數目，不是人數。`,
       cta: "查看檔案裏到底有甚麼",
     },
     brief: {
@@ -97,7 +97,7 @@ export const zhHant: Copy = {
       items: [
         {
           title: "他們客戶的資料？",
-          body: "**未發現證據。** 我們看到的是 PingCAP 一方的紀錄：這些公司的帳戶、帳單、銷售及支援紀錄。我們發現的內容，沒有任何一項顯示公司自己的顧客、旅客、玩家或其他用戶的資料在檔案裏。有兩點須知：檔案裏確有一些與香港有關的個人資料，主要是銷售聯絡人和分析設定檔，我們只計算總數；而我們至今只檢視了檔案的一部分。",
+          body: `**未發現證據。** 我們主要看到的是 PingCAP 一方的紀錄：這些公司的帳戶、帳單、銷售及支援紀錄。我們發現的內容，沒有任何一項顯示公司自己的顧客、旅客、玩家或其他用戶的資料在檔案裏。有兩點須知：檔案裏確有與香港有關的個人資料，包括 ${n(facts.cloudUserHkTenantRows)} 筆連到香港客戶帳戶的 PingCAP 雲端用戶紀錄（其中 ${n(facts.cloudUserHkTenantEmailRows)} 筆含有看似電郵的聯絡資料），以及銷售聯絡人和分析設定檔，我們只公布總數；而我們至今只檢視了檔案的一部分。`,
         },
         {
           title: "發生了甚麼事",
@@ -173,7 +173,7 @@ export const zhHant: Copy = {
         {
           icon: "people",
           title: "個人：只有總數",
-          body: `有三份分析匯出資料把香港列為國家：假名化分析匯出資料（使用者只以編碼 ID 出現）約 ${(facts.pseudonymousExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.pseudonymousExportHkCountryRows)} 列、BigQuery 使用者匯出資料約 ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.analyticsExportHkCountryRows)} 列，以及 ${facts.hkProfileRows} 筆 Mixpanel 設定檔資料列。另外，${facts.hkEmailContacts} 筆銷售聯絡人紀錄使用 .hk 電郵地址（涉及 ${facts.hkEmailDomains} 個網域）。資料列不等於人，亦未作去重；這些匯出資料也可能重疊，而國家欄位不能說明某人居住在哪裏，所以這些數字不應相加，也不應當作受影響人數。`,
+          body: `有三份分析匯出資料把香港列為國家：假名化分析匯出資料（使用者只以編碼 ID 出現）約 ${(facts.pseudonymousExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.pseudonymousExportHkCountryRows)} 列、BigQuery 使用者匯出資料約 ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} 百萬列中有 ${n(facts.analyticsExportHkCountryRows)} 列，以及 ${facts.hkProfileRows} 筆 Mixpanel 設定檔資料列。另外，${facts.hkEmailContacts} 筆銷售聯絡人紀錄使用 .hk 電郵地址（涉及 ${facts.hkEmailDomains} 個網域）。資料列不等於人，亦未作去重；這些匯出資料也可能重疊，而國家欄位不能說明某人居住在哪裏，所以這些數字不應相加，也不應當作受影響人數。另有一種不同的計算來自 PingCAP 自己的雲端用戶帳戶：${n(facts.cloudUserRows)} 筆用戶紀錄中，有 ${n(facts.cloudUserHkTenantRows)} 筆連到國家欄位為香港的客戶帳戶，其中 ${n(facts.cloudUserHkTenantEmailRows)} 筆含有看似電郵地址的字串。我們不知道這些用戶是誰或居住在哪裏，也沒有計算這些紀錄涉及多少個不同的人。`,
           page: "technical",
           hash: "location",
           cta: "查看計算方式",
@@ -587,6 +587,7 @@ export const zhHant: Copy = {
           "**地點掃描：** 完整掃描了 26 個資料表，解析 2,698,670 列，沒有錯誤。55,253 列帶有香港地點跡象，20,513 列看似公司紀錄（未經確認的候選紀錄）。這些跡象不能說明居住地、國籍或是否受到入侵。",
           "**連結：** 我們從財務帳戶紀錄中明確的租戶編號出發，涵蓋 11 個資料表（4,454,818 列），找到 27 個完全吻合名稱下的 39 個候選租戶。12 個租戶和 35 個叢集因名稱互相矛盾而被排除。請見下方的連結表。",
           `**個人：只有總數：** 有三份分析匯出資料把香港列為國家。假名化分析匯出資料的 ${n(facts.pseudonymousExportRows)} 項資料列觀察中有 ${n(facts.pseudonymousExportHkCountryRows)} 項如此（約 ${((facts.pseudonymousExportHkCountryRows / facts.pseudonymousExportRows) * 100).toFixed(1)}%）；BigQuery 分析使用者匯出資料的 3,068,700 項中有 38,546 項（約 1.3%）；Mixpanel 設定檔資料列則有 416 筆。另有 255 筆銷售聯絡人（HubSpot）紀錄使用 .hk 電郵地址，涉及 116 個網域。這些數字可能重疊，全部未作去重，亦不能說明居住地或受影響人數。請勿相加。`,
+          "**用戶帳戶：** 另一項計算，即連到香港客戶帳戶的 PingCAP 雲端用戶紀錄數目，載於[用戶帳戶、支援文字及登入紀錄](#user-account-links)。那是不同的計算方式，所以請勿與上述數字相加。",
         ],
         files: [
           "bq_coverage.json",
@@ -709,6 +710,36 @@ export const zhHant: Copy = {
           "**限制：** 這些是資料形態上的原樣配對。它們不能說明帳戶屬於誰、客戶是誰、任何人在哪裏、付了多少錢，或任何公司是否受到影響。各個配對數字描述的是不同的資料列組別，不應相加。",
         ],
         files: ["bq_marketplace_references_review.json"],
+      },
+      {
+        id: "user-account-links",
+        title: "用戶帳戶、支援文字及登入紀錄",
+        summary:
+          "十五個 BigQuery 資料表，載有 PingCAP 的雲端用戶帳戶、它們所屬的客戶帳戶、支援系統文字，以及登入（OAuth）紀錄。我們檢查了所選欄位是否有填寫，以及各資料表如何互相指向。每個數字都是資料列觀察：不是人數、公司數目，也不是已確認的外洩。",
+        points: [
+          `**涵蓋範圍：** ${facts.userLinkSources} 個來源分兩次獨立讀取，每次 ${n(facts.userLinkRowsPerPass)} 列，沒有解析錯誤。其中 ${facts.userLinkNewSources} 個來源是新的（${n(facts.userLinkNewRows)} 列）；另外兩個（專案及客戶帳戶）只是為了追蹤連結而重讀，並未增加涵蓋範圍。第二次讀取是重複核對，並不代表資料列多了一倍，而且兩次讀取使用同一個檔案讀取程式。`,
+          `**與香港的連結：** 用戶清單有 ${n(facts.cloudUserRows)} 列，每一列都剛好指向一個客戶帳戶（「租戶」）紀錄。其中 ${n(facts.cloudUserHkTenantRows)} 列指向國家欄位剛好是香港寫法的帳戶，而這些列中有 ${n(facts.cloudUserHkTenantEmailRows)} 列含有看似電郵地址的字串。${n(facts.cloudUserOtherCountryRows)} 列指向其他國家的帳戶，${n(facts.cloudUserNoCountryRows)} 列指向沒有填寫國家的帳戶。同一批用戶的另一份匯出資料得出相同數字，所以請勿把兩者相加。`,
+          `**有填寫的欄位：** ${n(facts.userEmailNonEmptyRows)} 列用戶紀錄的電郵欄位不是空白，其中 ${n(facts.userEmailShapedRows)} 列按簡單格式看似電郵地址。198,353 列有名字，163,321 列有姓氏。我們沒有計算這些紀錄涉及多少個不同的人，也沒有公布任何姓名或電郵。`,
+          `**支援系統文字：** ${facts.suspendedTickets} 張被暫停處理的支援工單，每張都有內容、主旨及作者電郵。${facts.suspendedAttachments} 筆附件紀錄屬於其中六張工單，每筆都列有檔案名稱和連結。我們沒有開啟任何連結，也不知道檔案是否存在或能否取得。114 列說明文章中有 113 列有正文，5 列帖子全部有詳細內容。我們沒有閱讀這些文字。`,
+          `**登入（OAuth）紀錄：** 名稱與 OAuth 存取權杖相關的資料表中，有 ${n(facts.oauthRows)} 列含有看似電郵地址的字串，它們指向 ${n(facts.oauthUsers)} 名不同的用戶，以及 11 筆應用程式紀錄中的十筆。我們沒有確立其中是否有可使用的權杖或憑證。`,
+          `**內部及帳戶背景：** Salesforce 用戶資料表有 ${facts.salesforceUserRows} 列，其中 319 列有看似電郵地址的字串，13 列標示為啟用。另有 366,571 列角色指派、386,927 列用戶與專案的關聯，以及 373,551 列聯絡人與公司的關聯。我們沒有解讀角色代碼，這些資料列也不能說明誰受僱於誰。`,
+          "**限制：** 這裏的「香港」只是客戶帳戶紀錄上的國家欄位。它不能說明某人居住在哪裏、某公司是否在香港註冊、誰是客戶，或現時有何關係。「看似電郵」只表示文字符合簡單格式：我們沒有核實任何郵箱或身分。我們只統計了 173 個選定欄位，所以這並非對這些資料表所有內容的檢視。我們核對了壓縮檔內所選檔案的完整性，但沒有重新核對整個壓縮檔的校驗碼。",
+        ],
+        files: ["bq_user_account_links.json"],
+      },
+      {
+        id: "sales-conversations",
+        title: "銷售對話紀錄（Chorus 資料表）",
+        summary:
+          "十五個來自名為「chorusai」資料集的 BigQuery 資料表：對話參與者、摘要、追蹤項目提及文字、行動項目，以及一份很小的用戶清單。我們檢查了所選欄位是否有填寫，以及各資料表是否互相指向。我們沒有閱讀文字內容，每個數字都是資料列觀察，不是人數、公司數目，也不是已確認的外洩。",
+        points: [
+          `**涵蓋範圍：** ${facts.chorusSources} 個新來源（${n(facts.chorusRows)} 列）分兩次獨立讀取，主要的「engagement」資料表（${n(facts.chorusEngagementRows)} 列）只是為了追蹤連結而重讀，並未增加涵蓋範圍。每次讀取涵蓋 ${n(facts.chorusRowsPerPass)} 列，沒有解析錯誤。兩次讀取使用同一個檔案讀取程式。`,
+          `**有填寫的欄位：** 參與者資料表有 ${n(facts.chorusParticipantRows)} 列，其中 ${n(facts.chorusParticipantEmailRows)} 列有看似電郵地址的字串，204,563 列有名稱。30,553 列摘要中有 30,552 列有文字，113,768 列現行及 96,963 列已停用的追蹤項目提及，以及 13,573 列行動項目全部有文字。現行與已停用的資料列分開記錄：請勿把它們加成不同項目的數目。`,
+          "**資料表如何連結：** 與 engagement 資料表比對的 13 個資料表中，每一列都剛好指向一列 engagement 紀錄。這是逐列配對，並不是共用同一個 engagement。其他一些連結在這批資料內找不到對象：1,109 列參與者指向小型用戶清單、390 列 engagement 指向該清單，以及 10 列現行和 8 列已停用的追蹤項目提及指向某個追蹤項目。",
+          "**香港：** 所選欄位中沒有國家欄位，所以這批資料沒有香港數字，也沒有把任何紀錄連到香港公司或香港人。",
+          "**限制：** 我們沒有閱讀文字，所以欄位有內容，並不說明紀錄寫了甚麼，或是否機密。我們沒有開啟任何音訊、附件或連結。已停用與現行追蹤項目提及之間的比對只是候選連結，並不證明它們是同一項目。「看似電郵」只是簡單格式，並非已核實的地址。下載檔案本身的狀態標示寫著「待獨立檢視及納入」：這反映的是檔案產生當時的狀態，其後該批資料已通過檢視並獲納入。我們沒有重新核對整個壓縮檔的校驗碼。",
+        ],
+        files: ["bq_sales_conversations_chorus.json"],
       },
       {
         id: "billing-models",
@@ -885,6 +916,14 @@ export const zhHant: Copy = {
             {
               file: "bq_marketplace_references_review.json",
               label: "市集紀錄：識別碼如何連結",
+            },
+            {
+              file: "bq_user_account_links.json",
+              label: "用戶帳戶、支援文字及登入紀錄：欄位存在情況及連結",
+            },
+            {
+              file: "bq_sales_conversations_chorus.json",
+              label: "銷售對話紀錄（Chorus 資料表）：欄位存在情況及連結",
             },
             { file: "bq_scope_summary.json", label: "BigQuery 目前的檢視範圍" },
           ],

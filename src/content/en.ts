@@ -91,7 +91,7 @@ export const en: Copy = {
     ctaAction: "What you can do",
     answer: {
       title: "Was the customer data of Hong Kong companies leaked?",
-      body: "**We found no evidence of it.** The files hold PingCAP’s own records about these companies, such as accounts, invoices, sales leads and support tickets. We found no sign of the companies’ own customer or user records. That means “no evidence found”, not “proven safe”: we have checked only part of the files, and we can’t confirm they are genuine or complete.",
+      body: `**We found no evidence of it, but the files do hold personal details linked to Hong Kong.** Most of what’s there is PingCAP’s own records about these companies, such as accounts, invoices, sales leads and support tickets, and we found no sign of the records of the companies’ own customers. That is “no evidence found”, not “proven safe”: we have checked only part of the files, and we can’t confirm they are genuine or complete. The files also include PingCAP’s cloud user accounts. ${n(facts.cloudUserHkTenantRows)} of those user records are linked to a customer account whose country is listed as Hong Kong, and ${n(facts.cloudUserHkTenantEmailRows)} of them contain something shaped like an email address. We don’t know who those users are (staff, developers or individuals), so these are counts of records, not of people.`,
       cta: "See exactly what is in the files",
     },
     brief: {
@@ -99,7 +99,7 @@ export const en: Copy = {
       items: [
         {
           title: "Their customers’ data?",
-          body: "**No evidence found.** What we did see is PingCAP’s side of the relationship: these companies’ account, billing, sales and support records. Nothing we found shows that a company’s own shoppers, travellers, players or other users were in the files. Two things to know: some personal details linked to Hong Kong, mostly sales contacts and analytics profiles, are in the files (we count them only as totals), and we have so far checked only part of the files.",
+          body: `**No evidence found.** What we mostly saw is PingCAP’s side of the relationship: these companies’ account, billing, sales and support records. Nothing we found shows that a company’s own shoppers, travellers, players or other users were in the files. Two things to know. Personal details linked to Hong Kong are in the files: ${n(facts.cloudUserHkTenantRows)} PingCAP cloud user records linked to a Hong Kong-listed customer account (${n(facts.cloudUserHkTenantEmailRows)} with an email-shaped contact detail), plus sales contacts and analytics profiles. We publish only totals. And we have so far checked only part of the files.`,
         },
         {
           title: "What happened",
@@ -176,7 +176,7 @@ export const en: Copy = {
         {
           icon: "people",
           title: "People, as totals only",
-          body: `Three analytics exports list Hong Kong as a country: ${n(facts.pseudonymousExportHkCountryRows)} of about ${(facts.pseudonymousExportRows / 1_000_000).toFixed(2)} million rows in a pseudonymised analytics export (users appear only as coded IDs), ${n(facts.analyticsExportHkCountryRows)} of about ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} million rows in the BigQuery user export, and ${facts.hkProfileRows} Mixpanel profile rows. Separately, ${facts.hkEmailContacts} sales-contact records use a .hk email address (across ${facts.hkEmailDomains} domains). Rows aren’t people and weren’t de-duplicated, the exports may overlap, and a country field doesn’t show where someone lives, so none of these numbers should be added together or read as affected people.`,
+          body: `Three analytics exports list Hong Kong as a country: ${n(facts.pseudonymousExportHkCountryRows)} of about ${(facts.pseudonymousExportRows / 1_000_000).toFixed(2)} million rows in a pseudonymised analytics export (users appear only as coded IDs), ${n(facts.analyticsExportHkCountryRows)} of about ${(facts.analyticsExportRows / 1_000_000).toFixed(2)} million rows in the BigQuery user export, and ${facts.hkProfileRows} Mixpanel profile rows. Separately, ${facts.hkEmailContacts} sales-contact records use a .hk email address (across ${facts.hkEmailDomains} domains). Rows aren’t people and weren’t de-duplicated, the exports may overlap, and a country field doesn’t show where someone lives, so none of these numbers should be added together or read as affected people. A different kind of count comes from PingCAP’s own cloud user accounts: of ${n(facts.cloudUserRows)} user records, ${n(facts.cloudUserHkTenantRows)} link to a customer account whose country field says Hong Kong, and ${n(facts.cloudUserHkTenantEmailRows)} of those contain an email-shaped string. We don’t know who these users are or where they live, and we didn’t work out how many different people these records cover.`,
           page: "technical",
           hash: "location",
           cta: "See how we counted",
@@ -602,6 +602,7 @@ export const en: Copy = {
           "**Location scan:** 26 tables scanned in full, 2,698,670 rows parsed with no errors. 55,253 rows carry a Hong Kong location signal, and 20,513 look like company records (unconfirmed candidates). Signals don’t show residence, nationality or compromise.",
           "**Linkage:** starting from explicit tenant IDs in financial account records, across 11 tables (4,454,818 rows), we found 39 candidate tenants under 27 exact labels. 12 tenants and 35 clusters were excluded for conflicting labels. See the linkage table below.",
           `**People, as totals:** three analytics exports list Hong Kong as a country. In the pseudonymised analytics export, ${n(facts.pseudonymousExportHkCountryRows)} of ${n(facts.pseudonymousExportRows)} row observations do (about ${((facts.pseudonymousExportHkCountryRows / facts.pseudonymousExportRows) * 100).toFixed(1)}%). In the BigQuery analytics user export, 38,546 of 3,068,700 do (about 1.3%). In the Mixpanel profile rows, 416 do. 255 sales-contact (HubSpot) records use .hk email addresses across 116 domains. These counts may overlap, none is de-duplicated, and none shows residence or a count of affected people. Don’t add them together.`,
+          "**User accounts:** a separate count, of PingCAP cloud user records linked to a customer account listed in Hong Kong, is in [User accounts, support text and sign-in records](#user-account-links). It is a different measure, so don’t add it to the numbers above.",
         ],
         files: [
           "bq_coverage.json",
@@ -724,6 +725,36 @@ export const en: Copy = {
           "**Limits:** these are literal matches in the shape of the data. They don’t show who owns an account, who the customers are, where anyone is, what was paid, or that any company was affected. The separate matching figures describe different row groups and shouldn’t be added.",
         ],
         files: ["bq_marketplace_references_review.json"],
+      },
+      {
+        id: "user-account-links",
+        title: "User accounts, support text and sign-in records",
+        summary:
+          "Fifteen BigQuery tables holding PingCAP’s cloud user accounts, the customer accounts they belong to, support-system text and sign-in (OAuth) records. We checked which chosen fields are filled in and how the tables point to each other. Every count is a table-row observation: it is not a person, a company or a confirmed exposure.",
+        points: [
+          `**Coverage:** ${facts.userLinkSources} sources were read in two separate passes, ${n(facts.userLinkRowsPerPass)} rows each time, with no parse errors. ${facts.userLinkNewSources} sources are new (${n(facts.userLinkNewRows)} rows); the other two (projects and customer accounts) were read again only to follow links and add no coverage. The second pass is a repeat check, not twice as many rows, and both passes share the same file reader.`,
+          `**Hong Kong link:** the user list has ${n(facts.cloudUserRows)} rows, and every one points to exactly one customer account (“tenant”) record. ${n(facts.cloudUserHkTenantRows)} of them point to an account whose country field is exactly a Hong Kong value, and ${n(facts.cloudUserHkTenantEmailRows)} of those rows contain an email-shaped string. ${n(facts.cloudUserOtherCountryRows)} rows point to an account with another country and ${n(facts.cloudUserNoCountryRows)} to one with no country. A second export of the same users gives the same figures, so don’t add the two.`,
+          `**What is filled in:** ${n(facts.userEmailNonEmptyRows)} user rows have a non-empty email field, and ${n(facts.userEmailShapedRows)} of those look like an email address by a simple pattern. 198,353 rows have a first name and 163,321 a last name. We didn’t work out how many different people these cover. We published no names or emails.`,
+          `**Support-system text:** ${facts.suspendedTickets} suspended support tickets each have text, a subject and an author email. ${facts.suspendedAttachments} attachment records belong to six of those tickets and each lists a file name and a link. We opened no link and don’t know whether the files exist or can be reached. 113 of 114 help-article rows have body text and all five post rows have details. We didn’t read any of this text.`,
+          `**Sign-in (OAuth) records:** ${n(facts.oauthRows)} rows in tables named for OAuth access tokens contain an email-shaped string. They point to ${n(facts.oauthUsers)} different users and ten of the 11 application records. We didn’t establish that any usable token or credential is in them.`,
+          `**Internal and account context:** the Salesforce user table has ${facts.salesforceUserRows} rows, 319 with an email-shaped string and 13 flagged active. There are also 366,571 role-assignment rows, 386,927 user-to-project rows and 373,551 contact-to-company rows. We didn’t interpret role codes, and these rows don’t show who is employed by whom.`,
+          "**Limits:** “Hong Kong” here is a country field on a customer-account record. It doesn’t show where a person lives, that a company is registered in Hong Kong, who is a customer, or any current relationship. Email-shaped means only that the text follows a simple pattern: no mailbox or identity was checked. We counted only 173 chosen fields, so this is not a review of everything in these tables. We checked the integrity of the selected files inside the archive, but did not re-run the checksum of the whole archive.",
+        ],
+        files: ["bq_user_account_links.json"],
+      },
+      {
+        id: "sales-conversations",
+        title: "Sales-conversation records (Chorus tables)",
+        summary:
+          "Fifteen BigQuery tables from a dataset named “chorusai”: conversation participants, summaries, tracker-mention text, action items and a small user list. We checked which chosen fields are filled in and whether the tables point to each other. We did not read the text, and every count is a row observation, not a person, a company or a confirmed exposure.",
+        points: [
+          `**Coverage:** ${facts.chorusSources} new sources (${n(facts.chorusRows)} rows) were read in two separate passes, and the main “engagement” table (${n(facts.chorusEngagementRows)} rows) was read again only to follow links, adding no coverage. Each pass covered ${n(facts.chorusRowsPerPass)} rows with no parse errors. Both passes share the same file reader.`,
+          `**What is filled in:** the participant table has ${n(facts.chorusParticipantRows)} rows, with an email-shaped string in ${n(facts.chorusParticipantEmailRows)} and a name in 204,563. 30,552 of 30,553 recap rows have text, and so do all 113,768 current and 96,963 discontinued tracker-mention rows and all 13,573 action items. The current and discontinued rows are kept apart: don’t add them into a count of different items.`,
+          "**How the tables link:** every row in the 13 tables checked against the engagement table points to exactly one engagement row. That is a row-by-row match, not one shared engagement. Some other links don’t resolve within this set: 1,109 participant rows pointing to the small user list, 390 engagement rows pointing to it, and 10 current and 8 discontinued tracker-mention rows pointing to a tracker.",
+          "**Hong Kong:** none of the chosen fields is a country field, so this batch gives no Hong Kong count and ties no record to a Hong Kong company or person.",
+          "**Limits:** we didn’t read the text, so presence says nothing about what the records say or whether they are confidential. No audio, attached file or link was opened. A match between a discontinued and a current tracker-mention row is a candidate link, not proof they are the same item. Email-shaped is a simple pattern, not a verified address. The download’s own status flag says “pending independent review and admission”: that describes the moment it was built, and the delivery was later reviewed and admitted. We did not re-run the checksum of the whole archive.",
+        ],
+        files: ["bq_sales_conversations_chorus.json"],
       },
       {
         id: "billing-models",
@@ -923,6 +954,14 @@ export const en: Copy = {
             {
               file: "bq_marketplace_references_review.json",
               label: "Marketplace records: how identifiers link",
+            },
+            {
+              file: "bq_user_account_links.json",
+              label: "User accounts, support text and sign-in records: field presence and links",
+            },
+            {
+              file: "bq_sales_conversations_chorus.json",
+              label: "Sales-conversation records (Chorus tables): field presence and links",
             },
             { file: "bq_scope_summary.json", label: "BigQuery review scope so far" },
           ],

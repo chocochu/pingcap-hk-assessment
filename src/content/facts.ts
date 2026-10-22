@@ -20,10 +20,10 @@ export const facts = {
   bqTables: 6_458,
   bqDatasets: 83,
   /** Tables where we counted specific fields (cumulative selected scope), counted once. */
-  bqTablesReviewed: 1_876,
-  bqRowsReviewed: 36_573_990,
+  bqTablesReviewed: 1_904,
+  bqRowsReviewed: 40_771_064,
   /** Tables outside that scope. */
-  bqNonEmptyTablesRemaining: 3_977,
+  bqNonEmptyTablesRemaining: 3_949,
   bqEmptyTablesRemaining: 605,
   /** Archives. */
   archivesClaimed: 5,
@@ -49,6 +49,30 @@ export const facts = {
   marketplaceRows: 53_803,
   hkEmailContacts: 255,
   hkEmailDomains: 116,
+  /** User-account links (BigQuery): row observations, not people. */
+  userLinkSources: 15,
+  userLinkNewSources: 13,
+  userLinkRowsPerPass: 2_461_646,
+  userLinkNewRows: 1_897_095,
+  cloudUserRows: 290_458,
+  cloudUserHkTenantRows: 7_239,
+  cloudUserHkTenantEmailRows: 7_107,
+  cloudUserOtherCountryRows: 212_495,
+  cloudUserNoCountryRows: 70_724,
+  userEmailShapedRows: 199_405,
+  userEmailNonEmptyRows: 290_457,
+  oauthRows: 10_380,
+  oauthUsers: 4_233,
+  suspendedTickets: 13,
+  suspendedAttachments: 8,
+  salesforceUserRows: 320,
+  /** Sales-conversation records (Chorus, BigQuery): row observations, not people. */
+  chorusSources: 15,
+  chorusRows: 2_299_979,
+  chorusRowsPerPass: 2_468_707,
+  chorusParticipantRows: 219_945,
+  chorusParticipantEmailRows: 219_942,
+  chorusEngagementRows: 168_728,
   /** Credential-related fields. */
   apiRecordsWithKeys: 115_132,
 } as const;
