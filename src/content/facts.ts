@@ -20,10 +20,10 @@ export const facts = {
   bqTables: 6_458,
   bqDatasets: 83,
   /** Tables where we counted specific fields (cumulative selected scope), counted once. */
-  bqTablesReviewed: 1_904,
-  bqRowsReviewed: 40_771_064,
+  bqTablesReviewed: 1_939,
+  bqRowsReviewed: 41_053_638,
   /** Tables outside that scope. */
-  bqNonEmptyTablesRemaining: 3_949,
+  bqNonEmptyTablesRemaining: 3_914,
   bqEmptyTablesRemaining: 605,
   /** Archives. */
   archivesClaimed: 5,
@@ -73,6 +73,25 @@ export const facts = {
   chorusParticipantRows: 219_945,
   chorusParticipantEmailRows: 219_942,
   chorusEngagementRows: 168_728,
+  /** Sales and marketing communications (HubSpot, BigQuery): row observations, not people. */
+  hubspotSources: 5,
+  hubspotRows: 10_941,
+  hubspotEmailRows: 6_077,
+  hubspotFromEmailShapedRows: 6_073,
+  hubspotMeetingRows: 828,
+  hubspotTaskRows: 56,
+  hubspotCallRows: 3_675,
+  hubspotNoteRows: 305,
+  /** Workforce-style records (BigQuery): row observations, not people. */
+  workforceSources: 30,
+  workforceDirectorySources: 12,
+  workforceDirectoryRows: 7_911,
+  workforceHrSources: 12,
+  workforceHrRows: 244_533,
+  workforceAncillarySources: 6,
+  workforceAncillaryRows: 19_189,
+  workforceHrMonthlyRows: 30_017,
+  workforceHrUsersSnapshotRows: 93_823,
   /** Credential-related fields. */
   apiRecordsWithKeys: 115_132,
 } as const;

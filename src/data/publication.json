@@ -1,7 +1,15 @@
 {
-  "version": "0.6.2",
-  "preparedAt": "2026-10-22T08:22:33Z",
+  "version": "0.6.3",
+  "preparedAt": "2026-10-22T11:13:32Z",
   "history": [
+    {
+      "version": "0.6.3",
+      "preparedAt": "2026-10-22T11:13:32Z",
+      "summary": {
+        "en": "Added five newly reviewed BigQuery deliveries and updated the reviewed-table count from 1,904 to 1,939 of 6,458 (41,053,638 row observations; about 30%). One covers saved HubSpot meetings, tasks, calls, emails and notes (5 tables, 10,941 rows). Three cover workforce-style records: staff directories, HR snapshots with name, email and reporting-line fields, and department and accounting-context tables (30 tables, 271,633 rows in all). We checked only which chosen fields are filled in and, for some tables, how they point to each other; we did not read the contents. None of these tables is tied to a Hong Kong company or person, none of the country fields has a Hong Kong value, and the rows don’t show how many different people are involved, whose employees they describe, or that anything was exposed. The planned batch of tables is now finished, but 3,914 non-empty tables are still unreviewed.",
+        "zh-Hant": "新增五批剛通過檢視的 BigQuery 資料，並把已檢視的資料表數目由 6,458 個中的 1,904 個更新為 1,939 個（41,053,638 項資料列觀察，約 30%）。其中一批涵蓋已儲存的 HubSpot 會議、任務、通話、電郵及備註（5 個資料表，10,941 列）；另外三批涵蓋類似員工資料的紀錄：員工通訊錄、載有姓名、電郵及匯報關係欄位的人事快照，以及部門和帳務背景資料表（合共 30 個資料表，271,633 列）。我們只檢查了所選欄位是否有填寫，以及部分資料表如何互相指向，並沒有閱讀內容。這些資料表沒有連到任何香港公司或香港人，國家欄位也沒有任何香港的值，而這些資料列不能說明涉及多少個不同的人、這些紀錄描述的是誰的員工，也不能說明有任何東西曾外洩。原定的一批資料表現已完成，但仍有 3,914 個非空資料表未檢視。"
+      }
+    },
     {
       "version": "0.6.2",
       "preparedAt": "2026-10-22T08:22:33Z",

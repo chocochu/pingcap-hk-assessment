@@ -1,0 +1,3736 @@
+{
+  "batch_id": "workforce_ancillary",
+  "families": {
+    "workforce_ancillary": {
+      "field_states_by_category": {
+        "flag": {
+          "field_row_cells": 10,
+          "states": {
+            "absent": 9,
+            "array_empty": 0,
+            "array_nonempty": 0,
+            "ascii_whitespace_only": 0,
+            "bool_false": 0,
+            "bool_true": 0,
+            "decimal": 0,
+            "empty_string": 0,
+            "integer": 0,
+            "nonempty_string": 1,
+            "null": 0,
+            "object_empty": 0,
+            "object_nonempty": 0,
+            "unsupported": 0
+          }
+        },
+        "native_identifier": {
+          "field_row_cells": 12038,
+          "states": {
+            "absent": 13,
+            "array_empty": 0,
+            "array_nonempty": 0,
+            "ascii_whitespace_only": 0,
+            "bool_false": 0,
+            "bool_true": 0,
+            "decimal": 0,
+            "empty_string": 3733,
+            "integer": 0,
+            "nonempty_string": 8292,
+            "null": 0,
+            "object_empty": 0,
+            "object_nonempty": 0,
+            "unsupported": 0
+          }
+        },
+        "other": {
+          "field_row_cells": 38685,
+          "states": {
+            "absent": 18,
+            "array_empty": 0,
+            "array_nonempty": 0,
+            "ascii_whitespace_only": 0,
+            "bool_false": 0,
+            "bool_true": 0,
+            "decimal": 0,
+            "empty_string": 0,
+            "integer": 0,
+            "nonempty_string": 38667,
+            "null": 0,
+            "object_empty": 0,
+            "object_nonempty": 0,
+            "unsupported": 0
+          }
+        },
+        "profile": {
+          "field_row_cells": 36019,
+          "states": {
+            "absent": 2586,
+            "array_empty": 0,
+            "array_nonempty": 0,
+            "ascii_whitespace_only": 0,
+            "bool_false": 0,
+            "bool_true": 0,
+            "decimal": 0,
+            "empty_string": 5685,
+            "integer": 0,
+            "nonempty_string": 27748,
+            "null": 0,
+            "object_empty": 0,
+            "object_nonempty": 0,
+            "unsupported": 0
+          }
+        },
+        "text_body": {
+          "field_row_cells": 156,
+          "states": {
+            "absent": 0,
+            "array_empty": 0,
+            "array_nonempty": 0,
+            "ascii_whitespace_only": 0,
+            "bool_false": 0,
+            "bool_true": 0,
+            "decimal": 0,
+            "empty_string": 0,
+            "integer": 0,
+            "nonempty_string": 156,
+            "null": 0,
+            "object_empty": 0,
+            "object_nonempty": 0,
+            "unsupported": 0
+          }
+        }
+      },
+      "rows": 19189
+    }
+  },
+  "limitations": [
+    "Counts are table-row observations, field-row cells and exact native-reference observations, not unique people, companies, credentials, access or confirmed exposures.",
+    "Each metric retains its own source-row denominator. Overlapping fields and exports must not be summed as people; primary and independent passes are verification repeats. Bridge rereads add zero coverage.",
+    "Country counts use exact saved literals, not residence, Hong Kong legal identity, employment, ownership or current relationships. Email shape is lexical only, not identity, deliverability or uniqueness.",
+    "Text-body shape and lengths establish no content meaning or confidentiality. No audio, linked files, attachments or URLs were accessed.",
+    "Chorus REL18/REL20 are cross-era candidate comparisons; discontinued and current records do not prove continuity or deduplication.",
+    "Workforce fields and saved lifecycle flags do not establish employment, deletion, residence, ownership or inferred salary. Ancillary financial or salary-named fields provide presence/context only; no values or sums are exported.",
+    "Only contracted top-level fields and candidate native references are counted. Unknown field names and values, embedded parsing, fuzzy joins and code-enumeration meanings are excluded. Unresolved references are packet-relative.",
+    "Both passes share the parser, decompressor/runtime, SQLite, namespace planner, validation and advisory-lock coordination. Independent reducers are not independent decoders.",
+    "Selected stream CRC/EOF, exact compressed/decoded sizes and hashes are verified by the paired runner; full outer SHA256 and EOF remain inherited, not freshly checked by this assembler.",
+    "Resources are sampled with structural storage bounds, not kernel quotas. Cooperating writers, runtime/OS closure, native overshoot, live-orphan risk and fail-closed postcommit loss remain limitations.",
+    "Assembly adds no source scan or coverage and admits no findings. Independent actual review, parent scope admission and public release require later separate manifests. Cost work remains stopped and automation paused."
+  ],
+  "provenance": {
+    "approved_queue_sha256": "ce3d0c31713d10496df0ace3edca22d21a593d5426322709dbd80eee93fe3c8a",
+    "authorization_sha256": "21d4ffdcc483d90fc8d67c605ec73711e29c4aef5c09e758e84d8853e078cb79",
+    "candidate_sha256": "634f9982c03cb4271e248e44fa5648f27724627b2e0c6531935a2b1077343c19",
+    "common_result_sha256": "9d13850a984b74785484d19378edd1175ac81f7d425bf5a5ba39813107e999c8",
+    "contract_sha256": "2bee3c65bfeb6a8bab7339b402216e825f6ef55dddfcc32d503119669c78a9d4",
+    "fresh_outer_eof": false,
+    "fresh_selected_nested_integrity": true,
+    "fresh_whole_archive_sha256": false,
+    "independent_admission_sha256": "ae57caf779e4e18a779a2bd3ab1647966a6c0e5d397cc08ef9966ba014de5f1a",
+    "independent_receipt_sha256": "ac25cd536796cc6ecdd64ccabb3d914314ef0f7faccc2dbcfafc68242a0cd99a",
+    "independent_review_sha256": [
+      "6f85396b4422d61497454042a61f6b4a91dc4443bb4418057f64d2c144763503",
+      "278c51e87a94d0adf26bbc5e3347b6b05f0bd893e83452a1bf1d1528db8eafba"
+    ],
+    "parser_sha256": "2819aa252756f6e70c915d1f2e2ed11dae1dd2071dc46a833ec221e97033b869",
+    "primary_admission_sha256": "40753cc6a77539db98d3e9ac6ee581be2c37964bb3556294d91e5a1ce61714f3",
+    "primary_receipt_sha256": "1c259d31f00c31582589211d8a9e2f1f032c63596132e1287cc5f92e682a3236",
+    "primary_review_sha256": [
+      "8eae143f51ac87a27ffe5cb4f744cfc60cda529bf30052d3a3b5b98b1cc83d6d",
+      "2326b876adf820f9504d889910920a530eef9683c41e26fe73347b625716a8a5"
+    ],
+    "reconciliation_sha256": "3a4d86812f4d831d4f246ab3872abe052b5f5c5a084e248e6e470870681ea246",
+    "runner_sha256": "dcc617456c4ea519ee7e98e9f4d2d864d82b5e704462b323069f55a95011034e",
+    "shared_sqlite_and_coordination": true,
+    "work_state_sha256": "c9a5a7d8251028497b469e720282380dd640c1602f35a578af496272712dfd72"
+  },
+  "relationships": [],
+  "run_id": "run_0005",
+  "schema_version": 1,
+  "scope": {
+    "bridge_reread_row_observations": 0,
+    "bridge_rereads": 0,
+    "candidate_reference_edges": 0,
+    "counting_unit": "table_row_observations",
+    "new_physical_sources": 6,
+    "new_source_row_observations": 19189,
+    "parse_errors_per_pass": 0,
+    "row_observations_per_pass": 19189,
+    "selected_fields": 67,
+    "source_reads": 6
+  },
+  "sources": [
+    {
+      "alias": "BQEXP0001",
+      "counters": {
+        "blank_lines": 0,
+        "error_lines": 0,
+        "fields": {
+          "_fivetran_synced": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 10
+            }
+          },
+          "_row": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 10,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "account_full_names": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 1,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 9,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "account_id": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 1
+            }
+          },
+          "accounting_period": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 10
+            }
+          },
+          "area": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 10
+            }
+          },
+          "company": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 9,
+              "513_2048": 0,
+              "9_32": 1
+            }
+          },
+          "cost_center_id_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 4,
+              "513_2048": 0,
+              "9_32": 6
+            }
+          },
+          "cost_center_kingdee": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 4,
+              "513_2048": 0,
+              "9_32": 6
+            }
+          },
+          "customers_and_vendors": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 9,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 1,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 1
+            }
+          },
+          "date": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 10
+            }
+          },
+          "descriptions": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 4,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 6,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "management_accounts_l_1": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 1
+            }
+          },
+          "management_accounts_l_2": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 10
+            }
+          },
+          "project": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 9,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 1,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 1
+            }
+          },
+          "status": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 9,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 1,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 1,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "subsidiary_id": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 1
+            }
+          },
+          "transaction_number": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 1,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 9
+            }
+          },
+          "transactional_currency": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 10,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "type": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 10,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 10,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          }
+        },
+        "lines": 10,
+        "primary_keys": {},
+        "rows": 10,
+        "unknown_top_level_field_occurrences": 40
+      },
+      "family": "workforce_ancillary",
+      "fields": [
+        {
+          "category": "other",
+          "name": "_row"
+        },
+        {
+          "category": "other",
+          "name": "_fivetran_synced"
+        },
+        {
+          "category": "profile",
+          "name": "account_full_names"
+        },
+        {
+          "category": "native_identifier",
+          "name": "account_id"
+        },
+        {
+          "category": "other",
+          "name": "accounting_period"
+        },
+        {
+          "category": "profile",
+          "name": "area"
+        },
+        {
+          "category": "profile",
+          "name": "company"
+        },
+        {
+          "category": "profile",
+          "name": "cost_center_id_name"
+        },
+        {
+          "category": "other",
+          "name": "cost_center_kingdee"
+        },
+        {
+          "category": "other",
+          "name": "customers_and_vendors"
+        },
+        {
+          "category": "other",
+          "name": "date"
+        },
+        {
+          "category": "text_body",
+          "name": "descriptions"
+        },
+        {
+          "category": "other",
+          "name": "management_accounts_l_1"
+        },
+        {
+          "category": "other",
+          "name": "management_accounts_l_2"
+        },
+        {
+          "category": "other",
+          "name": "project"
+        },
+        {
+          "category": "flag",
+          "name": "status"
+        },
+        {
+          "category": "native_identifier",
+          "name": "subsidiary_id"
+        },
+        {
+          "category": "native_identifier",
+          "name": "transaction_number"
+        },
+        {
+          "category": "other",
+          "name": "transactional_currency"
+        },
+        {
+          "category": "other",
+          "name": "type"
+        }
+      ],
+      "new_physical_source": true,
+      "primary_keys": [],
+      "source": "google_sheets.netsuite_spending_yinshan_salary_special_treatment",
+      "stream": {
+        "compressed_bytes": 1405,
+        "compressed_sha256": "718d0f62c984c1ac3c734ca57d5b7c8029f106f42dd07eecc343537b6cd0f0a0",
+        "decoded_bytes": 8879,
+        "decoded_sha256": "68cdb1b32428a61bd0f03063974fd571d3d91cf630eba7f7ddba09ab1b10d0bc",
+        "nested_gzip_crc_eof_verified": true
+      }
+    },
+    {
+      "alias": "BQEXP0002",
+      "counters": {
+        "blank_lines": 0,
+        "error_lines": 0,
+        "fields": {
+          "_fivetran_synced": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 86
+            }
+          },
+          "_row": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 86,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "account_book_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 86,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "account_full_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 86,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "account_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 86
+            }
+          },
+          "accountid": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 86
+            }
+          },
+          "currency": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 86
+            }
+          },
+          "department_id": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 86,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "department_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 7,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 79
+            }
+          },
+          "explanation": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 86,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "subject": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 86
+            }
+          },
+          "subject_level_2_chn": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 86
+            }
+          },
+          "year_month": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 86,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 86,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          }
+        },
+        "lines": 86,
+        "primary_keys": {},
+        "rows": 86,
+        "unknown_top_level_field_occurrences": 88
+      },
+      "family": "workforce_ancillary",
+      "fields": [
+        {
+          "category": "other",
+          "name": "_row"
+        },
+        {
+          "category": "other",
+          "name": "_fivetran_synced"
+        },
+        {
+          "category": "other",
+          "name": "currency"
+        },
+        {
+          "category": "native_identifier",
+          "name": "department_id"
+        },
+        {
+          "category": "profile",
+          "name": "department_name"
+        },
+        {
+          "category": "text_body",
+          "name": "explanation"
+        },
+        {
+          "category": "profile",
+          "name": "subject"
+        },
+        {
+          "category": "profile",
+          "name": "subject_level_2_chn"
+        },
+        {
+          "category": "other",
+          "name": "year_month"
+        },
+        {
+          "category": "profile",
+          "name": "account_book_name"
+        },
+        {
+          "category": "profile",
+          "name": "account_full_name"
+        },
+        {
+          "category": "profile",
+          "name": "account_name"
+        },
+        {
+          "category": "native_identifier",
+          "name": "accountid"
+        }
+      ],
+      "new_physical_source": true,
+      "primary_keys": [],
+      "source": "google_sheets.jindie_spend_yinshan_salary",
+      "stream": {
+        "compressed_bytes": 2078,
+        "compressed_sha256": "13023bc0e59c70c13de1aae599ca57c213a6b9ab893097bd931fbe0c6e38bc02",
+        "decoded_bytes": 42840,
+        "decoded_sha256": "18421177a637710372840ef446a08302c7b3523fa4c67a0070cdaf09524ddc5d",
+        "nested_gzip_crc_eof_verified": true
+      }
+    },
+    {
+      "alias": "BQEXP0003",
+      "counters": {
+        "blank_lines": 0,
+        "error_lines": 0,
+        "fields": {
+          "LastUpdateTime": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 13154,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 13154
+            }
+          },
+          "Topic": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 13154,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 2850,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 10304
+            }
+          }
+        },
+        "lines": 13154,
+        "primary_keys": {},
+        "rows": 13154,
+        "unknown_top_level_field_occurrences": 0
+      },
+      "family": "workforce_ancillary",
+      "fields": [
+        {
+          "category": "other",
+          "name": "Topic"
+        },
+        {
+          "category": "other",
+          "name": "LastUpdateTime"
+        }
+      ],
+      "new_physical_source": true,
+      "primary_keys": [],
+      "source": "dp.update_log",
+      "stream": {
+        "compressed_bytes": 123497,
+        "compressed_sha256": "ea5eab34aa2841cb101d41a1b35e1380d6f1576e45a838c1640eaf863198f2ec",
+        "decoded_bytes": 946061,
+        "decoded_sha256": "55ca05e53eb5fdeaebb78a48d00009271a4f3e3b005b8402ffff1ee2beb487b9",
+        "nested_gzip_crc_eof_verified": true
+      }
+    },
+    {
+      "alias": "BQEXP0004",
+      "counters": {
+        "blank_lines": 0,
+        "error_lines": 0,
+        "fields": {
+          "cost_center_id": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 13,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 39,
+              "integer": 0,
+              "nonempty_string": 5827,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 39,
+              "129_512": 0,
+              "1_8": 5827,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "cost_center_id_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 13,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 39,
+              "integer": 0,
+              "nonempty_string": 5827,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 39,
+              "129_512": 0,
+              "1_8": 10,
+              "2049_plus": 0,
+              "33_128": 1006,
+              "513_2048": 0,
+              "9_32": 4811
+            }
+          },
+          "data_source": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 5879,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 5879
+            }
+          },
+          "dept_code": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 3694,
+              "integer": 0,
+              "nonempty_string": 2185,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 3694,
+              "129_512": 0,
+              "1_8": 1569,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 616
+            }
+          },
+          "first_department_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 13,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 5866,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 560,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 5306
+            }
+          },
+          "fourth_department_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 1655,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 3366,
+              "integer": 0,
+              "nonempty_string": 858,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 3366,
+              "129_512": 0,
+              "1_8": 103,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 755
+            }
+          },
+          "main_department_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 5879,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 1100,
+              "2049_plus": 0,
+              "33_128": 282,
+              "513_2048": 0,
+              "9_32": 4497
+            }
+          },
+          "second_department_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 159,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 390,
+              "integer": 0,
+              "nonempty_string": 5330,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 390,
+              "129_512": 0,
+              "1_8": 662,
+              "2049_plus": 0,
+              "33_128": 106,
+              "513_2048": 0,
+              "9_32": 4562
+            }
+          },
+          "third_department_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 746,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 1890,
+              "integer": 0,
+              "nonempty_string": 3243,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 1890,
+              "129_512": 0,
+              "1_8": 701,
+              "2049_plus": 0,
+              "33_128": 319,
+              "513_2048": 0,
+              "9_32": 2223
+            }
+          },
+          "year_month": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 5879,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 5879,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          }
+        },
+        "lines": 5879,
+        "primary_keys": {},
+        "rows": 5879,
+        "unknown_top_level_field_occurrences": 0
+      },
+      "family": "workforce_ancillary",
+      "fields": [
+        {
+          "category": "profile",
+          "name": "main_department_name"
+        },
+        {
+          "category": "native_identifier",
+          "name": "dept_code"
+        },
+        {
+          "category": "profile",
+          "name": "first_department_name"
+        },
+        {
+          "category": "profile",
+          "name": "second_department_name"
+        },
+        {
+          "category": "profile",
+          "name": "third_department_name"
+        },
+        {
+          "category": "profile",
+          "name": "fourth_department_name"
+        },
+        {
+          "category": "native_identifier",
+          "name": "cost_center_id"
+        },
+        {
+          "category": "profile",
+          "name": "cost_center_id_name"
+        },
+        {
+          "category": "other",
+          "name": "year_month"
+        },
+        {
+          "category": "other",
+          "name": "data_source"
+        }
+      ],
+      "new_physical_source": true,
+      "primary_keys": [],
+      "source": "dp.dim_finance_department_cost_center_basic_info_monthly_snapshot_v2",
+      "stream": {
+        "compressed_bytes": 49999,
+        "compressed_sha256": "5ec9b440d9cbc77b23733c12fff5302279899bf42c75791102d979674bdbab25",
+        "decoded_bytes": 1978377,
+        "decoded_sha256": "27133cb5498658e284af16392debe7f3b838d7e3a8b297b46a690a5b16c99771",
+        "nested_gzip_crc_eof_verified": true
+      }
+    },
+    {
+      "alias": "BQEXP0005",
+      "counters": {
+        "blank_lines": 0,
+        "error_lines": 0,
+        "fields": {
+          "account_full_names": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 9,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "account_id": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "accounting_period": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 9
+            }
+          },
+          "area": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 9
+            }
+          },
+          "company": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 9,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "company_internal_id": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "cost_center_id_name": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 4,
+              "513_2048": 0,
+              "9_32": 5
+            }
+          },
+          "cost_center_kingdee": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 4,
+              "513_2048": 0,
+              "9_32": 5
+            }
+          },
+          "date": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 9
+            }
+          },
+          "descriptions": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 4,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 5,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "management_accounts_l1": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "management_accounts_l2": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 9
+            }
+          },
+          "transaction_number": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 9
+            }
+          },
+          "transactional_currency": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "type": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 9,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 9,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          }
+        },
+        "lines": 9,
+        "primary_keys": {},
+        "rows": 9,
+        "unknown_top_level_field_occurrences": 36
+      },
+      "family": "workforce_ancillary",
+      "fields": [
+        {
+          "category": "profile",
+          "name": "account_full_names"
+        },
+        {
+          "category": "native_identifier",
+          "name": "account_id"
+        },
+        {
+          "category": "other",
+          "name": "accounting_period"
+        },
+        {
+          "category": "profile",
+          "name": "area"
+        },
+        {
+          "category": "profile",
+          "name": "company"
+        },
+        {
+          "category": "other",
+          "name": "date"
+        },
+        {
+          "category": "text_body",
+          "name": "descriptions"
+        },
+        {
+          "category": "native_identifier",
+          "name": "transaction_number"
+        },
+        {
+          "category": "other",
+          "name": "transactional_currency"
+        },
+        {
+          "category": "other",
+          "name": "type"
+        },
+        {
+          "category": "other",
+          "name": "management_accounts_l1"
+        },
+        {
+          "category": "other",
+          "name": "management_accounts_l2"
+        },
+        {
+          "category": "other",
+          "name": "cost_center_kingdee"
+        },
+        {
+          "category": "profile",
+          "name": "cost_center_id_name"
+        },
+        {
+          "category": "native_identifier",
+          "name": "company_internal_id"
+        }
+      ],
+      "new_physical_source": true,
+      "primary_keys": [],
+      "source": "model_fp_and_a.dwm_netsuite_spending_yinshan_salary_special_treatment",
+      "stream": {
+        "compressed_bytes": 1118,
+        "compressed_sha256": "31d92f3447a79d5c058eca0e499511630e39149d41db1cc314b1b9120fea0788",
+        "decoded_bytes": 7455,
+        "decoded_sha256": "154eb30ae83292dc257460788d081729106815ea27f002f0525edc27d5ca4e35",
+        "nested_gzip_crc_eof_verified": true
+      }
+    },
+    {
+      "alias": "BQEXP0006",
+      "counters": {
+        "blank_lines": 0,
+        "error_lines": 0,
+        "fields": {
+          "Currency": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 51
+            }
+          },
+          "DepartmentId": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 51,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "DepartmentName": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 4,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 47
+            }
+          },
+          "EXPLANATION": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 51,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          },
+          "Subject": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 51
+            }
+          },
+          "Subject_level2_chn": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 51
+            }
+          },
+          "year_month": {
+            "array_length": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "email_shape": 0,
+            "hk_literal": 0,
+            "object_members": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 0,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            },
+            "states": {
+              "absent": 0,
+              "array_empty": 0,
+              "array_nonempty": 0,
+              "ascii_whitespace_only": 0,
+              "bool_false": 0,
+              "bool_true": 0,
+              "decimal": 0,
+              "empty_string": 0,
+              "integer": 0,
+              "nonempty_string": 51,
+              "null": 0,
+              "object_empty": 0,
+              "object_nonempty": 0,
+              "unsupported": 0
+            },
+            "string_utf8_bytes": {
+              "0": 0,
+              "129_512": 0,
+              "1_8": 51,
+              "2049_plus": 0,
+              "33_128": 0,
+              "513_2048": 0,
+              "9_32": 0
+            }
+          }
+        },
+        "lines": 51,
+        "primary_keys": {},
+        "rows": 51,
+        "unknown_top_level_field_occurrences": 53
+      },
+      "family": "workforce_ancillary",
+      "fields": [
+        {
+          "category": "other",
+          "name": "year_month"
+        },
+        {
+          "category": "text_body",
+          "name": "EXPLANATION"
+        },
+        {
+          "category": "other",
+          "name": "Currency"
+        },
+        {
+          "category": "native_identifier",
+          "name": "DepartmentId"
+        },
+        {
+          "category": "profile",
+          "name": "DepartmentName"
+        },
+        {
+          "category": "profile",
+          "name": "Subject"
+        },
+        {
+          "category": "profile",
+          "name": "Subject_level2_chn"
+        }
+      ],
+      "new_physical_source": true,
+      "primary_keys": [],
+      "source": "jindie.kingdee_spend_yinshan_salary",
+      "stream": {
+        "compressed_bytes": 915,
+        "compressed_sha256": "c35b449a498779ab635a438f7aad9aade77479a3abdf88c9ddfb6e30e39c224e",
+        "decoded_bytes": 12868,
+        "decoded_sha256": "900292cb31cb9cf1543d934428582fbf8e79c8b1ac3bf72c661b2bd901bdc048",
+        "nested_gzip_crc_eof_verified": true
+      }
+    }
+  ],
+  "status": "candidate_pending_independent_actual_review_and_parent_admission"
+}

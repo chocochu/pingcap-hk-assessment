@@ -17,7 +17,7 @@ const findings: Record<string, { dir: URL; file: string }> = {
     file: "analytics_pseudonymous.json",
   },
   "bq_scope_summary.json": {
-    dir: new URL("../../analysis/output/findings_sales_chorus_v1/", import.meta.url),
+    dir: new URL("../../analysis/output/findings_exposure_continuation_v1/", import.meta.url),
     file: "scope_summary.json",
   },
   "bq_marketplace_references_review.json": {
@@ -27,6 +27,22 @@ const findings: Record<string, { dir: URL; file: string }> = {
   "bq_user_account_links.json": {
     dir: new URL("../../analysis/output/findings_exposure_packet_v1/", import.meta.url),
     file: "exposure_packet.json",
+  },
+  "bq_sales_communications_hubspot.json": {
+    dir: new URL("../../analysis/output/findings_sales_hubspot_v1/", import.meta.url),
+    file: "candidate/exposure_packet.json",
+  },
+  "bq_workforce_directory.json": {
+    dir: new URL("../../analysis/output/findings_workforce_directory_v1/", import.meta.url),
+    file: "candidate/exposure_packet.json",
+  },
+  "bq_workforce_hr.json": {
+    dir: new URL("../../analysis/output/findings_workforce_hr_v1/", import.meta.url),
+    file: "candidate/exposure_packet.json",
+  },
+  "bq_workforce_ancillary.json": {
+    dir: new URL("../../analysis/output/findings_workforce_ancillary_v1/", import.meta.url),
+    file: "candidate/exposure_packet.json",
   },
   "bq_sales_conversations_chorus.json": {
     dir: new URL("../../analysis/output/findings_sales_chorus_v1/", import.meta.url),

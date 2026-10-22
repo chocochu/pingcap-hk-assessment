@@ -270,6 +270,56 @@ describe("headline figures", () => {
         .rows,
     ).toBe(facts.chorusEngagementRows);
 
+    const packet = async (file: string) => JSON.parse(await read(file));
+    const sourceOf = (data: { sources: { source: string }[] }, source: string) =>
+      data.sources.find((s) => s.source === source) as unknown as {
+        counters: {
+          rows: number;
+          fields: Record<string, { states: { nonempty_string: number }; email_shape: number }>;
+        };
+      };
+    const hubspot = await packet("bq_sales_communications_hubspot.json");
+    expect(hubspot.scope.new_physical_sources).toBe(facts.hubspotSources);
+    expect(hubspot.scope.new_source_row_observations).toBe(facts.hubspotRows);
+    expect(hubspot.scope.parse_errors_per_pass).toBe(0);
+    const hubspotRows = (name: string) =>
+      sourceOf(hubspot, `fivetran_hubspot.${name}`).counters.rows;
+    expect(hubspotRows("engagement_email")).toBe(facts.hubspotEmailRows);
+    expect(hubspotRows("engagement_meeting")).toBe(facts.hubspotMeetingRows);
+    expect(hubspotRows("engagement_task")).toBe(facts.hubspotTaskRows);
+    expect(hubspotRows("engagement_call")).toBe(facts.hubspotCallRows);
+    expect(hubspotRows("engagement_note")).toBe(facts.hubspotNoteRows);
+    expect(
+      sourceOf(hubspot, "fivetran_hubspot.engagement_email").counters.fields
+        .property_hs_email_from_email.email_shape,
+    ).toBe(facts.hubspotFromEmailShapedRows);
+
+    const directory = await packet("bq_workforce_directory.json");
+    const hr = await packet("bq_workforce_hr.json");
+    const ancillary = await packet("bq_workforce_ancillary.json");
+    expect(directory.scope.new_physical_sources).toBe(facts.workforceDirectorySources);
+    expect(directory.scope.new_source_row_observations).toBe(facts.workforceDirectoryRows);
+    expect(hr.scope.new_physical_sources).toBe(facts.workforceHrSources);
+    expect(hr.scope.new_source_row_observations).toBe(facts.workforceHrRows);
+    expect(ancillary.scope.new_physical_sources).toBe(facts.workforceAncillarySources);
+    expect(ancillary.scope.new_source_row_observations).toBe(facts.workforceAncillaryRows);
+    expect(
+      facts.workforceDirectorySources + facts.workforceHrSources + facts.workforceAncillarySources,
+    ).toBe(facts.workforceSources);
+    for (const data of [directory, hr, ancillary]) expect(data.scope.parse_errors_per_pass).toBe(0);
+    expect(
+      sourceOf(hr, "dp.dws_hr_employees_departments_basic_info_monthly_snapshot_v2").counters.rows,
+    ).toBe(facts.workforceHrMonthlyRows);
+    expect(sourceOf(hr, "dp.ods_users_snapshot").counters.rows).toBe(
+      facts.workforceHrUsersSnapshotRows,
+    );
+    // No selected field in these batches holds an exact Hong Kong value.
+    for (const data of [hubspot, directory, hr, ancillary]) {
+      for (const source of data.sources)
+        for (const field of Object.values(source.counters.fields) as { hk_literal: number }[])
+          expect(field.hk_literal).toBe(0);
+    }
+
     const scope = JSON.parse(await read("bq_scope_summary.json"));
     expect(scope.cumulative_selected_physical_tables).toBe(facts.bqTablesReviewed);
     expect(scope.cumulative_selected_table_row_observations).toBe(facts.bqRowsReviewed);
@@ -288,7 +338,7 @@ describe("headline figures", () => {
   });
 
   test("table review total adds up", () => {
-    // 1,904 reviewed + 3,949 non-empty + 605 empty tables remain
+    // 1,939 reviewed + 3,914 non-empty + 605 empty tables remain
     expect(
       facts.bqTablesReviewed + facts.bqNonEmptyTablesRemaining + facts.bqEmptyTablesRemaining,
     ).toBe(facts.bqTables);

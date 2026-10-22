@@ -64,5 +64,9 @@
   "support_material_evidence.csv",
   "validation_summary.json",
   "bq_user_account_links.json",
-  "bq_sales_conversations_chorus.json"
+  "bq_sales_conversations_chorus.json",
+  "bq_sales_communications_hubspot.json",
+  "bq_workforce_directory.json",
+  "bq_workforce_hr.json",
+  "bq_workforce_ancillary.json"
 ]

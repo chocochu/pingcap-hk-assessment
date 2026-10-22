@@ -757,6 +757,41 @@ export const en: Copy = {
         files: ["bq_sales_conversations_chorus.json"],
       },
       {
+        id: "sales-communications",
+        title: "Sales and marketing communications (HubSpot tables)",
+        summary:
+          "Five BigQuery tables from the marketing system (HubSpot): saved meetings, tasks, calls, emails and notes. We checked which chosen fields are filled in. We did not read the text, and every count is a row observation, not a person, a company or a confirmed exposure.",
+        points: [
+          `**Coverage:** ${facts.hubspotSources} new sources (${n(facts.hubspotRows)} rows) were read in two separate passes with no parse errors, covering 168 chosen fields. Both passes share the same file reader.`,
+          `**What is filled in:** ${n(facts.hubspotMeetingRows)} meeting rows (every one has a title, 612 have body text), ${facts.hubspotTaskRows} task rows (32 with body text), ${n(facts.hubspotCallRows)} call rows (every one has a title and body text), ${n(facts.hubspotEmailRows)} email rows (6,056 with plain text, 5,869 with HTML and 6,055 with a subject) and ${facts.hubspotNoteRows} note rows (302 with body text). The text, HTML and preview fields can describe the same message, so don’t add them together.`,
+          `**Email addresses:** of the ${n(facts.hubspotEmailRows)} email rows, ${n(facts.hubspotFromEmailShapedRows)} have an email-shaped string in the from-address field, 5,699 in the to-address field and 6,069 in the sender field. Email-shaped is a simple text pattern: a non-match doesn’t prove an address is bad, and none of these counts is a number of different addresses or people.`,
+          "**Hong Kong:** none of the chosen fields is a country field, so this batch gives no Hong Kong count and ties no record to a Hong Kong company or person. The ten ID fields we checked are each valid and unique within their own table, but we didn’t link any message to a company.",
+          "**Limits:** we didn’t read the text, so presence says nothing about what the messages say or whether they are confidential. No linked file, recording or attachment was opened, and a reference field doesn’t show that the file exists or can be reached. The download’s own status flag says “pending independent review and admission”: that describes the moment it was built, and the delivery was later reviewed and admitted. We did not re-run the checksum of the whole archive.",
+        ],
+        files: ["bq_sales_communications_hubspot.json"],
+      },
+      {
+        id: "workforce-records",
+        title: "Staff directory, HR and department records",
+        summary:
+          "Thirty BigQuery tables that hold what look like staff directories, HR snapshots, reporting lines, department lists and accounting-context tables. We checked which chosen fields are filled in and how some tables point to each other. We did not read the contents. Every count is a row observation, not a person, and these records are not tied to any Hong Kong company or person.",
+        points: [
+          `**Coverage:** ${facts.workforceSources} new sources in three batches, each read in two separate passes with no parse errors: directory and membership tables (${facts.workforceDirectorySources} sources, ${n(facts.workforceDirectoryRows)} rows), HR snapshot and account-context tables (${facts.workforceHrSources} sources, ${n(facts.workforceHrRows)} rows) and department and accounting-context tables (${facts.workforceAncillarySources} sources, ${n(facts.workforceAncillaryRows)} rows). The passes share the same file reader.`,
+          "**Directories:** the user tables hold a name in every row: 438 rows in one chat-system (Lark) table, 379 in a second (Feishu) table, 380 in a curated table and 2,292 in its raw counterpart. An email-shaped string is in 336 of the Lark rows, 376 of the Feishu rows and 2,269 of the raw rows (the curated table has no email field in our set). Raw and curated records can overlap, so we kept them apart.",
+          "**How the directory tables link:** all 440 curated membership rows point to exactly one user row and one department row, and so do all 2,629 raw membership rows. That is a row-by-row match, not a finding about who works where. Three department-parent comparisons leave 17, 22 and 18 rows without a match inside this set, which doesn’t mean a record is missing.",
+          `**HR snapshots:** a monthly employee-and-department snapshot has ${n(facts.workforceHrMonthlyRows)} rows, each with a name and an email-shaped string, and 29,665 with a leader email. A users snapshot has ${n(facts.workforceHrUsersSnapshotRows)} rows with a name and email-shaped string in every row and a leader email in 92,691. Smaller daily and basic versions have 642 and 971 rows, and a curated and a raw user export have 578 and 30,939 rows with a work email in every row. Some snapshot keys repeat (103, 358 and 13 extra rows in three of them), and we kept the repeats. A project snapshot has 7,973 rows, 7,432 with an owner email, and a raw cloud-account table has 72,656 rows, 14,734 with an owner email. Field presence doesn’t show who owns a resource.`,
+          "**Manager links:** in the curated user export 475 of 539 manager references point to exactly one user row and 64 do not; in the raw export 26,678 of 29,013 do and 2,335 do not. “Do not” means not found inside this set, not a missing employee or a wrong manager.",
+          "**Department and accounting context:** a monthly department and cost-centre snapshot has 5,879 rows, each with a department name and 5,827 with a cost-centre name. An update log has 13,154 rows, and four small spreadsheet and finance-model tables have 10, 86, 9 and 51 rows with a description or explanation filled in. We excluded money fields, calculated no totals and read no descriptions. A table name that mentions salary doesn’t show that a salary value, or any individual’s pay, is inside.",
+          "**Hong Kong:** the two country fields in the directory tables and the six in the HR tables contain no exact Hong Kong value under our fixed spellings. That doesn’t show Hong Kong people are absent: we didn’t check what the country values mean, and names or email shapes say nothing about where a person lives.",
+          "**Limits:** these counts don’t show how many different people are involved, whose employees they describe, whether anyone is still employed, whether any content is confidential, or that anything was exposed. Snapshots and raw and curated copies overlap, so the three downloads’ counts shouldn’t be added to each other or to other counts on this page. The downloads’ own status flags say “pending independent review and admission”: that describes the moment they were built, and the deliveries were later reviewed and admitted. We did not re-run the checksum of the whole archive.",
+        ],
+        files: [
+          "bq_workforce_directory.json",
+          "bq_workforce_hr.json",
+          "bq_workforce_ancillary.json",
+        ],
+      },
+      {
         id: "billing-models",
         title: "Billing models and identities",
         summary:
@@ -962,6 +997,22 @@ export const en: Copy = {
             {
               file: "bq_sales_conversations_chorus.json",
               label: "Sales-conversation records (Chorus tables): field presence and links",
+            },
+            {
+              file: "bq_sales_communications_hubspot.json",
+              label: "Sales and marketing communications (HubSpot tables): field presence",
+            },
+            {
+              file: "bq_workforce_directory.json",
+              label: "Staff directory and membership tables: field presence and links",
+            },
+            {
+              file: "bq_workforce_hr.json",
+              label: "HR snapshots and account context: field presence and links",
+            },
+            {
+              file: "bq_workforce_ancillary.json",
+              label: "Department and accounting context: field presence",
             },
             { file: "bq_scope_summary.json", label: "BigQuery review scope so far" },
           ],

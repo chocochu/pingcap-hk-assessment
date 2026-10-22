@@ -1,34 +1,36 @@
 {
-  "admission_status_authority": "handoff_manifest.json",
-  "batch": {
-    "bridge_reread_row_observations": 168728,
-    "bridge_rereads": 1,
-    "candidate_reference_edges": 20,
-    "counting_unit": "table_row_observations",
-    "new_physical_sources": 15,
-    "new_source_row_observations": 2299979,
-    "parse_errors_per_pass": 0,
-    "row_observations_per_pass": 2468707,
-    "selected_fields": 134,
-    "source_reads": 16
+  "approved_queue": {
+    "bridge_reads_per_pass": 1,
+    "bridge_row_observations_excluded": 168728,
+    "candidate_keys": 56,
+    "candidate_reference_edges": 32,
+    "completed_batches": 5,
+    "field_counter_cells": 30451,
+    "new_physical_tables": 50,
+    "new_table_row_observations": 2582553,
+    "row_observations_per_pass": 2751281,
+    "selected_fields": 823,
+    "source_reads_per_pass": 51
   },
+  "baseline_selected_physical_tables": 1889,
+  "baseline_table_row_observations": 38471085,
   "counting_unit": "table_row_observations",
-  "cumulative_selected_physical_tables": 1904,
-  "cumulative_selected_table_row_observations": 40771064,
+  "cumulative_selected_physical_tables": 1939,
+  "cumulative_selected_table_row_observations": 41053638,
   "inventory_tables": 6458,
   "limitations": [
-    "Cumulative coverage records selected-field table review, not every field or every possible analysis question.",
-    "This batch adds 15 physical tables and2299979 row observations; the bridge reread and second pass add zero coverage.",
-    "Overlapping exports and row observations do not establish unique people, legal entities or confirmed exposure.",
-    "Full archive checksum and outer EOF evidence remain inherited."
+    "Only the approved exposure-first queue is complete; 4,519 inventory tables remain outside selected-field scope.",
+    "Selected-field review is not all-field analysis. Table rows, repeated snapshots and overlapping exports do not establish unique people, customers or confirmed exposure.",
+    "Bridge and verification rereads add zero coverage. Full archive SHA256 and outer EOF remain inherited."
   ],
   "overlap_tables": 9,
   "overlapping_scope_extra_row_observations": 373628,
   "remaining_empty_tables": 605,
-  "remaining_nonempty_tables": 3949,
+  "remaining_nonempty_tables": 3914,
   "schema_version": 1,
-  "scope_membership_row_observations": 41144692,
-  "scope_memberships": 1914,
+  "scope_membership_row_observations": 41427266,
+  "scope_memberships": 1949,
   "selected_empty_tables": 1,
-  "selected_nonempty_tables": 1903
+  "selected_nonempty_tables": 1938,
+  "status": "complete_approved_planned_exposure_first_queue"
 }
